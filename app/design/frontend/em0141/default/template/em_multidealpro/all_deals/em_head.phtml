@@ -1,0 +1,19 @@
+<?php $helper = Mage::helper("multidealpro") ?>
+<meta name="format-detection" content="telephone=no"/>
+<script type="text/javascript">
+//<![CDATA[
+	var em_deal_baseurl 	= '<?php echo Mage::getBaseUrl(Mage_Core_Model_Store::URL_TYPE_WEB); ?>';
+	var em_now 				= <?php echo $helper->dealtime(); ?>;
+
+	var em_deal_date = {
+		day : "<?php echo $helper->__("day") ?>",
+		days : "<?php echo $helper->__("days") ?>",
+		hour : "<?php echo $helper->__("hour") ?>",
+		hours : "<?php echo $helper->__("hours") ?>",
+		minute : "<?php echo $helper->__("minute") ?>",
+		minutes : "<?php echo $helper->__("minutes") ?>",
+		second : "<?php echo $helper->__("second") ?>",
+		seconds : "<?php echo $helper->__("seconds") ?>"
+	};
+//]]>
+</script>

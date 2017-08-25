@@ -1,0 +1,113 @@
+@font-face {
+  font-family: 'FontAwesome';
+  src: url("fonts/fontawesome-webfont.eot?v=4.1.0");
+  src: url("fonts/fontawesome-webfont.eot?#iefix&v=4.1.0") format("embedded-opentype"), url("fonts/fontawesome-webfont.woff?v=4.1.0") format("woff"), url("fonts/fontawesome-webfont.ttf?v=4.1.0") format("truetype"), url("fonts/fontawesome-webfont.svg?v=4.1.0#fontawesomeregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+.em-line-01 .em-block-title, .em-line-01 .em-widget-title, .em-line-01 .block-title, .em-line-01 .widget-title {
+  margin-bottom: 20px;
+}
+
+.owl-carousel {
+  margin: 0 -7px;
+}
+.owl-carousel .owl-item {
+  padding: 0 7px;
+}
+
+.emcatalog-desktop-6 .item {
+  padding: 0 7px;
+}
+.emcatalog-desktop-6 .item .product-item {
+  margin-bottom: 15px;
+}
+
+.em-ajax-product.products-grid {
+  margin-bottom: 10rem;
+}
+.em-ajax-product.products-grid #infscr-loading {
+  bottom: -10rem;
+}
+.em-ajax-product.products-grid button.button.btn-cart {
+  float: none;
+}
+
+.wrapper-breadcrums {
+  margin: 0;
+}
+
+.em-wrapper-footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+}
+.em-wrapper-footer > p {
+  margin: 0;
+}
+.em-wrapper-footer > p > a.embtn-collapse-footer {
+  position: absolute;
+  top: -130px;
+  right: 20px;
+  width: 32px;
+  height: 32px;
+  font-size: 0;
+  text-indent: -999em;
+}
+.em-wrapper-footer > p > a.embtn-collapse-footer:before {
+  display: inline-block;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "\f05a";
+  font-size: 35px;
+}
+.em-wrapper-footer > p > a.embtn-collapse-footer:after {
+  position: absolute;
+  left: 5px;
+  content: "";
+  bottom: -3px;
+  border-width: 8px 19px 0 0;
+  border-style: solid;
+  width: 0;
+  z-index: -1;
+}
+.em-wrapper-footer > p > a.embtn-collapse-footer.collapse-in {
+  top: -35px;
+  left: 20px;
+  right: auto;
+}
+.em-wrapper-footer > p > a.embtn-collapse-footer.collapse-in:before {
+  content: "\f057";
+}
+.em-wrapper-footer > p > a.embtn-collapse-footer.collapse-in:after {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .col-sm-22 {
+    width: 93.66667%;
+  }
+
+  .col-sm-offset-1 {
+    margin-left: 2.16667%;
+  }
+}
+/*Main Color Variation*/
+.em-color span.emColorStyle01 {
+  background: #e4a9b6;
+}
+.em-color span.emColorStyle02 {
+  background: #6583b8;
+}
+.em-color span.emColorStyle03 {
+  background: #0A7F43;
+}
+.em-color span.emColorStyle04 {
+  background: #3a5da1;
+}

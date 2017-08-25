@@ -1,0 +1,24 @@
+.em-wrapper-ads-13a{
+	.em-box-bkg {
+		.changeFont(h5_font);
+		.changeColor(@body_text2_color);
+		.fa{
+			.changeColor(@body_text2_color);
+		}
+		&:hover{
+			.changeBkg(lighten(@body_bg3_color,15%));
+		}
+	}
+}
+
+.em-wrapper-ads-01{
+	.button-link{
+		.changeFont(@h6_font);
+		background-color:transparent;
+		.changeLine(@body_text2_color);
+		.changeColor(@body_text2_color);
+		&:hover{
+			.changeAllColor(@btn1_text_color; @btn1_line_color; @btn1_bg_color);
+		}
+	}
+}

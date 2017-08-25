@@ -1,0 +1,82 @@
+/* ============================================ *
+ * Footer
+ * ============================================ */
+@import "core/theme_config";
+@import "footer_style01";
+
+.em-wrapper-footer{
+	address{
+		line-height:1.35;
+		font-size:75%;
+	}
+	.em-footer-bottom{
+		padding-bottom:30px;
+	}
+	.logo-footer img{ max-width:100%;}
+}
+
+.em-payment{
+	text-align:center;
+	margin:0 -5px;
+	.em-payment-icon{margin-bottom:10px;}
+	.em-payment-icon{
+		margin:0 5px 10px;
+		@include transition1;
+		float:left;
+	}
+}
+
+.em-payment-icon.em-visa{
+	@include changeIcon(50px, 29px, icons, 0 -30px);
+}
+
+.em-payment-icon.em-master{
+	@include changeIcon(50px, 29px, icons, -57px -30px);
+}
+
+.em-payment-icon.em-paypal{
+	@include changeIcon(50px, 29px, icons, -117px -30px);
+}
+.em-payment-icon.em-express{
+	@include changeIcon(50px, 29px, icons, -181px -30px);
+}
+.em-payment-icon.em-other{
+	@include changeIcon(50px, 29px, icons, -192px -30px);
+}
+
+
+
+/*twitter*/
+.twitter-tweet{
+	width:100%!important;
+}
+/*social*/
+.em-social{
+	margin:0 -2px;
+	.em-social-border{
+		margin-bottom:5px;
+	}
+}
+.em-social-icon{
+	font-size:0;
+	margin:0 2px;
+	@include transition1;
+	margin-bottom:5px;
+	display:inline-block;
+	.fa:before{
+		font-size:16px;
+	}
+	&.last{
+		margin-right:0;
+	}
+}
+
+/*social border*/
+.em-social-border{
+	.em-social-icon{
+		display:inline-block;
+		padding: 6px;
+		border: 1px solid;
+	}
+}
+

@@ -1,0 +1,23 @@
+.em-wrapper-ads-13a{
+	padding:0;
+	.em-box-bkg {
+		padding: 1rem 2rem;
+		margin-bottom:$space_small_block;
+	}
+}
+
+/*Main Color Variation*/
+.em-color span{
+	&.emColorStyle01{
+		background:#9b97c8;
+	}
+	&.emColorStyle02{
+		background:#6583b8;
+	}
+	&.emColorStyle03{
+		background:#ffaaa5;
+	}
+	&.emColorStyle04{
+		background:#f1b3c4;
+	}
+}

@@ -1,0 +1,210 @@
+.em-wrapper-newsletter{
+	.em-block-title{
+		float:left;
+		margin-right:20px;
+		margin-top:10px;
+	}
+	&.em-box-bkg{
+		padding:2rem;
+		> div{
+			border-style: solid;
+			border-width: 2px;
+			padding:2.7rem 2rem 2rem;
+		}
+		button.button{
+			text-transform: uppercase;
+			margin-top: 1rem;
+			padding: 10px 20px;
+		}
+	}
+}
+
+@mixin newsletter_clearbutton{
+	.block-subscribe{
+		.actions{
+			float:none;
+			button.button{
+				float:none;
+				display:inline-block;
+				span{
+					float:none;
+					display:inline-block;
+					
+				}
+			}
+		}
+		.input-box{
+			width:100%;
+			float:none;
+			input.input-text{
+				margin-right:0;
+			}
+		}
+		
+	}
+}
+
+/*===========block subscribe=============*/
+.block-subscribe {
+	border:none;
+	margin:0;
+	padding:0;
+	&:before,&:after{
+		position:static;
+		height:0;
+	}
+	.input-box
+	{
+		float:left;
+		width:200px;
+	}
+	.actions{
+		float:left;
+		button.button{
+			margin-right:0px;
+			padding:10px;
+		}
+	}
+	input.input-text
+	{
+		width:100%;
+		margin-bottom:10px;
+		white-space: nowrap;
+		text-overflow: ellipsis;
+		overflow: hidden;
+	}
+}
+
+.newsletter-clearbutton{
+	@include newsletter_clearbutton;
+}
+
+.newsletter-fullbutton{
+	button.button{
+		width:100%;
+	}
+}
+
+.newsletter-boder-input-act{
+	.block-subscribe{
+		border:1px solid;
+		padding:$padding3x / 2 $padding3x;
+		input.input-text{
+			border:none;
+			margin-bottom:0;
+			background:transparent;
+			height:50px;
+		}
+		.input-box{
+			width:65%;
+			margin-right:0px;
+		}
+		.actions{
+			float:right;
+			button.button{
+				margin-bottom:0;
+				padding: 13px 20px;
+			}
+		}
+	}
+}
+
+.em-wrapper-newsletter{
+	margin-bottom:20px;
+}
+.em-newsletter-style03{
+	input.input-text{
+		margin-bottom:20px;
+		height:50px;
+	}
+	.input-box{
+		width:100%;
+		margin-right:0px;
+	}
+	.actions{
+		float: none;
+		text-align: center;
+		display: inline-block;
+		button.button{
+			margin-bottom:0;
+			padding: 13px 20px;
+		}
+		}
+}
+.em-newsletter-style05{
+	.block-subscribe {
+		position:relative;
+		.input-box{
+			width: 98%;
+			input.input-text{
+				padding-right:100px;
+			}
+		}
+		.actions button.button{
+			@include position_style(absolute, right, 0, top, 0px);
+			font-size:100%;
+		}
+	}
+}
+
+.em-newsletter-style06{
+	.block-subscribe {
+		position:relative;
+		clear:both;
+		.input-box{
+			width: 100%;
+			input.input-text{
+				padding-right:50px;
+			}
+		}
+		.actions button.button{
+			@include position_style(absolute, right, 0, top, 10px);
+			background:0; border-width:0; border-left-width:1px; font-size:0; padding:0; padding-left:10px; 
+			&:before{@include font-awesome('\f1d8', 20px);}
+		}
+	}
+}
+
+.em-wrapper-newsletter03{
+	background-image: url(../images/media/home/em_ads_05.jpg);
+	background-position: left top;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	background-size: cover !important;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	padding:4rem 0 3rem;
+	.em-block-title{
+		margin-top: 18px;
+	}
+	.block-subscribe{
+		.actions button.button{
+			padding-top:21px;
+			padding-bottom:21px;
+		}
+		input.input-text{
+			height:62px;
+		}
+	}
+}
+
+
+/*===============RTL=================*/
+.em-rtl{
+	.em-wrapper-newsletter03{
+		.block-subscribe .input-box{ float:right;}
+		.block-subscribe .actions{ float:left;}
+	}
+	.em-newsletter-style06{
+		.input-box input.input-text{
+			padding-right:10px;
+			padding-left:50px; 
+		}
+		.actions button.button{left:0; right:auto;   
+			border-left-width: 0px;
+			border-right-width: 1px;
+			padding-right: 10px;
+			padding-left: 0px;}
+	}
+}

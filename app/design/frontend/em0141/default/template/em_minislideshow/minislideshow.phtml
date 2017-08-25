@@ -1,0 +1,220 @@
+<?php 
+    $slider	=	$this->getSlider();
+    $_status = $slider['status'];
+?>
+<?php if($slider['status'] == 1):?>
+<?php
+	$model	=	Mage::getModel('core/email_template_filter');
+	
+    
+	$images	=	$this->getImages($slider['images']);
+    $sliderID		= 	$slider['id'];
+	$sliderSerial	=	$sliderID.''.rand(1, 1000);
+	$sliderHtmlID 	= 	'em_owlcarousel_'.$sliderID.'_'.$sliderSerial;
+	$sliderHtmlID_wrapper = $sliderHtmlID.'_wrapper';
+
+	$bannerWidth  = $slider['slider_params']['size_width'] ? 'width:'.$slider['slider_params']['size_width'].'px;' : '';
+	$bannerHeight = $slider['slider_params']['size_height'] ? 'height:'.$slider['slider_params']['size_height'].'px;' : '';
+    $thumbWidth = $slider['navigation']['thumb_width'] ? $slider['navigation']['thumb_width'] : 50;
+    $thumbHeight = $slider['navigation']['thumb_height'] ? $slider['navigation']['thumb_height'] : 50;    
+?>
+<div class="em-owlcarousel-slideshow <?php if($slider['appearance']['hover_pause'] == 'true'):?>em-minislideshow-stop-on-hover<?php endif;?>">
+    <div id="<?php echo $sliderHtmlID.'_sync1' ?>" class="owl-carousel">
+        <?php $_counter = 0 ?>
+        <?php foreach ($images as $key=>$value) : ?>
+            <div class="item"> 
+                <a href="<?php echo $value['link'] ?>">
+                    <?php if($slider['appearance']['lazy_load']=='true'):?>
+                        <img alt="<?php echo $value['url'] ?>" class="owl-lazy img-responsive" src="<?php echo $this->getSkinUrl('images/loading.gif') ?>" data-src="<?php echo Mage::getBaseUrl(Mage_Core_Model_Store::URL_TYPE_MEDIA).'em_minislideshow/'.$value['url']; ?>"/>
+                    <?php else:?>
+                        <img alt="<?php echo $value['url'] ?>" class="img-responsive" src="<?php echo Mage::getBaseUrl(Mage_Core_Model_Store::URL_TYPE_MEDIA).'em_minislideshow/'.$value['url']; ?>"/>
+                    <?php endif;?>                        
+                </a>
+                <div class="em-owlcarousel-description">
+                    <?php foreach($value['info'] as $skey=>$sval): ?>
+                        <div class="<?php echo $sval['animation'] ?> em-owlcarousel-des em-owlcarousel-des-<?php echo $_counter ?>">
+                            <?php echo $model->filter($sval['text']) ?>
+                        </div>
+                    <?php endforeach; ?>
+                </div>
+            </div>
+            <?php $_counter++ ?>
+        <?php endforeach; ?> 
+    </div>
+</div>
+<script type="text/javascript">
+(function($) {
+	$(document).ready(function() {
+		var sync1 = $('#<?php echo $sliderHtmlID ?>_sync1');		
+		sync1.owlCarousel({
+            <?php if($slider['appearance']['auto_play']==1):?>
+            autoplay:true,
+            autoplayHoverPause: <?php echo $slider['appearance']['hover_pause'] ? $slider['appearance']['hover_pause'] : false ?>,
+            autoplayTimeout:5000,
+            <?php else:?>
+            autoplay:false,
+            autoplayHoverPause: <?php echo $slider['appearance']['hover_pause'] ? $slider['appearance']['hover_pause'] : false ?>,
+            autoplayTimeout:5000,                   
+            <?php endif;?>
+            
+            mouseDrag: true,
+            touchDrag: true,
+            pullDrag: true,
+            freeDrag: false, 
+            dragEndSpeed: false,             
+            
+            <?php
+                if($slider['navigation']['nav_enable']=='true'){
+                    $_navType = array_values($slider['navigation']['nav_type']);  
+                    foreach($_navType as $_key => $_value){
+                        if($_navType[$_key] == 'thumbnail') continue;
+                        echo $_navType[$_key].',';
+                    }
+                }
+            ?>
+            
+            navText: ["<?php echo $slider['navigation']['arrows_pre'] ? $slider['navigation']['arrows_pre'] : "Pre" ?>", "<?php echo $slider['navigation']['arrows_next'] ? $slider['navigation']['arrows_next'] : "Next" ?>"],
+            navContainer: false,
+            navSpeed: false,                    
+            navRewind: true,
+            
+            dotsEach: true,
+            dotsSpeed: false,
+            dotsContainer: false,            
+            
+            <?php if(in_array('thumbnail',$slider['navigation']['nav_type'])):?>
+			afterAction: syncPosition,
+            <?php endif;?>
+            
+            items: 1,
+            
+            <?php if(Mage::helper('themeframework/settings')->getGeneral_DisableResponsive(1)!=0):?>
+            responsiveBaseElement: window,
+            responsiveClass: true,
+            responsiveRefreshRate: 200,
+            responsive:{
+                0:{
+                    items: 1,
+                },
+                1024:{
+                    items: 1,
+                },
+            },
+            <?php else:?>
+            responsive: false,
+            <?php endif;?>
+                                
+            <?php if(Mage::helper('themeframework/settings')->getGeneral_RightToLeft()!=0):?>
+            rtl: true,
+            <?php else:?>
+            rtl: false,
+            <?php endif;?>
+            
+            autoWidth: false,
+            autoHeight: false,  
+            
+            lazyLoad: <?php echo $slider['appearance']['lazy_load'] ? $slider['appearance']['lazy_load'] : false ?>,
+            lazyContent: false,
+            
+            animateOut: false,
+            animateIn: false,
+            
+            video: false,
+            videoHeight: false,
+            videoWidth: false,
+            
+            loop:true,
+            center: false,                    
+            margin: 0,
+            stagePadding: 0,
+            merge: false,
+            mergeFit: true,                                      
+            slideBy: 1,                    
+            smartSpeed: 250,
+            fluidSpeed: 250,
+            callbacks: true,
+            info: false,
+            startPosition: 0,                    
+            nestedItemSelector: false,
+            itemElement: 'div',
+            stageElement: 'div',                    
+            URLhashListener: false,
+            
+            <?php if($slider['appearance']['progress_bar']!='false'): ?>
+            onInitialized: progressBar,
+            onTranslated: moved,
+            onDrag: pauseOnDragging,
+            <?php endif;?>
+            
+		});
+		
+        <?php if($slider['appearance']['progress_bar']!='false'): ?>
+    		//Init progressBar where elem is $("#owl-demo")
+            var time = 5; // time in seconds
+    		var $progressBar, $bar, $elem, isPause, tick, percentTime;
+            
+            // Init progressBar where elem is $("#owl-demo")
+            function progressBar(){    
+                // build progress bar elements
+                buildProgressBar();
+                
+                // start counting
+                start();
+            };
+    		    
+    		// create div#progressBar and div#bar then prepend to $("#owl-demo")
+            function buildProgressBar(){
+                $progressBar = $("<div>",{
+                    id:"progressBar"
+                });
+                
+                $bar = $("<div>",{
+                    id:"bar"
+                });
+                
+                $progressBar.append($bar).prependTo(sync1);
+            };
+    
+    		function start() {
+                // reset timer
+                percentTime = 0;
+                isPause = false;
+                
+                // run interval every 0.01 second
+                tick = setInterval(interval, 10);
+            };
+            
+            function interval() {
+                if(isPause === false){
+                    percentTime += 1 / time;
+                    
+                    $bar.css({
+                        width: percentTime+"%"
+                    });
+                    
+                    // if percentTime is equal or greater than 100
+                    if(percentTime >= 100){
+                        // slide to next item 
+                        sync1.trigger("next.owl.carousel"); // this doesn't work
+                    }
+                }
+            };
+            
+    		//pause while dragging 
+    
+    		function pauseOnDragging() {
+    			isPause = true;
+    		};
+    		//moved callback
+    
+    		function moved() {
+    			//clear interval
+    			clearTimeout(tick);
+    			//start again
+    			start();
+    		};
+        <?php endif;?>
+	});
+})(jQuery);
+</script>	
+<?php endif;?>

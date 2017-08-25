@@ -1,0 +1,17 @@
+.em-wrapper-blog .col-sm-12 .em-blog-item:first-child {
+  margin-bottom: 30px;
+}
+
+/*Main Color Variation*/
+.em-color span.emColorStyle01 {
+  background: #fdb9d6;
+}
+.em-color span.emColorStyle02 {
+  background: #0a9efa;
+}
+.em-color span.emColorStyle03 {
+  background: #f91a10;
+}
+.em-color span.emColorStyle04 {
+  background: #e0b799;
+}

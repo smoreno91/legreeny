@@ -1,0 +1,21 @@
+.em-wrapper-blog{
+	.col-sm-12{
+		.em-blog-item:first-child{margin-bottom:$space_small_block;}
+	}
+}
+
+/*Main Color Variation*/
+.em-color span{
+	&.emColorStyle01{
+		background:#fdb9d6;
+	}
+	&.emColorStyle02{
+		background:#0a9efa;
+	}
+	&.emColorStyle03{
+		background:#f91a10;
+	}
+	&.emColorStyle04{
+		background:#e0b799;
+	}
+}

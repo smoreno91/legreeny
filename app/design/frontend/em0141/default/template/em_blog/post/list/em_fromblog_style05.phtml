@@ -1,0 +1,55 @@
+<?php 
+    $storeId = Mage::app()->getStore()->getId();
+	$posts = Mage::getModel('blog/post')->getCollection()
+			->setStoreId($storeId)	
+			->addAttributeToSelect('*')
+			->addAttributeToFilter('status',1)
+			->addAttributeToSort('created_at','DESC');
+    $thumnailWidth = Mage::getStoreConfig('blog/info/recent_thumbnail_width');
+	$thumnailHeight = Mage::getStoreConfig('blog/info/recent_thumbnail_height');
+    $helper = Mage::helper('cms');
+	$helperBlog = Mage::helper('blog'); 
+?>
+<div class="em-blog-style05">
+    <?php if($posts->count() > 0):?> 
+        <?php $_count=0; foreach ($posts as $p): ?>
+            <div class="em-container-ads row">
+                <?php $date = new DateTime($p->getCreatedAt());?>  
+                <div class="box-date">
+                    <span class="em-blog-date"><?php echo $date->format('j'); ?></span>
+                    <span class="em-blog-month"><?php echo $date->format('M'); ?></span>
+                </div>
+                <div class="em-detail">
+                    <?php
+                        $_title = $p->getTitle();
+                        if (strlen($_title) > 20)
+                        {
+                            $temp = substr($_title, 0, 20);
+                            $plit = explode(" ", $temp);
+                            $temp = array_slice($plit, 0, count($plit) - 1);
+                            $_title = implode(" ", $temp);
+                        }
+                    ?>
+                    <h5 class="em-blog-title"><a href="<?php echo $p->getPostUrl(false);?>"><?php echo strip_tags($_title)?>&hellip;</a></h5>
+                    <?php
+                        $commentList = Mage::getModel('blog/comment')->getCollection()
+                                        ->addFieldToFilter('post_id',$p->getId())
+                                        ->addFieldToFilter('status_comment',array('gt'=>1-Mage::getStoreConfig('blog/info/show_comment_pending')));                 
+                    ?>
+                    <?php if(!Mage::getStoreConfig('blog/comments_facebook/enabled')):?>
+        				<span class="em-blog-comment">
+        					<?php echo $commentList->count();?>
+                            <?php echo $this->__('Comments');?>
+        				</span>
+    				<?php else:?>
+    				    <fb:comments-count href="<?php echo $p->getPostUrl(false)?>"></fb:comments-count>
+    				<?php endif;?>
+                </div>
+        	</div>
+            <?php $_count++?>
+            <?php if($_count>=3) break;?>       
+        <?php endforeach; ?>
+    <?php else:?>
+        <p class="note-msg"><?php echo $this->__('There are no posts matching the selection.')?></p>
+    <?php endif;?>
+</div>

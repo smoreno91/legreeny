@@ -1,0 +1,2063 @@
+<?xml version="1.0" encoding="utf-8"?>
+<theme>
+  <general>
+    <theme_name><![CDATA[EM0141 Glory Main Fashion Store]]></theme_name>
+    <identifier><![CDATA[em0141]]></identifier>
+    <base_theme><![CDATA[em0141]]></base_theme>
+    <package><![CDATA[em0141]]></package>
+    <template><![CDATA[]]></template>
+    <layout><![CDATA[]]></layout>
+    <skin><![CDATA[]]></skin>
+    <default_theme><![CDATA[]]></default_theme>
+    <path><![CDATA[fashion_main_store.jpg]]></path>
+    <is_clone><![CDATA[0]]></is_clone>
+  </general>
+  <sub_theme>fashion_vintage, em0141_babymom, em0141_trending, em0141_jeans, em0141_cosmetics, em0141_accessories, em0141_fashion_accessories, em0141_sunglasses, em0141_shoes, em0141_eyewear, em0141_gentleman, em0141_lingerie, em0141_pinterest</sub_theme>
+  <settings>
+    <config_json><![CDATA[{"general_disable_responsive":"1","general_right_to_left":"0","general_right_to_left_preview":"","general_box_wide":"wide","general_box_wide_preview":"","general_sticky_element":"1","general_disable_default_nav":"0","general_disable_hover_login":"1","general_cat_search":"0","general_show_popup":"2","general_disable_ajaxaddto":"1","general_disable_frontend_variation":"1","general_disable_collapse":"1","general_proximanova_font":"0","css_additional_css_file":"style_fashion.css","css_custom_css":"","fonts_google_font_key":"AIzaSyCZ6wqklkyJFXWvoxvA5Zv0SGzHTd6JbbI","fonts_google_fonts":["Lato","Lora","Raleway"],"fonts_font_family":"null","fonts_google_fonts_weights":"200,300,400,500,600,700,800","fonts_general_font":"300 14px\/1.55 proxima-nova,Helvetica Neue, Helvetica, Arial, sans-serif","fonts_h1_font":"600 30px\/1.15 proxima-nova, Helvetica Neue, Helvetica, Arial, sans-serif","fonts_h2_font":"600 24px\/1.25 proxima-nova, Helvetica Neue, Helvetica, Arial, sans-serif","fonts_h3_font":"600 18px\/1.35 proxima-nova, Helvetica Neue, Helvetica, Arial, sans-serif","fonts_h4_font":"600 16px\/1.35 proxima-nova, Helvetica Neue, Helvetica, Arial, sans-serif","fonts_h5_font":"600 14px\/1.35 proxima-nova, Helvetica Neue, Helvetica, Arial, sans-serif","fonts_h6_font":"500 14px\/1.35 Lato, Helvetica Neue, Helvetica, Arial, sans-serif","typo_general_page_bg_color":"#ffffff","typo_general_page_bg_image":"","typo_general_page_bg_position":"0 0","typo_general_page_bg_repeat":"repeat","typo_general_page_bg_attachment":"fixed","typo_general_box_shadow":"0 0 5px #ffffff","typo_general_rounded_corner":"5px","header_header_bg_color":"#ffffff","header_header_bg2_color":"#ffffff","header_header_bg6_color":"#252525","header_header_bg3_color":"#af5875","header_header_bg4_color":"#ffffff","header_header_bg5_color":"#ffffff","header_header_bg_image":"","header_header_bg_position":"0 0","header_header_bg_repeat":"repeat","header_header_text_color":"#7f7f7f","header_header_text2_color":"#ffffff","header_header_text3_color":"#282828","header_header_text4_color":"#959595","header_header_line_color":"#e1e1e1","menu_topmenu_bg_color":"#ffffff","menu_topmenu_hover_bg_color":"#ffffff","menu_topmenu_text_color":"#2a2a2a","menu_topmenu_hover_text_color":"#af5875","menu_topmenu_line_color":"#af5875","menu_topmenu_font":"700 14px\/1.35 Lato,Helvetica Neue, Helvetica, Arial, sans-serif","menu_vnav_bg_color":"#f4f4f4","menu_vnav_hover_bg_color":"#ffd5e3","menu_vnav_text_color":"#2a2a2a","menu_vnav_hover_text_color":"#af5875","menu_vnav_line_color":"#ffffff","menu_vnav_font":"500 14px\/1.35 Lato,Helvetica Neue, Helvetica, Arial, sans-serif","menu_dropmenu_bg_color":"#ffffff","menu_dropmenu_text_color":"#a1a1a1","menu_dropmenu_text2_color":"#af5875","menu_dropmenu_text3_color":"#434343","menu_dropmenu_line_color":"#e9e9e9","menu_dropmenu_font":"normal 14px\/1.55 Lato, Helvetica, Arial, sans-serif","body_body_bg_color":"#ffffff","body_body_bg2_color":"#ffffff","body_body_bg3_color":"#af5875","body_body_bg4_color":"#f1f1f1","body_body_tab_bg_color":"#f8f8f8","body_body_label_bg_color":"#f7d059","body_body_label_bg2_color":"#af5875","body_body_label_bg3_color":"#2cbedd","body_body_bg_image":"","body_body_bg_position":"0 0","body_body_bg_repeat":"repeat","body_body_text_color":"#a1a1a1","body_body_text2_color":"#2a2a2a","body_body_text3_color":"#756f6f","body_body_text4_color":"#8090a5","body_body_text5_color":"#2a2a2a","body_body_text6_color":"rgba(255,255,255,1.00)","body_body_text7_color":"#af5875","body_body_line_color":"#e1e1e1","body_body_line2_color":"#af5875","footer_footer_bg_color":"transparent","footer_footer_bg2_color":"transparent","footer_footer_bg3_color":"#ffffff","footer_footer_bg_image":"","footer_footer_bg_file":"bkg-footer_3.jpg","footer_footer_bg_position":"center center","footer_footer_bg_repeat":"no-repeat","footer_footer_text_color":"#ffffff","footer_footer_text2_color":"#ffffff","footer_footer_text3_color":"#af5875","footer_footer_text4_color":"#af5875","footer_footer_line_color":"#333333","buttons_btn1_bg_color":"#af5875","buttons_btn1_text_color":"rgba(255,255,255,1.00)","buttons_btn1_line_color":"#af5875","buttons_btn1_font":"700 12px\/1.35 Lato, Helvetica, Arial, sans-serif","buttons_btn2_bg_color":"#212121","buttons_btn2_text_color":"#ffffff","buttons_btn2_line_color":"#212121","buttons_btn2_font":"700 12px\/1.35 Lato, Helvetica, Arial, sans-serif","buttons_btn3_bg_color":"#ffffff","buttons_btn3_text_color":"#756f6f","buttons_btn3_line_color":"#eaeaea","buttons_btn3_font":"700 12px\/1.15 Lato, Helvetica, Arial, sans-serif","buttons_btn4_bg_color":"#e79f65","buttons_btn4_text_color":"#ffffff","buttons_btn4_line_color":"#e79f65","buttons_btn4_font":"700 16px\/1.35 Lato, Helvetica, Arial, sans-serif","buttons_btn5_bg_color":"#ffffff","buttons_btn5_text_color":"#756f6f","buttons_btn5_line_color":"#eaeaea","buttons_btn5_font":"700 12px\/1.35 Lato, Helvetica, Arial, sans-serif","buttons_btn6_bg_color":"#ffffff","buttons_btn6_text_color":"#756f6f","buttons_btn6_line_color":"#eaeaea","buttons_btn6_font":"700 12px\/1.35 Lato, Helvetica, Arial, sans-serif","buttons_btn7_bg_color":"#ffffff","buttons_btn7_text_color":"#2a2a2a","buttons_btn7_line_color":"#ffffff","buttons_btn7_font":"700 12px\/1.35 Lato, Helvetica, Arial, sans-serif","products_grid_onecolumn":"5","products_grid_twocolumns":"4","products_grid_threecolumns":"3","products_grid_desktop_small_onecolumn":"4","products_grid_desktop_small_twocolumns":"3","products_grid_desktop_small_threecolumns":"2","products_grid_tablet_onecolumn":"3","products_grid_tablet_twocolumns":"3","products_grid_tablet_threecolumns":"2","products_grid_items_mobile":"2","products_grid_image_ratio":"-1","products_grid_custom_width":"3","products_grid_custom_height":"3.6","products_grid_alt_img":"thumbnail","products_grid_config_hover":"mobile","products_grid_align_center":"1","products_grid_show_thumbnail":"1","products_grid_show_label":"1","products_grid_show_product_name":"1","products_grid_auto_product_name":"0","products_grid_show_desc":"2","products_grid_show_price":"1","products_grid_show_reviews":"1","products_grid_show_addtocart":"1","products_list_gutter":"","products_list_image_ratio":"-1","products_list_custom_width":"3","products_list_custom_height":"3.6","products_list_alt_img":"image","products_list_show_product_name":"1","products_list_show_thumbnail":"1","products_list_show_desc":"1","products_list_show_price":"1","products_list_show_reviews":"1","products_list_show_addtocart":"1","products_list_show_addto":"1","products_list_show_label":"1","product_detail_product_view_preview":"","product_detail_primary_column_width":"13","product_detail_base_image_width":"750","product_detail_base_image_height":"904","product_detail_secondary_column_width":"11","product_detail_primary_two_column_width":"12","product_detail_base_two_image_width":"500","product_detail_base_two_image_height":"603","product_detail_secondary_two_column_width":"12","product_detail_primary_three_column_width":"24","product_detail_base_three_image_width":"600","product_detail_base_three_image_height":"723","product_detail_secondary_three_column_width":"24","product_detail_show_sku":"1","product_detail_viewmode":"cloudzoom","product_detail_cloud_zoom_width":"130","product_detail_cloud_zoom_height":"130","product_detail_use_tabs":"1","moreview_width":"170","moreview_height":"205","moreview_enable_slider":"1","moreview_slider_items":"5","moreview_slider_items_desktop":"4","moreview_slider_items_desktop_small":"3","moreview_slider_items_tablet":"3","moreview_slider_items_mobile":"2","moreview_slider_navigation":"1","moreview_slider_pagination":"0","moreview_slider_pagination_numbers":"0","related_display":"dont_replace","related_position":"top_tabs","related_width":"300","related_height":"362","related_enable_slider":"1","related_slider_items":"4","related_slider_items_two":"4","related_slider_items_three":"3","related_slider_items_desktop":"5","related_slider_items_desktop_small":"3","related_slider_items_tablet":"3","related_slider_items_mobile":"2","related_slider_navigation":"1","related_slider_pagination":"0","related_slider_pagination_numbers":"0","upsell_display":"dont_replace","upsell_width":"300","upsell_height":"362","upsell_enable_slider":"1","upsell_slider_items":"4","upsell_slider_items_two":"3","upsell_slider_items_three":"2","upsell_slider_items_desktop":"4","upsell_slider_items_desktop_small":"3","upsell_slider_items_tablet":"3","upsell_slider_items_mobile":"2","upsell_slider_navigation":"1","upsell_slider_pagination":"0","upsell_slider_pagination_numbers":"0","position_catalog_shopby":"em_layer","position_catalog_leftnav":"em_layer","position_catalog_search_layer":"em_layer","position_catalog_related":"right","position_compare":"all","position_poll":"all","position_popular_tags":"left","position_wishlist_sidebar":"all","position_reorder_sidebar":"right","home_position_compare":"0","home_position_poll":"0","home_position_tags":"0","home_position_wishlist":"0","home_position_reorder":"0","crossell_display":"dont_replace","crossell_width":"300","crossell_height":"362","crossell_enable_slider":"1","crossell_slider_items":"4","crossell_slider_items_desktop":"4","crossell_slider_items_desktop_small":"3","crossell_slider_items_tablet":"3","crossell_slider_items_mobile":"2","crossell_slider_navigation":"1","crossell_slider_pagination":"0","crossell_slider_pagination_numbers":"0","image_sidebar_width":"100","image_sidebar_height":"121","related_sidebar_width":"100","related_sidebar_height":"121","image_shopping_cart_width":"100","image_shopping_cart_height":"121","recently_viewed_width":"100","recently_viewed_height":"121","flashtag_enabled":"0","flashtag_count":"100","flashtag_max":"20","flashtag_min":"12","flashtag_maxcolor":"#646464","flashtag_normal":"#646464","flashtag_hover":"#646464","ajaxcart_auto_close":"0","contacts_map_enable":"1","contacts_map_address":"249 Ung Van Khiem, Phuong 25, Binh Thanh, Ho Chi Minh","contacts_map_info":"We really care about you and your website as much as you do. Purchasing EM0141 Glory or any other theme from us you get 100% free support.","contacts_map_height":"500","contacts_map_width":"100%","contacts_map_image":null,"snippets_enable":"0","snippets_review":"0","snippets_price":"0","snippets_breadcrumbs":"0","snippets_description":"0","thumbnail":null,"typo_general_page_bg_file":null,"header_header_bg_file":null,"body_body_bg_file":null}]]></config_json>
+    <excluded_blocks><![CDATA[]]></excluded_blocks>
+  </settings>
+  <sample_data>
+    <flexible_block>
+      <fblock>
+        <package_theme><![CDATA[em0141/default]]></package_theme>
+        <title><![CDATA[EM0141 Glory - All - Page Loading Block]]></title>
+        <identifier><![CDATA[em0141-all-page-loading-block]]></identifier>
+        <additional_cache_tags><![CDATA[]]></additional_cache_tags>
+        <layout_handle><![CDATA[cms_index_index]]></layout_handle>
+        <position><![CDATA[after_body_start]]></position>
+        <layout_attribute><![CDATA[]]></layout_attribute>
+        <layout_handle_2><![CDATA[]]></layout_handle_2>
+        <position_2><![CDATA[]]></position_2>
+        <layout_attribute_2><![CDATA[]]></layout_attribute_2>
+        <layout_handle_3><![CDATA[]]></layout_handle_3>
+        <position_3><![CDATA[]]></position_3>
+        <layout_attribute_3><![CDATA[]]></layout_attribute_3>
+        <custom_layout_handle><![CDATA[]]></custom_layout_handle>
+        <custom_position><![CDATA[]]></custom_position>
+        <layout_attribute_custom><![CDATA[]]></layout_attribute_custom>
+        <schedule_pattern><![CDATA[every day]]></schedule_pattern>
+        <schedule_from_time><![CDATA[]]></schedule_from_time>
+        <schedule_to_time><![CDATA[]]></schedule_to_time>
+        <category_ids><![CDATA[]]></category_ids>
+        <cms_page><![CDATA[-1]]></cms_page>
+        <order><![CDATA[]]></order>
+        <status><![CDATA[1]]></status>
+        <display_pc><![CDATA[1]]></display_pc>
+        <display_tablet><![CDATA[1]]></display_tablet>
+        <display_mobile><![CDATA[1]]></display_mobile>
+        <content><![CDATA[<div id="em-loader-wrapper">{{block type="core/template" name="em0141.page.loading" template="page/html/em_page_loading.phtml"}}</div>]]></content>
+        <conditions><![CDATA[a:6:{s:4:"type";s:34:"catalogrule/rule_condition_combine";s:9:"attribute";N;s:8:"operator";N;s:5:"value";s:1:"1";s:18:"is_value_processed";N;s:10:"aggregator";s:3:"all";}]]></conditions>
+        <from_date><![CDATA[]]></from_date>
+        <to_date><![CDATA[]]></to_date>
+      </fblock>
+      <fblock>
+        <package_theme><![CDATA[em0141/default]]></package_theme>
+        <title><![CDATA[EM0141 Glory Theme - All - Popup Advertising Block]]></title>
+        <identifier><![CDATA[em0141-all-popup-advertising-block]]></identifier>
+        <additional_cache_tags><![CDATA[]]></additional_cache_tags>
+        <layout_handle><![CDATA[default]]></layout_handle>
+        <position><![CDATA[em_popup_content]]></position>
+        <layout_attribute><![CDATA[]]></layout_attribute>
+        <layout_handle_2><![CDATA[]]></layout_handle_2>
+        <position_2><![CDATA[]]></position_2>
+        <layout_attribute_2><![CDATA[]]></layout_attribute_2>
+        <layout_handle_3><![CDATA[]]></layout_handle_3>
+        <position_3><![CDATA[]]></position_3>
+        <layout_attribute_3><![CDATA[]]></layout_attribute_3>
+        <custom_layout_handle><![CDATA[]]></custom_layout_handle>
+        <custom_position><![CDATA[]]></custom_position>
+        <layout_attribute_custom><![CDATA[]]></layout_attribute_custom>
+        <schedule_pattern><![CDATA[every day]]></schedule_pattern>
+        <schedule_from_time><![CDATA[]]></schedule_from_time>
+        <schedule_to_time><![CDATA[]]></schedule_to_time>
+        <category_ids><![CDATA[]]></category_ids>
+        <cms_page><![CDATA[-1]]></cms_page>
+        <order><![CDATA[]]></order>
+        <status><![CDATA[1]]></status>
+        <display_pc><![CDATA[1]]></display_pc>
+        <display_tablet><![CDATA[1]]></display_tablet>
+        <display_mobile><![CDATA[1]]></display_mobile>
+        <content><![CDATA[<div class="em-block-ads">&nbsp;</div>]]></content>
+        <conditions><![CDATA[a:6:{s:4:"type";s:34:"catalogrule/rule_condition_combine";s:9:"attribute";N;s:8:"operator";N;s:5:"value";s:1:"1";s:18:"is_value_processed";N;s:10:"aggregator";s:3:"all";}]]></conditions>
+        <from_date><![CDATA[]]></from_date>
+        <to_date><![CDATA[]]></to_date>
+      </fblock>
+      <fblock>
+        <package_theme><![CDATA[em0141/default]]></package_theme>
+        <title><![CDATA[EM0141 Glory Theme - Fashion Store - Area Header 01 - Call Us]]></title>
+        <identifier><![CDATA[em0141-fashion-all-area-header-call-us]]></identifier>
+        <additional_cache_tags><![CDATA[]]></additional_cache_tags>
+        <layout_handle><![CDATA[default]]></layout_handle>
+        <position><![CDATA[em_area_header01]]></position>
+        <layout_attribute><![CDATA[]]></layout_attribute>
+        <layout_handle_2><![CDATA[]]></layout_handle_2>
+        <position_2><![CDATA[]]></position_2>
+        <layout_attribute_2><![CDATA[]]></layout_attribute_2>
+        <layout_handle_3><![CDATA[]]></layout_handle_3>
+        <position_3><![CDATA[]]></position_3>
+        <layout_attribute_3><![CDATA[]]></layout_attribute_3>
+        <custom_layout_handle><![CDATA[]]></custom_layout_handle>
+        <custom_position><![CDATA[]]></custom_position>
+        <layout_attribute_custom><![CDATA[]]></layout_attribute_custom>
+        <schedule_pattern><![CDATA[every day]]></schedule_pattern>
+        <schedule_from_time><![CDATA[]]></schedule_from_time>
+        <schedule_to_time><![CDATA[]]></schedule_to_time>
+        <category_ids><![CDATA[]]></category_ids>
+        <cms_page><![CDATA[-1]]></cms_page>
+        <order><![CDATA[]]></order>
+        <status><![CDATA[1]]></status>
+        <display_pc><![CDATA[1]]></display_pc>
+        <display_tablet><![CDATA[1]]></display_tablet>
+        <display_mobile><![CDATA[1]]></display_mobile>
+        <content><![CDATA[<div class="call-us">
+<p class="em-ads-call">Call us now: <span>{{config path="general/store_information/phone"}}</span></p>
+</div>]]></content>
+        <conditions><![CDATA[a:6:{s:4:"type";s:34:"catalogrule/rule_condition_combine";s:9:"attribute";N;s:8:"operator";N;s:5:"value";s:1:"1";s:18:"is_value_processed";N;s:10:"aggregator";s:3:"all";}]]></conditions>
+        <from_date><![CDATA[]]></from_date>
+        <to_date><![CDATA[]]></to_date>
+      </fblock>
+      <fblock>
+        <package_theme><![CDATA[em0141/default]]></package_theme>
+        <title><![CDATA[EM0141 Glory Theme - Fashion Store - Area Navigation - Top Menu]]></title>
+        <identifier><![CDATA[em0141-fashion-area-navigation-top-menu]]></identifier>
+        <additional_cache_tags><![CDATA[]]></additional_cache_tags>
+        <layout_handle><![CDATA[default]]></layout_handle>
+        <position><![CDATA[em0141.top.menu]]></position>
+        <layout_attribute><![CDATA[]]></layout_attribute>
+        <layout_handle_2><![CDATA[]]></layout_handle_2>
+        <position_2><![CDATA[]]></position_2>
+        <layout_attribute_2><![CDATA[]]></layout_attribute_2>
+        <layout_handle_3><![CDATA[]]></layout_handle_3>
+        <position_3><![CDATA[]]></position_3>
+        <layout_attribute_3><![CDATA[]]></layout_attribute_3>
+        <custom_layout_handle><![CDATA[]]></custom_layout_handle>
+        <custom_position><![CDATA[]]></custom_position>
+        <layout_attribute_custom><![CDATA[]]></layout_attribute_custom>
+        <schedule_pattern><![CDATA[every day]]></schedule_pattern>
+        <schedule_from_time><![CDATA[]]></schedule_from_time>
+        <schedule_to_time><![CDATA[]]></schedule_to_time>
+        <category_ids><![CDATA[]]></category_ids>
+        <cms_page><![CDATA[-1]]></cms_page>
+        <order><![CDATA[]]></order>
+        <status><![CDATA[1]]></status>
+        <display_pc><![CDATA[1]]></display_pc>
+        <display_tablet><![CDATA[1]]></display_tablet>
+        <display_mobile><![CDATA[1]]></display_mobile>
+        <content><![CDATA[<div class="em-menu">{{widget type="megamenupro/megamenupro" menu="14"}}</div>]]></content>
+        <conditions><![CDATA[a:6:{s:4:"type";s:34:"catalogrule/rule_condition_combine";s:9:"attribute";N;s:8:"operator";N;s:5:"value";s:1:"1";s:18:"is_value_processed";N;s:10:"aggregator";s:3:"all";}]]></conditions>
+        <from_date><![CDATA[]]></from_date>
+        <to_date><![CDATA[]]></to_date>
+      </fblock>
+      <fblock>
+        <package_theme><![CDATA[em0141/default]]></package_theme>
+        <title><![CDATA[EM0141 Glory Theme - Fashion Store - Left Navigation]]></title>
+        <position><![CDATA[em0141.top.menu.shopby]]></position>
+        <custom_position><![CDATA[]]></custom_position>
+        <schedule_pattern><![CDATA[every day]]></schedule_pattern>
+        <schedule_from_time><![CDATA[]]></schedule_from_time>
+        <schedule_to_time><![CDATA[]]></schedule_to_time>
+        <category_ids><![CDATA[]]></category_ids>
+        <identifier><![CDATA[em0141-fashion-left-navigation]]></identifier>
+        <layout_handle><![CDATA[default]]></layout_handle>
+        <custom_layout_handle><![CDATA[]]></custom_layout_handle>
+        <additional_cache_tags><![CDATA[]]></additional_cache_tags>
+        <layout_handle_2><![CDATA[default]]></layout_handle_2>
+        <position_2><![CDATA[]]></position_2>
+        <layout_handle_3><![CDATA[]]></layout_handle_3>
+        <position_3><![CDATA[]]></position_3>
+        <layout_attribute><![CDATA[]]></layout_attribute>
+        <layout_attribute_2><![CDATA[]]></layout_attribute_2>
+        <layout_attribute_3><![CDATA[]]></layout_attribute_3>
+        <layout_attribute_custom><![CDATA[]]></layout_attribute_custom>
+        <cms_page><![CDATA[-1]]></cms_page>
+        <order><![CDATA[]]></order>
+        <status><![CDATA[1]]></status>
+        <display_pc><![CDATA[1]]></display_pc>
+        <display_tablet><![CDATA[1]]></display_tablet>
+        <display_mobile><![CDATA[1]]></display_mobile>
+        <content><![CDATA[<div class="menu-wrapper hidden-xs">
+<div id="menuleftText" class="all_categories">
+<div class="menuleftText-title">
+<div class="menuleftText"><span class="em-text-upercase">MEGA MENU</span></div>
+</div>
+</div>
+<div class="menuleft">
+<div id="menu-default" class="mega-menu em-menu-icon">{{block type="page/html_topmenu" name="em0141.catalog.leftnav" template="page/html/leftmenu.phtml"}} {{widget type="megamenupro/megamenupro" menu="15"}}</div>
+</div>
+</div>]]></content>
+        <conditions><![CDATA[a:6:{s:4:"type";s:34:"catalogrule/rule_condition_combine";s:9:"attribute";N;s:8:"operator";N;s:5:"value";s:1:"1";s:18:"is_value_processed";N;s:10:"aggregator";s:3:"all";}]]></conditions>
+        <from_date><![CDATA[]]></from_date>
+        <to_date><![CDATA[]]></to_date>
+      </fblock>
+      <fblock>
+        <package_theme><![CDATA[em0141/default]]></package_theme>
+        <title><![CDATA[EM0141 Glory Theme - All - Area Menu Mobile]]></title>
+        <identifier><![CDATA[em0141-all-area-menu-mobile]]></identifier>
+        <additional_cache_tags><![CDATA[]]></additional_cache_tags>
+        <layout_handle><![CDATA[default]]></layout_handle>
+        <position><![CDATA[em0141.top.menu.mobile]]></position>
+        <layout_attribute><![CDATA[]]></layout_attribute>
+        <layout_handle_2><![CDATA[]]></layout_handle_2>
+        <position_2><![CDATA[]]></position_2>
+        <layout_attribute_2><![CDATA[]]></layout_attribute_2>
+        <layout_handle_3><![CDATA[]]></layout_handle_3>
+        <position_3><![CDATA[]]></position_3>
+        <layout_attribute_3><![CDATA[]]></layout_attribute_3>
+        <custom_layout_handle><![CDATA[]]></custom_layout_handle>
+        <custom_position><![CDATA[]]></custom_position>
+        <layout_attribute_custom><![CDATA[]]></layout_attribute_custom>
+        <schedule_pattern><![CDATA[every day]]></schedule_pattern>
+        <schedule_from_time><![CDATA[]]></schedule_from_time>
+        <schedule_to_time><![CDATA[]]></schedule_to_time>
+        <category_ids><![CDATA[]]></category_ids>
+        <cms_page><![CDATA[-1]]></cms_page>
+        <order><![CDATA[]]></order>
+        <status><![CDATA[1]]></status>
+        <display_pc><![CDATA[1]]></display_pc>
+        <display_tablet><![CDATA[1]]></display_tablet>
+        <display_mobile><![CDATA[1]]></display_mobile>
+        <content><![CDATA[<div class="em-menu-mobile">{{widget type="megamenupro/megamenupro" menu="17"}}</div>]]></content>
+        <conditions><![CDATA[a:6:{s:4:"type";s:34:"catalogrule/rule_condition_combine";s:9:"attribute";N;s:8:"operator";N;s:5:"value";s:1:"1";s:18:"is_value_processed";N;s:10:"aggregator";s:3:"all";}]]></conditions>
+        <from_date><![CDATA[]]></from_date>
+        <to_date><![CDATA[]]></to_date>
+      </fblock>
+      <fblock>
+        <package_theme><![CDATA[em0141/default]]></package_theme>
+        <title><![CDATA[EM0141 Glory Theme - All - Area Header - Mobile Ads]]></title>
+        <identifier><![CDATA[em0141-all-area-header-mobile-ads]]></identifier>
+        <additional_cache_tags><![CDATA[]]></additional_cache_tags>
+        <layout_handle><![CDATA[default]]></layout_handle>
+        <position><![CDATA[em_area_header_mobile]]></position>
+        <layout_attribute><![CDATA[]]></layout_attribute>
+        <layout_handle_2><![CDATA[]]></layout_handle_2>
+        <position_2><![CDATA[]]></position_2>
+        <layout_attribute_2><![CDATA[]]></layout_attribute_2>
+        <layout_handle_3><![CDATA[]]></layout_handle_3>
+        <position_3><![CDATA[]]></position_3>
+        <layout_attribute_3><![CDATA[]]></layout_attribute_3>
+        <custom_layout_handle><![CDATA[]]></custom_layout_handle>
+        <custom_position><![CDATA[]]></custom_position>
+        <layout_attribute_custom><![CDATA[]]></layout_attribute_custom>
+        <schedule_pattern><![CDATA[every day]]></schedule_pattern>
+        <schedule_from_time><![CDATA[]]></schedule_from_time>
+        <schedule_to_time><![CDATA[]]></schedule_to_time>
+        <category_ids><![CDATA[]]></category_ids>
+        <cms_page><![CDATA[-1]]></cms_page>
+        <order><![CDATA[]]></order>
+        <status><![CDATA[1]]></status>
+        <display_pc><![CDATA[1]]></display_pc>
+        <display_tablet><![CDATA[1]]></display_tablet>
+        <display_mobile><![CDATA[1]]></display_mobile>
+        <content><![CDATA[<ul class="em-mobile-help">
+<li><a href="{{config path="web/unsecure/base_url"}}demo.html"><span class="fa fa-question-circle">&nbsp;</span>Help Center</a></li>
+<li><a href="{{store direct_url='contacts'}}"><span class="fa fa-star">&nbsp;</span>Feedback</a></li>
+<li><a href="{{store direct_url='blog'}}"><span class="fa fa-comment-o">&nbsp;</span>Blog</a></li>
+</ul>]]></content>
+        <conditions><![CDATA[a:6:{s:4:"type";s:34:"catalogrule/rule_condition_combine";s:9:"attribute";N;s:8:"operator";N;s:5:"value";s:1:"1";s:18:"is_value_processed";N;s:10:"aggregator";s:3:"all";}]]></conditions>
+        <from_date><![CDATA[]]></from_date>
+        <to_date><![CDATA[]]></to_date>
+      </fblock>
+      <fblock>
+        <package_theme><![CDATA[em0141/default]]></package_theme>
+        <title><![CDATA[EM0141 Glory Theme - Fashion Store - Area 01 - Home - Service]]></title>
+        <identifier><![CDATA[em0141-fashion-area01-home-service]]></identifier>
+        <additional_cache_tags><![CDATA[]]></additional_cache_tags>
+        <layout_handle><![CDATA[cms_index_index]]></layout_handle>
+        <position><![CDATA[em_area1]]></position>
+        <layout_attribute><![CDATA[]]></layout_attribute>
+        <layout_handle_2><![CDATA[]]></layout_handle_2>
+        <position_2><![CDATA[]]></position_2>
+        <layout_attribute_2><![CDATA[]]></layout_attribute_2>
+        <layout_handle_3><![CDATA[]]></layout_handle_3>
+        <position_3><![CDATA[]]></position_3>
+        <layout_attribute_3><![CDATA[]]></layout_attribute_3>
+        <custom_layout_handle><![CDATA[]]></custom_layout_handle>
+        <custom_position><![CDATA[]]></custom_position>
+        <layout_attribute_custom><![CDATA[]]></layout_attribute_custom>
+        <schedule_pattern><![CDATA[every day]]></schedule_pattern>
+        <schedule_from_time><![CDATA[]]></schedule_from_time>
+        <schedule_to_time><![CDATA[]]></schedule_to_time>
+        <category_ids><![CDATA[]]></category_ids>
+        <cms_page><![CDATA[-1]]></cms_page>
+        <order><![CDATA[0]]></order>
+        <status><![CDATA[1]]></status>
+        <display_pc><![CDATA[1]]></display_pc>
+        <display_tablet><![CDATA[1]]></display_tablet>
+        <display_mobile><![CDATA[1]]></display_mobile>
+        <content><![CDATA[<div class="row service-ads hidden-xs em-wrapper-ads-13a">
+<div class="col-sm-8 first">
+<p class="em-struck"><span class="fa fa-truck">&nbsp;</span>Free shipping all order</p>
+</div>
+<div class="col-sm-8">
+<p class="em-plane"><span class="fa fa-send">&nbsp;</span>30 days return service</p>
+</div>
+<div class="col-sm-8 last">
+<p class="em-support"><span class="fa fa-life-ring">&nbsp;</span>Customer support service</p>
+</div>
+</div>
+<div class="em-slideshow">{{widget type="minislideshow/minislideshow" slideshow="21"}}</div>]]></content>
+        <conditions><![CDATA[a:6:{s:4:"type";s:34:"catalogrule/rule_condition_combine";s:9:"attribute";N;s:8:"operator";N;s:5:"value";s:1:"1";s:18:"is_value_processed";N;s:10:"aggregator";s:3:"all";}]]></conditions>
+        <from_date><![CDATA[]]></from_date>
+        <to_date><![CDATA[]]></to_date>
+      </fblock>
+      <fblock>
+        <package_theme><![CDATA[em0141/default]]></package_theme>
+        <title><![CDATA[EM0141 Glory - Fashion Store - Area Left 01 - Home - Banner]]></title>
+        <identifier><![CDATA[em0141-fashion-area-left01-home-banner]]></identifier>
+        <additional_cache_tags><![CDATA[]]></additional_cache_tags>
+        <layout_handle><![CDATA[cms_index_index]]></layout_handle>
+        <position><![CDATA[left]]></position>
+        <layout_attribute><![CDATA[]]></layout_attribute>
+        <layout_handle_2><![CDATA[]]></layout_handle_2>
+        <position_2><![CDATA[]]></position_2>
+        <layout_attribute_2><![CDATA[]]></layout_attribute_2>
+        <layout_handle_3><![CDATA[]]></layout_handle_3>
+        <position_3><![CDATA[]]></position_3>
+        <layout_attribute_3><![CDATA[]]></layout_attribute_3>
+        <custom_layout_handle><![CDATA[]]></custom_layout_handle>
+        <custom_position><![CDATA[]]></custom_position>
+        <layout_attribute_custom><![CDATA[]]></layout_attribute_custom>
+        <schedule_pattern><![CDATA[every day]]></schedule_pattern>
+        <schedule_from_time><![CDATA[]]></schedule_from_time>
+        <schedule_to_time><![CDATA[]]></schedule_to_time>
+        <category_ids><![CDATA[]]></category_ids>
+        <cms_page><![CDATA[-1]]></cms_page>
+        <order><![CDATA[1]]></order>
+        <status><![CDATA[1]]></status>
+        <display_pc><![CDATA[1]]></display_pc>
+        <display_tablet><![CDATA[1]]></display_tablet>
+        <display_mobile><![CDATA[0]]></display_mobile>
+        <content><![CDATA[<div class="hidden-xs em-wrapper-banners">
+<div class="effect"><a title="banner" href="#" class="banner-img"><img class="img-responsive img-banner-lazyload retina-img" alt="em_ads_01.jpg" src="{{skin url='images/loading.gif'}}" data-original="{{media url='wysiwyg/em0141/layout_fashion/home/em_ads_01.jpg'}}" /><span class="effect-line-02">&nbsp;</span></a></div>
+</div>]]></content>
+        <conditions><![CDATA[a:6:{s:4:"type";s:34:"catalogrule/rule_condition_combine";s:9:"attribute";N;s:8:"operator";N;s:5:"value";s:1:"1";s:18:"is_value_processed";N;s:10:"aggregator";s:3:"all";}]]></conditions>
+        <from_date><![CDATA[]]></from_date>
+        <to_date><![CDATA[]]></to_date>
+      </fblock>
+      <fblock>
+        <package_theme><![CDATA[em0141/default]]></package_theme>
+        <title><![CDATA[EM0141 Glory - Fashion Store - Area Left 02 - Home - Ads 15]]></title>
+        <identifier><![CDATA[em0141-fashion-area-left02-home-ads]]></identifier>
+        <additional_cache_tags><![CDATA[]]></additional_cache_tags>
+        <layout_handle><![CDATA[cms_index_index]]></layout_handle>
+        <position><![CDATA[left]]></position>
+        <layout_attribute><![CDATA[]]></layout_attribute>
+        <layout_handle_2><![CDATA[]]></layout_handle_2>
+        <position_2><![CDATA[]]></position_2>
+        <layout_attribute_2><![CDATA[]]></layout_attribute_2>
+        <layout_handle_3><![CDATA[]]></layout_handle_3>
+        <position_3><![CDATA[]]></position_3>
+        <layout_attribute_3><![CDATA[]]></layout_attribute_3>
+        <custom_layout_handle><![CDATA[]]></custom_layout_handle>
+        <custom_position><![CDATA[]]></custom_position>
+        <layout_attribute_custom><![CDATA[]]></layout_attribute_custom>
+        <schedule_pattern><![CDATA[every day]]></schedule_pattern>
+        <schedule_from_time><![CDATA[]]></schedule_from_time>
+        <schedule_to_time><![CDATA[]]></schedule_to_time>
+        <category_ids><![CDATA[]]></category_ids>
+        <cms_page><![CDATA[-1]]></cms_page>
+        <order><![CDATA[2]]></order>
+        <status><![CDATA[1]]></status>
+        <display_pc><![CDATA[1]]></display_pc>
+        <display_tablet><![CDATA[1]]></display_tablet>
+        <display_mobile><![CDATA[0]]></display_mobile>
+        <content><![CDATA[<div class="block block-terminal hidden-xs">
+<div class="em-block-title">
+<h2>Testimonials</h2>
+</div>
+<div class="block-content em-wrapper-ads-18 text-center">
+<div class="em-slider em-slider-category" data-emslider-pagination="true" data-emslider-items="1">
+<div class="em-ads-item">
+<div class="em-ads-img"><a href="#"><img class="img-responsive" alt="em_ads_02.png" src="{{media url='wysiwyg/em0141/layout_fashion/home/em_ads_02.png'}}" /></a></div>
+<div class="em-ads-content">
+<p class="em-ads-author"><span class="em-text-upercase">elena gilbert </span></p>
+<p class="em-ads-des">You can change the visual appearance of almost every element of the theme.</p>
+</div>
+</div>
+<div class="em-ads-item">
+<div class="em-ads-img"><a href="#"><img class="img-responsive" alt="em_ads_02.png" src="{{media url='wysiwyg/em0141/layout_fashion/home/em_ads_02.png'}}" /></a></div>
+<div class="em-ads-content">
+<p class="em-ads-author"><span class="em-text-upercase">elena gilbert </span></p>
+<p class="em-ads-des">You can change the visual appearance of almost every element of the theme.</p>
+</div>
+</div>
+<div class="em-ads-item">
+<div class="em-ads-img"><a href="#"><img class="img-responsive" alt="em_ads_02.png" src="{{media url='wysiwyg/em0141/layout_fashion/home/em_ads_02.png'}}" /></a></div>
+<div class="em-ads-content">
+<p class="em-ads-author"><span class="em-text-upercase">elena gilbert </span></p>
+<p class="em-ads-des">You can change the visual appearance of almost every element of the theme.</p>
+</div>
+</div>
+</div>
+</div>
+</div>]]></content>
+        <conditions><![CDATA[a:6:{s:4:"type";s:34:"catalogrule/rule_condition_combine";s:9:"attribute";N;s:8:"operator";N;s:5:"value";s:1:"1";s:18:"is_value_processed";N;s:10:"aggregator";s:3:"all";}]]></conditions>
+        <from_date><![CDATA[]]></from_date>
+        <to_date><![CDATA[]]></to_date>
+      </fblock>
+      <fblock>
+        <package_theme><![CDATA[em0141/default]]></package_theme>
+        <title><![CDATA[EM0141 Glory - Fashion Store - Area Left 03 - Home - Banner]]></title>
+        <identifier><![CDATA[em0141-fashion-area-left04-home-banner]]></identifier>
+        <additional_cache_tags><![CDATA[]]></additional_cache_tags>
+        <layout_handle><![CDATA[cms_index_index]]></layout_handle>
+        <position><![CDATA[left]]></position>
+        <layout_attribute><![CDATA[]]></layout_attribute>
+        <layout_handle_2><![CDATA[]]></layout_handle_2>
+        <position_2><![CDATA[]]></position_2>
+        <layout_attribute_2><![CDATA[]]></layout_attribute_2>
+        <layout_handle_3><![CDATA[]]></layout_handle_3>
+        <position_3><![CDATA[]]></position_3>
+        <layout_attribute_3><![CDATA[]]></layout_attribute_3>
+        <custom_layout_handle><![CDATA[]]></custom_layout_handle>
+        <custom_position><![CDATA[]]></custom_position>
+        <layout_attribute_custom><![CDATA[]]></layout_attribute_custom>
+        <schedule_pattern><![CDATA[every day]]></schedule_pattern>
+        <schedule_from_time><![CDATA[]]></schedule_from_time>
+        <schedule_to_time><![CDATA[]]></schedule_to_time>
+        <category_ids><![CDATA[]]></category_ids>
+        <cms_page><![CDATA[-1]]></cms_page>
+        <order><![CDATA[4]]></order>
+        <status><![CDATA[1]]></status>
+        <display_pc><![CDATA[1]]></display_pc>
+        <display_tablet><![CDATA[1]]></display_tablet>
+        <display_mobile><![CDATA[0]]></display_mobile>
+        <content><![CDATA[<div class="img-banner hidden-xs">
+<div class="effect"><a class="banner-img" title="banner" href="#"> <img class="img-responsive img-banner-lazyload retina-img" alt="em_ads_02.jpg" src="{{skin url='images/loading.gif'}}" data-original="{{media url='wysiwyg/em0141/layout_fashion/home/em_ads_02.jpg'}}" /><span class="effect-line-02">&nbsp;</span></a></div>
+</div>]]></content>
+        <conditions><![CDATA[a:6:{s:4:"type";s:34:"catalogrule/rule_condition_combine";s:9:"attribute";N;s:8:"operator";N;s:5:"value";s:1:"1";s:18:"is_value_processed";N;s:10:"aggregator";s:3:"all";}]]></conditions>
+        <from_date><![CDATA[]]></from_date>
+        <to_date><![CDATA[]]></to_date>
+      </fblock>
+      <fblock>
+        <package_theme><![CDATA[em0141/default]]></package_theme>
+        <title><![CDATA[EM0141 Glory - Fashion Store - Area Main 01 - Home - Banners]]></title>
+        <identifier><![CDATA[em0141-fashion-area-main01-home-banners]]></identifier>
+        <additional_cache_tags><![CDATA[]]></additional_cache_tags>
+        <layout_handle><![CDATA[cms_index_index]]></layout_handle>
+        <position><![CDATA[content]]></position>
+        <layout_attribute><![CDATA[]]></layout_attribute>
+        <layout_handle_2><![CDATA[]]></layout_handle_2>
+        <position_2><![CDATA[]]></position_2>
+        <layout_attribute_2><![CDATA[]]></layout_attribute_2>
+        <layout_handle_3><![CDATA[]]></layout_handle_3>
+        <position_3><![CDATA[]]></position_3>
+        <layout_attribute_3><![CDATA[]]></layout_attribute_3>
+        <custom_layout_handle><![CDATA[]]></custom_layout_handle>
+        <custom_position><![CDATA[]]></custom_position>
+        <layout_attribute_custom><![CDATA[]]></layout_attribute_custom>
+        <schedule_pattern><![CDATA[every day]]></schedule_pattern>
+        <schedule_from_time><![CDATA[]]></schedule_from_time>
+        <schedule_to_time><![CDATA[]]></schedule_to_time>
+        <category_ids><![CDATA[]]></category_ids>
+        <cms_page><![CDATA[-1]]></cms_page>
+        <order><![CDATA[1]]></order>
+        <status><![CDATA[1]]></status>
+        <display_pc><![CDATA[1]]></display_pc>
+        <display_tablet><![CDATA[1]]></display_tablet>
+        <display_mobile><![CDATA[0]]></display_mobile>
+        <content><![CDATA[<div class="row hidden-xs">
+<div class="em-wrapper-banners">
+<div class="col-sm-8  img-banner text-center">
+<div class="effect"><a class="banner-img " title="banner" href="#"> <img class="img-responsive img-banner-lazyload" alt="em_ads_03.jpg" src="{{skin url='images/loading.gif'}}" data-original="{{media url='wysiwyg/em0141/layout_fashion/home/em_ads_03.jpg'}}" /> </a> <a class="banner-text-link effect-line-02" title="em-sample-title" href="#"><span class="h2">MEN'S</span></a></div>
+</div>
+<div class="col-sm-8  img-banner text-center">
+<div class="effect"><a class="banner-img" title="banner" href="#"> <img class="img-responsive img-banner-lazyload" alt="em_ads_04.jpg" src="{{skin url='images/loading.gif'}}" data-original="{{media url='wysiwyg/em0141/layout_fashion/home/em_ads_04.jpg'}}" /> </a><a class="banner-text-link  effect-line-02" title="em-sample-title" href="#"><span class="h2">WOMAN</span></a></div>
+</div>
+<div class="col-sm-8  img-banner text-center">
+<div class="effect"><a class="banner-img" title="banner" href="#"> <img class="img-responsive img-banner-lazyload" alt="em_ads_05.jpg" src="{{skin url='images/loading.gif'}}" data-original="{{media url='wysiwyg/em0141/layout_fashion/home/em_ads_05.jpg'}}" /> </a><a class="banner-text-link  effect-line-02" title="em-sample-title" href="#"><span class="h2">KID'S</span></a></div>
+</div>
+</div>
+</div>]]></content>
+        <conditions><![CDATA[a:6:{s:4:"type";s:34:"catalogrule/rule_condition_combine";s:9:"attribute";N;s:8:"operator";N;s:5:"value";s:1:"1";s:18:"is_value_processed";N;s:10:"aggregator";s:3:"all";}]]></conditions>
+        <from_date><![CDATA[]]></from_date>
+        <to_date><![CDATA[]]></to_date>
+      </fblock>
+      <fblock>
+        <package_theme><![CDATA[em0141/default]]></package_theme>
+        <title><![CDATA[EM0141 Glory - Fashion Store - Area Main 02 - Home - Best Sellers]]></title>
+        <identifier><![CDATA[em0141-fashion-area-main02-home-best-sellers]]></identifier>
+        <additional_cache_tags><![CDATA[]]></additional_cache_tags>
+        <layout_handle><![CDATA[cms_index_index]]></layout_handle>
+        <position><![CDATA[content]]></position>
+        <layout_attribute><![CDATA[]]></layout_attribute>
+        <layout_handle_2><![CDATA[]]></layout_handle_2>
+        <position_2><![CDATA[]]></position_2>
+        <layout_attribute_2><![CDATA[]]></layout_attribute_2>
+        <layout_handle_3><![CDATA[]]></layout_handle_3>
+        <position_3><![CDATA[]]></position_3>
+        <layout_attribute_3><![CDATA[]]></layout_attribute_3>
+        <custom_layout_handle><![CDATA[]]></custom_layout_handle>
+        <custom_position><![CDATA[]]></custom_position>
+        <layout_attribute_custom><![CDATA[]]></layout_attribute_custom>
+        <schedule_pattern><![CDATA[every day]]></schedule_pattern>
+        <schedule_from_time><![CDATA[]]></schedule_from_time>
+        <schedule_to_time><![CDATA[]]></schedule_to_time>
+        <category_ids><![CDATA[]]></category_ids>
+        <cms_page><![CDATA[-1]]></cms_page>
+        <order><![CDATA[2]]></order>
+        <status><![CDATA[1]]></status>
+        <display_pc><![CDATA[1]]></display_pc>
+        <display_tablet><![CDATA[1]]></display_tablet>
+        <display_mobile><![CDATA[1]]></display_mobile>
+        <content><![CDATA[<div class="em-wrapper-product-26 em-line-01 text-center button-show01">{{widget type="minifilterproducts/list" category="35" type_filter="3" limit_count="5" order_by="name asc" frontend_title="Best sellers" show="thumb,name,price,addtocart,addto" thumbnail_width="500" thumbnail_height="603" custom_theme="em_minifilterproducts/em_grid_21_1.phtml" img_lazyload="1" alt_img="thumbnail" cache_lifetime="86400"}}</div>]]></content>
+        <conditions><![CDATA[a:6:{s:4:"type";s:34:"catalogrule/rule_condition_combine";s:9:"attribute";N;s:8:"operator";N;s:5:"value";s:1:"1";s:18:"is_value_processed";N;s:10:"aggregator";s:3:"all";}]]></conditions>
+        <from_date><![CDATA[]]></from_date>
+        <to_date><![CDATA[]]></to_date>
+      </fblock>
+      <fblock>
+        <package_theme><![CDATA[em0141/default]]></package_theme>
+        <title><![CDATA[EM0141 Glory - Fashion Store - Area Main 03 - Home - New Arrivals]]></title>
+        <identifier><![CDATA[em0141-fashion-area-main03-home-new-arrivals]]></identifier>
+        <additional_cache_tags><![CDATA[]]></additional_cache_tags>
+        <layout_handle><![CDATA[cms_index_index]]></layout_handle>
+        <position><![CDATA[content]]></position>
+        <layout_attribute><![CDATA[]]></layout_attribute>
+        <layout_handle_2><![CDATA[]]></layout_handle_2>
+        <position_2><![CDATA[]]></position_2>
+        <layout_attribute_2><![CDATA[]]></layout_attribute_2>
+        <layout_handle_3><![CDATA[]]></layout_handle_3>
+        <position_3><![CDATA[]]></position_3>
+        <layout_attribute_3><![CDATA[]]></layout_attribute_3>
+        <custom_layout_handle><![CDATA[]]></custom_layout_handle>
+        <custom_position><![CDATA[]]></custom_position>
+        <layout_attribute_custom><![CDATA[]]></layout_attribute_custom>
+        <schedule_pattern><![CDATA[every day]]></schedule_pattern>
+        <schedule_from_time><![CDATA[]]></schedule_from_time>
+        <schedule_to_time><![CDATA[]]></schedule_to_time>
+        <category_ids><![CDATA[]]></category_ids>
+        <cms_page><![CDATA[-1]]></cms_page>
+        <order><![CDATA[3]]></order>
+        <status><![CDATA[1]]></status>
+        <display_pc><![CDATA[1]]></display_pc>
+        <display_tablet><![CDATA[1]]></display_tablet>
+        <display_mobile><![CDATA[1]]></display_mobile>
+        <content><![CDATA[<div class="em-line-01 button-show01 button-hide-text text-center em-grid-23 slide-mobile">{{widget type="minifilterproducts/list" category="35" type_filter="3" limit_count="8" column_count="2" order_by="name asc" frontend_title="New Arrivals" frontend_description="Conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." show="thumb,name,price,label,addtocart,addto" thumbnail_width="255" thumbnail_height="307" custom_theme="em_minifilterproducts/em_grid_23.phtml" slider_enable="1" slider_items="4" img_lazyload="1" alt_img="thumbnail" cache_lifetime="86400" slider_items_desktop="3" slider_items_desktop_small="2" slider_items_tablet="2" slider_items_mobile="2" slider_navigation="true" slider_mouse_drag="1" slider_touch_drag="1"}}</div>]]></content>
+        <conditions><![CDATA[a:6:{s:4:"type";s:34:"catalogrule/rule_condition_combine";s:9:"attribute";N;s:8:"operator";N;s:5:"value";s:1:"1";s:18:"is_value_processed";N;s:10:"aggregator";s:3:"all";}]]></conditions>
+        <from_date><![CDATA[]]></from_date>
+        <to_date><![CDATA[]]></to_date>
+      </fblock>
+      <fblock>
+        <package_theme><![CDATA[em0141/default]]></package_theme>
+        <title><![CDATA[EM0141 Glory - Fashion Store - Area Main 04 - Home - Two Banners]]></title>
+        <identifier><![CDATA[em0141-fashion-area-main04-home-two-banners]]></identifier>
+        <additional_cache_tags><![CDATA[]]></additional_cache_tags>
+        <layout_handle><![CDATA[cms_index_index]]></layout_handle>
+        <position><![CDATA[content]]></position>
+        <layout_attribute><![CDATA[]]></layout_attribute>
+        <layout_handle_2><![CDATA[]]></layout_handle_2>
+        <position_2><![CDATA[]]></position_2>
+        <layout_attribute_2><![CDATA[]]></layout_attribute_2>
+        <layout_handle_3><![CDATA[]]></layout_handle_3>
+        <position_3><![CDATA[]]></position_3>
+        <layout_attribute_3><![CDATA[]]></layout_attribute_3>
+        <custom_layout_handle><![CDATA[]]></custom_layout_handle>
+        <custom_position><![CDATA[]]></custom_position>
+        <layout_attribute_custom><![CDATA[]]></layout_attribute_custom>
+        <schedule_pattern><![CDATA[every day]]></schedule_pattern>
+        <schedule_from_time><![CDATA[]]></schedule_from_time>
+        <schedule_to_time><![CDATA[]]></schedule_to_time>
+        <category_ids><![CDATA[]]></category_ids>
+        <cms_page><![CDATA[-1]]></cms_page>
+        <order><![CDATA[4]]></order>
+        <status><![CDATA[1]]></status>
+        <display_pc><![CDATA[1]]></display_pc>
+        <display_tablet><![CDATA[1]]></display_tablet>
+        <display_mobile><![CDATA[0]]></display_mobile>
+        <content><![CDATA[<div class="row hidden-xs">
+<div class="col-sm-12 first img-banner">
+<div class="effect"><a class="banner-img" title="banner" href="#"><img class="img-responsive img-banner-lazyload retina-img" alt="em_ads_06.jpg" src="{{skin url='images/loading.gif'}}" data-original="{{media url='wysiwyg/em0141/layout_fashion/home/em_ads_06.jpg'}}" /> </a><span class="effect-line-02">&nbsp; </span></div>
+</div>
+<div class="col-sm-12 img-banner">
+<div class="effect"><a class="banner-img" title="banner" href="#"><img class="img-responsive img-banner-lazyload retina-img" alt="em_ads_07.jpg" src="{{skin url='images/loading.gif'}}" data-original="{{media url='wysiwyg/em0141/layout_fashion/home/em_ads_07.jpg'}}" /></a> <span class="effect-line-02">&nbsp; </span></div>
+</div>
+</div>]]></content>
+        <conditions><![CDATA[a:6:{s:4:"type";s:34:"catalogrule/rule_condition_combine";s:9:"attribute";N;s:8:"operator";N;s:5:"value";s:1:"1";s:18:"is_value_processed";N;s:10:"aggregator";s:3:"all";}]]></conditions>
+        <from_date><![CDATA[]]></from_date>
+        <to_date><![CDATA[]]></to_date>
+      </fblock>
+      <fblock>
+        <package_theme><![CDATA[em0141/default]]></package_theme>
+        <title><![CDATA[EM0141 Glory - Fashion Store - Area 05 - Product Lists]]></title>
+        <identifier><![CDATA[em0141-fashion-area05-product-lists]]></identifier>
+        <additional_cache_tags><![CDATA[]]></additional_cache_tags>
+        <layout_handle><![CDATA[cms_index_index]]></layout_handle>
+        <position><![CDATA[content]]></position>
+        <layout_attribute><![CDATA[]]></layout_attribute>
+        <layout_handle_2><![CDATA[]]></layout_handle_2>
+        <position_2><![CDATA[]]></position_2>
+        <layout_attribute_2><![CDATA[]]></layout_attribute_2>
+        <layout_handle_3><![CDATA[]]></layout_handle_3>
+        <position_3><![CDATA[]]></position_3>
+        <layout_attribute_3><![CDATA[]]></layout_attribute_3>
+        <custom_layout_handle><![CDATA[]]></custom_layout_handle>
+        <custom_position><![CDATA[]]></custom_position>
+        <layout_attribute_custom><![CDATA[]]></layout_attribute_custom>
+        <schedule_pattern><![CDATA[every day]]></schedule_pattern>
+        <schedule_from_time><![CDATA[]]></schedule_from_time>
+        <schedule_to_time><![CDATA[]]></schedule_to_time>
+        <category_ids><![CDATA[]]></category_ids>
+        <cms_page><![CDATA[-1]]></cms_page>
+        <order><![CDATA[5]]></order>
+        <status><![CDATA[1]]></status>
+        <display_pc><![CDATA[1]]></display_pc>
+        <display_tablet><![CDATA[1]]></display_tablet>
+        <display_mobile><![CDATA[0]]></display_mobile>
+        <content><![CDATA[<div class="row em-line-01 custom-product-list hidden-xs border-item">
+<div class="col-sm-8">{{widget type="minifilterproducts/list" category="35" type_filter="1" featured="em_featured" limit_count="3" order_by="name asc" frontend_title="FEATURED PRODUCTS" show="thumb,name,price,addtocart,addto" thumbnail_width="90" thumbnail_height="108" custom_theme="em_minifilterproducts/em_list_home17.phtml" img_lazyload="1" alt_img="thumbnail" cache_lifetime="86400"}}</div>
+<div class="col-sm-8">{{widget type="minifilterproducts/list" type_filter="4" limit_count="3" order_by="name asc" frontend_title="SALE OFF" show="thumb,name,price,addtocart,addto" thumbnail_width="90" thumbnail_height="108" custom_theme="em_minifilterproducts/em_list_home17.phtml" img_lazyload="1" alt_img="thumbnail" cache_lifetime="86400"}}</div>
+<div class="col-sm-8">{{widget type="minifilterproducts/list" category="35" type_filter="6" limit_count="3" order_by="name asc" frontend_title="TOP RATED" show="thumb,name,price,addtocart,addto" thumbnail_width="90" thumbnail_height="108" custom_theme="em_minifilterproducts/em_list_home17.phtml" img_lazyload="1" alt_img="thumbnail" cache_lifetime="86400"}}</div>
+</div>]]></content>
+        <conditions><![CDATA[a:6:{s:4:"type";s:34:"catalogrule/rule_condition_combine";s:9:"attribute";N;s:8:"operator";N;s:5:"value";s:1:"1";s:18:"is_value_processed";N;s:10:"aggregator";s:3:"all";}]]></conditions>
+        <from_date><![CDATA[]]></from_date>
+        <to_date><![CDATA[]]></to_date>
+      </fblock>
+      <fblock>
+        <package_theme><![CDATA[em0141/default]]></package_theme>
+        <title><![CDATA[EM0141 Glory - Fashion - Sidebar - Home - Daily Deal]]></title>
+        <position><![CDATA[em_area2]]></position>
+        <custom_position><![CDATA[]]></custom_position>
+        <schedule_pattern><![CDATA[every day]]></schedule_pattern>
+        <schedule_from_time><![CDATA[]]></schedule_from_time>
+        <schedule_to_time><![CDATA[]]></schedule_to_time>
+        <category_ids><![CDATA[]]></category_ids>
+        <identifier><![CDATA[em0141-fashion-sidebar-home-daily-deal]]></identifier>
+        <layout_handle><![CDATA[cms_index_index]]></layout_handle>
+        <custom_layout_handle><![CDATA[]]></custom_layout_handle>
+        <additional_cache_tags><![CDATA[]]></additional_cache_tags>
+        <layout_handle_2><![CDATA[]]></layout_handle_2>
+        <position_2><![CDATA[]]></position_2>
+        <layout_handle_3><![CDATA[]]></layout_handle_3>
+        <position_3><![CDATA[]]></position_3>
+        <layout_attribute><![CDATA[]]></layout_attribute>
+        <layout_attribute_2><![CDATA[]]></layout_attribute_2>
+        <layout_attribute_3><![CDATA[]]></layout_attribute_3>
+        <layout_attribute_custom><![CDATA[]]></layout_attribute_custom>
+        <cms_page><![CDATA[-1]]></cms_page>
+        <order><![CDATA[1]]></order>
+        <status><![CDATA[1]]></status>
+        <display_pc><![CDATA[1]]></display_pc>
+        <display_tablet><![CDATA[1]]></display_tablet>
+        <display_mobile><![CDATA[1]]></display_mobile>
+        <content><![CDATA[<div class="em-wrapper-products">
+<div class="em-today-deals block">
+<div class="widget-title em-widget-title">
+<h2><span>Today Deals</span></h2>
+</div>
+<div class="block-content">
+<div class="products-grid em-slider" data-emslider-navigation="true" data-emslider-items="1">{{widget type="multidealpro/widgets"  deal_type="1" limit_count="2" show_label="true" order_by="name asc" thumbnail_width="300" thumbnail_height="362" show_product_name="true" show_price="true" show_clock="true" show_qty="true" show_addtocart="false" show_addto="false" choose_template="custom_template" custom_theme="em_multidealpro/em_today_weekly_deal.phtml"}}</div>
+</div>
+</div>
+</div>]]></content>
+        <conditions><![CDATA[a:6:{s:4:"type";s:34:"catalogrule/rule_condition_combine";s:9:"attribute";N;s:8:"operator";N;s:5:"value";s:1:"1";s:18:"is_value_processed";N;s:10:"aggregator";s:3:"all";}]]></conditions>
+        <from_date><![CDATA[]]></from_date>
+        <to_date><![CDATA[]]></to_date>
+      </fblock>
+      <fblock>
+        <package_theme><![CDATA[em0141/default]]></package_theme>
+        <title><![CDATA[EM0141 Glory - Fashion Store - Area 02 - Home - PicksTabs]]></title>
+        <identifier><![CDATA[em0141-fashion-area02-picks-tabs]]></identifier>
+        <additional_cache_tags><![CDATA[]]></additional_cache_tags>
+        <layout_handle><![CDATA[cms_index_index]]></layout_handle>
+        <position><![CDATA[em_area2]]></position>
+        <layout_attribute><![CDATA[]]></layout_attribute>
+        <layout_handle_2><![CDATA[]]></layout_handle_2>
+        <position_2><![CDATA[]]></position_2>
+        <layout_attribute_2><![CDATA[]]></layout_attribute_2>
+        <layout_handle_3><![CDATA[]]></layout_handle_3>
+        <position_3><![CDATA[]]></position_3>
+        <layout_attribute_3><![CDATA[]]></layout_attribute_3>
+        <custom_layout_handle><![CDATA[]]></custom_layout_handle>
+        <custom_position><![CDATA[]]></custom_position>
+        <layout_attribute_custom><![CDATA[]]></layout_attribute_custom>
+        <schedule_pattern><![CDATA[every day]]></schedule_pattern>
+        <schedule_from_time><![CDATA[]]></schedule_from_time>
+        <schedule_to_time><![CDATA[]]></schedule_to_time>
+        <category_ids><![CDATA[]]></category_ids>
+        <cms_page><![CDATA[-1]]></cms_page>
+        <order><![CDATA[2]]></order>
+        <status><![CDATA[1]]></status>
+        <display_pc><![CDATA[1]]></display_pc>
+        <display_tablet><![CDATA[1]]></display_tablet>
+        <display_mobile><![CDATA[1]]></display_mobile>
+        <content><![CDATA[<div class="em-wrapper-tabs  em-two-custom-tab hidden-xs">
+<div class="em-container-tabs">
+<div class="em-tabs-widget tabs-widget ">
+<div id="emajaxtabs_em0140_tools_area_main01_tabs" class="em-tabs emajaxtabs">
+<ul class="tabs custom-tab">
+<li class="tab-link active em-text-upercase"><a href="#tab_emajaxtabs_default_sidebar_tab_1" data-hover="Tab 1" data-tab="tab_emajaxtabs_default_sidebar_tab_1">Staff Picks</a></li>
+<li class="tab-link em-text-upercase"><a href="#tab_emajaxtabs_default_sidebar_tab_2" data-hover="Tab 2" data-tab="tab_emajaxtabs_default_sidebar_tab_2">Random Picks</a></li>
+</ul>
+<div class="tab-content-container">
+<div id="tab_emajaxtabs_default_sidebar_tab_1" class="tab-content active">
+<div class="em-wrapper-products custom-product-list">{{widget type="minifilterproducts/list" category="35" type_filter="1" featured="em_featured" limit_count="3" order_by="name asc" show="thumb,name,price" thumbnail_width="90" thumbnail_height="108" custom_theme="em_minifilterproducts/em_list_home17.phtml" img_lazyload="1" alt_img="thumbnail" cache_lifetime="86400" slider_items_desktop="3" slider_items_desktop_small="2" slider_items_tablet="2" slider_items_mobile="2" slider_navigation="1" slider_unique_id="tab_emajaxtabs_em0140_tools_area_main01_tabs_1"}}</div>
+</div>
+<div id="tab_emajaxtabs_default_sidebar_tab_2" class="tab-content">
+<div class="em-wrapper-products custom-product-list">{{widget type="minifilterproducts/list" category="35" type_filter="1" featured="em_hot" limit_count="3" order_by="name asc" show="thumb,name,price" thumbnail_width="90" thumbnail_height="108" custom_theme="em_minifilterproducts/em_list_home17.phtml" img_lazyload="1" alt_img="thumbnail" cache_lifetime="86400" slider_items_desktop="3" slider_items_desktop_small="2" slider_items_tablet="2" slider_items_mobile="2" slider_navigation="1" slider_unique_id="tab_emajaxtabs_em0140_tools_area_main01_tabs_2"}}</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>]]></content>
+        <conditions><![CDATA[a:6:{s:4:"type";s:34:"catalogrule/rule_condition_combine";s:9:"attribute";N;s:8:"operator";N;s:5:"value";s:1:"1";s:18:"is_value_processed";N;s:10:"aggregator";s:3:"all";}]]></conditions>
+        <from_date><![CDATA[]]></from_date>
+        <to_date><![CDATA[]]></to_date>
+      </fblock>
+      <fblock>
+        <package_theme><![CDATA[em0141/default]]></package_theme>
+        <title><![CDATA[EM0141 Glory - Fashion Store - Area 04 - Home - Recent Blog]]></title>
+        <identifier><![CDATA[em0141-fashion-area-04-home-recent-blog]]></identifier>
+        <additional_cache_tags><![CDATA[]]></additional_cache_tags>
+        <layout_handle><![CDATA[default]]></layout_handle>
+        <position><![CDATA[em_area4]]></position>
+        <layout_attribute><![CDATA[]]></layout_attribute>
+        <layout_handle_2><![CDATA[]]></layout_handle_2>
+        <position_2><![CDATA[]]></position_2>
+        <layout_attribute_2><![CDATA[]]></layout_attribute_2>
+        <layout_handle_3><![CDATA[]]></layout_handle_3>
+        <position_3><![CDATA[]]></position_3>
+        <layout_attribute_3><![CDATA[]]></layout_attribute_3>
+        <custom_layout_handle><![CDATA[]]></custom_layout_handle>
+        <custom_position><![CDATA[]]></custom_position>
+        <layout_attribute_custom><![CDATA[]]></layout_attribute_custom>
+        <schedule_pattern><![CDATA[every day]]></schedule_pattern>
+        <schedule_from_time><![CDATA[]]></schedule_from_time>
+        <schedule_to_time><![CDATA[]]></schedule_to_time>
+        <category_ids><![CDATA[]]></category_ids>
+        <cms_page><![CDATA[-1]]></cms_page>
+        <order><![CDATA[1]]></order>
+        <status><![CDATA[1]]></status>
+        <display_pc><![CDATA[1]]></display_pc>
+        <display_tablet><![CDATA[1]]></display_tablet>
+        <display_mobile><![CDATA[1]]></display_mobile>
+        <content><![CDATA[<div class="row">
+<div class="col-sm-24">
+<div class="em-wrapper-ads-08 em-line-01 text-center">
+<div class="em-block-title">
+<h2><span>From Our Blog</span></h2>
+</div>
+<div class="em-slider em-slider-from-our-blog" data-emslider-navigation="true" data-emslider-items="3" data-emslider-desktop="3" data-emslider-desktop-small="2" data-emslider-tablet="2" data-emslider-mobile="1">
+<div class="em-blog-item">
+<div class="em-blog-content bkg-top"><a title="banner" href="#"><img class="img-responsive img-banner-lazyload" alt="em_ads_08.jpg" src="{{skin url='images/loading.gif'}}" data-original="{{media url='wysiwyg/em0141/layout_fashion/home/em_ads_08.jpg'}}" /></a></div>
+<div class="em-box">
+<div class="em-box-content">
+<h4 class="em-blog-title"><a title="Unlimited Colors" href="#">Unlimited Colors</a></h4>
+<div class="em-blog-time"><span class="em-blog-date">28</span> <span class="em-blog-month">aug</span></div>
+<p class="em-blog-des">You can change the visual appearance of almost every element of the theme. You can change colors using color pickers, apply patterns/textures (predefined or custom) for header...</p>
+<p><a class="link-more" title="read more" href="#">Read more</a></p>
+</div>
+</div>
+</div>
+<div class="em-blog-item">
+<div class="em-blog-content bkg-top"><a title="banner" href="#"><img class="img-responsive img-banner-lazyload" alt="em_ads_09.jpg" src="{{skin url='images/loading.gif'}}" data-original="{{media url='wysiwyg/em0141/layout_fashion/home/em_ads_09.jpg'}}" /></a></div>
+<div class="em-box">
+<div class="em-box-content">
+<h4 class="em-blog-title"><a title="Unlimited Colors" href="#">Unlimited Colors</a></h4>
+<div class="em-blog-time"><span class="em-blog-date">28</span> <span class="em-blog-month">aug</span></div>
+<p class="em-blog-des">You can change the visual appearance of almost every element of the theme. You can change colors using color pickers, apply patterns/textures (predefined or custom) for header...</p>
+<p><a class="link-more" title="read more" href="#">Read more</a></p>
+</div>
+</div>
+</div>
+<div class="em-blog-item">
+<div class="em-blog-content bkg-top"><a title="banner" href="#"><img class="img-responsive img-banner-lazyload" alt="em_ads_10.jpg" src="{{skin url='images/loading.gif'}}" data-original="{{media url='wysiwyg/em0141/layout_fashion/home/em_ads_10.jpg'}}" /></a></div>
+<div class="em-box">
+<div class="em-box-content">
+<h4 class="em-blog-title"><a title="Unlimited Colors" href="#">Unlimited Colors</a></h4>
+<div class="em-blog-time"><span class="em-blog-date">28</span> <span class="em-blog-month">aug</span></div>
+<p class="em-blog-des">You can change the visual appearance of almost every element of the theme. You can change colors using color pickers, apply patterns/textures (predefined or custom) for header...</p>
+<p><a class="link-more" title="read more" href="#">Read more</a></p>
+</div>
+</div>
+</div>
+<div class="em-blog-item">
+<div class="em-blog-content bkg-top"><a title="banner" href="#"><img class="img-responsive img-banner-lazyload" alt="em_ads_08.jpg" src="{{skin url='images/loading.gif'}}" data-original="{{media url='wysiwyg/em0141/layout_fashion/home/em_ads_08.jpg'}}" /></a></div>
+<div class="em-box">
+<div class="em-box-content">
+<h4 class="em-blog-title"><a title="Unlimited Colors" href="#">Unlimited Colors</a></h4>
+<div class="em-blog-time"><span class="em-blog-date">28</span> <span class="em-blog-month">aug</span></div>
+<p class="em-blog-des">You can change the visual appearance of almost every element of the theme. You can change colors using color pickers, apply patterns/textures (predefined or custom) for header...</p>
+<p><a class="link-more" title="read more" href="#">Read more</a></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>]]></content>
+        <conditions><![CDATA[a:6:{s:4:"type";s:34:"catalogrule/rule_condition_combine";s:9:"attribute";N;s:8:"operator";N;s:5:"value";s:1:"1";s:18:"is_value_processed";N;s:10:"aggregator";s:3:"all";}]]></conditions>
+        <from_date><![CDATA[]]></from_date>
+        <to_date><![CDATA[]]></to_date>
+      </fblock>
+      <fblock>
+        <package_theme><![CDATA[em0141/default]]></package_theme>
+        <title><![CDATA[EM0141 Glory - Fashion Store - Area 04- Home - Recent Blog - Code]]></title>
+        <identifier><![CDATA[em0141-fashion-area-04-home-recent-blog-code]]></identifier>
+        <additional_cache_tags><![CDATA[]]></additional_cache_tags>
+        <layout_handle><![CDATA[default]]></layout_handle>
+        <position><![CDATA[em_area4]]></position>
+        <layout_attribute><![CDATA[]]></layout_attribute>
+        <layout_handle_2><![CDATA[]]></layout_handle_2>
+        <position_2><![CDATA[]]></position_2>
+        <layout_attribute_2><![CDATA[]]></layout_attribute_2>
+        <layout_handle_3><![CDATA[]]></layout_handle_3>
+        <position_3><![CDATA[]]></position_3>
+        <layout_attribute_3><![CDATA[]]></layout_attribute_3>
+        <custom_layout_handle><![CDATA[]]></custom_layout_handle>
+        <custom_position><![CDATA[]]></custom_position>
+        <layout_attribute_custom><![CDATA[]]></layout_attribute_custom>
+        <schedule_pattern><![CDATA[every day]]></schedule_pattern>
+        <schedule_from_time><![CDATA[]]></schedule_from_time>
+        <schedule_to_time><![CDATA[]]></schedule_to_time>
+        <category_ids><![CDATA[]]></category_ids>
+        <cms_page><![CDATA[-1]]></cms_page>
+        <order><![CDATA[1]]></order>
+        <status><![CDATA[0]]></status>
+        <display_pc><![CDATA[1]]></display_pc>
+        <display_tablet><![CDATA[1]]></display_tablet>
+        <display_mobile><![CDATA[1]]></display_mobile>
+        <content><![CDATA[<div class="row">
+<div class="col-sm-24">
+<div class="em-wrapper-ads-08 em-line-01 text-center">
+<div class="em-block-title">
+<h2><span>From Our Blog</span></h2>
+</div>
+<div class="em-slider em-slider-from-our-blog" data-emslider-navigation="true" data-emslider-items="3" data-emslider-desktop="3" data-emslider-desktop-small="2" data-emslider-tablet="2" data-emslider-mobile="1">{{block type="blog/post_list" name="em.fromblog.style07" template="em_blog/post/list/em_fromblog_style07.phtml"}}</div>
+</div>
+</div>
+</div>]]></content>
+        <conditions><![CDATA[a:6:{s:4:"type";s:34:"catalogrule/rule_condition_combine";s:9:"attribute";N;s:8:"operator";N;s:5:"value";s:1:"1";s:18:"is_value_processed";N;s:10:"aggregator";s:3:"all";}]]></conditions>
+        <from_date><![CDATA[]]></from_date>
+        <to_date><![CDATA[]]></to_date>
+      </fblock>
+      <fblock>
+        <package_theme><![CDATA[em0141/default]]></package_theme>
+        <title><![CDATA[EM0141 Glory - Fashion Store - Home - Area 05 - Text - Ads]]></title>
+        <identifier><![CDATA[em0141-fashion-home-area05-text-ads]]></identifier>
+        <additional_cache_tags><![CDATA[]]></additional_cache_tags>
+        <layout_handle><![CDATA[cms_page]]></layout_handle>
+        <position><![CDATA[em_area5]]></position>
+        <layout_attribute><![CDATA[]]></layout_attribute>
+        <layout_handle_2><![CDATA[]]></layout_handle_2>
+        <position_2><![CDATA[]]></position_2>
+        <layout_attribute_2><![CDATA[]]></layout_attribute_2>
+        <layout_handle_3><![CDATA[]]></layout_handle_3>
+        <position_3><![CDATA[]]></position_3>
+        <layout_attribute_3><![CDATA[]]></layout_attribute_3>
+        <custom_layout_handle><![CDATA[]]></custom_layout_handle>
+        <custom_position><![CDATA[]]></custom_position>
+        <layout_attribute_custom><![CDATA[]]></layout_attribute_custom>
+        <schedule_pattern><![CDATA[every day]]></schedule_pattern>
+        <schedule_from_time><![CDATA[]]></schedule_from_time>
+        <schedule_to_time><![CDATA[]]></schedule_to_time>
+        <category_ids><![CDATA[]]></category_ids>
+        <cms_page><![CDATA[-1]]></cms_page>
+        <order><![CDATA[]]></order>
+        <status><![CDATA[1]]></status>
+        <display_pc><![CDATA[1]]></display_pc>
+        <display_tablet><![CDATA[1]]></display_tablet>
+        <display_mobile><![CDATA[0]]></display_mobile>
+        <content><![CDATA[<div class="row em-wrapper-banners hidden-xs">
+<div class="col-sm-8 first text-center em-wrapper-ads return-exchange">
+<p class="fa-2x fa fa-paper-plane primary">&nbsp;</p>
+<p class="h3 secondary2 em-text-upercase">Return &amp; Exchange</p>
+<p class="desc">Vintage pastel tucked t-shirt leather ecru rings cable knit knitwear grunge washed out. Street style gold collar plaited black white shirt neutral cuff seam Maison Martin Margiela.</p>
+</div>
+<div class="col-sm-8 text-center em-wrapper-ads shipping">
+<p class="fa fa-2x fa-car primary">&nbsp;</p>
+<p class="h3 secondary2 em-text-upercase">Free Shipping</p>
+<p class="desc">Givenchy knot ponytail slipper bomber chunky sole slip dress C&eacute;line. Loafer Jil Sander Vasari oversized sweatshirt sneaker black lilac 90s skirt rings. Sports luxe button up navy blue tee denim shorts.</p>
+</div>
+<div class="col-sm-8 last text-center em-wrapper-ads member-discount">
+<p class="fa-2x fa fa-tags primary">&nbsp;</p>
+<p class="h3 secondary2 em-text-upercase">Member Discount</p>
+<p class="desc">Flats Cara D. dress knitwear leather tote. Round sunglasses midi cable knit cami chambray dungaree neutral. Bandeau A.P.C. collarless silhouette strong eyebrows denim floral cuff sandal Paris.</p>
+</div>
+</div>]]></content>
+        <conditions><![CDATA[a:6:{s:4:"type";s:34:"catalogrule/rule_condition_combine";s:9:"attribute";N;s:8:"operator";N;s:5:"value";s:1:"1";s:18:"is_value_processed";N;s:10:"aggregator";s:3:"all";}]]></conditions>
+        <from_date><![CDATA[]]></from_date>
+        <to_date><![CDATA[]]></to_date>
+      </fblock>
+      <fblock>
+        <package_theme><![CDATA[em0141/default]]></package_theme>
+        <title><![CDATA[EM0141 Glory - Fashion Store - Area 06 - Theme Features]]></title>
+        <identifier><![CDATA[em0141-fashion-area06-theme-features]]></identifier>
+        <additional_cache_tags><![CDATA[]]></additional_cache_tags>
+        <layout_handle><![CDATA[cms_index_index]]></layout_handle>
+        <position><![CDATA[em_area6]]></position>
+        <layout_attribute><![CDATA[]]></layout_attribute>
+        <layout_handle_2><![CDATA[]]></layout_handle_2>
+        <position_2><![CDATA[]]></position_2>
+        <layout_attribute_2><![CDATA[]]></layout_attribute_2>
+        <layout_handle_3><![CDATA[]]></layout_handle_3>
+        <position_3><![CDATA[]]></position_3>
+        <layout_attribute_3><![CDATA[]]></layout_attribute_3>
+        <custom_layout_handle><![CDATA[]]></custom_layout_handle>
+        <custom_position><![CDATA[]]></custom_position>
+        <layout_attribute_custom><![CDATA[]]></layout_attribute_custom>
+        <schedule_pattern><![CDATA[every day]]></schedule_pattern>
+        <schedule_from_time><![CDATA[]]></schedule_from_time>
+        <schedule_to_time><![CDATA[]]></schedule_to_time>
+        <category_ids><![CDATA[]]></category_ids>
+        <cms_page><![CDATA[-1]]></cms_page>
+        <order><![CDATA[]]></order>
+        <status><![CDATA[1]]></status>
+        <display_pc><![CDATA[1]]></display_pc>
+        <display_tablet><![CDATA[1]]></display_tablet>
+        <display_mobile><![CDATA[0]]></display_mobile>
+        <content><![CDATA[<div class="em-wrapper-features wrapper-slider-features em-wrapper-banners text-center hidden-xs">
+<div class="container">
+<div class="row">
+<div class="col-sm-24">
+<div class="em-block-title">
+<h2><span class="em-text-upercase">Theme features</span></h2>
+</div>
+<div class=" slider-style02">
+<div class="em-slider-category em-slider" data-emslider-navigation="true" data-emslider-items="4" data-emslider-desktop="4" data-emslider-desktop-small="3" data-emslider-tablet="2" data-emslider-mobile="1">
+<div class="em-box-info"><a class="img-feature-item" title="banner" href="#"> <img class="img-responsive img-banner-lazyload" alt="sample_features" src="{{skin url='images/loading.gif'}}" data-original="{{media url='wysiwyg/em0141/layout_fashion/home/features/em_feature_01.png'}}" /> <span class="title-feature">Unlimited Colors &amp; Multipurpose</span></a></div>
+<div class="em-box-info"><a class="img-feature-item" title="banner" href="#"> <img class="img-responsive img-banner-lazyload" alt="sample_features" src="{{skin url='images/loading.gif'}}" data-original="{{media url='wysiwyg/em0141/layout_fashion/home/features/em_feature_02.png'}}" /> <span class="title-feature">Mega Menu</span></a></div>
+<div class="em-box-info"><a class="img-feature-item" title="banner" href="#"> <img class="img-responsive img-banner-lazyload" alt="sample_features" src="{{skin url='images/loading.gif'}}" data-original="{{media url='wysiwyg/em0141/layout_fashion/home/features/em_feature_03.png'}}" /> <span class="title-feature">Advance Filter Products</span></a></div>
+<div class="em-box-info"><a class="img-feature-item" title="banner" href="#"> <img class="img-responsive img-banner-lazyload" alt="sample_features" src="{{skin url='images/loading.gif'}}" data-original="{{media url='wysiwyg/em0141/layout_fashion/home/features/em_feature_04.png'}}" /> <span class="title-feature">Revolution Sdivder</span></a></div>
+<div class="em-box-info"><a class="img-feature-item" title="banner" href="#"> <img class="img-responsive img-banner-lazyload" alt="sample_features" src="{{skin url='images/loading.gif'}}" data-original="{{media url='wysiwyg/em0141/layout_fashion/home/features/em_feature_05.png'}}" /> <span class="title-feature">Sdivder / Label Widget</span></a></div>
+<div class="em-box-info"><a class="img-feature-item" title="banner" href="#"> <img class="img-responsive img-banner-lazyload" alt="sample_features" src="{{skin url='images/loading.gif'}}" data-original="{{media url='wysiwyg/em0141/layout_fashion/home/features/em_feature_06.png'}}" /> <span class="title-feature">Layer Navigation</span></a></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>]]></content>
+        <conditions><![CDATA[a:6:{s:4:"type";s:34:"catalogrule/rule_condition_combine";s:9:"attribute";N;s:8:"operator";N;s:5:"value";s:1:"1";s:18:"is_value_processed";N;s:10:"aggregator";s:3:"all";}]]></conditions>
+        <from_date><![CDATA[]]></from_date>
+        <to_date><![CDATA[]]></to_date>
+      </fblock>
+      <fblock>
+        <package_theme><![CDATA[em0141/default]]></package_theme>
+        <title><![CDATA[EM0141 Glory - Fashion Store - Area 07 - Home - Brands Slider]]></title>
+        <identifier><![CDATA[em0141-fashion-area07-home-brands-slider]]></identifier>
+        <additional_cache_tags><![CDATA[]]></additional_cache_tags>
+        <layout_handle><![CDATA[cms_index_index]]></layout_handle>
+        <position><![CDATA[em_area7]]></position>
+        <layout_attribute><![CDATA[]]></layout_attribute>
+        <layout_handle_2><![CDATA[]]></layout_handle_2>
+        <position_2><![CDATA[]]></position_2>
+        <layout_attribute_2><![CDATA[]]></layout_attribute_2>
+        <layout_handle_3><![CDATA[]]></layout_handle_3>
+        <position_3><![CDATA[]]></position_3>
+        <layout_attribute_3><![CDATA[]]></layout_attribute_3>
+        <custom_layout_handle><![CDATA[]]></custom_layout_handle>
+        <custom_position><![CDATA[]]></custom_position>
+        <layout_attribute_custom><![CDATA[]]></layout_attribute_custom>
+        <schedule_pattern><![CDATA[every day]]></schedule_pattern>
+        <schedule_from_time><![CDATA[]]></schedule_from_time>
+        <schedule_to_time><![CDATA[]]></schedule_to_time>
+        <category_ids><![CDATA[]]></category_ids>
+        <cms_page><![CDATA[-1]]></cms_page>
+        <order><![CDATA[]]></order>
+        <status><![CDATA[1]]></status>
+        <display_pc><![CDATA[1]]></display_pc>
+        <display_tablet><![CDATA[1]]></display_tablet>
+        <display_mobile><![CDATA[1]]></display_mobile>
+        <content><![CDATA[<div class="container">
+<div class="row">
+<div class="col-sm-24">
+<div class="em-wrapper-brands em-line-01 hidden-xs col-sm-24 text-center">
+<div class="widget-title em-widget-title">
+<h2><span>Brand &amp; Client</span></h2>
+</div>
+<div class="desc text-center">Excepteur sint occaecat cupidatat. Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+<div class="slider-style02">
+<div class="em-slider em-slider-navigation-icon" data-emslider-autoplay="true" data-emslider-navigation="true" data-emslider-items="5" data-emslider-desktop="5" data-emslider-desktop-small="4" data-emslider-tablet="3" data-emslider-mobile="2">
+<div><a title="brand" href="#"><img class="img-responsive img-banner-lazyload" alt="em_brand_01.png" src="{{skin url='images/loading.gif'}}" data-original="{{media url='wysiwyg/em0141/layout_fashion/home/brand/em_brand_01.png'}}" /></a></div>
+<div><a title="brand" href="#"><img class="img-responsive img-banner-lazyload" alt="em_brand_02.png" src="{{skin url='images/loading.gif'}}" data-original="{{media url='wysiwyg/em0141/layout_fashion/home/brand/em_brand_02.png'}}" /></a></div>
+<div><a title="brand" href="#"><img class="img-responsive img-banner-lazyload" alt="em_brand_03.png" src="{{skin url='images/loading.gif'}}" data-original="{{media url='wysiwyg/em0141/layout_fashion/home/brand/em_brand_03.png'}}" /></a></div>
+<div><a title="brand" href="#"><img class="img-responsive img-banner-lazyload" alt="em_brand_04.png" src="{{skin url='images/loading.gif'}}" data-original="{{media url='wysiwyg/em0141/layout_fashion/home/brand/em_brand_04.png'}}" /></a></div>
+<div><a title="brand" href="#"><img class="img-responsive img-banner-lazyload" alt="em_brand_05.png" src="{{skin url='images/loading.gif'}}" data-original="{{media url='wysiwyg/em0141/layout_fashion/home/brand/em_brand_05.png'}}" /></a></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>]]></content>
+        <conditions><![CDATA[a:6:{s:4:"type";s:34:"catalogrule/rule_condition_combine";s:9:"attribute";N;s:8:"operator";N;s:5:"value";s:1:"1";s:18:"is_value_processed";N;s:10:"aggregator";s:3:"all";}]]></conditions>
+        <from_date><![CDATA[]]></from_date>
+        <to_date><![CDATA[]]></to_date>
+      </fblock>
+      <fblock>
+        <package_theme><![CDATA[em0141/default]]></package_theme>
+        <title><![CDATA[EM0141 Glory - Fashion Store - Area Footer 01 - Footer Style 09]]></title>
+        <identifier><![CDATA[em0141-fashion-area-footer01-links-style09]]></identifier>
+        <additional_cache_tags><![CDATA[]]></additional_cache_tags>
+        <layout_handle><![CDATA[default]]></layout_handle>
+        <position><![CDATA[em_area_footer01]]></position>
+        <layout_attribute><![CDATA[]]></layout_attribute>
+        <layout_handle_2><![CDATA[]]></layout_handle_2>
+        <position_2><![CDATA[]]></position_2>
+        <layout_attribute_2><![CDATA[]]></layout_attribute_2>
+        <layout_handle_3><![CDATA[]]></layout_handle_3>
+        <position_3><![CDATA[]]></position_3>
+        <layout_attribute_3><![CDATA[]]></layout_attribute_3>
+        <custom_layout_handle><![CDATA[]]></custom_layout_handle>
+        <custom_position><![CDATA[]]></custom_position>
+        <layout_attribute_custom><![CDATA[]]></layout_attribute_custom>
+        <schedule_pattern><![CDATA[every day]]></schedule_pattern>
+        <schedule_from_time><![CDATA[]]></schedule_from_time>
+        <schedule_to_time><![CDATA[]]></schedule_to_time>
+        <category_ids><![CDATA[]]></category_ids>
+        <cms_page><![CDATA[-1]]></cms_page>
+        <order><![CDATA[]]></order>
+        <status><![CDATA[1]]></status>
+        <display_pc><![CDATA[1]]></display_pc>
+        <display_tablet><![CDATA[1]]></display_tablet>
+        <display_mobile><![CDATA[1]]></display_mobile>
+        <content><![CDATA[<div class="row">
+<div class="col-sm-8 first">
+<div class="em-block-title" data-collapse-target="#collapse01">
+<p class="h6 hidden-xs"><a class="logo-footer" href="#"><img class="img-responsive" alt="" src="{{media url='wysiwyg/em0141/layout_fashion/home/logo_footer.png'}}" /></a></p>
+<p class="h3 em-text-upercase"><span>About us</span></p>
+</div>
+<div id="collapse01" class="em-block-content">
+<p class="em-info">Skort Maison Martin Margiela knot ponytail cami texture as tucked t-shirt. <em>Black skirt razor pleats plaited gold collar</em>. Crop 90s spearmint indigo seam luxe washed out.</p>
+<p class="em-address"><i class="fa fa-home">&nbsp;</i>{{config path="general/store_information/address"}}</p>
+<p class="em-phone"><i class="fa fa-phone">&nbsp;</i>{{config path="general/store_information/phone"}}</p>
+<p class="em-email"><i class="fa fa-envelope-o">&nbsp;</i>{{config path="trans_email/ident_general/email"}}</p>
+</div>
+</div>
+<div class="col-sm-8">
+<div class="em-block-title" data-collapse-target="#collapse02">
+<p class="h3 em-text-upercase"><span>My Account</span></p>
+</div>
+<div id="collapse02" class="em-block-content col2-set">
+<ul class="em-links col-1">
+<li class="em-links-item"><a title="em-sample-title" href="{{store url='customer/account/'}}"><span>My Account</span></a></li>
+<li class="em-links-item"><a title="em-sample-title" href="#"><span>Order History</span></a></li>
+<li class="em-links-item"><a title="em-sample-title" href="#"><span>Wishlist</span></a></li>
+<li class="em-links-item"><a title="em-sample-title" href="#"><span>Privacy Policy</span></a></li>
+<li class="em-links-item"><a title="em-sample-title" href="#"><span>Delivery Information</span></a></li>
+<li class="em-links-item"><a title="em-sample-title" href="#"><span>Shopping Guide</span></a></li>
+</ul>
+<ul class="em-links col-2">
+<li class="em-links-item"><a title="em-sample-title" href="#"><span>Store Location</span></a></li>
+<li class="em-links-item"><a title="em-sample-title" href="#"><span>Sitemap</span></a></li>
+<li class="em-links-item"><a title="em-sample-title" href="#"><span>Newsletter</span></a></li>
+<li class="em-links-item"><a title="em-sample-title" href="#"><span>Contact Us</span></a></li>
+</ul>
+</div>
+</div>
+<div class="col-sm-8 last">
+<div class="em-wrapper-newsletter">
+<div class="em-block-title" data-collapse-target="#collapse03">
+<p class="h3 em-text-upercase"><span>Newsletter Sign Up</span></p>
+</div>
+<div id="collapse03" class="em-block-content">
+<p>Enter your email and we'll send you a coupon with 10% off your next order. Add any text here.</p>
+{{block type="newsletter/subscribe" name="em.newsletter.style06" template="newsletter/em_subscribe_style06.phtml"}}</div>
+</div>
+<div class="em-wrapper-social">
+<div class="em-block-title" data-collapse-target="#collapse04">
+<p class="h3 em-text-upercase"><span>Follow Us</span></p>
+</div>
+<div id="collapse04" class="em-block-content">
+<p class="em-social"><a class="em-social-icon em-facebook" title="em-sample-title" href="#"><span class="fa fa-facebook">&nbsp;</span></a> <a class="em-social-icon em-twitter" title="em-sample-title" href="#"><span class="fa fa-twitter">&nbsp;</span></a> <a class="em-social-icon em-google-plus" title="em-sample-title" href="#"><span class="fa fa-google-plus">&nbsp;</span></a> <a class="em-social-icon em-pinterest " title="em-sample-title" href="#"><span class="fa  fa-pinterest">&nbsp;</span></a> <a class="em-social-icon em-instagram" title="em-sample-title" href="#"><span class="fa fa-instagram">&nbsp;</span></a> <a class="em-social-icon em-youtube" title="em-sample-title" href="#"><span class="fa fa-youtube">&nbsp;</span></a></p>
+</div>
+</div>
+</div>
+</div>]]></content>
+        <conditions><![CDATA[a:6:{s:4:"type";s:34:"catalogrule/rule_condition_combine";s:9:"attribute";N;s:8:"operator";N;s:5:"value";s:1:"1";s:18:"is_value_processed";N;s:10:"aggregator";s:3:"all";}]]></conditions>
+        <from_date><![CDATA[]]></from_date>
+        <to_date><![CDATA[]]></to_date>
+      </fblock>
+      <fblock>
+        <package_theme><![CDATA[em0141/default]]></package_theme>
+        <title><![CDATA[EM0141 Glory - Fashion Store - Area Footer 02 - Payment]]></title>
+        <identifier><![CDATA[em0141-fashion-area-footer02-payment]]></identifier>
+        <additional_cache_tags><![CDATA[]]></additional_cache_tags>
+        <layout_handle><![CDATA[default]]></layout_handle>
+        <position><![CDATA[em_area_footer02]]></position>
+        <layout_attribute><![CDATA[]]></layout_attribute>
+        <layout_handle_2><![CDATA[]]></layout_handle_2>
+        <position_2><![CDATA[]]></position_2>
+        <layout_attribute_2><![CDATA[]]></layout_attribute_2>
+        <layout_handle_3><![CDATA[]]></layout_handle_3>
+        <position_3><![CDATA[]]></position_3>
+        <layout_attribute_3><![CDATA[]]></layout_attribute_3>
+        <custom_layout_handle><![CDATA[]]></custom_layout_handle>
+        <custom_position><![CDATA[]]></custom_position>
+        <layout_attribute_custom><![CDATA[]]></layout_attribute_custom>
+        <schedule_pattern><![CDATA[every day]]></schedule_pattern>
+        <schedule_from_time><![CDATA[]]></schedule_from_time>
+        <schedule_to_time><![CDATA[]]></schedule_to_time>
+        <category_ids><![CDATA[]]></category_ids>
+        <cms_page><![CDATA[-1]]></cms_page>
+        <order><![CDATA[]]></order>
+        <status><![CDATA[1]]></status>
+        <display_pc><![CDATA[1]]></display_pc>
+        <display_tablet><![CDATA[1]]></display_tablet>
+        <display_mobile><![CDATA[1]]></display_mobile>
+        <content><![CDATA[<div class="em-payment f-right"><a class="em-payment-icon em-visa" title="em-sample-title" href="#">visa</a> <a class="em-payment-icon em-master" title="em-sample-title" href="#">master</a> <a class="em-payment-icon em-express " title="em-sample-title" href="#">express</a><a class="em-payment-icon em-paypal" title="em-sample-title" href="#">paypal</a></div>]]></content>
+        <conditions><![CDATA[a:6:{s:4:"type";s:34:"catalogrule/rule_condition_combine";s:9:"attribute";N;s:8:"operator";N;s:5:"value";s:1:"1";s:18:"is_value_processed";N;s:10:"aggregator";s:3:"all";}]]></conditions>
+        <from_date><![CDATA[]]></from_date>
+        <to_date><![CDATA[]]></to_date>
+      </fblock>
+      <fblock>
+        <package_theme><![CDATA[em0141/default]]></package_theme>
+        <title><![CDATA[EM0141 Glory Theme - All - Area Staic Block - Details Page - Ads]]></title>
+        <identifier><![CDATA[em0141-all-area-staticblock-detailspage-ads]]></identifier>
+        <additional_cache_tags><![CDATA[]]></additional_cache_tags>
+        <layout_handle><![CDATA[catalog_product_view]]></layout_handle>
+        <position><![CDATA[product.info.staticblock]]></position>
+        <layout_attribute><![CDATA[]]></layout_attribute>
+        <layout_handle_2><![CDATA[]]></layout_handle_2>
+        <position_2><![CDATA[]]></position_2>
+        <layout_attribute_2><![CDATA[]]></layout_attribute_2>
+        <layout_handle_3><![CDATA[]]></layout_handle_3>
+        <position_3><![CDATA[]]></position_3>
+        <layout_attribute_3><![CDATA[]]></layout_attribute_3>
+        <custom_layout_handle><![CDATA[]]></custom_layout_handle>
+        <custom_position><![CDATA[]]></custom_position>
+        <layout_attribute_custom><![CDATA[]]></layout_attribute_custom>
+        <schedule_pattern><![CDATA[every day]]></schedule_pattern>
+        <schedule_from_time><![CDATA[]]></schedule_from_time>
+        <schedule_to_time><![CDATA[]]></schedule_to_time>
+        <category_ids><![CDATA[]]></category_ids>
+        <cms_page><![CDATA[-1]]></cms_page>
+        <order><![CDATA[]]></order>
+        <status><![CDATA[1]]></status>
+        <display_pc><![CDATA[1]]></display_pc>
+        <display_tablet><![CDATA[1]]></display_tablet>
+        <display_mobile><![CDATA[1]]></display_mobile>
+        <content><![CDATA[<div class="em-wrapper-ads-09">
+<div class="row">
+<div class="col-sm-12 text-center em-wrapper-ads-item">
+<div class="em-ads-item">
+<p><em class="fa fa-fw"></em></p>
+<div class="em-banner-right em-ads-content">
+<h4 class="secondary2 em-text-upercase">free shipping</h4>
+</div>
+</div>
+</div>
+<div class="col-sm-12 text-center em-wrapper-ads-item  line-left">
+<div class="em-ads-item">
+<p><em class="fa fa-fw"></em></p>
+<div class="em-banner-right em-ads-content">
+<h4 class="secondary2 em-text-upercase">same day dispatch</h4>
+</div>
+</div>
+</div>
+</div>
+</div>]]></content>
+        <conditions><![CDATA[a:6:{s:4:"type";s:34:"catalogrule/rule_condition_combine";s:9:"attribute";N;s:8:"operator";N;s:5:"value";s:1:"1";s:18:"is_value_processed";N;s:10:"aggregator";s:3:"all";}]]></conditions>
+        <from_date><![CDATA[]]></from_date>
+        <to_date><![CDATA[]]></to_date>
+      </fblock>
+      <fblock>
+        <package_theme><![CDATA[em0141/default]]></package_theme>
+        <title><![CDATA[EM0141 Glory Theme - All - Area Static Replace With Related - Details Page]]></title>
+        <identifier><![CDATA[em0141-all-area-static-replace-with-related-details-page]]></identifier>
+        <additional_cache_tags><![CDATA[]]></additional_cache_tags>
+        <layout_handle><![CDATA[catalog_product_view]]></layout_handle>
+        <position><![CDATA[product.info.replace.related]]></position>
+        <layout_attribute><![CDATA[]]></layout_attribute>
+        <layout_handle_2><![CDATA[]]></layout_handle_2>
+        <position_2><![CDATA[]]></position_2>
+        <layout_attribute_2><![CDATA[]]></layout_attribute_2>
+        <layout_handle_3><![CDATA[]]></layout_handle_3>
+        <position_3><![CDATA[]]></position_3>
+        <layout_attribute_3><![CDATA[]]></layout_attribute_3>
+        <custom_layout_handle><![CDATA[]]></custom_layout_handle>
+        <custom_position><![CDATA[]]></custom_position>
+        <layout_attribute_custom><![CDATA[]]></layout_attribute_custom>
+        <schedule_pattern><![CDATA[every day]]></schedule_pattern>
+        <schedule_from_time><![CDATA[]]></schedule_from_time>
+        <schedule_to_time><![CDATA[]]></schedule_to_time>
+        <category_ids><![CDATA[]]></category_ids>
+        <cms_page><![CDATA[-1]]></cms_page>
+        <order><![CDATA[]]></order>
+        <status><![CDATA[1]]></status>
+        <display_pc><![CDATA[1]]></display_pc>
+        <display_tablet><![CDATA[1]]></display_tablet>
+        <display_mobile><![CDATA[1]]></display_mobile>
+        <content><![CDATA[<div class="block block-sample">
+<div class="em-line-01">
+<div class="em-block-title">
+<h2><span>This is sample static block replacing related products</span></h2>
+</div>
+</div>
+<div class="block-content box">
+<p>This is sample static block replacing related products. Put your own content here: filter widget,text, html, images - whatever you want.</p>
+</div>
+</div>]]></content>
+        <conditions><![CDATA[a:6:{s:4:"type";s:34:"catalogrule/rule_condition_combine";s:9:"attribute";N;s:8:"operator";N;s:5:"value";s:1:"1";s:18:"is_value_processed";N;s:10:"aggregator";s:3:"all";}]]></conditions>
+        <from_date><![CDATA[]]></from_date>
+        <to_date><![CDATA[]]></to_date>
+      </fblock>
+      <fblock>
+        <package_theme><![CDATA[em0141/default]]></package_theme>
+        <title><![CDATA[EM0141 Glory Theme - All - Area Static Block Replace With Upsell - Details Page]]></title>
+        <identifier><![CDATA[em0141-all-area-static-block-replace-with-upsell-details-page]]></identifier>
+        <additional_cache_tags><![CDATA[]]></additional_cache_tags>
+        <layout_handle><![CDATA[catalog_product_view]]></layout_handle>
+        <position><![CDATA[product.info.replace.upsell]]></position>
+        <layout_attribute><![CDATA[]]></layout_attribute>
+        <layout_handle_2><![CDATA[]]></layout_handle_2>
+        <position_2><![CDATA[]]></position_2>
+        <layout_attribute_2><![CDATA[]]></layout_attribute_2>
+        <layout_handle_3><![CDATA[]]></layout_handle_3>
+        <position_3><![CDATA[]]></position_3>
+        <layout_attribute_3><![CDATA[]]></layout_attribute_3>
+        <custom_layout_handle><![CDATA[]]></custom_layout_handle>
+        <custom_position><![CDATA[]]></custom_position>
+        <layout_attribute_custom><![CDATA[]]></layout_attribute_custom>
+        <schedule_pattern><![CDATA[every day]]></schedule_pattern>
+        <schedule_from_time><![CDATA[]]></schedule_from_time>
+        <schedule_to_time><![CDATA[]]></schedule_to_time>
+        <category_ids><![CDATA[]]></category_ids>
+        <cms_page><![CDATA[-1]]></cms_page>
+        <order><![CDATA[]]></order>
+        <status><![CDATA[1]]></status>
+        <display_pc><![CDATA[1]]></display_pc>
+        <display_tablet><![CDATA[1]]></display_tablet>
+        <display_mobile><![CDATA[1]]></display_mobile>
+        <content><![CDATA[<div class="block block-sample">
+<div class="em-line-01">
+<div class="em-block-title">
+<h2><span>This is sample static block replacing upsell products</span></h2>
+</div>
+<div class="block-content box">
+<p>This is sample static block replacing upsell products. Put your own content here: filter widget,text, html, images - whatever you want.</p>
+</div>
+</div>
+</div>]]></content>
+        <conditions><![CDATA[a:6:{s:4:"type";s:34:"catalogrule/rule_condition_combine";s:9:"attribute";N;s:8:"operator";N;s:5:"value";s:1:"1";s:18:"is_value_processed";N;s:10:"aggregator";s:3:"all";}]]></conditions>
+        <from_date><![CDATA[]]></from_date>
+        <to_date><![CDATA[]]></to_date>
+      </fblock>
+      <fblock>
+        <package_theme><![CDATA[em0141/default]]></package_theme>
+        <title><![CDATA[EM0141 Glory Theme - All - Area Add Extra Tabs - Details Page - Custom Tab 1]]></title>
+        <identifier><![CDATA[em0141-all-area-add-extra-tabs-details-page-custom-tab1]]></identifier>
+        <additional_cache_tags><![CDATA[]]></additional_cache_tags>
+        <layout_handle><![CDATA[catalog_product_view]]></layout_handle>
+        <position><![CDATA[product.info.additonal_collateral]]></position>
+        <layout_attribute><![CDATA[]]></layout_attribute>
+        <layout_handle_2><![CDATA[]]></layout_handle_2>
+        <position_2><![CDATA[]]></position_2>
+        <layout_attribute_2><![CDATA[]]></layout_attribute_2>
+        <layout_handle_3><![CDATA[]]></layout_handle_3>
+        <position_3><![CDATA[]]></position_3>
+        <layout_attribute_3><![CDATA[]]></layout_attribute_3>
+        <custom_layout_handle><![CDATA[]]></custom_layout_handle>
+        <custom_position><![CDATA[]]></custom_position>
+        <layout_attribute_custom><![CDATA[]]></layout_attribute_custom>
+        <schedule_pattern><![CDATA[every day]]></schedule_pattern>
+        <schedule_from_time><![CDATA[]]></schedule_from_time>
+        <schedule_to_time><![CDATA[]]></schedule_to_time>
+        <category_ids><![CDATA[]]></category_ids>
+        <cms_page><![CDATA[-1]]></cms_page>
+        <order><![CDATA[]]></order>
+        <status><![CDATA[1]]></status>
+        <display_pc><![CDATA[1]]></display_pc>
+        <display_tablet><![CDATA[1]]></display_tablet>
+        <display_mobile><![CDATA[1]]></display_mobile>
+        <content><![CDATA[<div class="box-collateral em-line-01">
+<div class="em-block-title">
+<h2>Custom Tab 1</h2>
+</div>
+<div class="box">
+<p>Sample Block Here ...</p>
+<p>A sample of additional collateral tabs that you can insert in static the backend.</p>
+</div>
+</div>]]></content>
+        <conditions><![CDATA[a:6:{s:4:"type";s:34:"catalogrule/rule_condition_combine";s:9:"attribute";N;s:8:"operator";N;s:5:"value";s:1:"1";s:18:"is_value_processed";N;s:10:"aggregator";s:3:"all";}]]></conditions>
+        <from_date><![CDATA[]]></from_date>
+        <to_date><![CDATA[]]></to_date>
+      </fblock>
+      <fblock>
+        <package_theme><![CDATA[em0141/default]]></package_theme>
+        <title><![CDATA[EM0141 Glory Theme - All - Area Add Extra Tabs - Details Page - Custom Tab N]]></title>
+        <position><![CDATA[product.info.additonal_collateral]]></position>
+        <custom_position><![CDATA[]]></custom_position>
+        <schedule_pattern><![CDATA[every day]]></schedule_pattern>
+        <schedule_from_time><![CDATA[]]></schedule_from_time>
+        <schedule_to_time><![CDATA[]]></schedule_to_time>
+        <category_ids><![CDATA[]]></category_ids>
+        <identifier><![CDATA[em0141-all-area-add-extra-tabs-details-page-custom-tab-n]]></identifier>
+        <layout_handle><![CDATA[catalog_product_view]]></layout_handle>
+        <custom_layout_handle><![CDATA[]]></custom_layout_handle>
+        <additional_cache_tags><![CDATA[]]></additional_cache_tags>
+        <layout_handle_2><![CDATA[]]></layout_handle_2>
+        <position_2><![CDATA[]]></position_2>
+        <layout_handle_3><![CDATA[]]></layout_handle_3>
+        <position_3><![CDATA[]]></position_3>
+        <layout_attribute><![CDATA[]]></layout_attribute>
+        <layout_attribute_2><![CDATA[]]></layout_attribute_2>
+        <layout_attribute_3><![CDATA[]]></layout_attribute_3>
+        <layout_attribute_custom><![CDATA[]]></layout_attribute_custom>
+        <cms_page><![CDATA[-1]]></cms_page>
+        <order><![CDATA[]]></order>
+        <status><![CDATA[1]]></status>
+        <display_pc><![CDATA[1]]></display_pc>
+        <display_tablet><![CDATA[1]]></display_tablet>
+        <display_mobile><![CDATA[1]]></display_mobile>
+        <content><![CDATA[<div class="box-collateral  em-line-01">
+<div class="em-block-title">
+<h2>Custom Tab N</h2>
+</div>
+<div class="box">
+<p>Sample Block Here ...</p>
+<p>A sample of additional collateral tabs that you can insert in static the backend.</p>
+</div>
+</div>]]></content>
+        <conditions><![CDATA[a:6:{s:4:"type";s:34:"catalogrule/rule_condition_combine";s:9:"attribute";N;s:8:"operator";N;s:5:"value";s:1:"1";s:18:"is_value_processed";N;s:10:"aggregator";s:3:"all";}]]></conditions>
+        <from_date><![CDATA[]]></from_date>
+        <to_date><![CDATA[]]></to_date>
+      </fblock>
+      <fblock>
+        <package_theme><![CDATA[em0141/default]]></package_theme>
+        <title><![CDATA[EM0141 Glory Theme - All - Area Size Chart - Details - Size Chart]]></title>
+        <identifier><![CDATA[em0141-all-area-size-chart-details]]></identifier>
+        <additional_cache_tags><![CDATA[]]></additional_cache_tags>
+        <layout_handle><![CDATA[catalog_product_view]]></layout_handle>
+        <position><![CDATA[product.info.sizechart]]></position>
+        <layout_attribute><![CDATA[]]></layout_attribute>
+        <layout_handle_2><![CDATA[]]></layout_handle_2>
+        <position_2><![CDATA[]]></position_2>
+        <layout_attribute_2><![CDATA[]]></layout_attribute_2>
+        <layout_handle_3><![CDATA[]]></layout_handle_3>
+        <position_3><![CDATA[]]></position_3>
+        <layout_attribute_3><![CDATA[]]></layout_attribute_3>
+        <custom_layout_handle><![CDATA[]]></custom_layout_handle>
+        <custom_position><![CDATA[]]></custom_position>
+        <layout_attribute_custom><![CDATA[]]></layout_attribute_custom>
+        <schedule_pattern><![CDATA[every day]]></schedule_pattern>
+        <schedule_from_time><![CDATA[]]></schedule_from_time>
+        <schedule_to_time><![CDATA[]]></schedule_to_time>
+        <category_ids><![CDATA[]]></category_ids>
+        <cms_page><![CDATA[-1]]></cms_page>
+        <order><![CDATA[]]></order>
+        <status><![CDATA[1]]></status>
+        <display_pc><![CDATA[1]]></display_pc>
+        <display_tablet><![CDATA[1]]></display_tablet>
+        <display_mobile><![CDATA[1]]></display_mobile>
+        <content><![CDATA[<p data-toggle="modal" data-target="#sizechartModal"><a class="em-info-size"><i class="fa fa-fw"></i>Size Chart</a></p>
+<div id="sizechartModal" class="modal fade" role="dialog">
+<div class="modal-dialog" role="document">
+<div class="modal-content">
+<div class="modal-header"><button class="close" type="button" data-dismiss="modal"><span>&times;</span></button>
+<h4 id="sizechartModalLabel" class="modal-title">Size Chart</h4>
+</div>
+<div class="modal-body">
+<div class="box">
+<p><a href="#"><img class="img-responsive" alt="em_ads_01.jpg" src="{{media url='wysiwyg/em0141/layout_fashion/detail/em_ads_01.jpg'}}" /></a></p>
+</div>
+</div>
+</div>
+</div>
+</div>]]></content>
+        <conditions><![CDATA[a:6:{s:4:"type";s:34:"catalogrule/rule_condition_combine";s:9:"attribute";N;s:8:"operator";N;s:5:"value";s:1:"1";s:18:"is_value_processed";N;s:10:"aggregator";s:3:"all";}]]></conditions>
+        <from_date><![CDATA[]]></from_date>
+        <to_date><![CDATA[]]></to_date>
+      </fblock>
+      <fblock>
+        <package_theme><![CDATA[em0141/default]]></package_theme>
+        <title><![CDATA[EM0141 Glory Theme - All - Area Static Replace With Crosssel - Cart Page]]></title>
+        <identifier><![CDATA[em0141-all-area-static-replace-with-crosll-cart-page]]></identifier>
+        <additional_cache_tags><![CDATA[]]></additional_cache_tags>
+        <layout_handle><![CDATA[checkout_cart_index]]></layout_handle>
+        <position><![CDATA[checkout.cart.replace.crosssell]]></position>
+        <layout_attribute><![CDATA[]]></layout_attribute>
+        <layout_handle_2><![CDATA[]]></layout_handle_2>
+        <position_2><![CDATA[]]></position_2>
+        <layout_attribute_2><![CDATA[]]></layout_attribute_2>
+        <layout_handle_3><![CDATA[]]></layout_handle_3>
+        <position_3><![CDATA[]]></position_3>
+        <layout_attribute_3><![CDATA[]]></layout_attribute_3>
+        <custom_layout_handle><![CDATA[]]></custom_layout_handle>
+        <custom_position><![CDATA[]]></custom_position>
+        <layout_attribute_custom><![CDATA[]]></layout_attribute_custom>
+        <schedule_pattern><![CDATA[every day]]></schedule_pattern>
+        <schedule_from_time><![CDATA[]]></schedule_from_time>
+        <schedule_to_time><![CDATA[]]></schedule_to_time>
+        <category_ids><![CDATA[]]></category_ids>
+        <cms_page><![CDATA[-1]]></cms_page>
+        <order><![CDATA[]]></order>
+        <status><![CDATA[1]]></status>
+        <display_pc><![CDATA[1]]></display_pc>
+        <display_tablet><![CDATA[1]]></display_tablet>
+        <display_mobile><![CDATA[1]]></display_mobile>
+        <content><![CDATA[<div class="block block-sample em-line-01">
+<div class="em-block-title">
+<h2><span>This is sample static block replacing crosssel products</span></h2>
+</div>
+<div class="block-content box">
+<p>This is sample static block replacing crosssel products. Put your own content here: filter widget,text, html, images - whatever you want.</p>
+</div>
+</div>]]></content>
+        <conditions><![CDATA[a:6:{s:4:"type";s:34:"catalogrule/rule_condition_combine";s:9:"attribute";N;s:8:"operator";N;s:5:"value";s:1:"1";s:18:"is_value_processed";N;s:10:"aggregator";s:3:"all";}]]></conditions>
+        <from_date><![CDATA[]]></from_date>
+        <to_date><![CDATA[]]></to_date>
+      </fblock>
+      <fblock>
+        <package_theme><![CDATA[em0141/default]]></package_theme>
+        <title><![CDATA[EM0141 Glory Theme - All - Area Contacts]]></title>
+        <identifier><![CDATA[em0141-all-area-contacts]]></identifier>
+        <additional_cache_tags><![CDATA[]]></additional_cache_tags>
+        <layout_handle><![CDATA[contacts_index_index]]></layout_handle>
+        <position><![CDATA[em_area_contacts_block]]></position>
+        <layout_attribute><![CDATA[]]></layout_attribute>
+        <layout_handle_2><![CDATA[]]></layout_handle_2>
+        <position_2><![CDATA[]]></position_2>
+        <layout_attribute_2><![CDATA[]]></layout_attribute_2>
+        <layout_handle_3><![CDATA[]]></layout_handle_3>
+        <position_3><![CDATA[]]></position_3>
+        <layout_attribute_3><![CDATA[]]></layout_attribute_3>
+        <custom_layout_handle><![CDATA[]]></custom_layout_handle>
+        <custom_position><![CDATA[]]></custom_position>
+        <layout_attribute_custom><![CDATA[]]></layout_attribute_custom>
+        <schedule_pattern><![CDATA[every day]]></schedule_pattern>
+        <schedule_from_time><![CDATA[]]></schedule_from_time>
+        <schedule_to_time><![CDATA[]]></schedule_to_time>
+        <category_ids><![CDATA[]]></category_ids>
+        <cms_page><![CDATA[-1]]></cms_page>
+        <order><![CDATA[]]></order>
+        <status><![CDATA[1]]></status>
+        <display_pc><![CDATA[1]]></display_pc>
+        <display_tablet><![CDATA[1]]></display_tablet>
+        <display_mobile><![CDATA[1]]></display_mobile>
+        <content><![CDATA[<div class="em-maps-wrapper">
+<h1>Place for nice title</h1>
+<p>You can change visual appearance of almost every element of this Magento theme. You can set your favorite colors and generate css file from the admin.</p>
+</div>
+<address><span class="fa fa-map-marker secondary2">&nbsp;</span>Adress: {{config path="general/store_information/address"}}</address>
+<p class="em-phone"><span class="fa fa-phone secondary2">&nbsp;</span>Phone: <span class="primary"> {{config path="general/store_information/phone"}}</span></p>
+<p class="em-fax"><span class="fa fa-fax secondary2">&nbsp;</span>Fax: <span class="primary">123456789xxxx</span></p>
+<p class="em-email"><span class="fa fa-envelope secondary2">&nbsp;</span>Email: <span class="secondary2">{{config path="trans_email/ident_general/email"}}</span></p>]]></content>
+        <conditions><![CDATA[a:6:{s:4:"type";s:34:"catalogrule/rule_condition_combine";s:9:"attribute";N;s:8:"operator";N;s:5:"value";s:1:"1";s:18:"is_value_processed";N;s:10:"aggregator";s:3:"all";}]]></conditions>
+        <from_date><![CDATA[]]></from_date>
+        <to_date><![CDATA[]]></to_date>
+      </fblock>
+    </flexible_block>
+    <themeframework/>
+    <staticblock>
+      <block id="62">
+        <title><![CDATA[EM0141 Glory Theme - Baby Mom - Area Main 01 - Today Deal - Tab 01]]></title>
+        <identifier><![CDATA[em0141-babymom-area-main01-today-deal-tab01]]></identifier>
+        <content><![CDATA[<div class="button-hide-text em-today-deals products-grid em-slider" data-emslider-navigation="true" data-emslider-items="3" data-emslider-desktop="3" data-emslider-desktop-small="2" data-emslider-tablet="1" data-emslider-mobile="1">{{widget type="multidealpro/widgets" category="38" deal_type="0,1,2" limit_count="3" show_label="true" order_by="name asc" thumbnail_width="255" thumbnail_height="307" show_product_name="true" show_price="true" show_clock="true" show_qty="true" show_addtocart="true" show_addto="true" choose_template="custom_template" custom_theme="em_multidealpro/em_today_weekly_deal.phtml"}}</div>
+<script type="text/javascript">// <![CDATA[
+(function($) {
+	   $_img = $('.em-wrapper-today-deals-slider').find('img.em-img-lazy');
+		$_img.one("inview", function() {
+			var $this = $(this);
+			$this.attr("src", $this.attr("data-original"));
+			$this.removeAttr("data-original");
+			if ($(this).attr("src").indexOf('loading.gif') == -1) {
+				$(this).removeClass("em-img-lazy").addClass('em-lazy-loaded');
+				if($(this).parent('.product-image').hasClass('loading-process')){
+					$(this).parent('.product-image').removeClass('loading-process'); 
+				}                                         
+							   
+			}
+		});
+	})(jQuery);
+// ]]]]><![CDATA[></script>]]></content>
+        <is_active><![CDATA[1]]></is_active>
+      </block>
+      <block id="63">
+        <title><![CDATA[EM0141 Glory Theme - Baby Mom - Area Main 01 - Weekly Deal - Tab 02]]></title>
+        <identifier><![CDATA[em0141-babymom-area-main01-weekly-deal-tab02]]></identifier>
+        <content><![CDATA[<div class="button-hide-text em-wrapper-weekly-deals-slider em-today-deals products-grid em-slider" data-emslider-navigation="true" data-emslider-items="3" data-emslider-desktop="2" data-emslider-desktop-small="2" data-emslider-tablet="1" data-emslider-mobile="1">{{widget type="multidealpro/widgets" category="38" deal_type="0,1,2" limit_count="3" show_label="true" order_by="name asc" thumbnail_width="255" thumbnail_height="307" show_product_name="true" show_price="true" show_clock="true" show_qty="true" show_addtocart="true" show_addto="true" choose_template="custom_template" custom_theme="em_multidealpro/em_today_weekly_deal.phtml"}}</div>
+<script type="text/javascript">// <![CDATA[
+(function($) {
+	   $_img = $('.em-wrapper-weekly-deals-slider').find('img.em-img-lazy');
+		$_img.one("inview", function() {
+			var $this = $(this);
+			$this.attr("src", $this.attr("data-original"));
+			$this.removeAttr("data-original");
+			if ($(this).attr("src").indexOf('loading.gif') == -1) {
+				$(this).removeClass("em-img-lazy").addClass('em-lazy-loaded');
+				if($(this).parent('.product-image').hasClass('loading-process')){
+					$(this).parent('.product-image').removeClass('loading-process'); 
+				}                                         
+							   
+			}
+		});
+	})(jQuery);
+// ]]]]><![CDATA[></script>]]></content>
+        <is_active><![CDATA[1]]></is_active>
+      </block>
+    </staticblock>
+    <cmspage>
+      <page id="13">
+        <title><![CDATA[EM0141 Glory - Homepage - One Column]]></title>
+        <identifier><![CDATA[em0141-home]]></identifier>
+        <content><![CDATA[<!--emplty-->]]></content>
+        <is_active><![CDATA[1]]></is_active>
+        <root_template><![CDATA[one_column]]></root_template>
+        <meta_keywords><![CDATA[]]></meta_keywords>
+        <meta_description><![CDATA[]]></meta_description>
+        <content_heading><![CDATA[]]></content_heading>
+        <sort_order><![CDATA[0]]></sort_order>
+        <layout_update_xml><![CDATA[]]></layout_update_xml>
+        <custom_theme><![CDATA[]]></custom_theme>
+        <custom_root_template><![CDATA[]]></custom_root_template>
+        <custom_layout_update_xml><![CDATA[]]></custom_layout_update_xml>
+        <custom_theme_from><![CDATA[]]></custom_theme_from>
+        <custom_theme_to><![CDATA[]]></custom_theme_to>
+      </page>
+      <page id="14">
+        <title><![CDATA[EM0141 Glory - Homepage - Two Columns Left]]></title>
+        <identifier><![CDATA[em0141-home-2left]]></identifier>
+        <content><![CDATA[<!--empty-->]]></content>
+        <is_active><![CDATA[1]]></is_active>
+        <root_template><![CDATA[two_columns_left]]></root_template>
+        <meta_keywords><![CDATA[]]></meta_keywords>
+        <meta_description><![CDATA[]]></meta_description>
+        <content_heading><![CDATA[]]></content_heading>
+        <sort_order><![CDATA[0]]></sort_order>
+        <layout_update_xml><![CDATA[]]></layout_update_xml>
+        <custom_theme><![CDATA[]]></custom_theme>
+        <custom_root_template><![CDATA[]]></custom_root_template>
+        <custom_layout_update_xml><![CDATA[]]></custom_layout_update_xml>
+        <custom_theme_from><![CDATA[]]></custom_theme_from>
+        <custom_theme_to><![CDATA[]]></custom_theme_to>
+      </page>
+      <page id="15">
+        <title><![CDATA[EM0141 Glory - Homepage - Two Columns Right]]></title>
+        <identifier><![CDATA[em0141-home-right]]></identifier>
+        <content><![CDATA[<!--empty-->]]></content>
+        <is_active><![CDATA[1]]></is_active>
+        <root_template><![CDATA[two_columns_right]]></root_template>
+        <meta_keywords><![CDATA[]]></meta_keywords>
+        <meta_description><![CDATA[]]></meta_description>
+        <content_heading><![CDATA[]]></content_heading>
+        <sort_order><![CDATA[0]]></sort_order>
+        <layout_update_xml><![CDATA[]]></layout_update_xml>
+        <custom_theme><![CDATA[]]></custom_theme>
+        <custom_root_template><![CDATA[]]></custom_root_template>
+        <custom_layout_update_xml><![CDATA[]]></custom_layout_update_xml>
+        <custom_theme_from><![CDATA[]]></custom_theme_from>
+        <custom_theme_to><![CDATA[]]></custom_theme_to>
+      </page>
+      <page id="16">
+        <title><![CDATA[Typography]]></title>
+        <identifier><![CDATA[em0141-typography]]></identifier>
+        <content><![CDATA[<h2>General Elements</h2>
+<h1>Heading 1</h1>
+<h2>Heading 2</h2>
+<h3>Heading 3</h3>
+<h4>Heading 4</h4>
+<h5>Heading 5</h5>
+<ul>
+<li>Bullet List 1</li>
+<ul>
+<li>Bullet List 1.1</li>
+<li>Bullet List 1.2</li>
+<li>Bullet List 1.3</li>
+<li>Bullet List 1.4</li>
+</ul>
+<li>Bullet List 2</li>
+<li>Bullet List 3</li>
+<li>Bullet List 4</li>
+</ul>
+<ol>
+<li>Number List 1</li>
+<ol>
+<li>Number List 1.1</li>
+<li>Number List 1.2</li>
+<li>Number List 1.3</li>
+<li>Number List 1.4</li>
+</ol>
+<li>Number List 2</li>
+<li>Number List 3</li>
+<li>Number List 4</li>
+</ol><dl><dt>Definition title dt</dt><dd>Defination description dd</dd><dt>Definition title dt</dt><dd>Defination description dd</dd></dl>
+<p><code>Code tag:&nbsp;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</code></p>
+<blockquote>
+<p>block quote&nbsp;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</blockquote>
+<div class="box f-left">element with class <strong>.f-left</strong></div>
+<div class="box f-right">element with class <strong>.f-right</strong></div>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&nbsp;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&nbsp;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<h2>Tables</h2>
+<p>Table with class <strong>.data-table</strong></p>
+<table class="data-table" style="width: 100%; display: inline-table;" border="0">
+<thead>
+<tr><th>THEAD TH</th><th>THEAD TH</th><th>THEAD TH</th><th>THEAD TH</th><th>THEAD TH</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>TBODY TD</td>
+<td>TBODY TD</td>
+<td>TBODY TD</td>
+<td>TBODY TD</td>
+<td>TBODY TD</td>
+</tr>
+<tr>
+<td>TBODY TD</td>
+<td>TBODY TD</td>
+<td>TBODY TD</td>
+<td>TBODY TD</td>
+<td>TBODY TD</td>
+</tr>
+<tr>
+<td>TBODY TD</td>
+<td>TBODY TD</td>
+<td>TBODY TD</td>
+<td>TBODY TD</td>
+<td>TBODY TD</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<h2>Custom CSS Classes</h2>
+<p class="small">tag <strong>small</strong> and class <strong>.small</strong></p>
+<p class="underline">element with class <strong>.underline</strong></p>
+<h2>Custom CSS Classes Color</h2>
+<p class="normal">element with class <strong>.normal</strong></p>
+<p class="primary">element with class <strong>.primary</strong></p>
+<p class="secondary">element with class <strong>.secondary</strong></p>
+<p class="secondary2">element with class <strong>.secondary2</strong></p>
+<p class="secondary3">element with class <strong>.secondary3</strong></p>
+<p><strong>ul.none</strong> and <strong>ol.none</strong>:</p>
+<ul class="none">
+<li>Bullet List 1</li>
+<ul>
+<li>Bullet List 1.1</li>
+<li>Bullet List 1.2</li>
+<li>Bullet List 1.3</li>
+<li>Bullet List 1.4</li>
+</ul>
+<li>Bullet List 2</li>
+<li>Bullet List 3</li>
+<li>Bullet List 4</li>
+</ul>
+<p><strong>ul.hoz</strong> and <strong>ol.hoz</strong>:</p>
+<ul class="hoz">
+<li>Bullet List 1</li>
+<li>Bullet List 2</li>
+<li>Bullet List 3</li>
+<li>Bullet List 4</li>
+</ul>
+<div class="box">
+<p>paragraph with class <strong>.box</strong>:</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</div>
+<p class="bottom">Paragraph with class <strong>.bottom</strong> always has margin-bottom = 0.</p>
+<h2>Available classes</h2>
+<p>se a single or combination of the available classes for toggling content across viewport breakpoints.</p>
+<table class="data-table responsive-utilities">
+<thead>
+<tr><th style="min-width: 140px;">&nbsp;</th><th style="white-space: normal;">Extra small devices <small>Phones (&lt;768px)</small></th><th style="white-space: normal;">Small devices <small>Tablets (=768px)</small></th><th style="white-space: normal;">Medium devices <small>Desktops (=992px)</small></th><th style="white-space: normal;">Large devices <small>Desktops (=1200px)</small></th></tr>
+</thead>
+<tbody>
+<tr><th><code>.visible-xs-*</code></th>
+<td class="is-visible">Visible</td>
+<td class="is-hidden">Hidden</td>
+<td class="is-hidden">Hidden</td>
+<td class="is-hidden">Hidden</td>
+</tr>
+<tr><th><code>.visible-sm-*</code></th>
+<td class="is-hidden">Hidden</td>
+<td class="is-visible">Visible</td>
+<td class="is-hidden">Hidden</td>
+<td class="is-hidden">Hidden</td>
+</tr>
+<tr><th><code>.visible-md-*</code></th>
+<td class="is-hidden">Hidden</td>
+<td class="is-hidden">Hidden</td>
+<td class="is-visible">Visible</td>
+<td class="is-hidden">Hidden</td>
+</tr>
+<tr><th><code>.visible-lg-*</code></th>
+<td class="is-hidden">Hidden</td>
+<td class="is-hidden">Hidden</td>
+<td class="is-hidden">Hidden</td>
+<td class="is-visible">Visible</td>
+</tr>
+</tbody>
+<tbody>
+<tr><th><code>.hidden-xs</code></th>
+<td class="is-hidden">Hidden</td>
+<td class="is-visible">Visible</td>
+<td class="is-visible">Visible</td>
+<td class="is-visible">Visible</td>
+</tr>
+<tr><th><code>.hidden-sm</code></th>
+<td class="is-visible">Visible</td>
+<td class="is-hidden">Hidden</td>
+<td class="is-visible">Visible</td>
+<td class="is-visible">Visible</td>
+</tr>
+<tr><th><code>.hidden-md</code></th>
+<td class="is-visible">Visible</td>
+<td class="is-visible">Visible</td>
+<td class="is-hidden">Hidden</td>
+<td class="is-visible">Visible</td>
+</tr>
+<tr><th><code>.hidden-lg</code></th>
+<td class="is-visible">Visible</td>
+<td class="is-visible">Visible</td>
+<td class="is-visible">Visible</td>
+<td class="is-hidden">Hidden</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<h2>Font Icons - Font Awesome</h2>
+<table class="data-table" style="display: inline-table;" border="0">
+<tbody>
+<tr>
+<td>
+<p>Call</p>
+<p>&nbsp;</p>
+<code class="html"><span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"fa fa-phone"</span><span class="nt">&gt;&lt;/span&gt;</span></code></td>
+<td>
+<p>Special Deals</p>
+<p>&nbsp;</p>
+<code class="html"><span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"fa fa-tag"</span><span class="nt">&gt;&lt;/span&gt;</span></code></td>
+<td>
+<p>Customer Support</p>
+<p>&nbsp;</p>
+<code class="html"><span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"fa fa-life-ring"</span><span class="nt">&gt;&lt;/span&gt;</span></code></td>
+<td>
+<p>Login</p>
+<p>&nbsp;</p>
+<code class="html"><span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"fa fa-user"</span><span class="nt">&gt;&lt;/span&gt;</span></code></td>
+</tr>
+<tr>
+<td>
+<p>Search</p>
+<p>&nbsp;</p>
+<code class="html"><span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"fa fa-search"</span><span class="nt">&gt;&lt;/span&gt;</span></code></td>
+<td>
+<p>Cart</p>
+<p>&nbsp;</p>
+<code class="html"><span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"fa fa-shopping-cart"</span><span class="nt">&gt;&lt;/span&gt;</span></code></td>
+<td>
+<p>Wishlist</p>
+<p>&nbsp;</p>
+<code class="html"><span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"fa fa-heart"</span><span class="nt">&gt;&lt;/span&gt;</span></code></td>
+<td>
+<p>Compare</p>
+<p>&nbsp;</p>
+<code class="html"><span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"fa fa-exchange"</span><span class="nt">&gt;&lt;/span&gt;</span></code></td>
+</tr>
+<tr>
+<td>
+<p>Address</p>
+<p>&nbsp;</p>
+<code class="html"><span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"fa fa-map-marker"</span><span class="nt">&gt;&lt;/span&gt;</span></code></td>
+<td>
+<p>Phone</p>
+<p>&nbsp;</p>
+<code class="html"><span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"fa fa-phone"</span><span class="nt">&gt;&lt;/span&gt;</span></code></td>
+<td>
+<p>Fax</p>
+<p>&nbsp;</p>
+<code class="html"><span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"fa fa-fax"</span><span class="nt">&gt;&lt;/span&gt;</span></code></td>
+<td>
+<p>Email</p>
+<p>&nbsp;</p>
+<code class="html"><span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"fa fa-envelope"</span><span class="nt">&gt;&lt;/span&gt;</span></code></td>
+</tr>
+<tr>
+<td>
+<p>Facebook</p>
+<p>&nbsp;</p>
+<code class="html"><span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"fa fa-facebook"</span><span class="nt">&gt;&lt;/span&gt;</span></code></td>
+<td>
+<p>Twitter</p>
+<p>&nbsp;</p>
+<code class="html"><span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"fa fa-twitter"</span><span class="nt">&gt;&lt;/span&gt;</span></code></td>
+<td>
+<p>Rss</p>
+<p>&nbsp;</p>
+<code class="html"><span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"fa fa-rss"</span><span class="nt">&gt;&lt;/span&gt;</span></code></td>
+<td>
+<p>Pinterest</p>
+<p>&nbsp;</p>
+<code class="html"><span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"fa fa-pinterest"</span><span class="nt">&gt;&lt;/span&gt;</span></code></td>
+</tr>
+<tr>
+<td>
+<p>Google Plus</p>
+<p>&nbsp;</p>
+<code class="html"><span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"fa fa-google-plus"</span><span class="nt">&gt;&lt;/span&gt;</span></code></td>
+<td>
+<p>Vimeo</p>
+<p>&nbsp;</p>
+<code class="html"><span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"fa fa-vimeo-square"</span><span class="nt">&gt;&lt;/span&gt;</span></code></td>
+<td colspan="2">
+<p>Youtube</p>
+<p>&nbsp;</p>
+<code class="html"><span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"fa fa-youtube-play"</span><span class="nt">&gt;&lt;/span&gt;</span></code></td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<h2>Examples use font icons</h2>
+<table class="data-table" style="display: inline-table;" border="0">
+<tbody>
+<tr>
+<td>
+<p style="min-width: 200px;">Facebook</p>
+<p>&nbsp;</p>
+</td>
+<td colspan="2">
+<p>You can place Font Awesome icons just about anywhere using the CSS Prefix fa and the icon's name. Font Awesome is designed to be used with inline elements (we like the <em> tag for brevity, but using a <span> is more semantically correct).</span></em></p>
+<p><code class="html"><span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"fa fa-facebook-square"</span><span class="nt">&gt;&lt;/span&gt;</span> fa-facebook-square </code></p>
+</td>
+</tr>
+<tr>
+<td colspan="3">
+<p>If you change the font-size of the icon's container, the icon gets bigger. Same things goes for color, drop shadow, and anything else that gets inherited using CSS.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>fa-lg</p>
+<p>fa-2x</p>
+<p>fa-3x</p>
+<p>fa-4x</p>
+<p>fa-5x</p>
+</td>
+<td colspan="2">
+<p>To increase icon sizes relative to their container, use the <code>fa-lg</code> (33% increase), <code>fa-2x</code>, <code>fa-3x</code>, <code>fa-4x</code>, or <code>fa-5x</code> classes.</p>
+<code class="html" style="display: inline-block; padding: 10px;"> <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"fa fa-facebook-square fa-lg"</span><span class="nt">&gt;&lt;/span&gt;</span> fa-lg<br /> <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"fa fa-facebook-square fa-2x"</span><span class="nt">&gt;&lt;/span&gt;</span> fa-2x<br /> <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"fa fa-facebook-square fa-3x"</span><span class="nt">&gt;&lt;/span&gt;</span> fa-3x<br /> <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"fa fa-facebook-square fa-4x"</span><span class="nt">&gt;&lt;/span&gt;</span> fa-4x<br /> <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"fa fa-facebook-square fa-5x"</span><span class="nt">&gt;&lt;/span&gt;</span> fa-5x<br /> </code></td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<h2>Logo</h2>
+<table class="data-table" style="display: inline-table;" border="0">
+<tbody>
+<tr>
+<td>
+<p>.em-payment-icon.em-visa</p>
+<p><a class="em-payment-icon em-visa">a.em-payment-icon.em-visa</a></p>
+</td>
+<td>
+<p>.em-payment-icon.em-master</p>
+<p><a class="em-payment-icon em-master">a.em-payment-icon.em-master</a></p>
+</td>
+<td>
+<p>.em-payment-icon.em-express</p>
+<p><a class="em-payment-icon em-express">a.em-payment-icon.em-express</a></p>
+</td>
+<td>
+<p>.em-payment-icon.em-paypal</p>
+<p><a class="em-payment-icon em-paypal">a.em-payment-icon.em-paypal</a></p>
+</td>
+<td>
+<p>.em-payment-icon.em-other</p>
+<p><a class="em-payment-icon em-other">a.em-payment-icon.em-other</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<h2>Label</h2>
+<table class="data-table" style="display: inline-table;" border="0">
+<tbody>
+<tr style="height: 100px;">
+<td>
+<p>.label.new</p>
+<div style="position: relative;">
+<ul class="productlabels_icons" style="padding-left: 0; margin: 0; left: 0;">
+<li class="label new" style="position: relative; list-style: none;">
+<p>New</p>
+</li>
+</ul>
+</div>
+</td>
+<td>
+<p>.label.hot</p>
+<div style="position: relative;">
+<ul class="productlabels_icons" style="padding-left: 0; margin: 0; left: 0;">
+<li class="label hot" style="position: relative; list-style: none;">
+<p>Hot</p>
+</li>
+</ul>
+</div>
+</td>
+<td>
+<p>.label.special</p>
+<div style="position: relative;">
+<ul class="productlabels_icons" style="padding-left: 0; margin: 0; left: 0;">
+<li class="label special" style="position: relative; list-style: none;">
+<p>Sale</p>
+</li>
+</ul>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<p>image with class <strong>.img-responsive</strong>:</p>
+<p><img class="img-responsive" title="image with class .img-responsive" alt="image with class .img-responsive" src="{{media url="wysiwyg/em0141/layout_vintage/home/em_ads_02.jpg"}}" /></p>]]></content>
+        <is_active><![CDATA[1]]></is_active>
+        <root_template><![CDATA[one_column]]></root_template>
+        <meta_keywords><![CDATA[]]></meta_keywords>
+        <meta_description><![CDATA[]]></meta_description>
+        <content_heading><![CDATA[typography]]></content_heading>
+        <sort_order><![CDATA[0]]></sort_order>
+        <layout_update_xml><![CDATA[]]></layout_update_xml>
+        <custom_theme><![CDATA[]]></custom_theme>
+        <custom_root_template><![CDATA[]]></custom_root_template>
+        <custom_layout_update_xml><![CDATA[]]></custom_layout_update_xml>
+        <custom_theme_from><![CDATA[]]></custom_theme_from>
+        <custom_theme_to><![CDATA[]]></custom_theme_to>
+      </page>
+    </cmspage>
+    <megamenu>
+      <menu id="14">
+        <name><![CDATA[EM0141 Glory - Area Navigation - Top Menu]]></name>
+        <identifier><![CDATA[em0141-area-navigation-top-menu]]></identifier>
+        <description><![CDATA[EM0141 Glory - Area Navigation - Top Menu]]></description>
+        <type><![CDATA[0]]></type>
+        <status><![CDATA[1]]></status>
+        <content><![CDATA[[{"type":"link","label":"Home","sublabel":"","icon_url":"","url":"{{config path='web\/unsecure\/base_url'}}","target":"","css_class":"","container_css":"","depth":"0"},{"type":"hbox","width":"","height":"","spacing":"","css_class":"col-menu menu_col24 grid_24","container_css":"","depth":"1"},{"type":"vbox","width":"","height":"","spacing":"","css_class":"col-sm-24","container_css":"","depth":"2"},{"type":"text","text":"PGRpdiBjbGFzcz0ic3RvcmUtdmlldyI+Cgk8ZGl2IGNsYXNzPSJjb2wtc20tNCI+CgkJPGRpdiBjbGFzcz0iem9vbS1pbWFnZSI+PGEgY2xhc3M9ImJhbm5lci1pbWciIHRpdGxlPSJGYXNoaW9uIFN0b3JlIiBocmVmPSJ7e3N0b3JlIGRpcmVjdF91cmw9Jz9fX19zdG9yZT1kZWZhdWx0J319Ij48aW1nIGNsYXNzPSJpbWctcmVzcG9uc2l2ZSIgc3JjPSJ7e3NraW4gdXJsPSdpbWFnZXMvc3RvcmV2aWV3L2Zhc2hpb25fbWFpbl9zdG9yZS5qcGcnfX0iIGFsdD0iRmFzaGlvbiBTdG9yZSIgLz48L2E+PC9kaXY+CgkJPHAgY2xhc3M9Img1Ij48YSBocmVmPSJ7e3N0b3JlIGRpcmVjdF91cmw9Jz9fX19zdG9yZT1kZWZhdWx0J319Ij5GYXNoaW9uIFN0b3JlPC9hPjwvcD4KCTwvZGl2PgoJPGRpdiBjbGFzcz0iY29sLXNtLTQiPgoJCTxkaXYgY2xhc3M9Inpvb20taW1hZ2UiPjxhIGNsYXNzPSJiYW5uZXItaW1nIiB0aXRsZT0iRmFzaGlvbiBWaW50YWdlIiBocmVmPSJ7e3N0b3JlIGRpcmVjdF91cmw9Jz9fX19zdG9yZT1mYXNoaW9udmludGFnZV9lbmcnfX0iPjxpbWcgY2xhc3M9ImltZy1yZXNwb25zaXZlIiBzcmM9Int7c2tpbiB1cmw9J2ltYWdlcy9zdG9yZXZpZXcvZmFzaGlvbl92aW50YWdlLmpwZyd9fSIgYWx0PSJGYXNoaW9uIFZpbnRhZ2UiIC8+PC9hPjwvZGl2PgoJCTxwIGNsYXNzPSJoNSI+PGEgaHJlZj0ie3tzdG9yZSBkaXJlY3RfdXJsPSc\/X19fc3RvcmU9ZmFzaGlvbnZpbnRhZ2VfZW5nJ319Ij5GYXNoaW9uIFZpbnRhZ2U8L2E+PC9wPgoJPC9kaXY+Cgk8ZGl2IGNsYXNzPSJjb2wtc20tNCI+CgkJPGRpdiBjbGFzcz0iem9vbS1pbWFnZSI+PGEgY2xhc3M9ImJhbm5lci1pbWciIHRpdGxlPSJCYWJ5ICYgTW9tIiBocmVmPSJ7e3N0b3JlIGRpcmVjdF91cmw9Jz9fX19zdG9yZT1iYWJ5bW9tX2VuZyd9fSI+PGltZyBjbGFzcz0iaW1nLXJlc3BvbnNpdmUiIHNyYz0ie3tza2luIHVybD0naW1hZ2VzL3N0b3Jldmlldy9mYXNoaW9uX2JhYnlfbW9tLmpwZyd9fSIgYWx0PSJCYWJ5ICYgTW9tIiAvPjwvYT48L2Rpdj4KCQk8cCBjbGFzcz0iaDUiPjxhIGhyZWY9Int7c3RvcmUgZGlyZWN0X3VybD0nP19fX3N0b3JlPWJhYnltb21fZW5nJ319Ij5CYWJ5ICYgTW9tPC9hPjwvcD4KCTwvZGl2PgkKCTxkaXYgY2xhc3M9ImNvbC1zbS00Ij4KCQk8ZGl2IGNsYXNzPSJ6b29tLWltYWdlIj48YSBjbGFzcz0iYmFubmVyLWltZyIgdGl0bGU9IlRyZW5kaW5ncyBGYXNoaW9uIiBocmVmPSJ7e3N0b3JlIGRpcmVjdF91cmw9Jz9fX19zdG9yZT10cmVuZGluZ19lbmcnfX0iPjxpbWcgY2xhc3M9ImltZy1yZXNwb25zaXZlIiBzcmM9Int7c2tpbiB1cmw9J2ltYWdlcy9zdG9yZXZpZXcvdHJlbmRpbmdfZmFzaGlvbi5qcGcnfX0iIGFsdD0iVHJlbmRpbmdzIEZhc2hpb24iIC8+PC9hPjwvZGl2PgoJCTxwIGNsYXNzPSJoNSI+PGEgaHJlZj0ie3tzdG9yZSBkaXJlY3RfdXJsPSc\/X19fc3RvcmU9dHJlbmRpbmdfZW5nJ319Ij5UcmVuZGluZ3MgRmFzaGlvbjwvYT48L3A+Cgk8L2Rpdj4KCTxkaXYgY2xhc3M9ImNvbC1zbS00Ij4KCQk8ZGl2IGNsYXNzPSJ6b29tLWltYWdlIj48YSBjbGFzcz0iYmFubmVyLWltZyIgdGl0bGU9IkplYW5zIEZhc2hpb24iIGhyZWY9Int7c3RvcmUgZGlyZWN0X3VybD0nP19fX3N0b3JlPWplYW5zX2VuZyd9fSI+PGltZyBjbGFzcz0iaW1nLXJlc3BvbnNpdmUiIHNyYz0ie3tza2luIHVybD0naW1hZ2VzL3N0b3Jldmlldy9qZWFuc19mYXNoaW9uLmpwZyd9fSIgYWx0PSJKZWFucyBGYXNoaW9uIiAvPjwvYT48L2Rpdj4KCQk8cCBjbGFzcz0iaDUiPjxhIGhyZWY9Int7c3RvcmUgZGlyZWN0X3VybD0nP19fX3N0b3JlPWplYW5zX2VuZyd9fSI+SmVhbnMgRmFzaGlvbjwvYT48L3A+Cgk8L2Rpdj4KCTxkaXYgY2xhc3M9ImNvbC1zbS00Ij4KCQk8ZGl2IGNsYXNzPSJ6b29tLWltYWdlIj48YSBjbGFzcz0iYmFubmVyLWltZyIgdGl0bGU9IkNvc21ldGljcyBCZWF1dHkiIGhyZWY9Int7c3RvcmUgZGlyZWN0X3VybD0nP19fX3N0b3JlPWNvc21ldGljc19lbmcnfX0iPjxpbWcgY2xhc3M9ImltZy1yZXNwb25zaXZlIiBzcmM9Int7c2tpbiB1cmw9J2ltYWdlcy9zdG9yZXZpZXcvY29zbWV0aWNzX2JlYXV0eS5qcGcnfX0iIGFsdD0iQ29zbWV0aWNzIEJlYXV0eSIgLz48L2E+PC9kaXY+CgkJPHAgY2xhc3M9Img1Ij48YSBocmVmPSJ7e3N0b3JlIGRpcmVjdF91cmw9Jz9fX19zdG9yZT1jb3NtZXRpY3NfZW5nJ319Ij5Db3NtZXRpY3MgQmVhdXR5PC9hPjwvcD4KCTwvZGl2Pgo8L2Rpdj4KPGRpdiBjbGFzcz0ic3RvcmUtdmlldyIgc3R5bGU9InBhZGRpbmctdG9wOjEwcHgiPgoJPGRpdiBjbGFzcz0iY29sLXNtLTQiPgoJCTxkaXYgY2xhc3M9Inpvb20taW1hZ2UiPjxhIGNsYXNzPSJiYW5uZXItaW1nIiB0aXRsZT0iQWNjZXNzb3JpZXMgU3RvcmUiIGhyZWY9Int7c3RvcmUgZGlyZWN0X3VybD0nP19fX3N0b3JlPWFjY2Vzc29yaWVzX2VuZyd9fSI+PGltZyBjbGFzcz0iaW1nLXJlc3BvbnNpdmUiIHNyYz0ie3tza2luIHVybD0naW1hZ2VzL3N0b3Jldmlldy9hY2Nlc3Nvcmllc19zdG9yZS5qcGcnfX0iIGFsdD0iQWNjZXNzb3JpZXMgU3RvcmUiIC8+PC9hPjwvZGl2PgoJCTxwIGNsYXNzPSJoNSI+PGEgaHJlZj0ie3tzdG9yZSBkaXJlY3RfdXJsPSc\/X19fc3RvcmU9YWNjZXNzb3JpZXNfZW5nJ319Ij5BY2Nlc3NvcmllcyBTdG9yZTwvYT48L3A+Cgk8L2Rpdj4KCTxkaXYgY2xhc3M9ImNvbC1zbS00Ij4KCQk8ZGl2IGNsYXNzPSJ6b29tLWltYWdlIj48YSBjbGFzcz0iYmFubmVyLWltZyIgdGl0bGU9IkZhc2hpb25fQWNjZXNzb3JpZXMiIGhyZWY9Int7c3RvcmUgZGlyZWN0X3VybD0nP19fX3N0b3JlPWZhX2FjY2Vzc29yaWVzX2VuZyd9fSI+PGltZyBjbGFzcz0iaW1nLXJlc3BvbnNpdmUiIHNyYz0ie3tza2luIHVybD0naW1hZ2VzL3N0b3Jldmlldy9mYXNoaW9uX2FjY2Vzc29yaWVzLmpwZyd9fSIgYWx0PSJBY2Nlc3NvcmllcyBTdG9yZSIgLz48L2E+PC9kaXY+CgkJPHAgY2xhc3M9Img1Ij48YSBocmVmPSJ7e3N0b3JlIGRpcmVjdF91cmw9Jz9fX19zdG9yZT1mYV9hY2Nlc3Nvcmllc19lbmcnfX0iPkZhc2hpb24gQWNjZXNzb3JpZXM8L2E+PC9wPgoJPC9kaXY+Cgk8ZGl2IGNsYXNzPSJjb2wtc20tNCI+Cgk8ZGl2IGNsYXNzPSJ6b29tLWltYWdlIj48YSBjbGFzcz0iYmFubmVyLWltZyIgdGl0bGU9IlN1bmdsYXNzZXMgU2hvcCIgaHJlZj0ie3tzdG9yZSBkaXJlY3RfdXJsPSc\/X19fc3RvcmU9c3VuZ2xhc3Nlc19lbmcnfX0iPjxpbWcgY2xhc3M9ImltZy1yZXNwb25zaXZlIiBzcmM9Int7c2tpbiB1cmw9J2ltYWdlcy9zdG9yZXZpZXcvc3VuZ2xhc3Nlc19zaG9wLmpwZyd9fSIgYWx0PSJTdW5nbGFzc2VzIFNob3AiIC8+PC9hPjwvZGl2PgoJPHAgY2xhc3M9Img1Ij48YSBocmVmPSJ7e3N0b3JlIGRpcmVjdF91cmw9Jz9fX19zdG9yZT1zdW5nbGFzc2VzX2VuZyd9fSI+U3VuZ2xhc3NlcyBTaG9wPC9hPjwvcD4KPC9kaXY+CjxkaXYgY2xhc3M9ImNvbC1zbS00Ij4KCTxkaXYgY2xhc3M9Inpvb20taW1hZ2UiPjxhIGNsYXNzPSJiYW5uZXItaW1nIiB0aXRsZT0iU2hvZXMgU3RvcmUiIGhyZWY9Int7c3RvcmUgZGlyZWN0X3VybD0nP19fX3N0b3JlPXNob2VzX2VuZyd9fSI+PGltZyBjbGFzcz0iaW1nLXJlc3BvbnNpdmUiIHNyYz0ie3tza2luIHVybD0naW1hZ2VzL3N0b3Jldmlldy9zaG9lc19zaG9wLmpwZyd9fSIgYWx0PSJTaG9lcyBTdG9yZSIgLz48L2E+PC9kaXY+Cgk8cCBjbGFzcz0iaDUiPjxhIGhyZWY9Int7c3RvcmUgZGlyZWN0X3VybD0nP19fX3N0b3JlPXNob2VzX2VuZyd9fSI+U2hvZXMgU3RvcmU8L2E+PC9wPgo8L2Rpdj4KPGRpdiBjbGFzcz0iY29sLXNtLTQiPgoJPGRpdiBjbGFzcz0iem9vbS1pbWFnZSI+PGEgY2xhc3M9ImJhbm5lci1pbWciIHRpdGxlPSJFeWV3ZWFyIFN0b3JlIiBocmVmPSJ7e3N0b3JlIGRpcmVjdF91cmw9Jz9fX19zdG9yZT1leWV3ZWFyX2VuZyd9fSI+PGltZyBjbGFzcz0iaW1nLXJlc3BvbnNpdmUiIHNyYz0ie3tza2luIHVybD0naW1hZ2VzL3N0b3Jldmlldy9leWV3ZWFyX2JsYWNrX3doaXRlLmpwZyd9fSIgYWx0PSJFeWV3ZWFyIFN0b3JlIiAvPjwvYT48L2Rpdj4KCTxwIGNsYXNzPSJoNSI+PGEgaHJlZj0ie3tzdG9yZSBkaXJlY3RfdXJsPSc\/X19fc3RvcmU9ZXlld2Vhcl9lbmcnfX0iPkV5ZXdlYXIgU3RvcmU8L2E+PC9wPgo8L2Rpdj4KPGRpdiBjbGFzcz0iY29sLXNtLTQiPgoJPGRpdiBjbGFzcz0iem9vbS1pbWFnZSI+PGEgY2xhc3M9ImJhbm5lci1pbWciIHRpdGxlPSJGYXNoaW9uIEdlbnRsZW1hbiIgaHJlZj0ie3tzdG9yZSBkaXJlY3RfdXJsPSc\/X19fc3RvcmU9Z2VudGxlbWFuX2VuZyd9fSI+PGltZyBjbGFzcz0iaW1nLXJlc3BvbnNpdmUiIHNyYz0ie3tza2luIHVybD0naW1hZ2VzL3N0b3Jldmlldy9mYXNoaW9uX2dlbnRsZW1hbi5qcGcnfX0iIGFsdD0iRmFzaGlvbiBHZW50bGVtYW4iIC8+PC9hPjwvZGl2PgoJPHAgY2xhc3M9Img1Ij48YSBocmVmPSJ7e3N0b3JlIGRpcmVjdF91cmw9Jz9fX19zdG9yZT1nZW50bGVtYW5fZW5nJ319Ij5GYXNoaW9uIEdlbnRsZW1hbjwvYT48L3A+CjwvZGl2Pgo8L2Rpdj4KPGRpdiBjbGFzcz0ic3RvcmUtdmlldyIgc3R5bGU9InBhZGRpbmctdG9wOjEwcHgiPgoJPGRpdiBjbGFzcz0iY29sLXNtLTQiPgoJCTxkaXYgY2xhc3M9Inpvb20taW1hZ2UiPjxhIGNsYXNzPSJiYW5uZXItaW1nIiB0aXRsZT0iRmFzaGlvbiBMaW5nZXJpZSIgaHJlZj0ie3tzdG9yZSBkaXJlY3RfdXJsPSc\/X19fc3RvcmU9bGluZ2VyaWVfZW5nJ319Ij48aW1nIGNsYXNzPSJpbWctcmVzcG9uc2l2ZSIgc3JjPSJ7e3NraW4gdXJsPSdpbWFnZXMvc3RvcmV2aWV3L2xpbmdlcmllX3Nob3AuanBnJ319IiBhbHQ9IkZhc2hpb24gTGluZ2VyaWUiIC8+PC9hPjwvZGl2PgoJCTxwIGNsYXNzPSJoNSI+PGEgaHJlZj0ie3tzdG9yZSBkaXJlY3RfdXJsPSc\/X19fc3RvcmU9bGluZ2VyaWVfZW5nJ319Ij5GYXNoaW9uIExpbmdlcmllPC9hPjwvcD4KCTwvZGl2PgoJPGRpdiBjbGFzcz0iY29sLXNtLTQiPgoJCTxkaXYgY2xhc3M9Inpvb20taW1hZ2UiPjxhIGNsYXNzPSJiYW5uZXItaW1nIiB0aXRsZT0iUGludGVyZXN0IFN0b3JlIiBocmVmPSJ7e3N0b3JlIGRpcmVjdF91cmw9Jz9fX19zdG9yZT1waW50ZXJlc3RfZW5nJ319Ij48aW1nIGNsYXNzPSJpbWctcmVzcG9uc2l2ZSIgc3JjPSJ7e3NraW4gdXJsPSdpbWFnZXMvc3RvcmV2aWV3L3BpbnRlcmVzdF9zdHlsZS5qcGcnfX0iIGFsdD0iUGludGVyZXN0IFN0b3JlIiAvPjwvYT48L2Rpdj4KCQk8cCBjbGFzcz0iaDUiPjxhIGhyZWY9Int7c3RvcmUgZGlyZWN0X3VybD0nP19fX3N0b3JlPXBpbnRlcmVzdF9lbmcnfX0iPlBpbnRlcmVzdCBTdG9yZTwvYT48L3A+Cgk8L2Rpdj4KPC9kaXY+Cgo=","css_class":"","container_css":"","depth":"3"},{"type":"link","label":"Pages","sublabel":"","icon_url":"","url":"","target":"","css_class":"","container_css":"","depth":"0"},{"type":"vbox","width":"","height":"","spacing":"","css_class":"col-menu menu_col5 grid_6","container_css":"","depth":"1"},{"type":"text","text":"PHVsIGNsYXNzPSJtZW51LWNvbnRhaW5lciI+CjxsaSBjbGFzcz0ibWVudS1pdGVtLWxpbmsgbWVudS1pdGVtLWRlcHRoLTEgZmlyc3QiPjxhIGNsYXNzPSJlbS1tZW51LWxpbmsiIGhyZWY9IiMiPjxzcGFuPkxhbmRpbmcgUGFnZTwvc3Bhbj4gPC9hPjwvbGk+CjxsaSBjbGFzcz0ibWVudS1pdGVtLWxpbmsgbWVudS1pdGVtLWRlcHRoLTEgIj48YSBjbGFzcz0iZW0tbWVudS1saW5rIiBocmVmPSJ7e2NvbmZpZyBwYXRoPSd3ZWIvdW5zZWN1cmUvYmFzZV91cmwnfX1lbTAxNDEtdHlwb2dyYXBoeSI+PHNwYW4+VHlwb2dyYXBoeSBQYWdlPC9zcGFuPiA8L2E+PC9saT4KPGxpIGNsYXNzPSJtZW51LWl0ZW0tbGluayBtZW51LWl0ZW0tZGVwdGgtMSAiPjxhIGNsYXNzPSJlbS1tZW51LWxpbmsiIGhyZWY9Int7Y29uZmlnIHBhdGg9J3dlYi91bnNlY3VyZS9iYXNlX3VybC8nfX1lbTAxNDEtd2lkZ2V0cyI+PHNwYW4+V2lkZ2V0cyBQYWdlPC9zcGFuPiA8L2E+PC9saT4KPGxpIGNsYXNzPSJtZW51LWl0ZW0tbGluayBtZW51LWl0ZW0tZGVwdGgtMSBsYWJlbC1uZXctbWVudSAiPjxhIGNsYXNzPSJlbS1tZW51LWxpbmsiIGhyZWY9Int7Y29uZmlnIHBhdGg9J3dlYi91bnNlY3VyZS9iYXNlX3VybC8nfX1jb250YWN0cyI+PHNwYW4+Q29udGFjdCBQYWdlPC9zcGFuPiA8L2E+PC9saT4KPGxpIGNsYXNzPSJtZW51LWl0ZW0tbGluayBtZW51LWl0ZW0tZGVwdGgtMSBsYXN0ICI+PGEgY2xhc3M9ImVtLW1lbnUtbGluayIgaHJlZj0ie3tjb25maWcgcGF0aD0nd2ViL3Vuc2VjdXJlL2Jhc2VfdXJsLyd9fWNoYW1waW9uIj48c3Bhbj40MDQgUGFnZTwvc3Bhbj4gPC9hPjwvbGk+CjwvdWw+Cg==","css_class":" col-md-24","container_css":"","depth":"2"},{"type":"link","label":"Category","sublabel":"","icon_url":"","url":"","target":"","css_class":"","container_css":"","depth":"0"},{"type":"hbox","width":"","height":"","spacing":"","css_class":"col-menu menu_col24 grid_24","container_css":"padding:0 10px","depth":"1"},{"type":"vbox","width":"","height":"","spacing":"","css_class":"col-sm-12","container_css":"","depth":"2"},{"type":"text","text":"PGRpdiBjbGFzcz0icm93IGltZy1iYW5uZXItc21hbGwiPgo8ZGl2IGNsYXNzPSJjb2wtc20tOCI+CjxoNSBjbGFzcz0idGV4dC11cHBlcmNhc2UiPkZhc2hpb248L2g1Pgo8ZGl2Pgo8dWwgY2xhc3M9Im1lbnUtY29udGFpbmVyIj4KPGxpIGNsYXNzPSJtZW51LWl0ZW0tbGluayBtZW51LWl0ZW0tZGVwdGgtMSBmaXJzdCBsYWJlbC1ob3QtbWVudSI+PGEgY2xhc3M9ImVtLW1lbnUtbGluayIgaHJlZj0iIyI+RG9sb3IgU2l0IEFtZXQ8L2E+PC9saT4KPGxpIGNsYXNzPSJtZW51LWl0ZW0tbGluayBtZW51LWl0ZW0tZGVwdGgtMSI+PGEgY2xhc3M9ImVtLW1lbnUtbGluayIgaHJlZj0iIyI+Q29uc2UgQ3RldHVyPC9hPjwvbGk+CjxsaSBjbGFzcz0ibWVudS1pdGVtLWxpbmsgbWVudS1pdGVtLWRlcHRoLTEiPjxhIGNsYXNzPSJlbS1tZW51LWxpbmsiIGhyZWY9IiMiPkFkaXBpc2ljaW5nPC9hPjwvbGk+CjxsaSBjbGFzcz0ibWVudS1pdGVtLWxpbmsgbWVudS1pdGVtLWRlcHRoLTEiPjxhIGNsYXNzPSJlbS1tZW51LWxpbmsiIGhyZWY9IiMiPkVsaXQgc2VkIGRvPC9hPjwvbGk+CjxsaSBjbGFzcz0ibWVudS1pdGVtLWxpbmsgbWVudS1pdGVtLWRlcHRoLTEgbGFzdCI+PGEgY2xhc3M9ImVtLW1lbnUtbGluayIgaHJlZj0iIyI+RWl1c21vZCB0ZW1wb3I8L2E+PC9saT4KPC91bD4KPC9kaXY+CjwvZGl2Pgo8ZGl2IGNsYXNzPSJjb2wtc20tOCI+CjxoNSBjbGFzcz0idGV4dC11cHBlcmNhc2UiPlNlcnZpY2VzPC9oNT4KPGRpdj57e3dpZGdldCB0eXBlPSJtZWdhbWVudXByby9jYXRhbG9nbmF2aWdhdGlvbiIgY2F0ZWdvcnlfaWQ9ImNhdGVnb3J5LzE4IiBkaXJlY3Rpb249InZlcnRpY2FsIn19PC9kaXY+CjwvZGl2Pgo8ZGl2IGNsYXNzPSJjb2wtc20tOCI+CjxoNSBjbGFzcz0idGV4dC11cHBlcmNhc2UiPkFjY2Vzc29yaWVzPC9oNT4KPGRpdj4KPHVsIGNsYXNzPSJtZW51LWNvbnRhaW5lciI+CjxsaSBjbGFzcz0ibWVudS1pdGVtLWxpbmsgbWVudS1pdGVtLWRlcHRoLTEgZmlyc3QgbGFiZWwtaG90LW1lbnUiPjxhIGNsYXNzPSJlbS1tZW51LWxpbmsiIGhyZWY9IiMiPkRvbG9yIFNpdCBBbWV0PC9hPjwvbGk+CjxsaSBjbGFzcz0ibWVudS1pdGVtLWxpbmsgbWVudS1pdGVtLWRlcHRoLTEiPjxhIGNsYXNzPSJlbS1tZW51LWxpbmsiIGhyZWY9IiMiPkNvbnNlIEN0ZXR1cjwvYT48L2xpPgo8bGkgY2xhc3M9Im1lbnUtaXRlbS1saW5rIG1lbnUtaXRlbS1kZXB0aC0xIj48YSBjbGFzcz0iZW0tbWVudS1saW5rIiBocmVmPSIjIj5BZGlwaXNpY2luZzwvYT48L2xpPgo8bGkgY2xhc3M9Im1lbnUtaXRlbS1saW5rIG1lbnUtaXRlbS1kZXB0aC0xIj48YSBjbGFzcz0iZW0tbWVudS1saW5rIiBocmVmPSIjIj5FbGl0IHNlZCBkbzwvYT48L2xpPgo8bGkgY2xhc3M9Im1lbnUtaXRlbS1saW5rIG1lbnUtaXRlbS1kZXB0aC0xIGxhc3QiPjxhIGNsYXNzPSJlbS1tZW51LWxpbmsiIGhyZWY9IiMiPkVpdXNtb2QgdGVtcG9yPC9hPjwvbGk+CjwvdWw+CjwvZGl2Pgo8L2Rpdj4KPC9kaXY+CjxkaXYgY2xhc3M9InJvdyIgc3R5bGU9ImZvbnQtc3R5bGU6IGl0YWxpYzsiPgo8cD5BIGZyaWVuZGx5IHJlc3BvbnNpdmUgZGVzaWduLCBhZGFwdGl2ZSBzY3JlZW4gd2l0aCB0aGUgbmV3IEJvb3RzdHJhcCAzIGlzIGFscmVhZHkgdmVyeSBpbXByZXNzaXZlLiBCZXNpZGVzIHRoYXQsIFZpc3VhbCBDb250ZW50IEVkaXRvciBhbGxvd3MgeW91IHRvIGVkaXQgY29udGVudCBkaXJlY3RseSBvbiBmcm9udC1lbmQuIEtleSBmZWF0dXJlcyBmb3IgYW4gb25saW5lIG1hcmtldCwgc3VjaCBhcyBGZWF0dXJlZCBwcm9kdWN0cywgUHJvbW90aW9ucywgRGVhbHMgd2l0aCBUaW1pbmcsIGFyZSBhYnNvbHV0ZWx5IHJlYWR5LiBJdCZyc3F1bztzIG5vIGRvdWJ0IHRoYXQgVGl0YW5zaG9wIHdpbGwgZ2V0IHRyYWZmaWMgZm9yIHlvdXIgc2l0ZSwgYW5kIGFsc28gaGVscCBib29zdGluZyBzYWxlcy48L3A+CjxwPllvdSBjYW4gY2hhbmdlIHZpc3VhbCBhcHBlYXJhbmNlIG9mIGFsbW9zdCBldmVyeSBlbGVtZW50IG9mIHRoaXMgTWFnZW50byB0aGVtZS4gWW91IGNhbiBzZXQgeW91ciBmYXZvcml0ZSBjb2xvcnMgYW5kIGdlbmVyYXRlIGNzcyBmaWxlIGZyb20gdGhlIGFkbWluLjwvcD4KPC9kaXY+","css_class":"","container_css":"","depth":"3"},{"type":"vbox","width":"","height":"","spacing":"","css_class":"col-sm-12","container_css":"","depth":"2"},{"type":"text","text":"PGRpdiBjbGFzcz0icm93IGltZy1iYW5uZXItc21hbGwiPgo8ZGl2IGNsYXNzPSJjb2wtc20tMTIiPgo8ZGl2IGNsYXNzPSJ6b29tLWltYWdlIj48YSBjbGFzcz0iYmFubmVyLWltZyIgdGl0bGU9ImVtLXNhbXBsZS10aXRsZSIgaHJlZj0ie3tzdG9yZSB1cmw9J2JhYnkuaHRtbCd9fSI+IDxpbWcgY2xhc3M9ImltZy1yZXNwb25zaXZlIiBhbHQ9ImVtLXNhbXBsZS1hbHQiIHNyYz0ie3tza2luIHVybD0naW1hZ2VzL21lZGlhL2hvbWUvbWVudS9pbWctY2F0ZTEuanBnJ319IiAvPjwvYT4KPC9kaXY+CjxwPjxhIGhyZWY9Int7c3RvcmUgdXJsPSdiYWJ5Lmh0bWwnfX0iPjxzcGFuPk9uZSBDb2x1bW48L3NwYW4+PC9hPjwvcD4KPC9kaXY+CjxkaXYgY2xhc3M9ImNvbC1zbS0xMiI+CjxkaXYgY2xhc3M9Inpvb20taW1hZ2UiPjxhIGNsYXNzPSJiYW5uZXItaW1nIiB0aXRsZT0iZW0tc2FtcGxlLXRpdGxlIiBocmVmPSJ7e3N0b3JlIHVybD0nZmFzaGlvbi5odG1sJ319Ij4gPGltZyBjbGFzcz0iaW1nLXJlc3BvbnNpdmUiIGFsdD0iZW0tc2FtcGxlLWFsdCIgc3JjPSJ7e3NraW4gdXJsPSdpbWFnZXMvbWVkaWEvaG9tZS9tZW51L2ltZy1jYXRlMi5qcGcnfX0iIC8+PC9hPgo8L2Rpdj4KPHA+PGEgaHJlZj0ie3tzdG9yZSB1cmw9J2Zhc2hpb24vZmFzaGlvbi5odG1sJ319Ij48c3Bhbj5Ud28gQ29sdW1ucyBMZWZ0PC9zcGFuPjwvYT48L3A+CjwvZGl2Pgo8L2Rpdj4KPGRpdiBjbGFzcz0icm93Ij4KPGRpdiBjbGFzcz0iY29sLXNtLTEyIj4KPGRpdiBjbGFzcz0iem9vbS1pbWFnZSI+PGEgY2xhc3M9ImJhbm5lci1pbWciIHRpdGxlPSJlbS1zYW1wbGUtdGl0bGUiIGhyZWY9Int7c3RvcmUgdXJsPSdqZWFucy5odG1sJ319Ij4gPGltZyBjbGFzcz0iaW1nLXJlc3BvbnNpdmUiIGFsdD0iZW0tc2FtcGxlLWFsdCIgc3JjPSJ7e3NraW4gdXJsPSdpbWFnZXMvbWVkaWEvaG9tZS9tZW51L2ltZy1jYXRlMy5qcGcnfX0iIC8+PC9hPgo8L2Rpdj4KPHA+PGEgaHJlZj0ie3tzdG9yZSB1cmw9J2plYW5zLmh0bWwnfX0iPjxzcGFuPlR3byBDb2x1bW5zIFJpZ2h0PC9zcGFuPjwvYT48L3A+CjwvZGl2Pgo8ZGl2IGNsYXNzPSJjb2wtc20tMTIiPgo8ZGl2IGNsYXNzPSJ6b29tLWltYWdlIj48YSBjbGFzcz0iYmFubmVyLWltZyIgdGl0bGU9ImVtLXNhbXBsZS10aXRsZSIgaHJlZj0ie3tzdG9yZSB1cmw9J2JlYXV0eS5odG1sJ319Ij4gPGltZyBjbGFzcz0iaW1nLXJlc3BvbnNpdmUiIGFsdD0iZW0tc2FtcGxlLWFsdCIgc3JjPSJ7e3NraW4gdXJsPSdpbWFnZXMvbWVkaWEvaG9tZS9tZW51L2ltZy1jYXRlNC5qcGcnfX0iIC8+PC9hPgo8L2Rpdj4KPHA+PGEgaHJlZj0ie3tzdG9yZSB1cmw9J2JlYXV0eS5odG1sJ319Ij48c3Bhbj5UaHJlZSBDb2x1bW5zPC9zcGFuPjwvYT48L3A+CjwvZGl2Pgo8L2Rpdj4=","css_class":"","container_css":"","depth":"3"},{"type":"link","label":"Products","sublabel":"","icon_url":"","url":"","target":"","css_class":"","container_css":"","depth":"0"},{"type":"hbox","width":"","height":"","spacing":"","css_class":"col-menu menu_col24 grid_24","container_css":"padding:0 10px","depth":"1"},{"type":"vbox","width":"","height":"","spacing":"","css_class":"col-sm-24","container_css":"","depth":"2"},{"type":"text","text":"PGRpdiBjbGFzcz0icm93IGltZy1iYW5uZXItc21hbGwiPgo8ZGl2IGNsYXNzPSJjb2wtc20tMTIiPgo8aDUgY2xhc3M9InRleHQtdXBwZXJjYXNlIj5Qcm9kdWN0IFR5cGVzPC9oNT4KPGRpdiBjbGFzcz0icm93Ij4KPGRpdiBjbGFzcz0iY29sLXNtLTEyIj4KPHVsIGNsYXNzPSJtZW51LWNvbnRhaW5lciI+CjxsaSBjbGFzcz0ibWVudS1pdGVtLWxpbmsgbWVudS1pdGVtLWRlcHRoLTEgZmlyc3QgbGFiZWwtaG90LW1lbnUiPjxhIGNsYXNzPSJlbS1tZW51LWxpbmsiIGhyZWY9Int7c3RvcmUgZGlyZWN0X3VybD0nY3Jvc3MtYmFjay1za2F0ZXIuaHRtbCd9fSI+U2ltcGxlIHByb2R1Y3Q8L2E+PC9saT4KPGxpIGNsYXNzPSJtZW51LWl0ZW0tbGluayBtZW51LWl0ZW0tZGVwdGgtMSI+PGEgY2xhc3M9ImVtLW1lbnUtbGluayIgaHJlZj0ie3tzdG9yZSBkaXJlY3RfdXJsPSd2aXJ0dWFsLXByb2R1Y3QuaHRtbCd9fSI+VmlydHVhbCBQcm9kdWN0PC9hPjwvbGk+CjxsaSBjbGFzcz0ibWVudS1pdGVtLWxpbmsgbWVudS1pdGVtLWRlcHRoLTEgbGFzdCI+PGEgY2xhc3M9ImVtLW1lbnUtbGluayIgaHJlZj0ie3tzdG9yZSBkaXJlY3RfdXJsPSdkb3dubG9hZGFibGUtcHJvZHVjdC5odG1sJ319Ij5Eb3dubG9hZGFibGUgUHJvZHVjdDwvYT48L2xpPgo8L3VsPgo8L2Rpdj4KPGRpdiBjbGFzcz0iY29sLXNtLTEyIj4KPHVsIGNsYXNzPSJtZW51LWNvbnRhaW5lciI+CjxsaSBjbGFzcz0ibWVudS1pdGVtLWxpbmsgbWVudS1pdGVtLWRlcHRoLTEiPjxhIGNsYXNzPSJlbS1tZW51LWxpbmsiIGhyZWY9Int7c3RvcmUgZGlyZWN0X3VybD0ndGhlLW9ubHktY2hpbGRyZW4tcGFpc2xleS10LXNoaXJ0Lmh0bWwnfX0iPkNvbmZpZ3VyYWJsZSBQcm9kdWN0PC9hPjwvbGk+CjxsaSBjbGFzcz0ibWVudS1pdGVtLWxpbmsgbWVudS1pdGVtLWRlcHRoLTEiPjxhIGNsYXNzPSJlbS1tZW51LWxpbmsiIGhyZWY9Int7c3RvcmUgZGlyZWN0X3VybD0nbWFnZW50by1yZWQtZnVybml0dXJlLXNldC5odG1sJ319Ij5Hcm91cGVkIFByb2R1Y3Q8L2E+PC9saT4KPGxpIGNsYXNzPSJtZW51LWl0ZW0tbGluayBtZW51LWl0ZW0tZGVwdGgtMSBsYXN0Ij48YSBjbGFzcz0iZW0tbWVudS1saW5rIiBocmVmPSJ7e3N0b3JlIGRpcmVjdF91cmw9J2dhbWluZy1jb21wdXRlci5odG1sJ319Ij5CdW5kbGUgUHJvZHVjdDwvYT48L2xpPgo8L3VsPgo8L2Rpdj4KPC9kaXY+CjwvZGl2Pgo8ZGl2IGNsYXNzPSJjb2wtc20tMTIiPgo8aDUgY2xhc3M9InRleHQtdXBwZXJjYXNlIj5QUk9EVUNUIENPTFVNTlM8L2g1Pgo8ZGl2IGNsYXNzPSJyb3ciPgo8ZGl2IGNsYXNzPSJjb2wtc20tMTIiPgo8dWwgY2xhc3M9Im1lbnUtY29udGFpbmVyIj4KPGxpIGNsYXNzPSJtZW51LWl0ZW0tbGluayBtZW51LWl0ZW0tZGVwdGgtMSBmaXJzdCI+PGEgY2xhc3M9ImVtLW1lbnUtbGluayIgaHJlZj0ie3tzdG9yZSBkaXJlY3RfdXJsPSdjcm9zcy1iYWNrLXNrYXRlci5odG1sJ319Ij4xIENvbHVtbjwvYT48L2xpPgo8bGkgY2xhc3M9Im1lbnUtaXRlbS1saW5rIG1lbnUtaXRlbS1kZXB0aC0xICI+PGEgY2xhc3M9ImVtLW1lbnUtbGluayIgaHJlZj0ie3tzdG9yZSBkaXJlY3RfdXJsPSdkcmFwZS1iYWNrLXBsYXlzdWl0Lmh0bWwnfX0iPjIgQ29sdW1ucyBMZWZ0PC9hPjwvbGk+CjxsaSBjbGFzcz0ibWVudS1pdGVtLWxpbmsgbWVudS1pdGVtLWRlcHRoLTEgbGFzdCI+PGEgY2xhc3M9ImVtLW1lbnUtbGluayIgaHJlZj0ie3tzdG9yZSBkaXJlY3RfdXJsPSdtZXRhbGxpYy1jdXQtb3V0Lmh0bWwnfX0iPjIgQ29sdW1ucyBSaWdodDwvYT48L2xpPgo8L3VsPgo8L2Rpdj4KPGRpdiBjbGFzcz0iY29sLXNtLTEyIj4KPHVsIGNsYXNzPSJtZW51LWNvbnRhaW5lciI+CjxsaSBjbGFzcz0ibWVudS1pdGVtLWxpbmsgbWVudS1pdGVtLWRlcHRoLTEgIj48YSBjbGFzcz0iZW0tbWVudS1saW5rIiBocmVmPSJ7e3N0b3JlIGRpcmVjdF91cmw9J21vbm8tc2NhbGxvcC5odG1sJ319Ij4zIENvbHVtbnM8L2E+PC9saT4KPGxpIGNsYXNzPSJtZW51LWl0ZW0tbGluayBtZW51LWl0ZW0tZGVwdGgtMSAiPjxhIGNsYXNzPSJlbS1tZW51LWxpbmsiIGhyZWY9Int7c3RvcmUgZGlyZWN0X3VybD0nY3Jvc3MtYmFjay1za2F0ZXIuaHRtbCd9fSI+VXBzZWxsPC9hPjwvbGk+CjxsaSBjbGFzcz0ibWVudS1pdGVtLWxpbmsgbWVudS1pdGVtLWRlcHRoLTEgbGFzdCI+PGEgY2xhc3M9ImVtLW1lbnUtbGluayIgaHJlZj0ie3tzdG9yZSBkaXJlY3RfdXJsPSdjcm9zcy1iYWNrLXNrYXRlci5odG1sJ319Ij5SZWxhdGVkIFByb2R1Y3Q8L2E+PC9saT4KPC91bD4KPC9kaXY+CjwvZGl2Pgo8L2Rpdj4KPC9kaXY+","css_class":"","container_css":"","depth":"3"},{"type":"vbox","width":"","height":"","spacing":"","css_class":"col-sm-24","container_css":"","depth":"2"},{"type":"text","text":"PGRpdiBjbGFzcz0icm93Ij4KCTxkaXYgY2xhc3M9ImNvbC1zbS0xMiI+CgkJPGRpdiBjbGFzcz0iem9vbS1pbWFnZSI+PGEgY2xhc3M9ImJhbm5lci1pbWciIHRpdGxlPSJlbS1zYW1wbGUtdGl0bGUiIGhyZWY9Int7c3RvcmUgdXJsPSdmYXNoaW9uL3Nob2VzLmh0bWwnfX0iPiA8aW1nIGNsYXNzPSJpbWctcmVzcG9uc2l2ZSIgYWx0PSJlbS1zYW1wbGUtYWx0IiBzcmM9Int7c2tpbiB1cmw9J2ltYWdlcy9tZWRpYS9ob21lL21lbnUvZW1fbWVudV9pbWcwMS5qcGcnfX0iIC8+PC9hPjwvZGl2PgoJPC9kaXY+Cgk8ZGl2IGNsYXNzPSJjb2wtc20tMTIiPgoJCTxkaXYgY2xhc3M9Inpvb20taW1hZ2UiPjxhIGNsYXNzPSJiYW5uZXItaW1nIiB0aXRsZT0iZW0tc2FtcGxlLXRpdGxlIiBocmVmPSJ7e3N0b3JlIHVybD0nZmFzaGlvbi9zaG9lcy5odG1sJ319Ij4gPGltZyBjbGFzcz0iaW1nLXJlc3BvbnNpdmUiIGFsdD0iZW0tc2FtcGxlLWFsdCIgc3JjPSJ7e3NraW4gdXJsPSdpbWFnZXMvbWVkaWEvaG9tZS9tZW51L2VtX21lbnVfaW1nMDIuanBnJ319IiAvPjwvYT48L2Rpdj4KCTwvZGl2Pgo8L2Rpdj4=","css_class":"","container_css":"","depth":"3"},{"type":"link","label":"Features","sublabel":"","icon_url":"","url":"","target":"","css_class":"label-hot-menu-top","container_css":"","depth":"0"},{"type":"vbox","width":"","height":"","spacing":"","css_class":"col-menu menu_col5 grid_6 label-new-menu","container_css":"","depth":"1"},{"type":"text","text":"PHVsIGNsYXNzPSJtZW51LWNvbnRhaW5lciI+Cgk8bGkgY2xhc3M9Im1lbnUtaXRlbS1saW5rIG1lbnUtaXRlbS1kZXB0aC0xIGZpcnN0IGxhYmVsLW5ldy1tZW51Ij48YSBjbGFzcz0iZW0tbWVudS1saW5rIiBocmVmPSJ7e3N0b3JlIGRpcmVjdF91cmw9J2Zhc2hpb24uaHRtbCd9fSI+PHNwYW4+TGF5ZXJlZCBOYXZpZ2F0aW9uIFBybzwvc3Bhbj4gPC9hPjwvbGk+Cgk8bGkgY2xhc3M9Im1lbnUtaXRlbS1saW5rIG1lbnUtaXRlbS1kZXB0aC0xIGxhYmVsLW5ldy1tZW51Ij48YSBjbGFzcz0iZW0tbWVudS1saW5rIiBocmVmPSJ7e3N0b3JlIGRpcmVjdF91cmw9J2VtMDE0MS10eXBvZ3JhcGh5J319Ij48c3Bhbj5FTSBNZWdhbWVudSBQcm88L3NwYW4+IDwvYT48L2xpPgoJPGxpIGNsYXNzPSJtZW51LWl0ZW0tbGluayBtZW51LWl0ZW0tZGVwdGgtMSBsYWJlbC1uZXctbWVudSI+PGEgY2xhc3M9ImVtLW1lbnUtbGluayIgaHJlZj0ie3tzdG9yZSBkaXJlY3RfdXJsPSd0aGUtb25seS1jaGlsZHJlbi1wYWlzbGV5LXQtc2hpcnQuaHRtbCd9fSI+PHNwYW4+Q29sb3IgU3dhdGNoPC9zcGFuPiA8L2E+PC9saT4KICAgIDxsaSBjbGFzcz0ibWVudS1pdGVtLWxpbmsgbWVudS1pdGVtLWRlcHRoLTEgbGFiZWwtbmV3LW1lbnUgbGFzdCI+PGEgY2xhc3M9ImVtLW1lbnUtbGluayIgaHJlZj0ie3tzdG9yZSBkaXJlY3RfdXJsPSdjcm9zcy1iYWNrLXNrYXRlci5odG1sfX0iPjxzcGFuPkNsb3VkWm9vbSBQcm9kdWN0PC9zcGFuPiA8L2E+PC9saT4KPC91bD4=","css_class":" col-md-24","container_css":"","depth":"2"},{"type":"link","label":"Blog","sublabel":"","icon_url":"","url":"{{config path='web\/unsecure\/base_url'}}blog","target":"","css_class":"","container_css":"padding-bottom:80px;background-image:url(https:\/\/lh3.googleusercontent.com\/-hISAs1PvwQE\/Vgy74lazr8I\/AAAAAAAAAEw\/k2RS_Kn1GFQ\/s926-Ic42\/bkg-menu.png); background-repeat:no-repeat; background-position: right 0","depth":"0"},{"type":"hbox","width":"","height":"","spacing":"","css_class":"col-menu menu_col24 grid_24","container_css":"padding:0 10px","depth":"1"},{"type":"vbox","width":"","height":"","spacing":"","css_class":"col-sm-4","container_css":"","depth":"2"},{"type":"text","text":"PGg1IGNsYXNzPSJ0ZXh0LXVwcGVyY2FzZSI+QWNjZXNzb3JpZXM8L2g1Pgo8ZGl2Pgo8dWwgY2xhc3M9Im1lbnUtY29udGFpbmVyIj4KPGxpIGNsYXNzPSJtZW51LWl0ZW0tbGluayBtZW51LWl0ZW0tZGVwdGgtMSBmaXJzdCI+PGEgY2xhc3M9ImVtLW1lbnUtbGluayIgaHJlZj0iIyI+RG9sb3IgU2l0IEFtZXQ8L2E+PC9saT4KPGxpIGNsYXNzPSJtZW51LWl0ZW0tbGluayBtZW51LWl0ZW0tZGVwdGgtMSI+PGEgY2xhc3M9ImVtLW1lbnUtbGluayIgaHJlZj0iIyI+Q29uc2UgQ3RldHVyPC9hPjwvbGk+CjxsaSBjbGFzcz0ibWVudS1pdGVtLWxpbmsgbWVudS1pdGVtLWRlcHRoLTEiPjxhIGNsYXNzPSJlbS1tZW51LWxpbmsiIGhyZWY9IiMiPkFkaXBpc2ljaW5nPC9hPjwvbGk+CjxsaSBjbGFzcz0ibWVudS1pdGVtLWxpbmsgbWVudS1pdGVtLWRlcHRoLTEiPjxhIGNsYXNzPSJlbS1tZW51LWxpbmsiIGhyZWY9IiMiPkVsaXQgc2VkIGRvPC9hPjwvbGk+CjxsaSBjbGFzcz0ibWVudS1pdGVtLWxpbmsgbWVudS1pdGVtLWRlcHRoLTEgIGxhYmVsLW5ldy1tZW51IGxhc3QiPjxhIGNsYXNzPSJlbS1tZW51LWxpbmsiIGhyZWY9IiMiPkVpdXNtb2QgdGVtcG9yPC9hPjwvbGk+CjwvdWw+CjwvZGl2Pg==","css_class":"","container_css":"","depth":"3"},{"type":"vbox","width":"","height":"","spacing":"","css_class":"col-sm-4","container_css":"","depth":"2"},{"type":"text","text":"PGg1IGNsYXNzPSJ0ZXh0LXVwcGVyY2FzZSI+Q2xvdGhlczwvaDU+CjxkaXY+Cjx1bCBjbGFzcz0ibWVudS1jb250YWluZXIiPgo8bGkgY2xhc3M9Im1lbnUtaXRlbS1saW5rIG1lbnUtaXRlbS1kZXB0aC0xIGZpcnN0IGxhYmVsLWhvdC1tZW51Ij48YSBjbGFzcz0iZW0tbWVudS1saW5rIiBocmVmPSIjIj5TaXQgYW1ldCBjb25zZTwvYT48L2xpPgo8bGkgY2xhc3M9Im1lbnUtaXRlbS1saW5rIG1lbnUtaXRlbS1kZXB0aC0xIj48YSBjbGFzcz0iZW0tbWVudS1saW5rIiBocmVmPSIjIj5DdGV0dXIgYWRpcGlzaWNpbmc8L2E+PC9saT4KPGxpIGNsYXNzPSJtZW51LWl0ZW0tbGluayBtZW51LWl0ZW0tZGVwdGgtMSI+PGEgY2xhc3M9ImVtLW1lbnUtbGluayIgaHJlZj0iIyI+U2VkIGRvIGVpdXNtb2Q8L2E+PC9saT4KPGxpIGNsYXNzPSJtZW51LWl0ZW0tbGluayBtZW51LWl0ZW0tZGVwdGgtMSI+PGEgY2xhc3M9ImVtLW1lbnUtbGluayIgaHJlZj0iIyI+VGVtcG9yIGluY2lkaWR1bnQ8L2E+PC9saT4KPGxpIGNsYXNzPSJtZW51LWl0ZW0tbGluayBtZW51LWl0ZW0tZGVwdGgtMSBsYXN0Ij48YSBjbGFzcz0iZW0tbWVudS1saW5rIiBocmVmPSIjIj5MYWJvcmUgZXQgZG9sb3JlPC9hPjwvbGk+CjwvdWw+CjwvZGl2Pg==","css_class":"","container_css":"","depth":"3"},{"type":"vbox","width":"","height":"","spacing":"","css_class":"col-sm-4","container_css":"","depth":"2"},{"type":"text","text":"PGg1IGNsYXNzPSJ0ZXh0LXVwcGVyY2FzZSI+QWNjZXNzb3JpZXM8L2g1Pgo8ZGl2Pgo8dWwgY2xhc3M9Im1lbnUtY29udGFpbmVyIj4KPGxpIGNsYXNzPSJtZW51LWl0ZW0tbGluayBtZW51LWl0ZW0tZGVwdGgtMSBmaXJzdCI+PGEgY2xhc3M9ImVtLW1lbnUtbGluayIgaHJlZj0iIyI+RG9sb3IgU2l0IEFtZXQ8L2E+PC9saT4KPGxpIGNsYXNzPSJtZW51LWl0ZW0tbGluayBtZW51LWl0ZW0tZGVwdGgtMSI+PGEgY2xhc3M9ImVtLW1lbnUtbGluayIgaHJlZj0iIyI+Q29uc2UgQ3RldHVyPC9hPjwvbGk+CjxsaSBjbGFzcz0ibWVudS1pdGVtLWxpbmsgbWVudS1pdGVtLWRlcHRoLTEiPjxhIGNsYXNzPSJlbS1tZW51LWxpbmsiIGhyZWY9IiMiPkFkaXBpc2ljaW5nPC9hPjwvbGk+CjxsaSBjbGFzcz0ibWVudS1pdGVtLWxpbmsgbWVudS1pdGVtLWRlcHRoLTEiPjxhIGNsYXNzPSJlbS1tZW51LWxpbmsiIGhyZWY9IiMiPkVsaXQgc2VkIGRvPC9hPjwvbGk+CjxsaSBjbGFzcz0ibWVudS1pdGVtLWxpbmsgbWVudS1pdGVtLWRlcHRoLTEgbGFzdCI+PGEgY2xhc3M9ImVtLW1lbnUtbGluayIgaHJlZj0iIyI+RWl1c21vZCB0ZW1wb3I8L2E+PC9saT4KPC91bD4KPC9kaXY+","css_class":"","container_css":"","depth":"3"},{"type":"vbox","width":"","height":"","spacing":"","css_class":"col-sm-4","container_css":"","depth":"2"},{"type":"text","text":"PGg1IGNsYXNzPSJ0ZXh0LXVwcGVyY2FzZSI+Q2xvdGhlczwvaDU+CjxkaXY+Cjx1bCBjbGFzcz0ibWVudS1jb250YWluZXIiPgo8bGkgY2xhc3M9Im1lbnUtaXRlbS1saW5rIG1lbnUtaXRlbS1kZXB0aC0xIGZpcnN0Ij48YSBjbGFzcz0iZW0tbWVudS1saW5rIiBocmVmPSIjIj5TaXQgYW1ldCBjb25zZTwvYT48L2xpPgo8bGkgY2xhc3M9Im1lbnUtaXRlbS1saW5rIG1lbnUtaXRlbS1kZXB0aC0xIj48YSBjbGFzcz0iZW0tbWVudS1saW5rIiBocmVmPSIjIj5DdGV0dXIgYWRpcGlzaWNpbmc8L2E+PC9saT4KPGxpIGNsYXNzPSJtZW51LWl0ZW0tbGluayBtZW51LWl0ZW0tZGVwdGgtMSI+PGEgY2xhc3M9ImVtLW1lbnUtbGluayIgaHJlZj0iIyI+U2VkIGRvIGVpdXNtb2Q8L2E+PC9saT4KPGxpIGNsYXNzPSJtZW51LWl0ZW0tbGluayBtZW51LWl0ZW0tZGVwdGgtMSI+PGEgY2xhc3M9ImVtLW1lbnUtbGluayIgaHJlZj0iIyI+VGVtcG9yIGluY2lkaWR1bnQ8L2E+PC9saT4KPGxpIGNsYXNzPSJtZW51LWl0ZW0tbGluayBtZW51LWl0ZW0tZGVwdGgtMSAgbGFiZWwtaG90LW1lbnUgbGFzdCI+PGEgY2xhc3M9ImVtLW1lbnUtbGluayIgaHJlZj0iIyI+TGFib3JlIGV0IGRvbG9yZTwvYT48L2xpPgo8L3VsPgo8L2Rpdj4=","css_class":"","container_css":"","depth":"3"}]]]></content>
+        <css_class><![CDATA[em_hoz_menu effect-menu]]></css_class>
+      </menu>
+      <menu id="15">
+        <name><![CDATA[EM0141 Glory - Fashion Store - Area 03 - Vertical Menu]]></name>
+        <identifier><![CDATA[em0141-fashion-area03-vertical-menu]]></identifier>
+        <description><![CDATA[EM0141 Glory - Fashion Store - Area 03 - Vertical Menu]]></description>
+        <type><![CDATA[1]]></type>
+        <status><![CDATA[1]]></status>
+        <content><![CDATA[[{"type":"link","label":"Women\u2019s Clothing","sublabel":"","icon_url":"","url":"{{store url='fashion.html'}}","target":"","css_class":"fa fa-automobile","container_css":"background-image:url(http:\/\/farm8.staticflickr.com\/7632\/16644541718_a9bf09d186_b.jpg); background-repeat:no-repeat; background-position:right bottom;","depth":"0"},{"type":"hbox","width":"","height":"","spacing":"","css_class":"","container_css":"","depth":"1"},{"type":"vbox","width":"","height":"","spacing":"","css_class":"","container_css":"","depth":"2"},{"type":"hbox","width":"","height":"","spacing":"","css_class":"col-menu menu_col18 grid_18 bkg-menu01","container_css":"","depth":"3"},{"type":"vbox","width":"","height":"","spacing":"","css_class":"col-sm-24","container_css":"","depth":"4"},{"type":"text","text":"PHAgc3R5bGU9Im1hcmdpbi1ib3R0b206MjBweCI+VGhlcmUgaXMgYW4gZXhhbXBsZSBvZiBhIGxhcmdlIGNvbnRhaW5lciB3aXRoIDYgY29sdW1uczwvcD4=","css_class":"","container_css":"","depth":"5"},{"type":"hbox","width":"","height":"","spacing":"","css_class":"col-menu menu_col18 grid_18 bkg-menu01","container_css":"","depth":"3"},{"type":"vbox","width":"","height":"","spacing":"","css_class":"col-sm-5","container_css":"","depth":"4"},{"type":"text","text":"PGg0PkphY2tldHMgJiBjb2F0czwvaDQ+CiA8dWwgY2xhc3M9Imxpc3QtdGV4dCI+CjxsaT48YSBocmVmPSIjIj5CYXRodGltZSBHb29kczwvYT48L2xpPgo8bGk+PGEgaHJlZj0iIyI+QmVkZGluZzwvYT48L2xpPgo8bGk+PGEgaHJlZj0iIyI+QmxhbmtldHM8L2E+PC9saT4KPGxpPjxhIGhyZWY9IiMiPlNob3dlciBDdXJ0YWluczwvYT48L2xpPgo8L3VsPg==","css_class":"","container_css":"","depth":"5"},{"type":"vbox","width":"","height":"","spacing":"","css_class":"col-sm-5","container_css":"","depth":"4"},{"type":"text","text":"PGg0PkhhbmRiYWc8L2g0PgogPHVsIGNsYXNzPSJsaXN0LXRleHQiPgo8bGk+PGEgaHJlZj0iIyI+RGF5YmVkczwvYT48L2xpPgo8bGk+PGEgaHJlZj0iIyI+SW5mYW50IENoYWlyczwvYT48L2xpPgo8bGk+PGEgaHJlZj0iIyI+U2VjdGlvbmFsczwvYT48L2xpPgo8bGk+PGEgaHJlZj0iIyI+U2xlZXBlciBTb2ZhczwvYT48L2xpPgo8L3VsPg==","css_class":"","container_css":"","depth":"5"},{"type":"vbox","width":"","height":"","spacing":"","css_class":"col-sm-5","container_css":"","depth":"4"},{"type":"text","text":"PGg0PkNsb3RoaW5nPC9oND4KPHVsIGNsYXNzPSJsaXN0LXRleHQiPgo8bGk+PGEgaHJlZj0iIyI+NyBGb3IgQWxsIE1hbmtpbmQ8L2E+PC9saT4KPGxpPjxhIGhyZWY9IiMiPkFmZmxpY3Rpb248L2E+PC9saT4KPGxpPjxhIGhyZWY9IiMiPkFubmEgU3VpPC9hPjwvbGk+CjxsaT48YSBocmVmPSIjIj5BcmFiZWxsYTwvYT48L2xpPgo8L3VsPg==","css_class":"","container_css":"","depth":"5"},{"type":"vbox","width":"","height":"","spacing":"","css_class":"col-sm-5","container_css":"","depth":"4"},{"type":"text","text":"PGg0PlNob2VzPC9oND4KPHVsIGNsYXNzPSJsaXN0LXRleHQiPgo8bGk+PGEgaHJlZj0iIyI+VmVyc2FjZTwvYT48L2xpPgo8bGk+PGEgaHJlZj0iIyI+VGhhbGlhPC9hPjwvbGk+CjxsaT48YSBocmVmPSIjIj5Ub21teSBIaWxmaWdlcjwvYT48L2xpPgo8bGk+PGEgaHJlZj0iIyI+VG9yeSBCdXJjaDwvYT48L2xpPgo8L3VsPg==","css_class":"","container_css":"","depth":"5"},{"type":"hbox","width":"","height":"","spacing":"","css_class":"col-menu menu_col18 grid_18 bkg-menu01","container_css":"","depth":"3"},{"type":"vbox","width":"","height":"","spacing":"","css_class":"col-sm-24","container_css":"","depth":"4"},{"type":"text","text":"PHAgc3R5bGU9Im1hcmdpbjozMnB4IDAgMTVweCI+SGVyZSBpcyBzb21lIGNvbnRlbnRzIHdpdGggc2lkZSBpbWFnZXM8L3A+","css_class":"","container_css":"","depth":"5"},{"type":"hbox","width":"","height":"","spacing":"","css_class":"col-menu menu_col18 grid_18 bkg-menu01","container_css":"","depth":"3"},{"type":"vbox","width":"","height":"","spacing":"","css_class":"col-sm-9","container_css":"","depth":"4"},{"type":"text","text":"PGRpdiBjbGFzcz0ibWVudS1jYXRlIGVmZmVjdDAzIHpvb20taW1nIj48YSB0aXRsZT0iZW0tc2FtcGxlLXRpdGxlIiBocmVmPSJ7e3N0b3JlIGRpcmVjdF91cmw9Jyd9fWZ1cm5pdHVyZS5odG1sIj48aW1nIGNsYXNzPSJpbWctcmVzcG9uc2l2ZSIgc3JjPSJ7e3NraW4gdXJsPSdpbWFnZXMvbWVkaWEvaG9tZS9tZW51L21lbnUtaW1nMDEuanBnJ319IiBhbHQ9ImVtLXNhbXBsZS1hbHQiIC8+PC9hPjwvZGl2Pg==","css_class":"","container_css":"","depth":"5"},{"type":"vbox","width":"","height":"","spacing":"","css_class":"col-sm-11","container_css":"","depth":"4"},{"type":"text","text":"PHA+RXNwZWNpYWxseSBkZXNpZ25lZCB0byBzZXJ2ZSBmb3Igb25saW5lIHN1cGVybWFya2V0IGJ1c2luZXNzZXMsIDxzdHJvbmc+TXkgTWFya2V0PC9zdHJvbmc+IHRoZW1lIGhhcyBhIG5lYXQgYW5kIGNsZWFuIGxheW91dCB3aXRoIGJsb2NrcyBhcmUgYWxpZ25lZCBzbWFydGx5IGFuZCBtYW55IDxzdHJvbmc+RGVhbHMgbW9kdWxlczwvc3Ryb25nPiBhcmUgaW5jbHVkZWQgdG8gbW9zdCBjb21mb3J0IHZpc2l0b3JzLiBTaW1wbGUgd2hpdGUgYmFja2dyb3VuZCBpcyBlbm91Z2ggdG8gbWFrZSBwcm9kdWN0IGRpc3BsYXlzIHN0YW5kIG91dCwgYSBsb2dpY2FsIGNvbWJpbmF0aW9uIG9mIGNvbG9ycyBhbmQgdGV4dHVyZSwgdG9nZXRoZXIgd2l0aCByZWFzb25hYmxlIGFuaW1hdGlvbiBlZmZlY3QgaW1wcmVzcyB2aXNpdG9ycy4gCiAgICAgICAgQnV0IHRoZSBtb3N0IHJlbWFya2FibGUgdGhpbmcgYWJvdXQgTXkgTWFya2V0IGlzIGl0cyBwb3dlcmZ1bCBhbmQgdXNlZnVsIGZlYXR1cmVzLgogICAgICAgIDwvcD4=","css_class":"","container_css":"","depth":"5"},{"type":"link","label":"Men\u2019s Clothing","sublabel":"","icon_url":"","url":"{{store url='shoe.html'}}","target":"","css_class":"fa fa-desktop","container_css":"","depth":"0"},{"type":"hbox","width":"","height":"","spacing":"","css_class":"col-menu menu_col10  fix-top","container_css":"","depth":"1"},{"type":"vbox","width":"","height":"","spacing":"","css_class":"col-sm-12 alpha","container_css":"","depth":"2"},{"type":"text","text":"PGg0PlF1aXNxdWUgY29uZGltZW50dW08L2g0Pgp7e3dpZGdldCB0eXBlPSJtZWdhbWVudXByby9jYXRhbG9nbmF2aWdhdGlvbiIgY2F0ZWdvcnlfaWQ9ImNhdGVnb3J5LzEwIiBkaXJlY3Rpb249InZlcnRpY2FsIn19CjxkaXYgY2xhc3M9InBhZGRpbmctdG9wMjAiPgo8aDQ+UGVsbGVudGVzcXVlIG51bGxhPC9oND4Ke3t3aWRnZXQgdHlwZT0ibWVnYW1lbnVwcm8vY2F0YWxvZ25hdmlnYXRpb24iIGNhdGVnb3J5X2lkPSJjYXRlZ29yeS8xNSIgZGlyZWN0aW9uPSJ2ZXJ0aWNhbCJ9fQo8L2Rpdj4=","css_class":"","container_css":"","depth":"3"},{"type":"vbox","width":"","height":"","spacing":"","css_class":"col-sm-12","container_css":"","depth":"2"},{"type":"text","text":"PGg0PlF1aXNxdWUgZ3JhdmlkYTwvaDQ+CjxkaXY+e3t3aWRnZXQgdHlwZT0ibWVnYW1lbnVwcm8vY2F0YWxvZ25hdmlnYXRpb24iIGNhdGVnb3J5X2lkPSJjYXRlZ29yeS8xMCIgZGlyZWN0aW9uPSJ2ZXJ0aWNhbCJ9fTwvZGl2Pgo8ZGl2IGNsYXNzPSJwYWRkaW5nLXRvcDIwIj4KPGg0PlBlbGxlbnRlc3F1ZSBudWxsYTwvaDQ+Cnt7d2lkZ2V0IHR5cGU9Im1lZ2FtZW51cHJvL2NhdGFsb2duYXZpZ2F0aW9uIiBjYXRlZ29yeV9pZD0iY2F0ZWdvcnkvMTUiIGRpcmVjdGlvbj0idmVydGljYWwifX0KPC9kaXY+","css_class":"","container_css":"","depth":"3"},{"type":"link","label":"Eyeglasses","sublabel":"","icon_url":"","url":"{{store url='glass.html'}}","target":"","css_class":"fa fa-camera","container_css":"background-image:url(http:\/\/farm9.staticflickr.com\/8704\/16212167333_1dfb4ccb4d_b.jpg); background-repeat:no-repeat; background-position:right bottom;","depth":"0"},{"type":"hbox","width":"","height":"","spacing":"","css_class":"col-menu menu_col18 grid_18 bkg-menu01","container_css":"","depth":"1"},{"type":"vbox","width":"","height":"","spacing":"","css_class":"col-sm-5","container_css":"","depth":"2"},{"type":"text","text":"PGg0PkphY2tldHMgJiBjb2F0czwvaDQ+CiA8dWwgY2xhc3M9Imxpc3QtdGV4dCI+CjxsaT48YSBocmVmPSIjIj5CYXRodGltZSBHb29kczwvYT48L2xpPgo8bGk+PGEgaHJlZj0iIyI+QmVkZGluZzwvYT48L2xpPgo8bGk+PGEgaHJlZj0iIyI+QmxhbmtldHM8L2E+PC9saT4KPGxpPjxhIGhyZWY9IiMiPlNob3dlciBDdXJ0YWluczwvYT48L2xpPgo8L3VsPg==","css_class":"","container_css":"","depth":"3"},{"type":"vbox","width":"","height":"","spacing":"","css_class":"col-sm-5","container_css":"","depth":"2"},{"type":"text","text":"PGg0PkhhbmRiYWc8L2g0PgogPHVsIGNsYXNzPSJsaXN0LXRleHQiPgo8bGk+PGEgaHJlZj0iIyI+RGF5YmVkczwvYT48L2xpPgo8bGk+PGEgaHJlZj0iIyI+SW5mYW50IENoYWlyczwvYT48L2xpPgo8bGk+PGEgaHJlZj0iIyI+U2VjdGlvbmFsczwvYT48L2xpPgo8bGk+PGEgaHJlZj0iIyI+U2xlZXBlciBTb2ZhczwvYT48L2xpPgo8L3VsPg==","css_class":"","container_css":"","depth":"3"},{"type":"vbox","width":"","height":"","spacing":"","css_class":"col-sm-5","container_css":"","depth":"2"},{"type":"text","text":"PGg0PkNsb3RoaW5nPC9oND4KPHVsIGNsYXNzPSJsaXN0LXRleHQiPgo8bGk+PGEgaHJlZj0iIyI+NyBGb3IgQWxsIE1hbmtpbmQ8L2E+PC9saT4KPGxpPjxhIGhyZWY9IiMiPkFmZmxpY3Rpb248L2E+PC9saT4KPGxpPjxhIGhyZWY9IiMiPkFubmEgU3VpPC9hPjwvbGk+CjxsaT48YSBocmVmPSIjIj5BcmFiZWxsYTwvYT48L2xpPgo8L3VsPg==","css_class":"","container_css":"","depth":"3"},{"type":"vbox","width":"","height":"","spacing":"","css_class":"col-sm-5","container_css":"","depth":"2"},{"type":"text","text":"PGg0PlNob2VzPC9oND4KPHVsIGNsYXNzPSJsaXN0LXRleHQiPgo8bGk+PGEgaHJlZj0iIyI+VmVyc2FjZTwvYT48L2xpPgo8bGk+PGEgaHJlZj0iIyI+VGhhbGlhPC9hPjwvbGk+CjxsaT48YSBocmVmPSIjIj5Ub21teSBIaWxmaWdlcjwvYT48L2xpPgo8bGk+PGEgaHJlZj0iIyI+VG9yeSBCdXJjaDwvYT48L2xpPgo8L3VsPg==","css_class":"","container_css":"","depth":"3"},{"type":"link","label":"Steel Watches","sublabel":"","icon_url":"","url":"{{store url='baby.html'}}","target":"","css_class":"fa fa-video-camera","container_css":"","depth":"0"},{"type":"hbox","width":"","height":"","spacing":"","css_class":"col-menu menu_col5  fix-top","container_css":"","depth":"1"},{"type":"vbox","width":"","height":"","spacing":"","css_class":"col-sm-24 alpha","container_css":"","depth":"2"},{"type":"text","text":"PGg0PkphY2tldHMgJmFtcDsgY29hdHM8L2g0Pgo8dWwgY2xhc3M9Im1lbnUtY29udGFpbmVyIj4KPGxpIGNsYXNzPSJtZW51LWl0ZW0tbGluayBtZW51LWl0ZW0tZGVwdGgtMSBmaXJzdCI+PGEgY2xhc3M9ImVtLW1lbnUtbGluayIgaHJlZj0iIyI+PHNwYW4+TGFuZGluZyBQYWdlPC9zcGFuPiA8L2E+PC9saT4KPGxpIGNsYXNzPSJtZW51LWl0ZW0tbGluayBtZW51LWl0ZW0tZGVwdGgtMSAiPjxhIGNsYXNzPSJlbS1tZW51LWxpbmsiIGhyZWY9Int7Y29uZmlnIHBhdGg9J3dlYi91bnNlY3VyZS9iYXNlX3VybCd9fWVtMDEzMS10eXBvZ3JhcGh5Ij48c3Bhbj5UeXBvZ3JhcGh5IFBhZ2U8L3NwYW4+IDwvYT48L2xpPgo8bGkgY2xhc3M9Im1lbnUtaXRlbS1saW5rIG1lbnUtaXRlbS1kZXB0aC0xICI+PGEgY2xhc3M9ImVtLW1lbnUtbGluayIgaHJlZj0ie3tjb25maWcgcGF0aD0nd2ViL3Vuc2VjdXJlL2Jhc2VfdXJsLyd9fWVtMDEzMS13aWRnZXRzIj48c3Bhbj5XaWRnZXRzIFBhZ2U8L3NwYW4+IDwvYT48L2xpPgo8bGkgY2xhc3M9Im1lbnUtaXRlbS1saW5rIG1lbnUtaXRlbS1kZXB0aC0xIGxhYmVsLW5ldy1tZW51ICI+PGEgY2xhc3M9ImVtLW1lbnUtbGluayIgaHJlZj0ie3tjb25maWcgcGF0aD0nd2ViL3Vuc2VjdXJlL2Jhc2VfdXJsLyd9fWNvbnRhY3RzIj48c3Bhbj5Db250YWN0IFBhZ2U8L3NwYW4+IDwvYT48L2xpPgo8bGkgY2xhc3M9Im1lbnUtaXRlbS1saW5rIG1lbnUtaXRlbS1kZXB0aC0xIGxhc3QgIj48YSBjbGFzcz0iZW0tbWVudS1saW5rIiBocmVmPSJ7e2NvbmZpZyBwYXRoPSd3ZWIvdW5zZWN1cmUvYmFzZV91cmwvJ319bXlldmVyeXRoaW5nIj48c3Bhbj40MDQgUGFnZTwvc3Bhbj4gPC9hPjwvbGk+CjwvdWw+","css_class":"","container_css":"","depth":"3"},{"type":"link","label":"Handbags","sublabel":"","icon_url":"","url":"{{store url='sport-outdoor.html'}}","target":"","css_class":"fa fa-university","container_css":"","depth":"0"},{"type":"hbox","width":"","height":"","spacing":"","css_class":" fix-top","container_css":"","depth":"1"},{"type":"vbox","width":"","height":"","spacing":"","css_class":"","container_css":"","depth":"2"},{"type":"hbox","width":"","height":"","spacing":"","css_class":"col-menu menu_col18 grid_18 bkg-menu01","container_css":"","depth":"3"},{"type":"vbox","width":"","height":"","spacing":"","css_class":"col-sm-12","container_css":"","depth":"4"},{"type":"text","text":"PHAgY2xhc3M9ImltZy1jZW50ZXIiPjxhIGhyZWY9IiMiIHRpdGxlPSJlbS1zYW1wbGUtdGl0bGUiPjxpbWcgY2xhc3M9ImltZy1yZXNwb25zaXZlIiBzcmM9Int7c2tpbiB1cmw9ImltYWdlcy9tZWRpYS9ob21lL21lbnUvbG9nby1tZW51LmpwZyJ9fSIgYWx0PSJlbS1zYW1wbGUtYWx0IiAvPjwvYT48L3A+CjxwPk5vIGNvZGluZyBuZWVkZWQsIGFsbCBjYW4gYmUgZWRpdGVkIGRpcmVjdGx5IGluIGFkbWluIHBhbmVsLiBTZWxlY3QgY29sb3JzIG9mIGRvemVucyBvZiBlbGVtZW50cyB1c2luZyBjb2xvciBwaWNrZXJzLCBzZXQgaHVuZHJlZHMgb2Ygb3B0aW9ucywgYXBwbHkgdGV4dHVyZXMgZm9yIGhlYWRlciwgZm9vdGVyIGFuZCBmb3IgdGhlIGVudGlyZSBwYWdlLCB1cGxvYWQgYmFja2dyb3VuZCBpbWFnZSBhbmQgY29uZmlndXJlIGl0cyBwcm9wZXJ0aWVzIChwb3NpdGlvbiwgcmVwZWF0aW5nLCBhdHRhY2htZW50KSwgY2hhbmdlIGZvbnQgYW5kIGZvbnQtc2l6ZSwgYW5kIG1hbnkgbWFueSBtb3Jl4oCmPC9wPg==","css_class":"","container_css":"","depth":"5"},{"type":"vbox","width":"","height":"","spacing":"","css_class":"col-sm-6","container_css":"","depth":"4"},{"type":"text","text":"PGg0PkphY2tldHMgJiBjb2F0czwvaDQ+Cjx1bCBjbGFzcz0ibWVudS1jb250YWluZXIiPgo8bGkgY2xhc3M9Im1lbnUtaXRlbS1saW5rIG1lbnUtaXRlbS1kZXB0aC0xIGZpcnN0IGxhYmVsLWhvdC1tZW51Ij48YSBjbGFzcz0iZW0tbWVudS1saW5rIiBocmVmPSJ7e3N0b3JlIGRpcmVjdF91cmw9J3Qtc2hpcnQtc2VxdWluLWZyaW5nZS1kcmVzcy5odG1sJ319Ij5TaW1wbGUgcHJvZHVjdDwvYT48L2xpPgo8bGkgY2xhc3M9Im1lbnUtaXRlbS1saW5rIG1lbnUtaXRlbS1kZXB0aC0xIj48YSBjbGFzcz0iZW0tbWVudS1saW5rIiBocmVmPSJ7e3N0b3JlIGRpcmVjdF91cmw9J3ZpcnR1YWwtcHJvZHVjdC5odG1sJ319Ij5WaXJ0dWFsIFByb2R1Y3Q8L2E+PC9saT4KPGxpIGNsYXNzPSJtZW51LWl0ZW0tbGluayBtZW51LWl0ZW0tZGVwdGgtMSI+PGEgY2xhc3M9ImVtLW1lbnUtbGluayIgaHJlZj0ie3tzdG9yZSBkaXJlY3RfdXJsPSdkb3dubG9hZGFibGUtcHJvZHVjdC5odG1sJ319Ij5Eb3dubG9hZGFibGUgUHJvZHVjdDwvYT48L2xpPgo8bGkgY2xhc3M9Im1lbnUtaXRlbS1saW5rIG1lbnUtaXRlbS1kZXB0aC0xIj48YSBjbGFzcz0iZW0tbWVudS1saW5rIiBocmVmPSJ7e3N0b3JlIGRpcmVjdF91cmw9J2luay1lYXRlci1rcnlsb24tYm9tYmVhci1kZXN0cm95ZWQtdGVlLTEyNi5odG1sJ319Ij5Db25maWd1cmFibGUgUHJvZHVjdDwvYT48L2xpPgo8bGkgY2xhc3M9Im1lbnUtaXRlbS1saW5rIG1lbnUtaXRlbS1kZXB0aC0xIj48YSBjbGFzcz0iZW0tbWVudS1saW5rIiBocmVmPSJ7e3N0b3JlIGRpcmVjdF91cmw9J21hZ2VudG8tcmVkLWZ1cm5pdHVyZS1zZXQuaHRtbCd9fSI+R3JvdXBlZCBQcm9kdWN0PC9hPjwvbGk+CjxsaSBjbGFzcz0ibWVudS1pdGVtLWxpbmsgbWVudS1pdGVtLWRlcHRoLTEgbGFzdCI+PGEgY2xhc3M9ImVtLW1lbnUtbGluayIgaHJlZj0ie3tzdG9yZSBkaXJlY3RfdXJsPSdnYW1pbmctY29tcHV0ZXIuaHRtbCd9fSI+QnVuZGxlIFByb2R1Y3Q8L2E+PC9saT4KPC91bD4=","css_class":"","container_css":"","depth":"5"},{"type":"vbox","width":"","height":"","spacing":"","css_class":"col-sm-6","container_css":"","depth":"4"},{"type":"text","text":"PGg0PkNsb3RoaW5nPC9oND4KPHVsIGNsYXNzPSJtZW51LWNvbnRhaW5lciI+CjxsaSBjbGFzcz0ibWVudS1pdGVtLWxpbmsgbWVudS1pdGVtLWRlcHRoLTEgZmlyc3QiPjxhIGNsYXNzPSJlbS1tZW51LWxpbmsiIGhyZWY9Int7c3RvcmUgZGlyZWN0X3VybD0nbWV0YWxsaWMtbWlkaS1jdXQtb3V0LW1pZGktZHJlc3MuaHRtbCd9fSI+MSBDb2x1bW48L2E+PC9saT4KPGxpIGNsYXNzPSJtZW51LWl0ZW0tbGluayBtZW51LWl0ZW0tZGVwdGgtMSAiPjxhIGNsYXNzPSJlbS1tZW51LWxpbmsiIGhyZWY9Int7c3RvcmUgZGlyZWN0X3VybD0nbW9ua2ktbWV0YWxsaWMtdC1zaGlydC5odG1sJ319Ij4yIENvbHVtbnMgTGVmdDwvYT48L2xpPgo8bGkgY2xhc3M9Im1lbnUtaXRlbS1saW5rIG1lbnUtaXRlbS1kZXB0aC0xICI+PGEgY2xhc3M9ImVtLW1lbnUtbGluayIgaHJlZj0ie3tzdG9yZSBkaXJlY3RfdXJsPSdyaXZlci1pc2xhbmQtdmVzdC5odG1sJ319Ij4yIENvbHVtbnMgUmlnaHQ8L2E+PC9saT4KPGxpIGNsYXNzPSJtZW51LWl0ZW0tbGluayBtZW51LWl0ZW0tZGVwdGgtMSAiPjxhIGNsYXNzPSJlbS1tZW51LWxpbmsiIGhyZWY9Int7c3RvcmUgZGlyZWN0X3VybD0nbW9tbXktcy1saXR0bGUtc3Vuc2hpbmUuaHRtbCd9fSI+MyBDb2x1bW5zPC9hPjwvbGk+CjxsaSBjbGFzcz0ibWVudS1pdGVtLWxpbmsgbWVudS1pdGVtLWRlcHRoLTEgIj48YSBjbGFzcz0iZW0tbWVudS1saW5rIiBocmVmPSJ7e3N0b3JlIGRpcmVjdF91cmw9J2RyYXBlLWJhY2stcGxheXN1aXQuaHRtbCd9fSI+VXBzZWxsPC9hPjwvbGk+CjxsaSBjbGFzcz0ibWVudS1pdGVtLWxpbmsgbWVudS1pdGVtLWRlcHRoLTEgbGFzdCI+PGEgY2xhc3M9ImVtLW1lbnUtbGluayIgaHJlZj0ie3tzdG9yZSBkaXJlY3RfdXJsPSd0LXNoaXJ0LXNlcXVpbi1mcmluZ2UtZHJlc3MuaHRtbCd9fSI+UmVsYXRlZCBQcm9kdWN0PC9hPjwvbGk+CjwvdWw+","css_class":"","container_css":"","depth":"5"},{"type":"hbox","width":"","height":"","spacing":"","css_class":"col-menu menu_col18 grid_18 bkg-menu01","container_css":"","depth":"3"},{"type":"vbox","width":"","height":"","spacing":"","css_class":"col-sm-24","container_css":"","depth":"4"},{"type":"text","text":"PGRpdiBjbGFzcz0icGFkZGluZy10b3AyMCI+e3t3aWRnZXQgdHlwZT0iZmlsdGVycHJvZHVjdHMvbGlzdCIgdHlwZV9maWx0ZXI9IjMiIGZlYXR1cmVkPSJlbV9mZWF0dXJlZCIgbGltaXRfY291bnQ9IjQiIG9yZGVyX2J5PSJuYW1lIGFzYyIgY3VzdG9tX2NsYXNzPSJlbS1uby1xdWlja3Nob3AiIGZyb250ZW5kX3RpdGxlPSJUb3AgRmF2b3JpdGUiIHNob3c9InRodW1iLG5hbWUscmV2aWV3LHByaWNlIiB0aHVtYm5haWxfd2lkdGg9IjIwMCIgdGh1bWJuYWlsX2hlaWdodD0iMjIwIiBjaG9vc2VfdGVtcGxhdGU9ImVtX2ZpbHRlcnByb2R1Y3RzL3NhbXBsZV9ncmlkLnBodG1sIiBzbGlkZXJfZW5hYmxlPSIxIiBzbGlkZXJfaXRlbXM9IjQiIHNsaWRlcl9pdGVtc19kZXNrdG9wPSIzIiBzbGlkZXJfaXRlbXNfZGVza3RvcF9zbWFsbD0iMiIgc2xpZGVyX2l0ZW1zX3RhYmxldD0iMSIgc2xpZGVyX2l0ZW1zX21vYmlsZT0iMSIgc2xpZGVyX3NwZWVkPSI4MDAiIHNsaWRlcl9yZXdpbmRzcGVlZD0iODAwIiBzbGlkZXJfbmF2aWdhdGlvbj0iMSJ9fTwvZGl2Pg==","css_class":"","container_css":"","depth":"5"},{"type":"link","label":"Shoes","sublabel":"","icon_url":"","url":"{{store url='swatch.html'}}","target":"","css_class":"fa fa-leaf hidden-sm","container_css":"","depth":"0"},{"type":"link","label":"Kid's Clothing","sublabel":"","icon_url":"","url":"{{store url='jewelry.html'}}","target":"","css_class":"em-more-menu fa fa-tachometer hidden-sm","container_css":"","depth":"0"},{"type":"link","label":"Accessories","sublabel":"","icon_url":"","url":"{{store url='shoe.html'}}","target":"","css_class":"em-more-menu fa fa-glass hidden-sm","container_css":"","depth":"0"},{"type":"link","label":"Sale off","sublabel":"","icon_url":"","url":"{{store url='home-garden.html'}}","target":"","css_class":"em-more-menu fa fa-tags hidden-md hidden-sm last","container_css":"","depth":"0"},{"type":"link","label":"Bestseller","sublabel":"","icon_url":"","url":"","target":"","css_class":"","container_css":"","depth":"0"},{"type":"link","label":"More Categories","sublabel":"","icon_url":"","url":"","target":"","css_class":"","container_css":"","depth":"0"}]]]></content>
+        <css_class><![CDATA[em-menu-icon effect-menu em-menu-long]]></css_class>
+      </menu>
+      <menu id="17">
+        <name><![CDATA[EM0141 Glory - Area Navigation Mobile - Menu - Mobile]]></name>
+        <identifier><![CDATA[em0141-area-navigation-mobile-menu-mobile]]></identifier>
+        <description><![CDATA[EM0141 Glory - Area Navigation Mobile - Menu - Mobile]]></description>
+        <type><![CDATA[0]]></type>
+        <status><![CDATA[1]]></status>
+        <content><![CDATA[[{"type":"link","label":"Home","sublabel":"","icon_url":"","url":"","target":"","css_class":"fa fa-home","container_css":"","depth":"0"},{"type":"hbox","width":"","height":"","spacing":"","css_class":"col-menu menu_col9 grid_18","container_css":"","depth":"1"},{"type":"vbox","width":"","height":"","spacing":"","css_class":"col-sm-12","container_css":"","depth":"2"},{"type":"text","text":"PHVsIGNsYXNzPSJlbS1saW5lLTAxIj4KCTxsaT48aDQ+TGF5b3V0IHN0eWxlczwvaDQ+PC9saT4KCTxsaT4KCQk8dWwgY2xhc3M9Im1lbnUtbGluayI+CgkJCTxsaT48YSBocmVmPSJ7e3N0b3JlIGRpcmVjdF91cmw9Jz9fX19zdG9yZT1kZWZhdWx0J319Ij5GYXNoaW9uIFN0b3JlPC9hPjwvbGk+CgkJCTxsaT48YSBocmVmPSJ7e3N0b3JlIGRpcmVjdF91cmw9Jz9fX19zdG9yZT1mYXNoaW9udmludGFnZV9lbmcnfX0iPkZhc2hpb24gVmludGFnZTwvYT48L2xpPgoJCQk8bGk+PGEgaHJlZj0ie3tzdG9yZSBkaXJlY3RfdXJsPSc\/X19fc3RvcmU9YmFieW1vbV9lbmcnfX0iPkJhYnkgJiBNb208L2E+PC9saT4KCQkJPGxpPjxhIGhyZWY9Int7c3RvcmUgZGlyZWN0X3VybD0nP19fX3N0b3JlPXRyZW5kaW5nX2VuZyd9fSI+VHJlbmRpbmcgRmFzaGlvbjwvYT48L2xpPgogICAgICAgICAgICAgICAgICAgICAgICA8bGk+PGEgaHJlZj0ie3tzdG9yZSBkaXJlY3RfdXJsPSc\/X19fc3RvcmU9amVhbnNfZW5nJ319Ij5KZWFucyBGYXNoaW9uPC9hPjwvbGk+CgkJCTxsaT48YSBocmVmPSJ7e3N0b3JlIGRpcmVjdF91cmw9Jz9fX19zdG9yZT1jb3NtZXRpY3NfZW5nJ319Ij5Db3NtZXRpY3MgQmVhdXR5PC9hPjwvbGk+CgkJCTxsaT48YSBocmVmPSJ7e3N0b3JlIGRpcmVjdF91cmw9Jz9fX19zdG9yZT1hY2Nlc3Nvcmllc19lbmcnfX0iPkFjY2Vzc29yaWVzIFN0b3JlPC9hPjwvbGk+CgkJCTxsaT48YSBocmVmPSJ7e3N0b3JlIGRpcmVjdF91cmw9Jz9fX19zdG9yZT1waW50ZXJlc3RfZW5nJ319Ij5QaW50ZXJlc3QgU3RvcmU8L2E+PC9saT4KCQk8L3VsPgoJPC9saT4KPC91bD4=","css_class":"","container_css":"","depth":"3"},{"type":"link","label":"Category","sublabel":"","icon_url":"","url":"{{store url='electronics.html'}}","target":"","css_class":"dd-menu-link fa fa-bars","container_css":"","depth":"0"},{"type":"text","text":"e3t3aWRnZXQgdHlwZT0ibWVnYW1lbnVwcm8vY2F0YWxvZ25hdmlnYXRpb24iIGNhdGVnb3J5X2lkPSJjYXRlZ29yeS8zIiBkaXJlY3Rpb249InZlcnRpY2FsIn19","css_class":"","container_css":"","depth":"1"},{"type":"link","label":"Products","sublabel":"","icon_url":"","url":"{{store url='electronics.html'}}","target":"","css_class":"fa fa-file","container_css":"","depth":"0"},{"type":"hbox","width":"","height":"","spacing":"","css_class":"col-menu menu_col16 grid_16","container_css":"","depth":"1"},{"type":"vbox","width":"","height":"","spacing":"","css_class":"col-sm-8 grid_8 alpha","container_css":"","depth":"2"},{"type":"text","text":"PGRpdiBjbGFzcz0iZW0tbGluZS0wMSI+CjxoNSBjbGFzcz0idGV4dC11cHBlcmNhc2UiPlByb2R1Y3QgVHlwZXM8L2g1Pgo8ZGl2PgogICAgPHVsIGNsYXNzPSJtZW51LWNvbnRhaW5lciI+CiAgICAgIDxsaSBjbGFzcz0ibWVudS1pdGVtLWxpbmsgbWVudS1pdGVtLWRlcHRoLTEgZmlyc3QgbGFiZWwtaG90LW1lbnUiPjxhIGNsYXNzPSJlbS1tZW51LWxpbmsiIGhyZWY9Int7c3RvcmUgZGlyZWN0X3VybD0nY3Jvc3MtYmFjay1za2F0ZXIuaHRtbCd9fSI+U2ltcGxlIHByb2R1Y3Q8L2E+CiAgICAgICAgPC9saT4KICAgICAgICA8bGkgY2xhc3M9Im1lbnUtaXRlbS1saW5rIG1lbnUtaXRlbS1kZXB0aC0xIj48YSBjbGFzcz0iZW0tbWVudS1saW5rIiBocmVmPSJ7e3N0b3JlIGRpcmVjdF91cmw9J3ZpcnR1YWwtcHJvZHVjdC5odG1sJ319Ij5WaXJ0dWFsIFByb2R1Y3Q8L2E+CiAgICAgICAgPC9saT4KICAgICAgICA8bGkgY2xhc3M9Im1lbnUtaXRlbS1saW5rIG1lbnUtaXRlbS1kZXB0aC0xIj48YSBjbGFzcz0iZW0tbWVudS1saW5rIiBocmVmPSJ7e3N0b3JlIGRpcmVjdF91cmw9J2Rvd25sb2FkYWJsZS1wcm9kdWN0Lmh0bWwnfX0iPkRvd25sb2FkYWJsZSBQcm9kdWN0PC9hPgogICAgICAgIDwvbGk+CiAgICAgICAgPGxpIGNsYXNzPSJtZW51LWl0ZW0tbGluayBtZW51LWl0ZW0tZGVwdGgtMSI+PGEgY2xhc3M9ImVtLW1lbnUtbGluayIgaHJlZj0ie3tzdG9yZSBkaXJlY3RfdXJsPSd0aGUtb25seS1jaGlsZHJlbi1wYWlzbGV5LXQtc2hpcnQuaHRtbCd9fSI+Q29uZmlndXJhYmxlIFByb2R1Y3Q8L2E+CiAgICAgICAgPC9saT4KICAgICAgICA8bGkgY2xhc3M9Im1lbnUtaXRlbS1saW5rIG1lbnUtaXRlbS1kZXB0aC0xIj48YSBjbGFzcz0iZW0tbWVudS1saW5rIiBocmVmPSJ7e3N0b3JlIGRpcmVjdF91cmw9J21hZ2VudG8tcmVkLWZ1cm5pdHVyZS1zZXQuaHRtbCd9fSI+R3JvdXBlZCBQcm9kdWN0PC9hPgogICAgICAgIDwvbGk+CiAgICAgICAgPGxpIGNsYXNzPSJtZW51LWl0ZW0tbGluayBtZW51LWl0ZW0tZGVwdGgtMSBsYXN0Ij48YSBjbGFzcz0iZW0tbWVudS1saW5rIiBocmVmPSJ7e3N0b3JlIGRpcmVjdF91cmw9J2dhbWluZy1jb21wdXRlci5odG1sJ319Ij5CdW5kbGUgUHJvZHVjdDwvYT4KICAgICAgICA8L2xpPgogICAgPC91bD4KPC9kaXY+CjwvZGl2Pg==","css_class":"","container_css":"","depth":"3"},{"type":"vbox","width":"","height":"","spacing":"","css_class":"col-sm-8 grid_8 omega","container_css":"","depth":"2"},{"type":"text","text":"PGRpdiBjbGFzcz0iZW0tbGluZS0wMSI+CjxoNSBjbGFzcz0idGV4dC11cHBlcmNhc2UiPlBST0RVQ1QgQ09MVU1OUzwvaDU+CjxkaXY+CiAgICAgICAgPHVsIGNsYXNzPSJtZW51LWNvbnRhaW5lciI+CiAgICAgICAgICAgIDxsaSBjbGFzcz0ibWVudS1pdGVtLWxpbmsgbWVudS1pdGVtLWRlcHRoLTEgZmlyc3QiPjxhIGNsYXNzPSJlbS1tZW51LWxpbmsiIGhyZWY9Int7c3RvcmUgZGlyZWN0X3VybD0nY3Jvc3MtYmFjay1za2F0ZXIuaHRtbCd9fSI+MSBDb2x1bW48L2E+CiAgICAgICAgICAgIDwvbGk+CiAgICAgICAgICAgIDxsaSBjbGFzcz0ibWVudS1pdGVtLWxpbmsgbWVudS1pdGVtLWRlcHRoLTEgIj48YSAgY2xhc3M9ImVtLW1lbnUtbGluayIgaHJlZj0ie3tzdG9yZSBkaXJlY3RfdXJsPSdkcmFwZS1iYWNrLXBsYXlzdWl0Lmh0bWwnfX0iPjIgQ29sdW1ucyBMZWZ0PC9hPgogICAgICAgICAgICA8L2xpPgogICAgICAgICAgICA8bGkgY2xhc3M9Im1lbnUtaXRlbS1saW5rIG1lbnUtaXRlbS1kZXB0aC0xICI+PGEgY2xhc3M9ImVtLW1lbnUtbGluayIgIGhyZWY9Int7c3RvcmUgZGlyZWN0X3VybD0nbWV0YWxsaWMtY3V0LW91dC5odG1sJ319Ij4yIENvbHVtbnMgUmlnaHQ8L2E+CiAgICAgICAgICAgIDwvbGk+CiAgICAgICAgICAgIDxsaSBjbGFzcz0ibWVudS1pdGVtLWxpbmsgbWVudS1pdGVtLWRlcHRoLTEgIj48YSBjbGFzcz0iZW0tbWVudS1saW5rIiAgaHJlZj0ie3tzdG9yZSBkaXJlY3RfdXJsPSdtb25vLXNjYWxsb3AuaHRtbCd9fSI+MyBDb2x1bW5zPC9hPgogICAgICAgICAgICA8L2xpPgogICAgICAgICAgICA8bGkgY2xhc3M9Im1lbnUtaXRlbS1saW5rIG1lbnUtaXRlbS1kZXB0aC0xICI+PGEgY2xhc3M9ImVtLW1lbnUtbGluayIgIGhyZWY9Int7c3RvcmUgZGlyZWN0X3VybD0nY3Jvc3MtYmFjay1za2F0ZXIuaHRtbCd9fSI+VXBzZWxsPC9hPgogICAgICAgICAgICA8L2xpPgogICAgICAgICAgICA8bGkgY2xhc3M9Im1lbnUtaXRlbS1saW5rIG1lbnUtaXRlbS1kZXB0aC0xIGxhc3QiPjxhIGNsYXNzPSJlbS1tZW51LWxpbmsiICBocmVmPSJ7e3N0b3JlIGRpcmVjdF91cmw9J2Nyb3NzLWJhY2stc2thdGVyLmh0bWwnfX0iPlJlbGF0ZWQgUHJvZHVjdDwvYT4KICAgICAgICAgICAgPC9saT4KICAgICAgICA8L3VsPgogICAgPC9kaXY+PC9kaXY+","css_class":"","container_css":"","depth":"3"}]]]></content>
+        <css_class><![CDATA[em_menu_mobile]]></css_class>
+      </menu>
+    </megamenu>
+    <minislideshows>
+      <minislideshow id="21">
+        <name><![CDATA[EM0141 Glory Theme - Fashion Main Store - Main Slideshow]]></name>
+        <identifier><![CDATA[em0141-fashion-main-slideshow]]></identifier>
+        <images><![CDATA[[{"url":"1447664922_0_fa-slide01.jpg","link":"","info":[{"text":"\u003Ch3 style=\"font:italic 2rem\/1 Lora,Helvetica Neue, Helvetica, Arial, sans-serif; padding-bottom:1rem;margin-bottom:1.7rem;\"\u003EHigh Fashion Collection 2015\u003C\/h3\u003E\r\n\u003Ch1 style=\"font:700 6rem\/1 Raleway,Helvetica Neue, Helvetica, Arial, sans-serif;  margin-bottom: 3rem;\" class=\"em-text-upercase\"\u003Eem stores\u003C\/h1\u003E\r\n\u003Ca href=\"#\" class=\"button-link first\"\u003E\u003Cspan\u003Epurchase now\u003C\/span\u003E\u003C\/a\u003E\r\n\u003Ca href=\"#\" class=\"button-link\"\u003E\u003Cspan\u003Eshop now\u003C\/span\u003E\u003C\/a\u003E","animation":"fadeInLeft"}]},{"url":"1447664922_1_fa-slide02.jpg","link":"","info":[{"text":"\u003Ch4 style=\"font:italic 3rem\/1 Lora,Helvetica Neue, Helvetica, Arial, sans-serif;  margin-bottom: 3.5rem;\"\u003EHot discounts of the week\u003C\/h4\u003E\r\n\u003Ch2 style=\"font:700 6rem\/1 Raleway,Helvetica Neue, Helvetica, Arial, sans-serif;  margin-bottom: 3rem;\" class=\"em-text-upercase\"\u003Esale up 70% off\u003C\/h2\u003E\r\n\u003Ch4 class=\"em-text-upercase\"  style=\"font:500 2rem\/1 Lato,Helvetica Neue, Helvetica, Arial, sans-serif;\" \u003Eonly over oders on $99.99\u003C\/h4\u003E","animation":"fadeInDown"}]}]]]></images>
+        <slider_params><![CDATA[{"size_width":"","size_height":"500"}]]></slider_params>
+        <appearance><![CDATA[{"auto_play":"true","animation_type":"fade","speed":"4000","hover_pause":"true","progress_bar":"false","lazy_load":"true"}]]></appearance>
+        <navigation><![CDATA[{"nav_enable":"true","nav_type":["nav:true","dots:true"],"arrows_next":"","arrows_pre":""}]]></navigation>
+        <status><![CDATA[1]]></status>
+      </minislideshow>
+      <minislideshow id="22">
+        <name><![CDATA[EM0141 Glory Theme - Fashion Vintage - Main Slideshow]]></name>
+        <identifier><![CDATA[em0141-fashion-vintage-main-slideshows]]></identifier>
+        <images><![CDATA[[{"url":"1448520084_0_vinta-slide02.jpg","link":"","info":[{"text":"","animation":"none"}]},{"url":"1448520084_1_vinta-slide01.jpg","link":"","info":[{"text":"","animation":"none"}]}]]]></images>
+        <slider_params><![CDATA[{"size_width":"","size_height":"500"}]]></slider_params>
+        <appearance><![CDATA[{"auto_play":"true","animation_type":"fade","speed":"4000","hover_pause":"true","progress_bar":"false","lazy_load":"true"}]]></appearance>
+        <navigation><![CDATA[{"nav_enable":"true","nav_type":["nav:true","dots:true"],"arrows_next":"","arrows_pre":"","thumb_width":"","thumb_height":""}]]></navigation>
+        <status><![CDATA[1]]></status>
+      </minislideshow>
+      <minislideshow id="23">
+        <name><![CDATA[EM0141 Glory Theme - Fashion Baby Mom - Main Slideshow]]></name>
+        <identifier><![CDATA[em0141-babymom-main-slideshow]]></identifier>
+        <images><![CDATA[[{"url":"1448849972_0_baby-slide01.jpg","link":"furniture.html","info":[{"text":"","animation":"none"}]},{"url":"1448849972_1_baby-slide02.jpg","link":"apparel.html","info":[{"text":"","animation":"none"}]}]]]></images>
+        <slider_params><![CDATA[{"size_width":"","size_height":"700"}]]></slider_params>
+        <appearance><![CDATA[{"auto_play":"true","animation_type":"fade","speed":"10000","hover_pause":"true","progress_bar":"false","lazy_load":"true"}]]></appearance>
+        <navigation><![CDATA[{"nav_enable":"true","nav_type":["nav:true","dots:true"],"arrows_next":"","arrows_pre":"","thumb_width":"","thumb_height":""}]]></navigation>
+        <status><![CDATA[1]]></status>
+      </minislideshow>
+      <minislideshow id="24">
+        <name><![CDATA[EM0141 Glory Theme - Trending Fashion - Main Slideshow]]></name>
+        <identifier><![CDATA[em0141-trending-main-slideshow]]></identifier>
+        <images><![CDATA[[{"url":"1452229766_0_2.jpg","link":"","info":[{"text":"","animation":"none"}]},{"url":"1452229766_1_1.jpg","link":"","info":[{"text":"","animation":"none"}]}]]]></images>
+        <slider_params><![CDATA[{"size_width":"","size_height":"500"}]]></slider_params>
+        <appearance><![CDATA[{"auto_play":"true","animation_type":"fade","speed":"","hover_pause":"true","progress_bar":"false","lazy_load":"true"}]]></appearance>
+        <navigation><![CDATA[{"nav_enable":"true","nav_type":["nav:true","dots:true"],"arrows_next":"","arrows_pre":""}]]></navigation>
+        <status><![CDATA[1]]></status>
+      </minislideshow>
+      <minislideshow id="25">
+        <name><![CDATA[EM0141 Glory Theme - Jeans Fashion - Main Slideshow]]></name>
+        <identifier><![CDATA[em0141-jeans-main-slideshow]]></identifier>
+        <images><![CDATA[[{"url":"1449128403_0_jean-slideshow1.jpg","link":"","info":[{"text":"\u003Ch4 style=\"font:italic 3rem\/1 Lora,Helvetica Neue, Helvetica, Arial, sans-serif;  margin-bottom: 3.5rem;\"\u003ECouple Collection 15\/06\u003C\/h4\u003E\r\n\u003Ch2 style=\"font:700 6rem\/1 Raleway,Helvetica Neue, Helvetica, Arial, sans-serif;  margin-bottom: 3rem;\" class=\"em-text-upercase\"\u003Esale up 70% off\u003C\/h2\u003E\r\n\u003Ch4 class=\"em-text-upercase\"  style=\"font:500 2rem\/1 Lato,Helvetica Neue, Helvetica, Arial, sans-serif;\" \u003Eonly over oders on $99.99\u003C\/h4\u003E","animation":"fadeInRight"}]},{"url":"1449128403_1_jean-slideshow2.jpg","link":"","info":[{"text":"\u003Ch3 style=\"font:italic 3rem\/1 Lora,Helvetica Neue, Helvetica, Arial, sans-serif;padding-bottom:3.4rem;margin-bottom:2.2rem;\"\u003ESee Better & Look Great\u003C\/h3\u003E\r\n\u003Ch1 style=\"font:700 6rem\/1 Raleway,Helvetica Neue, Helvetica, Arial, sans-serif;\" class=\"em-text-upercase\"\u003EDenim wear\u003C\/h1\u003E\r\n\u003Ch4 class=\"em-text-upercase\"  style=\"font:500 2rem\/1 Lato,Helvetica Neue, Helvetica, Arial, sans-serif;margin-bottom:6rem;\"\u003Esale up to 70% off\u003C\/h4\u003E\r\n\u003Ca href=\"#\" class=\"button-link first\"\u003E\u003Cspan\u003Eshop now\u003C\/span\u003E\u003C\/a\u003E","animation":"fadeInDown"}]}]]]></images>
+        <slider_params><![CDATA[{"size_width":"","size_height":"742"}]]></slider_params>
+        <appearance><![CDATA[{"auto_play":"false","animation_type":"fade","speed":"","hover_pause":"true","progress_bar":"false","lazy_load":"true"}]]></appearance>
+        <navigation><![CDATA[{"nav_enable":"true","nav_type":["nav:true","dots:true"],"arrows_next":"","arrows_pre":"","thumb_width":"","thumb_height":""}]]></navigation>
+        <status><![CDATA[1]]></status>
+      </minislideshow>
+      <minislideshow id="26">
+        <name><![CDATA[EM0141 Glory Theme - Cosmetics Beauty - Main Slideshow]]></name>
+        <identifier><![CDATA[em0141-cosmetics-main-slideshow]]></identifier>
+        <images><![CDATA[[{"url":"1449461326_0_cosme-slide01.jpg","link":"","info":[{"text":"\u003Ch1 style=\"font:100 10rem\/1.25 proxima-nova, Helvetica Neue, Helvetica, Arial, sans-serif\"\u003Esweet \/ delicate\u003C\/h1\u003E\r\n\u003Ch4\u003E\u003Cspan  style=\"font:100 2rem\/1 proxima-nova, Helvetica Neue, Helvetica, Arial, sans-serif;margin-bottom:8rem; padding:0.9rem 2rem; border:1px solid #fff; display:inline-block;\"\u003EBeauty, Makeup, Lifestyle\u003C\/span\u003E\u003C\/h4\u003E\r\n\u003Ca href=\"#\" class=\"button-link first\"\u003E\u003Cspan\u003EShop now\u003C\/span\u003E\u003C\/a\u003E","animation":"fadeInLeft"}]},{"url":"1449461326_1_cosme-slide02.jpg","link":"","info":[{"text":"\u003Ch1 style=\"font:100 10rem\/1.25 proxima-nova, Helvetica Neue, Helvetica, Arial, sans-serif\"\u003Esweet \/ delicate\u003C\/h1\u003E\r\n\u003Ch4\u003E\u003Cspan  style=\"font:100 2rem\/1 proxima-nova, Helvetica Neue, Helvetica, Arial, sans-serif;margin-bottom:8rem; padding:0.9rem 2rem; border:1px solid #fff; display:inline-block;\"\u003EBeauty, Makeup, Lifestyle\u003C\/span\u003E\u003C\/h4\u003E\r\n\u003Ca href=\"#\" class=\"button-link first\"\u003E\u003Cspan\u003EShop now\u003C\/span\u003E\u003C\/a\u003E","animation":"fadeInLeft"}]}]]]></images>
+        <slider_params><![CDATA[{"size_width":"","size_height":"700"}]]></slider_params>
+        <appearance><![CDATA[{"auto_play":"false","animation_type":"fade","speed":"","hover_pause":"true","progress_bar":"false","lazy_load":"true"}]]></appearance>
+        <navigation><![CDATA[{"nav_enable":"true","nav_type":["nav:true","dots:true"],"arrows_next":"","arrows_pre":"","thumb_width":"","thumb_height":""}]]></navigation>
+        <status><![CDATA[1]]></status>
+      </minislideshow>
+      <minislideshow id="27">
+        <name><![CDATA[EM0141 Glory Theme - Accessories Store - Main Slideshow]]></name>
+        <identifier><![CDATA[em0141-accessories-main-slideshow]]></identifier>
+        <images><![CDATA[[{"url":"1449546905_0_acc-slideshow01.jpg","link":"","info":[{"text":"\u003Ch5 class=\"primary em-text-upercase\" style=\"font:600 8.5rem\/1 proxima-nova,Helvetica Neue, Helvetica, Arial, sans-serif;margin-bottom:2rem;\"\u003EHand bags\u003C\/h5\u003E\r\n\u003Ch4 class=\"em-text-upercase\" style=\"font:200 3.4rem\/1 proxima-nova,Helvetica Neue, Helvetica, Arial, sans-serif;margin-bottom:3rem;\"\u003ENew arrivals\u003C\/h4\u003E\r\n\u003Ch2 style=\"font:200 3rem\/1 proxima-nova,Helvetica Neue, Helvetica, Arial, sans-serif; padding: 2rem 5rem;\" class=\"em-text-upercase\"\u003ESummer collection \u003C\/h2\u003E","animation":"fadeInRight"}]},{"url":"1449546905_1_acc-slideshow02.jpg","link":"","info":[{"text":"\u003Ch4 class=\"em-text-upercase\" style=\"font:200 3.6rem\/1 proxima-nova,Helvetica Neue, Helvetica, Arial, sans-serif;margin-bottom:2rem;\"\u003EUpto \u003Cspan style=\"font:200 6rem\/1 proxima-nova,Helvetica Neue, Helvetica, Arial, sans-serif\"\u003E60%\u003C\/span\u003E off\u003C\/h4\u003E\r\n\u003Ch5 class=\"primary em-text-upercase\" style=\"font:600 8.5rem\/1 proxima-nova,Helvetica Neue, Helvetica, Arial, sans-serif;margin-bottom:1.5rem;\"\u003Eaccessories\u003C\/h5\u003E\r\n\u003Ch5\u003E\u003Cspan class=\"em-text-upercase\" style=\"font:100 2rem\/1 proxima-nova, Helvetica Neue, Helvetica, Arial, sans-serif;margin-bottom:8rem; padding:0.9rem 2rem; border:1px solid #fff; display:inline-block; letter-spacing: 1.6rem;\"\u003EChoice apparel 2015\u003C\/span\u003E\u003C\/h5\u003E\r\n\u003Ca href=\"#\" class=\"button-link first\"\u003E\u003Cspan\u003EShop now\u003C\/span\u003E\u003C\/a\u003E","animation":"fadeInDown"}]}]]]></images>
+        <slider_params><![CDATA[{"size_width":"","size_height":"742"}]]></slider_params>
+        <appearance><![CDATA[{"auto_play":"true","animation_type":"fade","speed":"","hover_pause":"true","progress_bar":"false","lazy_load":"true"}]]></appearance>
+        <navigation><![CDATA[{"nav_enable":"true","nav_type":["nav:true","dots:true"],"arrows_next":"","arrows_pre":"","thumb_width":"","thumb_height":""}]]></navigation>
+        <status><![CDATA[1]]></status>
+      </minislideshow>
+      <minislideshow id="28">
+        <name><![CDATA[EM0141 Glory Theme - Fashion Accessories - Main Slideshow]]></name>
+        <identifier><![CDATA[em0141-fashion-accessories-main-slideshow]]></identifier>
+        <images><![CDATA[[{"url":"1451375626_0_acc-slideshow01.jpg","link":"","info":[{"text":"\u003Ch3 style=\"font:italic 3rem\/1 Lora,Helvetica Neue, Helvetica, Arial, sans-serif;padding-bottom:3.4rem;margin-bottom:2.2rem;\"\u003EStep Into Summer Time\u003C\/h3\u003E\r\n\u003Ch1 style=\"font:700 6rem\/1 Raleway,Helvetica Neue, Helvetica, Arial, sans-serif;\" class=\"em-text-upercase\"\u003E25% off\u003C\/h1\u003E\r\n\u003Ch4 class=\"em-text-upercase\"  style=\"font:500 2rem\/1 Lato,Helvetica Neue, Helvetica, Arial, sans-serif;margin-bottom:6rem;\"\u003Elookbook collection 15\/16\u003C\/h4\u003E\r\n\u003Ca href=\"#\" class=\"button-link first\"\u003E\u003Cspan\u003Epurchase now\u003C\/span\u003E\u003C\/a\u003E\r\n\u003Ca href=\"#\" class=\"button-link\"\u003E\u003Cspan\u003Eshop now\u003C\/span\u003E\u003C\/a\u003E","animation":"fadeInRight"}]},{"url":"1451375626_1_acc-slideshow02.jpg","link":"","info":[{"text":"\u003Ch4 style=\"font:italic 3rem\/1 Lora,Helvetica Neue, Helvetica, Arial, sans-serif;  margin-bottom: 3.5rem;\"\u003ENew Collection 15\/16\u003C\/h4\u003E\r\n\u003Ch2 style=\"font:700 6rem\/1 Raleway,Helvetica Neue, Helvetica, Arial, sans-serif;  margin-bottom: 3rem;\" class=\"em-text-upercase\"\u003Esale up 70% off\u003C\/h2\u003E\r\n\u003Ch4 class=\"em-text-upercase\"  style=\"font:500 2rem\/1 Lato,Helvetica Neue, Helvetica, Arial, sans-serif;\" \u003Eonly over oders on $99.99\u003C\/h4\u003E","animation":"fadeInDown"}]}]]]></images>
+        <slider_params><![CDATA[{"size_width":"","size_height":"742"}]]></slider_params>
+        <appearance><![CDATA[{"auto_play":"true","animation_type":"fade","speed":"","hover_pause":"true","progress_bar":"true","lazy_load":"true"}]]></appearance>
+        <navigation><![CDATA[{"nav_enable":"true","nav_type":["nav:true","dots:true"],"arrows_next":"","arrows_pre":"","thumb_width":"","thumb_height":""}]]></navigation>
+        <status><![CDATA[1]]></status>
+      </minislideshow>
+      <minislideshow id="29">
+        <name><![CDATA[EM0141 Glory Theme - Sunglasses Shop - Main Slideshow]]></name>
+        <identifier><![CDATA[em0141-sunglasses-main-slideshow]]></identifier>
+        <images><![CDATA[[{"url":"1451536725_0_slide9_1.jpg","link":"","info":[{"text":"","animation":"none"}]},{"url":"1451536725_1_slide9_2.jpg","link":"","info":[{"text":"","animation":"none"}]}]]]></images>
+        <slider_params><![CDATA[{"size_width":"","size_height":"600"}]]></slider_params>
+        <appearance><![CDATA[{"auto_play":"true","animation_type":"fade","speed":"","hover_pause":"true","progress_bar":"false","lazy_load":"true"}]]></appearance>
+        <navigation><![CDATA[{"nav_enable":"true","nav_type":["nav:true","dots:true"],"arrows_next":"","arrows_pre":"","thumb_width":"","thumb_height":""}]]></navigation>
+        <status><![CDATA[1]]></status>
+      </minislideshow>
+      <minislideshow id="30">
+        <name><![CDATA[EM0141 Glory Theme - Shoes Shop - Main Slideshow]]></name>
+        <identifier><![CDATA[em0141-shoes-main-slideshow]]></identifier>
+        <images><![CDATA[[{"url":"1451879208_0_10_1.jpg","link":"","info":[{"text":"","animation":"none"}]},{"url":"1451879208_1_10_2.jpg","link":"","info":[{"text":"","animation":"none"}]}]]]></images>
+        <slider_params><![CDATA[{"size_width":"","size_height":"742"}]]></slider_params>
+        <appearance><![CDATA[{"auto_play":"true","animation_type":"fade","speed":"","hover_pause":"true","progress_bar":"false","lazy_load":"true"}]]></appearance>
+        <navigation><![CDATA[{"nav_enable":"true","nav_type":["nav:true","dots:true"],"arrows_next":"","arrows_pre":""}]]></navigation>
+        <status><![CDATA[1]]></status>
+      </minislideshow>
+      <minislideshow id="31">
+        <name><![CDATA[EM0141 Glory Theme - Eyewear Store - Main Slideshow]]></name>
+        <identifier><![CDATA[em0141-eyewear-main-slideshow]]></identifier>
+        <images><![CDATA[[{"url":"1451879263_0_11_1.jpg","link":"","info":[{"text":"","animation":"none"}]},{"url":"1451879263_1_11_2.jpg","link":"","info":[{"text":"","animation":"none"}]}]]]></images>
+        <slider_params><![CDATA[{"size_width":"","size_height":"583"}]]></slider_params>
+        <appearance><![CDATA[{"auto_play":"true","animation_type":"fade","speed":"","hover_pause":"true","progress_bar":"false","lazy_load":"true"}]]></appearance>
+        <navigation><![CDATA[{"nav_enable":"true","nav_type":["nav:true","dots:true"],"arrows_next":"","arrows_pre":""}]]></navigation>
+        <status><![CDATA[1]]></status>
+      </minislideshow>
+      <minislideshow id="32">
+        <name><![CDATA[EM0141 Glory Theme -  Fashion Gentleman - Main Slideshow]]></name>
+        <identifier><![CDATA[em0141-gentleman-main-slideshow]]></identifier>
+        <images><![CDATA[[{"url":"1451987891_0_12_1.jpg","link":"","info":[{"text":"","animation":"none"}]},{"url":"1451987891_1_12_2.jpg","link":"","info":[{"text":"","animation":"none"}]}]]]></images>
+        <slider_params><![CDATA[{"size_width":"","size_height":"342"}]]></slider_params>
+        <appearance><![CDATA[{"auto_play":"true","animation_type":"fade","speed":"","hover_pause":"true","progress_bar":"false","lazy_load":"true"}]]></appearance>
+        <navigation><![CDATA[{"nav_enable":"true","arrows_next":"","arrows_pre":""}]]></navigation>
+        <status><![CDATA[1]]></status>
+      </minislideshow>
+      <minislideshow id="33">
+        <name><![CDATA[EM0141 Glory Theme - Lingerie Shop - Main Slideshow]]></name>
+        <identifier><![CDATA[em0141-lingerie-main-slideshow]]></identifier>
+        <images><![CDATA[[{"url":"1452489214_0_slide1.jpg","link":"","info":[{"text":"","animation":"none"}]},{"url":"1452489214_1_slide2.jpg","link":"","info":[{"text":"","animation":"none"}]}]]]></images>
+        <slider_params><![CDATA[{"size_width":"","size_height":"726"}]]></slider_params>
+        <appearance><![CDATA[{"auto_play":"true","animation_type":"fade","speed":"","hover_pause":"true","progress_bar":"false","lazy_load":"true"}]]></appearance>
+        <navigation><![CDATA[{"nav_enable":"true","nav_type":["nav:true","dots:true"],"arrows_next":"","arrows_pre":""}]]></navigation>
+        <status><![CDATA[1]]></status>
+      </minislideshow>
+    </minislideshows>
+  </sample_data>
+</theme>

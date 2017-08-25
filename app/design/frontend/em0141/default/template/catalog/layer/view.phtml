@@ -1,0 +1,202 @@
+<?php
+/**
+ * Magento
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Academic Free License (AFL 3.0)
+ * that is bundled with this package in the file LICENSE_AFL.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/afl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@magento.com so we can send you a copy immediately.
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade Magento to newer
+ * versions in the future. If you wish to customize Magento for your
+ * needs please refer to http://www.magento.com for more information.
+ *
+ * @category    design
+ * @package     base_default
+ * @copyright   Copyright (c) 2006-2015 X.commerce, Inc. (http://www.magento.com)
+ * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ */
+?>
+<?php
+/**
+ * Category layered navigation
+ *
+ * @see Mage_Catalog_Block_Layer_View
+ */
+?>
+<?php if($this->getRequest()->getControllerName()=='result'):?>
+    <?php if(Mage::helper('themeframework/settings')->getPosition_CatalogSearchLayer() == 'em_layer'):?>
+        <?php if($this->canShowBlock()): ?>
+        <div class="em-line-01 block block-layered-nav em-filter-content">
+            <div class="em-filter-title-wrapper">
+                <div class="em-block-title block-title">
+                    <strong><span><?php echo $this->__('Shop By') ?></span></strong>
+                </div>
+                <?php if($this->canShowOptions()): ?>
+                <ul class="em-filter-title">
+                    <?php $_filtersTitle = $this->getFilters() ?>
+                    <?php $i=0; foreach ($_filtersTitle as $_filter): ?>
+                    <?php if($_filter->getItemsCount()): ?>
+                        <li><span><?php echo $this->__($_filter->getName()) ?></span></li>
+                    <?php $i++;?>
+                    <?php endif; ?>            
+                    <?php endforeach; ?>
+                </ul>
+                <?php endif;?>
+            </div>
+            
+            <div class="em-filter-content-wrapper">
+                <?php echo $this->getStateHtml() ?>
+                <?php if ($this->getLayer()->getState()->getFilters()): ?>
+                    <div class="actions"><a class="button-link" href="<?php echo $this->getClearUrl() ?>"><?php echo $this->__('Clear All') ?></a></div>
+                <?php endif; ?>
+                <?php if($this->canShowOptions()): ?>
+                    <dl id="narrow-by-list">
+                        <ul class="em-filter-list">
+                            <?php $_filters = $this->getFilters() ?>       
+                            <?php foreach ($_filters as $_filter): ?>                    
+                            <?php if($_filter->getItemsCount()): ?>
+                                <li class="em-filter-item col-sm-<?php echo floor(24/$i);?>">
+                                    <dt class="em-filter-item-title">
+                						<?php echo $this->__($_filter->getName()) ?>
+                					</dt>
+                                    <dd class="em-filter-item-content"><?php echo $_filter->getHtml() ?></dd>
+                                </li>
+                            <?php endif; ?>
+                            <?php endforeach; ?>
+                        </ul>
+                    </dl>
+                    <script type="text/javascript">decorateDataList('narrow-by-list')</script>
+                <?php endif; ?>
+            </div>
+        </div>
+        <script type="text/javascript">
+            (function($) {
+                $_title = $('.em-filter-title-wrapper');
+                $_content = $('.em-filter-content-wrapper');
+                $_title.click(function(){
+                    $_content.toggleClass('hide');            
+                });
+            })(jQuery);
+        </script>
+        <?php endif; ?>
+    <?php else:?>
+        <?php if($this->canShowBlock()): ?>
+        <div class="em-line-01 block block-layered-nav em-filter-sidebar">
+            <div class="em-block-title block-title">
+                <strong><span><?php echo $this->__('Shop By') ?></span></strong>
+            </div>
+            <div class="block-content">
+                <?php echo $this->getStateHtml() ?>
+                <?php if ($this->getLayer()->getState()->getFilters()): ?>
+                    <div class="actions"><a href="<?php echo $this->getClearUrl() ?>"><?php echo $this->__('Clear All') ?></a></div>
+                <?php endif; ?>
+                <?php if($this->canShowOptions()): ?>
+                    <p class="block-subtitle"><?php echo $this->__('Shopping Options') ?></p>
+                    <dl id="narrow-by-list">
+                        <?php $_filters = $this->getFilters() ?>
+                        <?php foreach ($_filters as $_filter): ?>
+                        <?php if($_filter->getItemsCount()): ?>
+                            <dt><?php echo $this->__($_filter->getName()) ?></dt>
+                            <dd><?php echo $_filter->getHtml() ?></dd>
+                        <?php endif; ?>
+                        <?php endforeach; ?>
+                    </dl>
+                    <script type="text/javascript">decorateDataList('narrow-by-list')</script>
+                <?php endif; ?>
+            </div>
+        </div>
+        <?php endif; ?>
+    <?php endif;?>
+<?php else:?>
+    <?php if(Mage::helper('themeframework/settings')->getPosition_CatalogShopby() == 'em_layer'):?>
+        <?php if($this->canShowBlock()): ?>
+        <div class="em-line-01 block block-layered-nav em-filter-content">
+            <div class="em-filter-title-wrapper">
+                <div class="em-block-title block-title">
+                    <strong><span><?php echo $this->__('Shop By') ?></span></strong>
+                </div>
+                <?php if($this->canShowOptions()): ?>
+                <ul class="em-filter-title">
+                    <?php $_filtersTitle = $this->getFilters() ?>
+                    <?php $i=0; foreach ($_filtersTitle as $_filter): ?>
+                    <?php if($_filter->getItemsCount()): ?>
+                        <li><span><?php echo $this->__($_filter->getName()) ?></span></li>
+                    <?php $i++;?>
+                    <?php endif; ?>            
+                    <?php endforeach; ?>
+                </ul>
+                <?php endif;?>
+            </div>
+            
+            <div class="em-filter-content-wrapper">
+                <?php echo $this->getStateHtml() ?>
+                <?php if ($this->getLayer()->getState()->getFilters()): ?>
+                    <div class="actions"><a class="button-link" href="<?php echo $this->getClearUrl() ?>"><?php echo $this->__('Clear All') ?></a></div>
+                <?php endif; ?>
+                <?php if($this->canShowOptions()): ?>
+                    <dl id="narrow-by-list">
+                        <ul class="em-filter-list">
+                            <?php $_filters = $this->getFilters() ?>       
+                            <?php foreach ($_filters as $_filter): ?>                    
+                            <?php if($_filter->getItemsCount()): ?>
+                                <li class="em-filter-item col-sm-<?php echo floor(24/$i);?>">
+                                    <dt class="em-filter-item-title">
+                						<?php echo $this->__($_filter->getName()) ?>
+                					</dt>
+                                    <dd class="em-filter-item-content"><?php echo $_filter->getHtml() ?></dd>
+                                </li>
+                            <?php endif; ?>
+                            <?php endforeach; ?>
+                        </ul>
+                    </dl>
+                    <script type="text/javascript">decorateDataList('narrow-by-list')</script>
+                <?php endif; ?>
+            </div>
+        </div>
+        <script type="text/javascript">
+            (function($) {
+                $_title = $('.em-filter-title-wrapper');
+                $_content = $('.em-filter-content-wrapper');
+                $_title.click(function(){
+                    $_content.toggleClass('hide');            
+                });
+            })(jQuery);
+        </script>
+        <?php endif; ?>
+    <?php else:?>
+        <?php if($this->canShowBlock()): ?>
+        <div class="em-line-01 block block-layered-nav em-filter-sidebar">
+            <div class="em-block-title block-title">
+                <strong><span><?php echo $this->__('Shop By') ?></span></strong>
+            </div>
+            <div class="block-content">
+                <?php echo $this->getStateHtml() ?>
+                <?php if ($this->getLayer()->getState()->getFilters()): ?>
+                    <div class="actions"><a href="<?php echo $this->getClearUrl() ?>"><?php echo $this->__('Clear All') ?></a></div>
+                <?php endif; ?>
+                <?php if($this->canShowOptions()): ?>
+                    <p class="block-subtitle"><?php echo $this->__('Shopping Options') ?></p>
+                    <dl id="narrow-by-list">
+                        <?php $_filters = $this->getFilters() ?>
+                        <?php foreach ($_filters as $_filter): ?>
+                        <?php if($_filter->getItemsCount()): ?>
+                            <dt><?php echo $this->__($_filter->getName()) ?></dt>
+                            <dd><?php echo $_filter->getHtml() ?></dd>
+                        <?php endif; ?>
+                        <?php endforeach; ?>
+                    </dl>
+                    <script type="text/javascript">decorateDataList('narrow-by-list')</script>
+                <?php endif; ?>
+            </div>
+        </div>
+        <?php endif; ?>
+    <?php endif;?>
+<?php endif;?>

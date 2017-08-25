@@ -1,0 +1,127 @@
+<?php
+/**
+ * Magento
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Academic Free License (AFL 3.0)
+ * that is bundled with this package in the file LICENSE_AFL.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/afl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@magento.com so we can send you a copy immediately.
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade Magento to newer
+ * versions in the future. If you wish to customize Magento for your
+ * needs please refer to http://www.magento.com for more information.
+ *
+ * @category    design
+ * @package     base_default
+ * @copyright   Copyright (c) 2006-2015 X.commerce, Inc. (http://www.magento.com)
+ * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ */
+/* @var $this Mage_Core_Block_Template */
+/* @var $catalogSearchHelper Mage_Catalogsearch_Helper_Data */
+    $catalogSearchHelper =  $this->helper('catalogsearch');
+    $setId = uniqid();   
+?>
+<div class="em-search-style-pinterest">
+    <div class="em-category-search">                
+        <form id="search_mini_form_<?php echo $setId ?>" action="<?php echo $catalogSearchHelper->getResultUrl() ?>" method="get">
+            <div class="form-search <?php echo (Mage::helper('themeframework/settings')->getGeneral_CatSearch() != -1) ? 'cate_search' : 'no_cate_search'; ?>">  
+                <?php if(Mage::helper('themeframework/settings')->getGeneral_CatSearch() != -1): ?>
+                <div class="em-wrapper-icon">
+                    <a data-toggle="collapse" data-target="#collapseSearch_<?php echo $setId ?>" aria-expanded="false" aria-controls="collapseSearch_<?php echo $setId ?>" title="<?php echo $this->__('Search by category')?>" href="javascript:void(0);">
+                        <span class="emsearch-current-cate text-hide"><?php echo $this->__('Search by category')?></span>
+                        <span class="fa fa-bars"></span>
+                    </a>                
+                    <div id="collapseSearch_<?php echo $setId ?>" class="collapse">
+                        <select id="em-select-search-<?php echo $setId ?>" class="hide em-select-search"><?php echo $this->getChildHtml('em_search_category'); ?></select>
+                        <ul id="em-list-search-<?php echo $setId ?>" class="em-list-search"></ul>
+                    </div>
+                </div>                
+                <?php endif; ?> 
+                <div class="em-text-search-pinterest">    
+                    <label for="search_<?php echo $setId ?>"><?php echo $this->__('Search:') ?></label>
+                    <input id="search_<?php echo $setId ?>" type="search" name="<?php echo $catalogSearchHelper->getQueryParamName() ?>" value="<?php echo $catalogSearchHelper->getEscapedQueryText() ?>" class="input-text required-entry" maxlength="<?php echo $catalogSearchHelper->getMaxQueryLength();?>" />
+                    <button type="submit" title="<?php echo Mage::helper('core')->quoteEscape($this->__('Search')) ?>" class="button"><span><span><?php echo $this->__('Search') ?></span></span></button>
+                    <div id="search_autocomplete_<?php echo $setId ?>" class="search-autocomplete"></div>
+                </div>
+                <script type="text/javascript">
+                //<![CDATA[
+                    var searchForm_<?php echo $setId ?> = new Varien.searchForm('search_mini_form_<?php echo $setId ?>', 'search_<?php echo $setId ?>', '<?php echo $this->__('Search entire store here...') ?>');
+                    searchForm_<?php echo $setId ?>.initAutocomplete('<?php echo $catalogSearchHelper->getSuggestUrl() ?>', 'search_autocomplete_<?php echo $setId ?>');
+                //]]>
+                </script>
+            </div>
+        </form>
+    </div>
+</div>
+<?php if(Mage::helper('themeframework/settings')->getGeneral_CatSearch() != -1): ?>
+<script type="text/javascript">
+//<![CDATA[
+    (function($) {
+        function emSearchPinterest_<?php echo $setId ?>(){
+            var $_collapseSearch = $('#collapseSearch_<?php echo $setId ?>');
+            var $_btn = $('a[data-target="#collapseSearch_<?php echo $setId ?>"]');
+            var $_current = $('.em-search-style-pinterest').find('.emsearch-current-cate');
+            var $_select_search = $('.em-select-search');
+            var $_list_search = $('.em-list-search');
+            var $_id_list_search = $('#em-list-search-<?php echo $setId ?>');            
+            var $_id_select_search = $('#em-select-search-<?php echo $setId ?>');
+            
+            var $_sform = $('#search_mini_form_<?php echo $setId ?>');
+            var $_icon = $_sform.find('.em-wrapper-icon');
+            var $_form = $_sform.find('.form-search');
+            var $_text = $_sform.find('.em-text-search-pinterest');
+            
+            
+            var numOptions = $_id_select_search.children().length;
+            for (var i = 0; i < numOptions; i++) {
+    			var text = $_id_select_search.find('option').eq(i).text();
+    			$('<li />').text(text).appendTo($_id_list_search);
+    		}
+            var $_li_list_search = $_list_search.find('li');
+    		$_li_list_search.click(function() {
+                var $_this = $(this);
+                var newSelect = $_this.index();
+                var valSelect = $_this.text();
+                $_this.parent().find('.unselected').removeClass('unselected');
+                $_this.parent().find('li').not(this).addClass('unselected');
+                $_select_search.find('option:selected').removeAttr('selected');
+                $_select_search.find('option:eq(' + newSelect + ')').attr('selected', true);                        
+                var $_value = valSelect.replace(/\s/g, "");
+                $_btn.attr('title',$_value);
+                $_current.removeClass('text-hide');
+                $_current.empty().html($_value);                
+                $_collapseSearch.collapse('hide');
+                $_wSearch = $_form.width() - 2 - $_icon.width();
+                $_text.width($_wSearch);
+    		});
+        };
+        function setWidthTextSearch_<?php echo $setId ?>(){
+            var $_sform = $('#search_mini_form_<?php echo $setId ?>');
+            var $_icon = $_sform.find('.em-wrapper-icon');
+            var $_form = $_sform.find('.form-search');
+            var $_text = $_sform.find('.em-text-search-pinterest');
+            var $_wSearch = $_form.width() - 2 - $_icon.width();
+            $_text.width($_wSearch);
+        };
+        
+        $(document).ready(function(){
+            emSearchPinterest_<?php echo $setId ?>();
+            setWidthTextSearch_<?php echo $setId ?>();
+        });
+        $(window).resize(function(){
+            setWidthTextSearch_<?php echo $setId ?>();
+        });
+        $(window).bind('emfixtop',function(){
+            setWidthTextSearch_<?php echo $setId ?>();
+        });   
+    })(jQuery);
+//]]>
+</script>
+<?php endif;?>

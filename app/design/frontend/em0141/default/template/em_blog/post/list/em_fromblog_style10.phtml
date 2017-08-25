@@ -1,0 +1,83 @@
+<?php 
+    $storeId = Mage::app()->getStore()->getId();
+	$posts = Mage::getModel('blog/post')->getCollection()
+			->setStoreId($storeId)	
+			->addAttributeToSelect('*')
+			->addAttributeToFilter('status',1)
+			->addAttributeToSort('created_at','DESC');
+    $thumnailWidth = 380;
+    $thumnailHeight = 266;
+    $helper = Mage::helper('cms');
+	$helperBlog = Mage::helper('blog'); 
+    $limit = $posts->count();
+    
+?>
+<?php if($limit > 0):?>
+    <?php $i=0; foreach ($posts as $p): ?>
+		<?php if($i==0 || $i==2):?>
+			<div class="em-blog-style10 em-blog-item">
+				<div class="em-blog-content">
+					<?php if($p->getImage()):?>
+					<a title="<?php echo $p->getTitle() ?>" href="<?php echo $p->getPostUrl();?>">
+						<img alt="<?php echo $p->getTitle() ?>" class="img-responsive img-banner-lazyload" src="<?php echo $this->getSkinUrl('images/loading.gif') ?>" data-original="<?php echo $helperBlog->resizeImage($p->getImage(),$thumnailWidth,$thumnailHeight,"emblog/post",'thumbnail');?>"/>
+					</a>
+					<?php endif;?>
+					<div class="em-blog-info">
+						<h4 class="em-blog-title"><a title="<?php echo $p->getTitle();?>" href="<?php echo $p->getPostUrl(false);?>"><?php echo $p->getTitle();?></a></h4>
+						<?php $date = new DateTime($p->getCreatedAt());?>
+						<div class="em-blog-time">
+							<p class="em-blog-date"><?php echo $date->format('j'); ?></p>
+							<p class="em-blog-month"><?php echo $date->format('M'); ?></p>
+						</div>						
+						<?php
+							$content = $p->getPostIntro();
+							if (strlen($content) > 100)
+							{
+								$temp = substr($content, 0, 100);
+								$plit = explode(" ", $temp);
+								$temp = array_slice($plit, 0, count($plit) - 1);
+								$content = implode(" ", $temp);
+							}
+						?>
+						<p class="em-blog-des"><?php echo strip_tags($content)?>&hellip;</p>
+						<p><a title="<?php echo $this->__('Read more') ?>" class="link-more" href="<?php echo $p->getPostUrl(false);?>"><?php echo $this->__('Read more') ?></a></p>
+					</div>
+				</div>
+			</div>
+		<?php else:?>
+			<div class="em-blog-style10 em-blog-item">
+				<div class="em-blog-content">
+					<div class="em-blog-info">
+						<h4 class="em-blog-title"><a title="<?php echo $p->getTitle();?>" href="<?php echo $p->getPostUrl(false);?>"><?php echo $p->getTitle();?></a></h4>
+						<?php $date = new DateTime($p->getCreatedAt());?>
+						<div class="em-blog-time">
+							<p class="em-blog-date"><?php echo $date->format('j'); ?></p>
+							<p class="em-blog-month"><?php echo $date->format('M'); ?></p>
+						</div>						
+						<?php
+							$content = $p->getPostIntro();
+							if (strlen($content) > 100)
+							{
+								$temp = substr($content, 0, 100);
+								$plit = explode(" ", $temp);
+								$temp = array_slice($plit, 0, count($plit) - 1);
+								$content = implode(" ", $temp);
+							}
+						?>
+						<p class="em-blog-des"><?php echo strip_tags($content)?>&hellip;</p>
+						<p><a title="<?php echo $this->__('Read more') ?>" class="link-more" href="<?php echo $p->getPostUrl(false);?>"><?php echo $this->__('Read more') ?></a></p>
+					</div>
+					<?php if($p->getImage()):?>
+					<a title="<?php echo $p->getTitle() ?>" href="<?php echo $p->getPostUrl();?>">
+						<img alt="<?php echo $p->getTitle() ?>" class="img-responsive img-banner-lazyload" src="<?php echo $this->getSkinUrl('images/loading.gif') ?>" data-original="<?php echo $helperBlog->resizeImage($p->getImage(),$thumnailWidth,$thumnailHeight,"emblog/post",'thumbnail');?>"/>
+					</a>
+					<?php endif;?>
+				</div>
+			</div>
+		<?php endif;?>  
+    <?php $i++;?>
+    <?php if($i>=4 || $i==$limit) break;?>
+    <?php endforeach ?>
+<?php else:?>
+    <p class="note-msg"><?php echo $this->__('There are no posts matching the selection.')?></p>
+<?php endif;?>

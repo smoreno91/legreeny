@@ -1,0 +1,20 @@
+.cms-index-index a.product-image{
+	border-style: solid;
+    border-width: 1px;
+}
+
+/*Main Color Variation*/
+.em-color span{
+	&.emColorStyle01{
+		background:#2f3d60;
+	}
+	&.emColorStyle02{
+		background:#b43027;
+	}
+	&.emColorStyle03{
+		background:#f1bb37;
+	}
+	&.emColorStyle04{
+		background:#5d6ea2;
+	}
+}

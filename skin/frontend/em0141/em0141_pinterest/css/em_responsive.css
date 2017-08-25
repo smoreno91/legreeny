@@ -1,0 +1,8 @@
+/*EM Header Style Mobile*/
+@media (max-width:767px){
+	.em-wrapper-footer{position:static!important;}
+	.em-wrapper-footer .em-footer-style01.collapse{
+		display:block!important;
+	}
+	.em-wrapper-footer > p > a.embtn-collapse-footer{display:none;}
+}

@@ -1,0 +1,87 @@
+.em-wrapper-ads-21{
+	margin-top:0;
+	.owl-carousel{
+		margin:0;
+		.owl-item{
+			padding:0;
+		}
+	}
+	.em-ads-image{
+		position:relative;
+		&:before{
+			width:100%;
+			height:100%;
+			content:"";
+			background:#000;
+			@include opacity(0.4);
+			position: absolute;
+			left: 0;
+			right: 0;
+			top: 0;
+			@include transition1;
+		}
+		&:hover:before{
+			height:0;
+			top:100%;
+		}
+	}
+	.desc{
+		@include position_style(absolute, left, 0, top, 0);
+		right:0;
+		padding:1rem;
+		margin:0 auto;
+		color:#fff;
+		height:100%;
+		.em-block-title{
+			text-transform: uppercase;
+			padding-bottom: 1.5rem;
+			margin-bottom: 2rem;
+			font-size:170%;
+		}
+		.fa{margin-bottom: 3rem;}
+		&.one-component{
+			display: -webkit-box;
+			display: -moz-box;
+			display: -ms-flexbox;
+			display: -webkit-flex;
+			display: flex;
+			webkit-align-items: center;
+			align-items: center;
+			-webkit-justify-content: center;
+			justify-content: center;			
+		}
+		&.n-component{
+			display: -webkit-box;
+			display: -moz-box;
+			display: -ms-flexbox;
+			display: -webkit-flex;
+			display: flex;
+			flex-flow: row wrap;
+			align-content: center;
+			justify-content: center;
+			span{width:100%;display:block;}
+		}
+	}
+}
+
+/*Fix for Ipad no display flex*/
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px){
+	.em-wrapper-ads-21{
+		.desc{
+			left:0%;
+			top:20%;
+			bottom:auto;
+			&.one-component,
+			&.n-component{
+				display:inline-block;
+				text-align:center;
+				.button-link{float:none;display:inline-block;}
+			}
+		}
+	}
+}
+
+/*===============RTL=================*/
+.em-rtl{
+	
+}

@@ -1,0 +1,204 @@
+<?php
+	$_helper 	=	$this->helper('catalog/output');
+	$w =	Mage::helper('multidealpro')->getMainDeal_ThumbnailWidth(135);
+	$h =	Mage::helper('multidealpro')->getMainDeal_ThumbnailHeight(135);
+    $_productCollection	=	$this->getProductCollection();
+    $_collectionSize	=	$_productCollection->count();
+?>
+<?php echo $this->getMessagesBlock()->getGroupedHtml() ?>
+<?php if($_collectionSize <= 0): ?>
+    <div class="multidealpro_products">
+    	<p class="note-msg"><?php echo Mage::helper('multidealpro')->getGeneral_NoDeal() ?></p>
+    </div>
+<?php else :?>
+	<div id="em-multidealpro-wrapper-ajax">
+        <div id="em-multidealpro-products-ajax" class="products-grid list-infinite em-ajax-product">
+            <?php $i=0; foreach ($_productCollection as $_product): ?>	
+                <div class="item">
+                    <div class="product-item">
+    					<!-- Show Thumbnail -->
+						<div class="product-shop-top">
+    					<?php if (Mage::helper('multidealpro')->getMainDeal_ShowThumbnail()): ?>
+    					<a href="<?php echo $_product->getProductUrl() ?>" title="<?php echo $this->stripTags($this->getImageLabel($_product, 'small_image'), null, true) ?>" class="product-image">
+                            <img class="img-responsive em-img-lazy" src="<?php echo $this->getSkinUrl('images/loading.gif') ?>" data-original="<?php echo $this->helper('catalog/image')->init($_product, 'small_image')->resize($w,$h); ?>" width="<?php echo $w ?>" height="<?php echo $h ?>" alt="<?php echo $this->stripTags($this->getImageLabel($_product, 'small_image'), null, true) ?>" />
+    						<!-- Show Label -->
+    						<?php if (Mage::helper('multidealpro')->getMainDeal_ShowLabel()): ?>
+    							
+    						<?php endif; ?>
+							<?php echo Mage::helper('multidealpro')->getLabel($_product) ?>
+    					</a>
+    					<?php endif ?>
+						<!-- Show button cart-->
+                            <?php $status = $_product->getDealStatus(); ?>
+							<div class="em-element-display-hover bottom">
+                                <?php if ( ($status == 1 && Mage::helper('multidealpro')->getMainDeal_ShowBtncart()) || (Mage::helper('multidealpro')->getMainDeal_ShowAddto())): ?>
+                                <div class="em-btn-addto">
+                                	<!-- Show Button AddtoCart -->
+                                	<?php if ($status == 1 && Mage::helper('multidealpro')->getMainDeal_ShowBtncart()): ?>
+                                		<?php if($_product->isSaleable()): ?>
+                                			<button type="button" title="<?php echo Mage::helper('core')->quoteEscape($this->__('Add to Cart')) ?>" class="button btn-cart" onclick="setLocation('<?php echo $this->getAddToCartUrl($_product) ?>')"><span><span><?php echo $this->__('Add to Cart') ?></span></span></button>
+                                		<?php else: ?>
+                                			<p class="availability out-of-stock"><span><?php echo $this->__('Out of stock') ?></span></p>
+                                		<?php endif; ?>
+                                	<?php endif; ?>
+                                
+                                	<!-- Show Wishlist/Compare Link -->
+                                	<?php if (Mage::helper('multidealpro')->getMainDeal_ShowAddto()): ?>
+                                		<ul class="add-to-links">
+                                			<?php if ($this->helper('wishlist')->isAllow()) : ?>
+                                				<li><a href="<?php echo $this->helper('wishlist')->getAddUrl($_product) ?>" class="link-wishlist" title="<?php echo $this->__('Add to Wishlist') ?>"><?php echo $this->__('Add to Wishlist') ?></a></li>
+                                			<?php endif; ?>
+                                			<?php if($_compareUrl=$this->getAddToCompareUrl($_product)): ?>
+                                				<li><span class="separator">|</span> <a href="<?php echo $_compareUrl ?>" class="link-compare" title="<?php echo $this->__('Add to Compare') ?>"><?php echo $this->__('Add to Compare') ?></a></li>
+                                			<?php endif; ?>
+                                		</ul>
+                                	<?php endif ?>
+                                </div>
+                                <?php endif;?>
+                                
+                                <?php if(Mage::helper('core')->isModuleEnabled('EM_Quickshop') && Mage::helper('quickshop')->getConfig('enable')): ?>
+        							<div class="quickshop-link-container hidden-xs">
+        								<a href="<?php echo Mage::helper('quickshop/links')->addQuickShopLink($_product->getProductUrl()); ?>" class="quickshop-link" title="<?php echo $this->stripTags($_product->getName(), null, true) ?>"><?php echo $this->__('Quickshop') ?></a>
+        							</div>
+        						<?php endif;?>
+							</div>
+						</div>
+    
+    					<div class="product-shop">
+                            <div class="f-fix">
+    							<!--Show name -->
+								<div class="product-info">
+									<div class="product-left">
+										<?php if (Mage::helper('multidealpro')->getMainDeal_ShowName()): ?>
+											<h2 class="product-name"><a href="<?php echo $_product->getProductUrl() ?>" title="<?php echo $this->stripTags($_product->getName(), null, true) ?>"><?php echo $_helper->productAttribute($_product, $_product->getName(), 'name') ?></a></h2>
+										<?php endif ?>
+			
+										<!-- Show SKU -->
+										<?php if (Mage::helper('multidealpro')->getMainDeal_ShowSku()):?>
+											<p class="sku"><?php echo $_product->getSKU()?></p>
+										<?php endif ?>
+			
+										<!-- Show Reviews -->
+										<?php if (Mage::helper('multidealpro')->getMainDeal_ShowReview()):?>
+											<?php //if($_product->getRatingSummary()): ?>
+												<?php echo $this->getReviewsSummaryHtml($_product,"short") ?>
+											<?php //endif; ?>
+										<?php endif ?>
+									</div>
+									<div class="product-right">										
+										<!-- Show qty item left && Clock Countdown -->
+										<?php if ($status == 2): ?>
+											<div class="msg_soldout"><?php echo $this->__('Time Out') ?></div>
+										<?php else: ?>
+											<?php echo Mage::helper('multidealpro')->getQtyleft($_product); ?>
+			
+											<div class="deal_info" style="display:none"><?php echo Mage::helper('multidealpro')->getInfo(1,Mage::helper('multidealpro')->getMainDeal_ShowLabel(),Mage::helper('multidealpro')->getMainDeal_ShowPrice(),Mage::helper('multidealpro')->getMainDeal_ShowBtncart(),Mage::helper('multidealpro')->getMainDeal_ShowAddto()) ?></div>
+			
+											<?php echo Mage::helper('multidealpro/clock')->getClock($_product); ?>
+										<?php endif ?>
+									</div>
+								</div>
+    
+    							<!-- Show Description -->
+    							<?php if (Mage::helper('multidealpro')->getMainDeal_ShowDescription()):?>
+    								<div class="desc std">
+    									<?php echo $_helper->productAttribute($_product, $_product->getShortDescription(), 'short_description') ?>
+    									<a href="<?php echo $_product->getProductUrl() ?>" title="<?php echo $_productNameStripped ?>" class="link-learn"><?php echo $this->__('Learn More') ?></a>
+    								</div>
+    							<?php endif ?>
+    
+    							<!-- Show Price -->
+    							<?php if (Mage::helper('multidealpro')->getMainDeal_ShowPrice()): ?>
+    								<?php echo $this->getPriceHtml($_product, true) ?>
+    							<?php endif; ?>
+                            </div>    
+    					</div>
+                    </div>
+    			</div>
+                <?php $i++;?>
+                <?php if($i >= $_collectionSize) break;?>
+            <?php endforeach; ?>
+    	</div>
+		<div class="toolbar-bottom hide">
+			<?php echo $this->getToolbarHtml() ?>
+		</div>
+	</div>
+    
+    <script type="text/javascript">
+    //<![CDATA[
+        var $_ajaxDeal = jQuery('#em-multidealpro-products-ajax');
+        var $_page = jQuery('#em-multidealpro-wrapper-ajax').find('a.page_ajax');
+        var $_maxPage = $_page.length + 1;
+        var $_href = $_page.first().attr('href');
+        var $_len = $_href.length;
+        var $_n = $_href.indexOf('p=');
+        var $_result = $_href.substr(0, $_n)+'p=';  
+    	$_ajaxDeal.infinitescroll({            
+            loading: {
+                img			: "<?php echo $this->getSkinUrl("images/ajax-loader.gif") ?>",
+                finishedMsg : "<em><?php echo $this->__('You have reached the end of the products.') ?></em>",
+                msgText     : "<em><?php echo $this->__('Loading the next set of products...') ?></em>",
+            },
+            debug: false,
+            nextSelector 	: '#em-multidealpro-wrapper-ajax a.next',
+            navSelector  	: '#em-multidealpro-wrapper-ajax .pages ol',
+            pixelsFromNavToBottom: 5000,
+            itemSelector: '#em-multidealpro-products-ajax div.item',
+            dataType: 'html',
+            path: function(index) {
+        		return $_result + index;
+			},
+            maxPage         : $_maxPage
+            
+		}, function(newElements, data, url){		      
+			var $_container = jQuery(this);
+            setTimeout(function(){
+                $_container.isotope( 'insert', newElements);
+            },500);
+            
+            if (EM.SETTING.DISABLE_AJAX_ADDTO != 0){
+                var sWishlist = $_container.find('.add-to-links').find('a.link-wishlist');
+                if(sWishlist.length){sWishlist.emAjaxWishList();}            
+    
+                var sCompare = $_container.find('.add-to-links').find('a.link-compare');
+                if(sCompare.length){
+                    sCompare.emAjaxCompare({
+                        sidebarSelector : ".block-compare"
+                    });
+                }
+            }
+            
+            var $_img= $_container.find('img[data-original]');
+            $_img.bind('inview', function(event, isVisible) {
+                if (!isVisible) { return; }        
+                var $_this = jQuery(this);
+                $_this.attr('src', $_this.attr('data-original')).removeAttr('data-original');
+                $_this.removeClass('em-img-lazy').addClass('em-lazy-loaded');
+            });
+            
+            if ((typeof EM_QUICKSHOP_DISABLED == 'undefined' || !EM_QUICKSHOP_DISABLED)){
+                em_qs();  
+            }
+            jQuery(window).trigger("emAjaxMultideal");
+		});
+        
+        (function($){
+            $(document).ready(function(){
+                setTimeout(function(){
+                    if (!isPhone) {
+                	   var $_iso = $('#em-multidealpro-products-ajax');
+                		$_iso.isotope({
+                			itemSelector: '.item',
+                            layoutMode: 'fitRows',
+                            fitRows: {
+                              gutter: 0,
+                            },
+                            percentPosition: true,
+                		}); 
+                	}
+                },500);
+            });
+        })(jQuery);
+        //]]>	
+    </script>
+<?php endif ?> 

@@ -1,0 +1,20 @@
+.em-wrapper-features{
+	margin-bottom:$space_block;
+}
+
+
+/*Main Color Variation*/
+.em-color span{
+	&.emColorStyle01{
+		background:#4f6039;
+	}
+	&.emColorStyle02{
+		background:#f1b737;
+	}
+	&.emColorStyle03{
+		background:#29506b;
+	}
+	&.emColorStyle04{
+		background:#6376a1;
+	}
+}

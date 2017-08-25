@@ -1,0 +1,669 @@
+<?xml version="1.0" encoding="utf-8"?>
+<theme>
+  <general>
+    <theme_name><![CDATA[EM0141 Glory Trending Fashion]]></theme_name>
+    <identifier><![CDATA[em0141-trending]]></identifier>
+    <base_theme><![CDATA[em0141]]></base_theme>
+    <package><![CDATA[em0141]]></package>
+    <template><![CDATA[em0141_trending]]></template>
+    <layout><![CDATA[em0141_trending]]></layout>
+    <skin><![CDATA[em0141_trending]]></skin>
+    <default_theme><![CDATA[]]></default_theme>
+    <path><![CDATA[trending_fashion.jpg]]></path>
+    <is_clone><![CDATA[0]]></is_clone>
+  </general>
+  <settings>
+    <config_json><![CDATA[{"general_disable_responsive":"1","general_right_to_left":"0","general_right_to_left_preview":"","general_box_wide":"wide","general_box_wide_preview":"","general_wideslide_full":"1","general_wideslide_full_preview":"","general_sticky_element":"1","general_disable_default_nav":"0","general_disable_hover_login":"1","general_cat_search":"1","general_show_popup":"2","general_disable_ajaxaddto":"1","general_disable_frontend_variation":"1","general_disable_collapse":"1","general_proximanova_font":"0","css_additional_css_file":"style_fashiontrending.css","css_custom_css":"","fonts_google_font_key":"AIzaSyCZ6wqklkyJFXWvoxvA5Zv0SGzHTd6JbbI","fonts_google_fonts":["Lato","Lora","Raleway"],"fonts_font_family":"null","fonts_google_fonts_weights":"200,300,400,500,600,700,800","fonts_general_font":"300 14px\/1.55 proxima-nova,Helvetica Neue, Helvetica, Arial, sans-serif","fonts_h1_font":"600 30px\/1.15 proxima-nova, Helvetica Neue, Helvetica, Arial, sans-serif","fonts_h2_font":"600 24px\/1.25 proxima-nova, Helvetica Neue, Helvetica, Arial, sans-serif","fonts_h3_font":"600 18px\/1.35 proxima-nova, Helvetica Neue, Helvetica, Arial, sans-serif","fonts_h4_font":"600 16px\/1.35 proxima-nova, Helvetica Neue, Helvetica, Arial, sans-serif","fonts_h5_font":"600 14px\/1.35 proxima-nova, Helvetica Neue, Helvetica, Arial, sans-serif","fonts_h6_font":"500 14px\/1.35 Lato, Helvetica Neue, Helvetica, Arial, sans-serif","typo_general_page_bg_color":"#ffffff","typo_general_page_bg_image":"","typo_general_page_bg_position":"0 0","typo_general_page_bg_repeat":"repeat","typo_general_page_bg_attachment":"fixed","typo_general_box_shadow":"0 0 5px #ffffff","typo_general_rounded_corner":"5px","header_header_bg_color":"#ffffff","header_header_bg2_color":"#ffffff","header_header_bg6_color":"#b0f0e2","header_header_bg3_color":"#b399ba","header_header_bg4_color":"#ffffff","header_header_bg5_color":"#ffffff","header_header_bg_image":"","header_header_bg_position":"0 0","header_header_bg_repeat":"repeat","header_header_text_color":"#7f7f7f","header_header_text2_color":"#ffffff","header_header_text3_color":"#282828","header_header_text4_color":"#959595","header_header_line_color":"#e1e1e1","menu_topmenu_bg_color":"#b0f0e2","menu_topmenu_hover_bg_color":"#b0f0e2","menu_topmenu_text_color":"#2a2a2a","menu_topmenu_hover_text_color":"#b399ba","menu_topmenu_line_color":"#b399ba","menu_topmenu_font":"700 14px\/1.35 Lato,Helvetica Neue, Helvetica, Arial, sans-serif","menu_vnav_bg_color":"#f4f4f4","menu_vnav_hover_bg_color":"#ffd5e3","menu_vnav_text_color":"#2a2a2a","menu_vnav_hover_text_color":"#b399ba","menu_vnav_line_color":"#ffffff","menu_vnav_font":"500 14px\/1.35 Lato,Helvetica Neue, Helvetica, Arial, sans-serif","menu_dropmenu_bg_color":"#ffffff","menu_dropmenu_text_color":"#a1a1a1","menu_dropmenu_text2_color":"#b399ba","menu_dropmenu_text3_color":"#434343","menu_dropmenu_line_color":"#e9e9e9","menu_dropmenu_font":"normal 14px\/1.55 Lato, Helvetica, Arial, sans-serif","body_body_bg_color":"#ffffff","body_body_bg2_color":"#ffffff","body_body_bg3_color":"#b399ba","body_body_bg4_color":"#f1f1f1","body_body_tab_bg_color":"#f8f8f8","body_body_label_bg_color":"#f7d059","body_body_label_bg2_color":"#b399ba","body_body_label_bg3_color":"#2cbedd","body_body_bg_image":"","body_body_bg_position":"0 0","body_body_bg_repeat":"repeat","body_body_text_color":"#a1a1a1","body_body_text2_color":"#2a2a2a","body_body_text3_color":"#756f6f","body_body_text4_color":"#565656","body_body_text5_color":"#2a2a2a","body_body_text6_color":"rgba(255,255,255,1.00)","body_body_text7_color":"#b399ba","body_body_line_color":"#e1e1e1","body_body_line2_color":"#b399ba","footer_footer_bg_color":"#000000","footer_footer_bg2_color":"#000000","footer_footer_bg3_color":"#ffffff","footer_footer_bg_image":"","footer_footer_bg_position":"center center","footer_footer_bg_repeat":"no-repeat","footer_footer_text_color":"#ffffff","footer_footer_text2_color":"#ffffff","footer_footer_text3_color":"#b399ba","footer_footer_text4_color":"#b399ba","footer_footer_line_color":"#333333","buttons_btn1_bg_color":"#b399ba","buttons_btn1_text_color":"rgba(255,255,255,1.00)","buttons_btn1_line_color":"#b399ba","buttons_btn1_font":"700 12px\/1.35 Lato, Helvetica, Arial, sans-serif","buttons_btn2_bg_color":"#212121","buttons_btn2_text_color":"#ffffff","buttons_btn2_line_color":"#212121","buttons_btn2_font":"700 12px\/1.35 Lato, Helvetica, Arial, sans-serif","buttons_btn3_bg_color":"#ffffff","buttons_btn3_text_color":"#756f6f","buttons_btn3_line_color":"#eaeaea","buttons_btn3_font":"700 12px\/1.15 Lato, Helvetica, Arial, sans-serif","buttons_btn4_bg_color":"#b0f0e2","buttons_btn4_text_color":"#2b2b2b","buttons_btn4_line_color":"#b0f0e2","buttons_btn4_font":"700 16px\/1.35 Lato, Helvetica, Arial, sans-serif","buttons_btn5_bg_color":"#ffffff","buttons_btn5_text_color":"#756f6f","buttons_btn5_line_color":"#eaeaea","buttons_btn5_font":"700 12px\/1.35 Lato, Helvetica, Arial, sans-serif","buttons_btn6_bg_color":"#ffffff","buttons_btn6_text_color":"#756f6f","buttons_btn6_line_color":"#eaeaea","buttons_btn6_font":"700 12px\/1.35 Lato, Helvetica, Arial, sans-serif","buttons_btn7_bg_color":"#ffffff","buttons_btn7_text_color":"#2a2a2a","buttons_btn7_line_color":"#ffffff","buttons_btn7_font":"700 12px\/1.35 Lato, Helvetica, Arial, sans-serif","products_grid_onecolumn":"5","products_grid_twocolumns":"4","products_grid_threecolumns":"3","products_grid_desktop_small_onecolumn":"4","products_grid_desktop_small_twocolumns":"3","products_grid_desktop_small_threecolumns":"2","products_grid_tablet_onecolumn":"3","products_grid_tablet_twocolumns":"3","products_grid_tablet_threecolumns":"2","products_grid_items_mobile":"2","products_grid_image_ratio":"-1","products_grid_custom_width":"3","products_grid_custom_height":"3.6","products_grid_alt_img":"thumbnail","products_grid_config_hover":"mobile","products_grid_align_center":"1","products_grid_show_thumbnail":"1","products_grid_show_label":"1","products_grid_show_product_name":"1","products_grid_auto_product_name":"0","products_grid_show_desc":"2","products_grid_show_price":"1","products_grid_show_reviews":"1","products_grid_show_addtocart":"1","products_list_gutter":"","products_list_image_ratio":"-1","products_list_custom_width":"3","products_list_custom_height":"3.6","products_list_alt_img":"image","products_list_show_product_name":"1","products_list_show_thumbnail":"1","products_list_show_desc":"1","products_list_show_price":"1","products_list_show_reviews":"1","products_list_show_addtocart":"1","products_list_show_addto":"1","products_list_show_label":"1","product_detail_product_view_preview":"","product_detail_primary_column_width":"13","product_detail_base_image_width":"750","product_detail_base_image_height":"904","product_detail_secondary_column_width":"11","product_detail_primary_two_column_width":"12","product_detail_base_two_image_width":"500","product_detail_base_two_image_height":"603","product_detail_secondary_two_column_width":"12","product_detail_primary_three_column_width":"24","product_detail_base_three_image_width":"600","product_detail_base_three_image_height":"723","product_detail_secondary_three_column_width":"24","product_detail_show_sku":"1","product_detail_viewmode":"cloudzoom","product_detail_cloud_zoom_width":"130","product_detail_cloud_zoom_height":"130","product_detail_use_tabs":"1","moreview_width":"170","moreview_height":"205","moreview_enable_slider":"1","moreview_slider_items":"5","moreview_slider_items_desktop":"4","moreview_slider_items_desktop_small":"3","moreview_slider_items_tablet":"3","moreview_slider_items_mobile":"2","moreview_slider_navigation":"1","moreview_slider_pagination":"0","moreview_slider_pagination_numbers":"0","related_display":"dont_replace","related_position":"top_tabs","related_width":"300","related_height":"362","related_enable_slider":"1","related_slider_items":"4","related_slider_items_two":"4","related_slider_items_three":"3","related_slider_items_desktop":"5","related_slider_items_desktop_small":"3","related_slider_items_tablet":"3","related_slider_items_mobile":"2","related_slider_navigation":"1","related_slider_pagination":"0","related_slider_pagination_numbers":"0","upsell_display":"dont_replace","upsell_width":"300","upsell_height":"362","upsell_enable_slider":"1","upsell_slider_items":"4","upsell_slider_items_two":"3","upsell_slider_items_three":"2","upsell_slider_items_desktop":"4","upsell_slider_items_desktop_small":"3","upsell_slider_items_tablet":"3","upsell_slider_items_mobile":"2","upsell_slider_navigation":"1","upsell_slider_pagination":"0","upsell_slider_pagination_numbers":"0","position_catalog_shopby":"left","position_catalog_leftnav":"left","position_catalog_search_layer":"left","position_catalog_related":"right","position_compare":"all","position_poll":"all","position_popular_tags":"left","position_wishlist_sidebar":"all","position_reorder_sidebar":"right","home_position_compare":"0","home_position_poll":"0","home_position_tags":"0","home_position_wishlist":"0","home_position_reorder":"0","crossell_display":"dont_replace","crossell_width":"300","crossell_height":"362","crossell_enable_slider":"1","crossell_slider_items":"4","crossell_slider_items_desktop":"4","crossell_slider_items_desktop_small":"3","crossell_slider_items_tablet":"3","crossell_slider_items_mobile":"2","crossell_slider_navigation":"1","crossell_slider_pagination":"0","crossell_slider_pagination_numbers":"0","image_sidebar_width":"100","image_sidebar_height":"121","related_sidebar_width":"100","related_sidebar_height":"121","image_shopping_cart_width":"100","image_shopping_cart_height":"121","recently_viewed_width":"100","recently_viewed_height":"121","flashtag_enabled":"0","flashtag_count":"100","flashtag_max":"20","flashtag_min":"12","flashtag_maxcolor":"#646464","flashtag_normal":"#646464","flashtag_hover":"#646464","ajaxcart_auto_close":"0","contacts_map_enable":"1","contacts_map_address":"249 Ung Van Khiem, Phuong 25, Binh Thanh, Ho Chi Minh","contacts_map_info":"We really care about you and your website as much as you do. Purchasing EM0141 Glory or any other theme from us you get 100% free support.","contacts_map_height":"500","contacts_map_width":"100%","contacts_map_image":null,"snippets_enable":"0","snippets_review":"0","snippets_price":"0","snippets_breadcrumbs":"0","snippets_description":"0","thumbnail":null,"typo_general_page_bg_file":null,"header_header_bg_file":null,"body_body_bg_file":null,"footer_footer_bg_file":""}]]></config_json>
+    <excluded_blocks><![CDATA[em0141-fashion-area01-home-slideshow&em0141-fashion-area05-product-lists&em0141-fashion-area-main02-home-best-sellers&em0141-glory-area07-home-brands-slider&em0141-left-navigation&em0141-sidebar-home-testimonial&em0141-fashion-sidebar-home-daily-deal&em0141-fashion-area-main03-home-new-arrivals&em0141-fashion-area-main03-home-banners&em0141-area01-home-service&em0141-fashion-area-main04-home-two-banners&em0141-area17-picks-tabs&em0141-fashion-home-area05-text-ads&em0141-fashion-left-navigation&em0141-fashion-area06-theme-features&em0141-fashion-area07-home-brands-slider&em0141-fashion-area-footer01-links-style09&em0141-fashion-area-footer02-payment&em0141-fashion-area01-home-service&em0141-fashion-area-04-home-recent-blog&em0141-fashion-area-04-home-recent-blog-code&em0141-fashion-area-left01-home-banner&em0141-fashion-area-main01-home-banners&em0141-fashion-area-left02-home-ads&em0141-fashion-area02-picks-tabs&em0141-fashion-area-left04-home-banner&em0141-fashion-all-area-header-call-us&em0141-fashion-area-navigation-top-menu&em0141-default-area01-slideshow]]></excluded_blocks>
+  </settings>
+  <sample_data>
+    <flexible_block>
+      <fblock>
+        <package_theme><![CDATA[em0141/em0141_trending]]></package_theme>
+        <title><![CDATA[EM0141 Glory - Trending Fashion - Area 01 - Slideshow]]></title>
+        <position><![CDATA[em_area1]]></position>
+        <custom_position><![CDATA[]]></custom_position>
+        <schedule_pattern><![CDATA[every day]]></schedule_pattern>
+        <schedule_from_time><![CDATA[]]></schedule_from_time>
+        <schedule_to_time><![CDATA[]]></schedule_to_time>
+        <category_ids><![CDATA[]]></category_ids>
+        <identifier><![CDATA[em0141-trending-area01-slideshow]]></identifier>
+        <layout_handle><![CDATA[cms_index_index]]></layout_handle>
+        <custom_layout_handle><![CDATA[]]></custom_layout_handle>
+        <additional_cache_tags><![CDATA[]]></additional_cache_tags>
+        <layout_handle_2><![CDATA[]]></layout_handle_2>
+        <position_2><![CDATA[]]></position_2>
+        <layout_handle_3><![CDATA[]]></layout_handle_3>
+        <position_3><![CDATA[]]></position_3>
+        <layout_attribute><![CDATA[]]></layout_attribute>
+        <layout_attribute_2><![CDATA[]]></layout_attribute_2>
+        <layout_attribute_3><![CDATA[]]></layout_attribute_3>
+        <layout_attribute_custom><![CDATA[]]></layout_attribute_custom>
+        <cms_page><![CDATA[-1]]></cms_page>
+        <order><![CDATA[]]></order>
+        <status><![CDATA[1]]></status>
+        <display_pc><![CDATA[1]]></display_pc>
+        <display_tablet><![CDATA[1]]></display_tablet>
+        <display_mobile><![CDATA[1]]></display_mobile>
+        <content><![CDATA[<div class="em-slideshow">{{widget type="minislideshow/minislideshow" slideshow="24"}}</div>]]></content>
+        <conditions><![CDATA[a:6:{s:4:"type";s:34:"catalogrule/rule_condition_combine";s:9:"attribute";N;s:8:"operator";N;s:5:"value";s:1:"1";s:18:"is_value_processed";N;s:10:"aggregator";s:3:"all";}]]></conditions>
+        <from_date><![CDATA[]]></from_date>
+        <to_date><![CDATA[]]></to_date>
+      </fblock>
+      <fblock>
+        <package_theme><![CDATA[em0141/em0141_trending]]></package_theme>
+        <title><![CDATA[EM0141 Glory Theme - Trending Fashion - Area Navigation - Top Menu]]></title>
+        <position><![CDATA[em0141.top.menu]]></position>
+        <custom_position><![CDATA[]]></custom_position>
+        <schedule_pattern><![CDATA[every day]]></schedule_pattern>
+        <schedule_from_time><![CDATA[]]></schedule_from_time>
+        <schedule_to_time><![CDATA[]]></schedule_to_time>
+        <category_ids><![CDATA[]]></category_ids>
+        <identifier><![CDATA[em0141-trending-area-navigation-top-menu]]></identifier>
+        <layout_handle><![CDATA[default]]></layout_handle>
+        <custom_layout_handle><![CDATA[]]></custom_layout_handle>
+        <additional_cache_tags><![CDATA[]]></additional_cache_tags>
+        <layout_handle_2><![CDATA[]]></layout_handle_2>
+        <position_2><![CDATA[]]></position_2>
+        <layout_handle_3><![CDATA[]]></layout_handle_3>
+        <position_3><![CDATA[]]></position_3>
+        <layout_attribute><![CDATA[]]></layout_attribute>
+        <layout_attribute_2><![CDATA[]]></layout_attribute_2>
+        <layout_attribute_3><![CDATA[]]></layout_attribute_3>
+        <layout_attribute_custom><![CDATA[]]></layout_attribute_custom>
+        <cms_page><![CDATA[-1]]></cms_page>
+        <order><![CDATA[]]></order>
+        <status><![CDATA[1]]></status>
+        <display_pc><![CDATA[1]]></display_pc>
+        <display_tablet><![CDATA[1]]></display_tablet>
+        <display_mobile><![CDATA[1]]></display_mobile>
+        <content><![CDATA[<div class="em-menu">{{widget type="megamenupro/megamenupro" menu="14"}}</div>]]></content>
+        <conditions><![CDATA[a:6:{s:4:"type";s:34:"catalogrule/rule_condition_combine";s:9:"attribute";N;s:8:"operator";N;s:5:"value";s:1:"1";s:18:"is_value_processed";N;s:10:"aggregator";s:3:"all";}]]></conditions>
+        <from_date><![CDATA[]]></from_date>
+        <to_date><![CDATA[]]></to_date>
+      </fblock>
+      <fblock>
+        <package_theme><![CDATA[em0141/em0141_trending]]></package_theme>
+        <title><![CDATA[EM0141 Glory Theme - Trending Fashion - Area 02 - Banners]]></title>
+        <position><![CDATA[em_area2]]></position>
+        <custom_position><![CDATA[]]></custom_position>
+        <schedule_pattern><![CDATA[every day]]></schedule_pattern>
+        <schedule_from_time><![CDATA[]]></schedule_from_time>
+        <schedule_to_time><![CDATA[]]></schedule_to_time>
+        <category_ids><![CDATA[]]></category_ids>
+        <identifier><![CDATA[em0141-trending-area02-banners]]></identifier>
+        <layout_handle><![CDATA[cms_index_index]]></layout_handle>
+        <custom_layout_handle><![CDATA[]]></custom_layout_handle>
+        <additional_cache_tags><![CDATA[]]></additional_cache_tags>
+        <layout_handle_2><![CDATA[]]></layout_handle_2>
+        <position_2><![CDATA[]]></position_2>
+        <layout_handle_3><![CDATA[]]></layout_handle_3>
+        <position_3><![CDATA[]]></position_3>
+        <layout_attribute><![CDATA[]]></layout_attribute>
+        <layout_attribute_2><![CDATA[]]></layout_attribute_2>
+        <layout_attribute_3><![CDATA[]]></layout_attribute_3>
+        <layout_attribute_custom><![CDATA[]]></layout_attribute_custom>
+        <cms_page><![CDATA[-1]]></cms_page>
+        <order><![CDATA[]]></order>
+        <status><![CDATA[1]]></status>
+        <display_pc><![CDATA[1]]></display_pc>
+        <display_tablet><![CDATA[1]]></display_tablet>
+        <display_mobile><![CDATA[0]]></display_mobile>
+        <content><![CDATA[<div class="row hidden-xs">
+<section class="col-sm-16 first">
+<section class="row">
+<section class="col-sm-12 first">
+<div class="img-banner-small"><a class="banner-img" title="banner" href="#"><img class="img-responsive img-banner-lazyload" alt="em_ads_01.jpg" src="{{skin url='images/loading.gif'}}" data-original="{{media url='wysiwyg/em0141/layout_trending/home/em_ads_01.jpg'}}" /><span class="effect-line-02">&nbsp; </span> </a></div>
+</section>
+<section class="col-sm-12">
+<div class="img-banner-small"><a class="banner-img" title="banner" href="#"><img class="img-responsive img-banner-lazyload" alt="em_ads_02.jpg" src="{{skin url='images/loading.gif'}}" data-original="{{media url='wysiwyg/em0141/layout_trending/home/em_ads_02.jpg'}}" /><span class="effect-line-02">&nbsp; </span> </a></div>
+</section>
+</section>
+<section class="row">
+<div class="col-sm-24">
+<div class="img-banner"><a class="banner-img" title="banner" href="#"><img class="img-responsive img-banner-lazyload" alt="em_ads_03.jpg" src="{{skin url='images/loading.gif'}}" data-original="{{media url='wysiwyg/em0141/layout_trending/home/em_ads_03.jpg'}}" /><span class="effect-line-02">&nbsp; </span> </a></div>
+</div>
+</section>
+</section>
+<section class="col-sm-8">
+<div class="img-banner"><a class="banner-img" title="banner" href="#"><img class="img-responsive img-banner-lazyload" alt="em_ads_04.jpg" src="{{skin url='images/loading.gif'}}" data-original="{{media url='wysiwyg/em0141/layout_trending/home/em_ads_04.jpg'}}" /><span class="effect-line-02">&nbsp; </span></a></div>
+</section>
+</div>]]></content>
+        <conditions><![CDATA[a:6:{s:4:"type";s:34:"catalogrule/rule_condition_combine";s:9:"attribute";N;s:8:"operator";N;s:5:"value";s:1:"1";s:18:"is_value_processed";N;s:10:"aggregator";s:3:"all";}]]></conditions>
+        <from_date><![CDATA[]]></from_date>
+        <to_date><![CDATA[]]></to_date>
+      </fblock>
+      <fblock>
+        <package_theme><![CDATA[em0141/em0141_trending]]></package_theme>
+        <title><![CDATA[EM0141 Glory Theme - Trending Fashion - Area Main 01 - Top List  Products]]></title>
+        <position><![CDATA[content]]></position>
+        <custom_position><![CDATA[]]></custom_position>
+        <schedule_pattern><![CDATA[every day]]></schedule_pattern>
+        <schedule_from_time><![CDATA[]]></schedule_from_time>
+        <schedule_to_time><![CDATA[]]></schedule_to_time>
+        <category_ids><![CDATA[]]></category_ids>
+        <identifier><![CDATA[em0141-trending-area-main01-top-list-products]]></identifier>
+        <layout_handle><![CDATA[cms_index_index]]></layout_handle>
+        <custom_layout_handle><![CDATA[]]></custom_layout_handle>
+        <additional_cache_tags><![CDATA[]]></additional_cache_tags>
+        <layout_handle_2><![CDATA[]]></layout_handle_2>
+        <position_2><![CDATA[]]></position_2>
+        <layout_handle_3><![CDATA[]]></layout_handle_3>
+        <position_3><![CDATA[]]></position_3>
+        <layout_attribute><![CDATA[]]></layout_attribute>
+        <layout_attribute_2><![CDATA[]]></layout_attribute_2>
+        <layout_attribute_3><![CDATA[]]></layout_attribute_3>
+        <layout_attribute_custom><![CDATA[]]></layout_attribute_custom>
+        <cms_page><![CDATA[-1]]></cms_page>
+        <order><![CDATA[1]]></order>
+        <status><![CDATA[1]]></status>
+        <display_pc><![CDATA[1]]></display_pc>
+        <display_tablet><![CDATA[1]]></display_tablet>
+        <display_mobile><![CDATA[1]]></display_mobile>
+        <content><![CDATA[<div class="em-line-01 button-show01 button-hide-text text-center em-grid-23 slide-mobile">{{widget type="minifilterproducts/list" category="35" type_filter="1" featured="em_featured" limit_count="5" order_by="name asc" frontend_title="Top List Of The Week" frontend_description="2015 Collection / 2016 Collection" show="thumb,name,price,label,addtocart,addto" thumbnail_width="255" thumbnail_height="307" slider_enable="1" slider_items="5" img_lazyload="1" alt_img="thumbnail" cache_lifetime="86400" slider_items_desktop="3" slider_items_desktop_small="2" slider_items_tablet="2" slider_items_mobile="2" slider_navigation="true"}}</div>]]></content>
+        <conditions><![CDATA[a:6:{s:4:"type";s:34:"catalogrule/rule_condition_combine";s:9:"attribute";N;s:8:"operator";N;s:5:"value";s:1:"1";s:18:"is_value_processed";N;s:10:"aggregator";s:3:"all";}]]></conditions>
+        <from_date><![CDATA[]]></from_date>
+        <to_date><![CDATA[]]></to_date>
+      </fblock>
+      <fblock>
+        <package_theme><![CDATA[em0141/em0141_trending]]></package_theme>
+        <title><![CDATA[EM0141 Glory Theme - Trending Fashion - Area Main 02 - Ads - Love Us]]></title>
+        <position><![CDATA[content]]></position>
+        <custom_position><![CDATA[]]></custom_position>
+        <schedule_pattern><![CDATA[every day]]></schedule_pattern>
+        <schedule_from_time><![CDATA[]]></schedule_from_time>
+        <schedule_to_time><![CDATA[]]></schedule_to_time>
+        <category_ids><![CDATA[]]></category_ids>
+        <identifier><![CDATA[em0141-trending-area-main02-ads-love-us]]></identifier>
+        <layout_handle><![CDATA[cms_index_index]]></layout_handle>
+        <custom_layout_handle><![CDATA[]]></custom_layout_handle>
+        <additional_cache_tags><![CDATA[]]></additional_cache_tags>
+        <layout_handle_2><![CDATA[]]></layout_handle_2>
+        <position_2><![CDATA[]]></position_2>
+        <layout_handle_3><![CDATA[]]></layout_handle_3>
+        <position_3><![CDATA[]]></position_3>
+        <layout_attribute><![CDATA[]]></layout_attribute>
+        <layout_attribute_2><![CDATA[]]></layout_attribute_2>
+        <layout_attribute_3><![CDATA[]]></layout_attribute_3>
+        <layout_attribute_custom><![CDATA[]]></layout_attribute_custom>
+        <cms_page><![CDATA[-1]]></cms_page>
+        <order><![CDATA[2]]></order>
+        <status><![CDATA[1]]></status>
+        <display_pc><![CDATA[1]]></display_pc>
+        <display_tablet><![CDATA[1]]></display_tablet>
+        <display_mobile><![CDATA[0]]></display_mobile>
+        <content><![CDATA[<div class="hidden-xs">
+<div class="em-wrapper-ads-17">
+<div class="em-box-info">
+<h1 class="em-text-upercase" style="font: 500 4.8rem/1 Lato,Helvetica Neue, Helvetica, Arial, sans-serif;">Do you love us yet?</h1>
+<h1 class="em-text-upercase" style="font: 500 1.8rem/1.25 Lato,Helvetica Neue, Helvetica, Arial, sans-serif; margin-bottom: 2.2rem;">Fashion is alway of the time in which you love</h1>
+<a class="button-link first em-text-upercase" href="#"><span>purchase this theme</span></a></div>
+</div>
+</div>]]></content>
+        <conditions><![CDATA[a:6:{s:4:"type";s:34:"catalogrule/rule_condition_combine";s:9:"attribute";N;s:8:"operator";N;s:5:"value";s:1:"1";s:18:"is_value_processed";N;s:10:"aggregator";s:3:"all";}]]></conditions>
+        <from_date><![CDATA[]]></from_date>
+        <to_date><![CDATA[]]></to_date>
+      </fblock>
+      <fblock>
+        <package_theme><![CDATA[em0141/em0141_trending]]></package_theme>
+        <title><![CDATA[EM0141 Glory Theme - Trending Fashion - Area Main 03 - New Arrivals]]></title>
+        <position><![CDATA[content]]></position>
+        <custom_position><![CDATA[]]></custom_position>
+        <schedule_pattern><![CDATA[every day]]></schedule_pattern>
+        <schedule_from_time><![CDATA[]]></schedule_from_time>
+        <schedule_to_time><![CDATA[]]></schedule_to_time>
+        <category_ids><![CDATA[]]></category_ids>
+        <identifier><![CDATA[em0141-trending-area-main03-new-arrivals-slider]]></identifier>
+        <layout_handle><![CDATA[cms_index_index]]></layout_handle>
+        <custom_layout_handle><![CDATA[]]></custom_layout_handle>
+        <additional_cache_tags><![CDATA[]]></additional_cache_tags>
+        <layout_handle_2><![CDATA[]]></layout_handle_2>
+        <position_2><![CDATA[]]></position_2>
+        <layout_handle_3><![CDATA[]]></layout_handle_3>
+        <position_3><![CDATA[]]></position_3>
+        <layout_attribute><![CDATA[]]></layout_attribute>
+        <layout_attribute_2><![CDATA[]]></layout_attribute_2>
+        <layout_attribute_3><![CDATA[]]></layout_attribute_3>
+        <layout_attribute_custom><![CDATA[]]></layout_attribute_custom>
+        <cms_page><![CDATA[-1]]></cms_page>
+        <order><![CDATA[3]]></order>
+        <status><![CDATA[1]]></status>
+        <display_pc><![CDATA[1]]></display_pc>
+        <display_tablet><![CDATA[1]]></display_tablet>
+        <display_mobile><![CDATA[1]]></display_mobile>
+        <content><![CDATA[<div class="em-wrapper-products  em-line-01 text-center button-show01 button-hide-text slide-mobile">
+<div class="em-new-slider row">
+<div class="col-sm-8 hidden-xs">
+<div class="em-effect06"><a class="banner-img" title="banner" href="#"> <img class="img-responsive img-banner-lazyload" alt="em_ads_06.jpg" src="{{skin url='images/loading.gif'}}" data-original="{{media url='wysiwyg/em0141/layout_trending/home/em_ads_06.jpg'}}" /><span class="effect-line-02">&nbsp;</span> </a>
+</div>
+</div>
+<div class="col-sm-16">{{widget type="minifilterproducts/list" category="35" type_filter="3" limit_count="5" order_by="name asc" frontend_title="New Arrival" show="thumb,name,review,price,label,addtocart,addto" thumbnail_width="300" thumbnail_height="362" slider_enable="1" slider_items="3" img_lazyload="1" alt_img="thumbnail" cache_lifetime="86400" slider_items_desktop="3" slider_items_desktop_small="2" slider_items_tablet="2" slider_items_mobile="2" slider_navigation="1" slider_speed="800" slider_rewindspeed="800"}}</div>
+</div>
+</div>]]></content>
+        <conditions><![CDATA[a:6:{s:4:"type";s:34:"catalogrule/rule_condition_combine";s:9:"attribute";N;s:8:"operator";N;s:5:"value";s:1:"1";s:18:"is_value_processed";N;s:10:"aggregator";s:3:"all";}]]></conditions>
+        <from_date><![CDATA[]]></from_date>
+        <to_date><![CDATA[]]></to_date>
+      </fblock>
+      <fblock>
+        <package_theme><![CDATA[em0141/em0141_trending]]></package_theme>
+        <title><![CDATA[EM0141 Glory Theme - Trending Fashion - Area 03 - Video]]></title>
+        <position><![CDATA[em_area3]]></position>
+        <custom_position><![CDATA[]]></custom_position>
+        <schedule_pattern><![CDATA[every day]]></schedule_pattern>
+        <schedule_from_time><![CDATA[]]></schedule_from_time>
+        <schedule_to_time><![CDATA[]]></schedule_to_time>
+        <category_ids><![CDATA[]]></category_ids>
+        <identifier><![CDATA[em0141-trending-area03-video]]></identifier>
+        <layout_handle><![CDATA[cms_index_index]]></layout_handle>
+        <custom_layout_handle><![CDATA[]]></custom_layout_handle>
+        <additional_cache_tags><![CDATA[]]></additional_cache_tags>
+        <layout_handle_2><![CDATA[]]></layout_handle_2>
+        <position_2><![CDATA[]]></position_2>
+        <layout_handle_3><![CDATA[]]></layout_handle_3>
+        <position_3><![CDATA[]]></position_3>
+        <layout_attribute><![CDATA[]]></layout_attribute>
+        <layout_attribute_2><![CDATA[]]></layout_attribute_2>
+        <layout_attribute_3><![CDATA[]]></layout_attribute_3>
+        <layout_attribute_custom><![CDATA[]]></layout_attribute_custom>
+        <cms_page><![CDATA[-1]]></cms_page>
+        <order><![CDATA[]]></order>
+        <status><![CDATA[1]]></status>
+        <display_pc><![CDATA[1]]></display_pc>
+        <display_tablet><![CDATA[0]]></display_tablet>
+        <display_mobile><![CDATA[0]]></display_mobile>
+        <content><![CDATA[<div class="em-wrapper-ads-video hidden-xs" style="background-color: white;">
+<div class="em-video" data-bg-override="ex-full"><video id="emvideoPlayer" width="100%" height="" style="left: 0px; top: 0px;" preload="auto" autoplay="autoplay" loop="loop" muted="muted"><source src="{{media url='wysiwyg/em0141/layout_trending/home/movie.mp4'}}" type="video/mp4" /> </video></div>
+<div class="em-video-des em-video-pause">
+<p class="fa fa-pause">&nbsp;</p>
+</div>
+</div>
+<script type="text/javascript">// <![CDATA[
+jQuery( document ).ready(function() {
+        var $ = jQuery;
+        var videoPlayer = $('#emvideoPlayer');
+        var $_embtnVideo = jQuery('.em-video-pause');    
+        $_embtnVideo.on('click',function(e){
+            e.preventDefault();
+            $_this = jQuery(this);
+            var $_emiconVideo = $_this.find('.fa');            
+            if(videoPlayer[0].paused) {
+                videoPlayer[0].play();
+                $_emiconVideo.removeClass('fa-play').addClass('fa-pause');
+            }
+            else {
+                videoPlayer[0].pause();
+                $_emiconVideo.removeClass('fa-pause').addClass('fa-play');
+            }
+            
+        });
+    });
+// ]]]]><![CDATA[></script>]]></content>
+        <conditions><![CDATA[a:6:{s:4:"type";s:34:"catalogrule/rule_condition_combine";s:9:"attribute";N;s:8:"operator";N;s:5:"value";s:1:"1";s:18:"is_value_processed";N;s:10:"aggregator";s:3:"all";}]]></conditions>
+        <from_date><![CDATA[]]></from_date>
+        <to_date><![CDATA[]]></to_date>
+      </fblock>
+      <fblock>
+        <package_theme><![CDATA[em0141/em0141_trending]]></package_theme>
+        <title><![CDATA[EM0141 Glory Theme - Trending Fashion - Area 04 - Ads]]></title>
+        <position><![CDATA[em_area4]]></position>
+        <custom_position><![CDATA[]]></custom_position>
+        <schedule_pattern><![CDATA[every day]]></schedule_pattern>
+        <schedule_from_time><![CDATA[]]></schedule_from_time>
+        <schedule_to_time><![CDATA[]]></schedule_to_time>
+        <category_ids><![CDATA[]]></category_ids>
+        <identifier><![CDATA[em0141-trending-home-area04-ads]]></identifier>
+        <layout_handle><![CDATA[cms_index_index]]></layout_handle>
+        <custom_layout_handle><![CDATA[]]></custom_layout_handle>
+        <additional_cache_tags><![CDATA[]]></additional_cache_tags>
+        <layout_handle_2><![CDATA[]]></layout_handle_2>
+        <position_2><![CDATA[]]></position_2>
+        <layout_handle_3><![CDATA[]]></layout_handle_3>
+        <position_3><![CDATA[]]></position_3>
+        <layout_attribute><![CDATA[]]></layout_attribute>
+        <layout_attribute_2><![CDATA[]]></layout_attribute_2>
+        <layout_attribute_3><![CDATA[]]></layout_attribute_3>
+        <layout_attribute_custom><![CDATA[]]></layout_attribute_custom>
+        <cms_page><![CDATA[-1]]></cms_page>
+        <order><![CDATA[]]></order>
+        <status><![CDATA[1]]></status>
+        <display_pc><![CDATA[1]]></display_pc>
+        <display_tablet><![CDATA[1]]></display_tablet>
+        <display_mobile><![CDATA[0]]></display_mobile>
+        <content><![CDATA[<div class="container">
+<div class="row em-wrapper-banners hidden-xs">
+<section class="col-sm-8 first text-center em-wrapper-ads return-exchange">
+<p class="fa-2x fa fa-paper-plane primary" style="margin-bottom: 2rem;">&nbsp;</p>
+<p class="h3 secondary2 em-text-upercase" style="margin-bottom: 3rem;">Return &amp; Exchange</p>
+<p class="desc">Vintage pastel tucked t-shirt leather ecru rings cable knit knitwear grunge washed out. Street style gold collar plaited black white shirt neutral cuff seam.</p>
+</section>
+<section class="col-sm-8 text-center em-wrapper-ads shipping">
+<p class="fa fa-2x fa-car primary" style="margin-bottom: 2rem;">&nbsp;</p>
+<p class="h3 secondary2 em-text-upercase" style="margin-bottom: 3rem;">Free Shipping</p>
+<p class="desc">Givenchy knot ponytail slipper bomber chunky sole slip dress C&eacute;line. Loafer Jil Sander Vasari oversized sweatshirt sneaker black lilac 90s skirt rings. Sports</p>
+</section>
+<section class="col-sm-8 last text-center em-wrapper-ads member-discount">
+<p class="fa-2x fa fa-tags primary" style="margin-bottom: 2rem;">&nbsp;</p>
+<p class="h3 secondary2 em-text-upercase" style="margin-bottom: 3rem;">Member Discount</p>
+<p class="desc">Flats Cara D. dress knitwear leather tote. Round sunglasses midi cable knit cami chambray dungaree neutral. Bandeau A.P.C. collarless silhouette strong.</p>
+</section>
+</div>
+</div>]]></content>
+        <conditions><![CDATA[a:6:{s:4:"type";s:34:"catalogrule/rule_condition_combine";s:9:"attribute";N;s:8:"operator";N;s:5:"value";s:1:"1";s:18:"is_value_processed";N;s:10:"aggregator";s:3:"all";}]]></conditions>
+        <from_date><![CDATA[]]></from_date>
+        <to_date><![CDATA[]]></to_date>
+      </fblock>
+      <fblock>
+        <package_theme><![CDATA[em0141/em0141_trending]]></package_theme>
+        <title><![CDATA[EM0141 Glory Theme - Trending Fashion - Area 05 - Theme Features]]></title>
+        <position><![CDATA[em_area5]]></position>
+        <custom_position><![CDATA[]]></custom_position>
+        <schedule_pattern><![CDATA[every day]]></schedule_pattern>
+        <schedule_from_time><![CDATA[]]></schedule_from_time>
+        <schedule_to_time><![CDATA[]]></schedule_to_time>
+        <category_ids><![CDATA[]]></category_ids>
+        <identifier><![CDATA[em0141-trending-area05-theme-features]]></identifier>
+        <layout_handle><![CDATA[cms_index_index]]></layout_handle>
+        <custom_layout_handle><![CDATA[]]></custom_layout_handle>
+        <additional_cache_tags><![CDATA[]]></additional_cache_tags>
+        <layout_handle_2><![CDATA[]]></layout_handle_2>
+        <position_2><![CDATA[]]></position_2>
+        <layout_handle_3><![CDATA[]]></layout_handle_3>
+        <position_3><![CDATA[]]></position_3>
+        <layout_attribute><![CDATA[]]></layout_attribute>
+        <layout_attribute_2><![CDATA[]]></layout_attribute_2>
+        <layout_attribute_3><![CDATA[]]></layout_attribute_3>
+        <layout_attribute_custom><![CDATA[]]></layout_attribute_custom>
+        <cms_page><![CDATA[-1]]></cms_page>
+        <order><![CDATA[]]></order>
+        <status><![CDATA[1]]></status>
+        <display_pc><![CDATA[1]]></display_pc>
+        <display_tablet><![CDATA[1]]></display_tablet>
+        <display_mobile><![CDATA[0]]></display_mobile>
+        <content><![CDATA[<div class="em-wrapper-features wrapper-slider-features em-wrapper-banners text-center hidden-xs">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-24">
+				<div class="em-block-title">
+					<h2><span class="em-text-upercase">Theme features</span></h2>
+				</div>
+				<div class=" slider-style02">
+					<div class="em-slider-category em-slider" data-emslider-navigation="true" data-emslider-items="4" data-emslider-desktop="4" data-emslider-desktop-small="3" data-emslider-tablet="2" data-emslider-mobile="1">
+						<div class="em-box-info"><a class="img-feature-item" title="banner" href="#"> <img class="img-responsive img-banner-lazyload" alt="sample_features" src="{{skin url='images/loading.gif'}}" data-original="{{media url='wysiwyg/em0141/layout_trending/home/features/em_feature_01.png'}}" /> <span class="title-feature">Unlimited Colors &amp; Multipurpose</span></a></div>
+						<div class="em-box-info"><a class="img-feature-item" title="banner" href="#"> <img class="img-responsive img-banner-lazyload" alt="sample_features" src="{{skin url='images/loading.gif'}}" data-original="{{media url='wysiwyg/em0141/layout_trending/home/features/em_feature_02.png'}}" /> <span class="title-feature">Mega Menu</span></a></div>
+						<div class="em-box-info"><a class="img-feature-item" title="banner" href="#"> <img class="img-responsive img-banner-lazyload" alt="sample_features" src="{{skin url='images/loading.gif'}}" data-original="{{media url='wysiwyg/em0141/layout_trending/home/features/em_feature_03.png'}}" /> <span class="title-feature">Advance Filter Products</span></a></div>
+						<div class="em-box-info"><a class="img-feature-item" title="banner" href="#"> <img class="img-responsive img-banner-lazyload" alt="sample_features" src="{{skin url='images/loading.gif'}}" data-original="{{media url='wysiwyg/em0141/layout_trending/home/features/em_feature_04.png'}}" /> <span class="title-feature">Revolution Sdivder</span></a></div>
+						<div class="em-box-info"><a class="img-feature-item" title="banner" href="#"> <img class="img-responsive img-banner-lazyload" alt="sample_features" src="{{skin url='images/loading.gif'}}" data-original="{{media url='wysiwyg/em0141/layout_trending/home/features/em_feature_05.png'}}" /> <span class="title-feature">Sdivder / Label Widget</span></a></div>
+						<div class="em-box-info"><a class="img-feature-item" title="banner" href="#"> <img class="img-responsive img-banner-lazyload" alt="sample_features" src="{{skin url='images/loading.gif'}}" data-original="{{media url='wysiwyg/em0141/layout_trending/home/features/em_feature_06.png'}}" /> <span class="title-feature">Layer Navigation</span></a></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>]]></content>
+        <conditions><![CDATA[a:6:{s:4:"type";s:34:"catalogrule/rule_condition_combine";s:9:"attribute";N;s:8:"operator";N;s:5:"value";s:1:"1";s:18:"is_value_processed";N;s:10:"aggregator";s:3:"all";}]]></conditions>
+        <from_date><![CDATA[]]></from_date>
+        <to_date><![CDATA[]]></to_date>
+      </fblock>
+      <fblock>
+        <package_theme><![CDATA[em0141/em0141_trending]]></package_theme>
+        <title><![CDATA[EM0141 Glory Theme - Trending Fashion - Area 06 - Latest New]]></title>
+        <position><![CDATA[em_area6]]></position>
+        <custom_position><![CDATA[]]></custom_position>
+        <schedule_pattern><![CDATA[every day]]></schedule_pattern>
+        <schedule_from_time><![CDATA[]]></schedule_from_time>
+        <schedule_to_time><![CDATA[]]></schedule_to_time>
+        <category_ids><![CDATA[]]></category_ids>
+        <identifier><![CDATA[em0141-trending-area06-latest-new]]></identifier>
+        <layout_handle><![CDATA[default]]></layout_handle>
+        <custom_layout_handle><![CDATA[]]></custom_layout_handle>
+        <additional_cache_tags><![CDATA[]]></additional_cache_tags>
+        <layout_handle_2><![CDATA[]]></layout_handle_2>
+        <position_2><![CDATA[]]></position_2>
+        <layout_handle_3><![CDATA[]]></layout_handle_3>
+        <position_3><![CDATA[]]></position_3>
+        <layout_attribute><![CDATA[]]></layout_attribute>
+        <layout_attribute_2><![CDATA[]]></layout_attribute_2>
+        <layout_attribute_3><![CDATA[]]></layout_attribute_3>
+        <layout_attribute_custom><![CDATA[]]></layout_attribute_custom>
+        <cms_page><![CDATA[-1]]></cms_page>
+        <order><![CDATA[]]></order>
+        <status><![CDATA[1]]></status>
+        <display_pc><![CDATA[1]]></display_pc>
+        <display_tablet><![CDATA[1]]></display_tablet>
+        <display_mobile><![CDATA[1]]></display_mobile>
+        <content><![CDATA[<div class="container">
+<div class="row">
+<div class="col-sm-24">
+<div class="em-wrapper-ads-08 em-line-01 text-center">
+<section class="em-block-title">
+<h2><span>Latest News</span></h2>
+</section>
+<section class="em-slider em-slider-from-our-blog" data-emslider-navigation="true" data-emslider-items="3" data-emslider-desktop="3" data-emslider-desktop-small="2" data-emslider-tablet="2" data-emslider-mobile="1">
+<div class="em-blog-item">
+<div class="em-blog-content effect03"><a title="banner" href="#"><img class="img-responsive img-banner-lazyload" alt="em_ads_07.jpg" src="{{skin url='images/loading.gif'}}" data-original="{{media url='wysiwyg/em0141/layout_trending/home/em_ads_07.jpg'}}" /></a></div>
+<div class="em-box">
+<div class="em-box-content">
+<h4 class="em-blog-title"><a title="Unlimited Colors" href="#">Unlimited Colors</a></h4>
+<div class="em-blog-time"><span class="em-blog-date">28</span> <span class="em-blog-month">aug</span></div>
+<p class="em-blog-des">You can change the visual appearance of almost every element of the theme. You can change colors using color pickers, apply patterns/textures (predefined or custom) for header...</p>
+<p><a class="link-more" title="read more" href="#">Read more</a></p>
+</div>
+</div>
+</div>
+<div class="em-blog-item">
+<div class="em-blog-content effect03"><a title="banner" href="#"><img class="img-responsive img-banner-lazyload" alt="em_ads_08.jpg" src="{{skin url='images/loading.gif'}}" data-original="{{media url='wysiwyg/em0141/layout_trending/home/em_ads_08.jpg'}}" /></a></div>
+<div class="em-box">
+<div class="em-box-content">
+<h4 class="em-blog-title"><a title="Unlimited Colors" href="#">Unlimited Colors</a></h4>
+<div class="em-blog-time"><span class="em-blog-date">28</span> <span class="em-blog-month">aug</span></div>
+<p class="em-blog-des">You can change the visual appearance of almost every element of the theme. You can change colors using color pickers, apply patterns/textures (predefined or custom) for header...</p>
+<p><a class="link-more" title="read more" href="#">Read more</a></p>
+</div>
+</div>
+</div>
+<div class="em-blog-item">
+<div class="em-blog-content effect03"><a title="banner" href="#"><img class="img-responsive img-banner-lazyload" alt="em_ads_09.jpg" src="{{skin url='images/loading.gif'}}" data-original="{{media url='wysiwyg/em0141/layout_trending/home/em_ads_09.jpg'}}" /></a></div>
+<div class="em-box">
+<div class="em-box-content">
+<h4 class="em-blog-title"><a title="Unlimited Colors" href="#">Unlimited Colors</a></h4>
+<div class="em-blog-time"><span class="em-blog-date">28</span> <span class="em-blog-month">aug</span></div>
+<p class="em-blog-des">You can change the visual appearance of almost every element of the theme. You can change colors using color pickers, apply patterns/textures (predefined or custom) for header...</p>
+<p><a class="link-more" title="read more" href="#">Read more</a></p>
+</div>
+</div>
+</div>
+<div class="em-blog-item">
+<div class="em-blog-content effect03"><a title="banner" href="#"><img class="img-responsive img-banner-lazyload" alt="em_ads_07.jpg" src="{{skin url='images/loading.gif'}}" data-original="{{media url='wysiwyg/em0141/layout_trending/home/em_ads_07.jpg'}}" /></a></div>
+<div class="em-box">
+<div class="em-box-content">
+<h4 class="em-blog-title"><a title="Unlimited Colors" href="#">Unlimited Colors</a></h4>
+<div class="em-blog-time"><span class="em-blog-date">28</span> <span class="em-blog-month">aug</span></div>
+<p class="em-blog-des">You can change the visual appearance of almost every element of the theme. You can change colors using color pickers, apply patterns/textures (predefined or custom) for header...</p>
+<p><a class="link-more" title="read more" href="#">Read more</a></p>
+</div>
+</div>
+</div>
+</section>
+</div>
+</div>
+</div>
+</div>]]></content>
+        <conditions><![CDATA[a:6:{s:4:"type";s:34:"catalogrule/rule_condition_combine";s:9:"attribute";N;s:8:"operator";N;s:5:"value";s:1:"1";s:18:"is_value_processed";N;s:10:"aggregator";s:3:"all";}]]></conditions>
+        <from_date><![CDATA[]]></from_date>
+        <to_date><![CDATA[]]></to_date>
+      </fblock>
+      <fblock>
+        <package_theme><![CDATA[em0141/em0141_trending]]></package_theme>
+        <title><![CDATA[EM0141 Glory Theme - Trending Fashion - Area 06- Latest News - Code]]></title>
+        <position><![CDATA[em_area6]]></position>
+        <custom_position><![CDATA[]]></custom_position>
+        <schedule_pattern><![CDATA[every day]]></schedule_pattern>
+        <schedule_from_time><![CDATA[]]></schedule_from_time>
+        <schedule_to_time><![CDATA[]]></schedule_to_time>
+        <category_ids><![CDATA[]]></category_ids>
+        <identifier><![CDATA[em0141-trending-area06-latest-news-code]]></identifier>
+        <layout_handle><![CDATA[default]]></layout_handle>
+        <custom_layout_handle><![CDATA[]]></custom_layout_handle>
+        <additional_cache_tags><![CDATA[]]></additional_cache_tags>
+        <layout_handle_2><![CDATA[]]></layout_handle_2>
+        <position_2><![CDATA[]]></position_2>
+        <layout_handle_3><![CDATA[]]></layout_handle_3>
+        <position_3><![CDATA[]]></position_3>
+        <layout_attribute><![CDATA[]]></layout_attribute>
+        <layout_attribute_2><![CDATA[]]></layout_attribute_2>
+        <layout_attribute_3><![CDATA[]]></layout_attribute_3>
+        <layout_attribute_custom><![CDATA[]]></layout_attribute_custom>
+        <cms_page><![CDATA[-1]]></cms_page>
+        <order><![CDATA[]]></order>
+        <status><![CDATA[0]]></status>
+        <display_pc><![CDATA[1]]></display_pc>
+        <display_tablet><![CDATA[1]]></display_tablet>
+        <display_mobile><![CDATA[1]]></display_mobile>
+        <content><![CDATA[<div class="container">
+<div class="row">
+<div class="col-sm-24">
+<div class="em-wrapper-ads-08 em-line-01 text-center">
+<section class="em-block-title">
+<h2><span>Latest News</span></h2>
+</section>
+<section class="em-slider em-slider-from-our-blog" data-emslider-navigation="true" data-emslider-items="3" data-emslider-desktop="3" data-emslider-desktop-small="2" data-emslider-tablet="2" data-emslider-mobile="1">{{block type="blog/post_list" name="em.fromblog.style07" template="em_blog/post/list/em_fromblog_style07.phtml"}}</section>
+</div>
+</div>
+</div>
+</div>]]></content>
+        <conditions><![CDATA[a:6:{s:4:"type";s:34:"catalogrule/rule_condition_combine";s:9:"attribute";N;s:8:"operator";N;s:5:"value";s:1:"1";s:18:"is_value_processed";N;s:10:"aggregator";s:3:"all";}]]></conditions>
+        <from_date><![CDATA[]]></from_date>
+        <to_date><![CDATA[]]></to_date>
+      </fblock>
+      <fblock>
+        <package_theme><![CDATA[em0141/em0141_trending]]></package_theme>
+        <title><![CDATA[EM0141 Glory Theme - Trending Fashion - Area Footer 01 - Links - Footer01]]></title>
+        <position><![CDATA[em_area_footer01]]></position>
+        <custom_position><![CDATA[]]></custom_position>
+        <schedule_pattern><![CDATA[every day]]></schedule_pattern>
+        <schedule_from_time><![CDATA[]]></schedule_from_time>
+        <schedule_to_time><![CDATA[]]></schedule_to_time>
+        <category_ids><![CDATA[]]></category_ids>
+        <identifier><![CDATA[em0141-trending-area-footer01-links-footer01]]></identifier>
+        <layout_handle><![CDATA[default]]></layout_handle>
+        <custom_layout_handle><![CDATA[]]></custom_layout_handle>
+        <additional_cache_tags><![CDATA[]]></additional_cache_tags>
+        <layout_handle_2><![CDATA[]]></layout_handle_2>
+        <position_2><![CDATA[]]></position_2>
+        <layout_handle_3><![CDATA[]]></layout_handle_3>
+        <position_3><![CDATA[]]></position_3>
+        <layout_attribute><![CDATA[]]></layout_attribute>
+        <layout_attribute_2><![CDATA[]]></layout_attribute_2>
+        <layout_attribute_3><![CDATA[]]></layout_attribute_3>
+        <layout_attribute_custom><![CDATA[]]></layout_attribute_custom>
+        <cms_page><![CDATA[-1]]></cms_page>
+        <order><![CDATA[]]></order>
+        <status><![CDATA[1]]></status>
+        <display_pc><![CDATA[1]]></display_pc>
+        <display_tablet><![CDATA[1]]></display_tablet>
+        <display_mobile><![CDATA[1]]></display_mobile>
+        <content><![CDATA[<div class="row">
+<div class="col-sm-8 first">
+<div class="em-block-title" data-collapse-target="#collapse01">
+<p class="h6 hidden-xs"><a class="logo-footer" href="#"><img class="img-responsive" alt="" src="{{media url='wysiwyg/em0141/layout_trending/home/logo_footer.png'}}" /></a></p>
+<p class="h3 em-text-upercase"><span>About us</span></p>
+</div>
+<div id="collapse01" class="em-block-content">
+<p class="em-info">Skort Maison Martin Margiela knot ponytail cami texture as tucked t-shirt. <em>Black skirt razor pleats plaited gold collar</em>. Crop 90s spearmint indigo seam luxe washed out.</p>
+<p class="em-address"><i class="fa fa-home">&nbsp;</i>{{config path="general/store_information/address"}}</p>
+<p class="em-phone"><i class="fa fa-phone">&nbsp;</i>{{config path="general/store_information/phone"}}</p>
+<p class="em-email"><i class="fa fa-envelope-o">&nbsp;</i>{{config path="trans_email/ident_general/email"}}</p>
+</div>
+</div>
+<div class="col-sm-8">
+<div class="em-block-title" data-collapse-target="#collapse02">
+<p class="h3 em-text-upercase"><span>My Account</span></p>
+</div>
+<div id="collapse02" class="em-block-content col2-set">
+<ul class="em-links col-1">
+<li class="em-links-item"><a title="em-sample-title" href="{{store url='customer/account/'}}"><span>My Account</span></a></li>
+<li class="em-links-item"><a title="em-sample-title" href="#"><span>Order History</span></a></li>
+<li class="em-links-item"><a title="em-sample-title" href="#"><span>Wishlist</span></a></li>
+<li class="em-links-item"><a title="em-sample-title" href="#"><span>Privacy Policy</span></a></li>
+<li class="em-links-item"><a title="em-sample-title" href="#"><span>Delivery Information</span></a></li>
+<li class="em-links-item"><a title="em-sample-title" href="#"><span>Shopping Guide</span></a></li>
+</ul>
+<ul class="em-links col-2">
+<li class="em-links-item"><a title="em-sample-title" href="#"><span>Store Location</span></a></li>
+<li class="em-links-item"><a title="em-sample-title" href="#"><span>Sitemap</span></a></li>
+<li class="em-links-item"><a title="em-sample-title" href="#"><span>Newsletter</span></a></li>
+<li class="em-links-item"><a title="em-sample-title" href="#"><span>Contact Us</span></a></li>
+</ul>
+</div>
+</div>
+<div class="col-sm-8 last">
+<div class="em-wrapper-newsletter">
+<div class="em-block-title" data-collapse-target="#collapse03">
+<p class="h3 em-text-upercase"><span>Newsletter Sign Up</span></p>
+</div>
+<div id="collapse03" class="em-block-content">
+<p>Enter your email and we'll send you a coupon with 10% off your next order. Add any text here.</p>
+{{block type="newsletter/subscribe" name="em.newsletter.style06" template="newsletter/em_subscribe_style06.phtml"}}</div>
+</div>
+<div class="em-wrapper-social">
+<div class="em-block-title" data-collapse-target="#collapse04">
+<p class="h3 em-text-upercase"><span>Follow Us</span></p>
+</div>
+<div id="collapse04" class="em-block-content">
+<p class="em-social"><a class="em-social-icon em-facebook" title="em-sample-title" href="#"><span class="fa fa-facebook">&nbsp;</span></a> <a class="em-social-icon em-twitter" title="em-sample-title" href="#"><span class="fa fa-twitter">&nbsp;</span></a> <a class="em-social-icon em-google-plus" title="em-sample-title" href="#"><span class="fa fa-google-plus">&nbsp;</span></a> <a class="em-social-icon em-pinterest " title="em-sample-title" href="#"><span class="fa  fa-pinterest">&nbsp;</span></a> <a class="em-social-icon em-instagram" title="em-sample-title" href="#"><span class="fa fa-instagram">&nbsp;</span></a> <a class="em-social-icon em-youtube" title="em-sample-title" href="#"><span class="fa fa-youtube">&nbsp;</span></a></p>
+</div>
+</div>
+</div>
+</div>]]></content>
+        <conditions><![CDATA[a:6:{s:4:"type";s:34:"catalogrule/rule_condition_combine";s:9:"attribute";N;s:8:"operator";N;s:5:"value";s:1:"1";s:18:"is_value_processed";N;s:10:"aggregator";s:3:"all";}]]></conditions>
+        <from_date><![CDATA[]]></from_date>
+        <to_date><![CDATA[]]></to_date>
+      </fblock>
+      <fblock>
+        <package_theme><![CDATA[em0141/em0141_trending]]></package_theme>
+        <title><![CDATA[EM0141 Glory Theme - Trending Fashion - Area Footer 02 - Payment - Footer01]]></title>
+        <position><![CDATA[em_area_footer02]]></position>
+        <custom_position><![CDATA[]]></custom_position>
+        <schedule_pattern><![CDATA[every day]]></schedule_pattern>
+        <schedule_from_time><![CDATA[]]></schedule_from_time>
+        <schedule_to_time><![CDATA[]]></schedule_to_time>
+        <category_ids><![CDATA[]]></category_ids>
+        <identifier><![CDATA[em0141-trending-area-footer02-payment-footer01]]></identifier>
+        <layout_handle><![CDATA[default]]></layout_handle>
+        <custom_layout_handle><![CDATA[]]></custom_layout_handle>
+        <additional_cache_tags><![CDATA[]]></additional_cache_tags>
+        <layout_handle_2><![CDATA[]]></layout_handle_2>
+        <position_2><![CDATA[]]></position_2>
+        <layout_handle_3><![CDATA[]]></layout_handle_3>
+        <position_3><![CDATA[]]></position_3>
+        <layout_attribute><![CDATA[]]></layout_attribute>
+        <layout_attribute_2><![CDATA[]]></layout_attribute_2>
+        <layout_attribute_3><![CDATA[]]></layout_attribute_3>
+        <layout_attribute_custom><![CDATA[]]></layout_attribute_custom>
+        <cms_page><![CDATA[-1]]></cms_page>
+        <order><![CDATA[]]></order>
+        <status><![CDATA[1]]></status>
+        <display_pc><![CDATA[1]]></display_pc>
+        <display_tablet><![CDATA[1]]></display_tablet>
+        <display_mobile><![CDATA[1]]></display_mobile>
+        <content><![CDATA[<div class="em-payment f-right"><a class="em-payment-icon em-visa" title="em-sample-title" href="#">visa</a> <a class="em-payment-icon em-master" title="em-sample-title" href="#">master</a> <a class="em-payment-icon em-express " title="em-sample-title" href="#">express</a><a class="em-payment-icon em-paypal" title="em-sample-title" href="#">paypal</a></div>]]></content>
+        <conditions><![CDATA[a:6:{s:4:"type";s:34:"catalogrule/rule_condition_combine";s:9:"attribute";N;s:8:"operator";N;s:5:"value";s:1:"1";s:18:"is_value_processed";N;s:10:"aggregator";s:3:"all";}]]></conditions>
+        <from_date><![CDATA[]]></from_date>
+        <to_date><![CDATA[]]></to_date>
+      </fblock>
+    </flexible_block>
+    <themeframework/>
+    <megamenu/>
+    <minislideshows>
+      <minislideshow id="24">
+        <name><![CDATA[EM0141 Glory Theme - Trending Fashion - Main Slideshow]]></name>
+        <identifier><![CDATA[em0141-trending-main-slideshow]]></identifier>
+        <images><![CDATA[[{"url":"1452229766_0_2.jpg","link":"","info":[{"text":"","animation":"none"}]},{"url":"1452229766_1_1.jpg","link":"","info":[{"text":"","animation":"none"}]}]]]></images>
+        <slider_params><![CDATA[{"size_width":"","size_height":"500"}]]></slider_params>
+        <appearance><![CDATA[{"auto_play":"true","animation_type":"fade","speed":"","hover_pause":"true","progress_bar":"false","lazy_load":"true"}]]></appearance>
+        <navigation><![CDATA[{"nav_enable":"true","nav_type":["nav:true","dots:true"],"arrows_next":"","arrows_pre":""}]]></navigation>
+        <status><![CDATA[1]]></status>
+      </minislideshow>
+    </minislideshows>
+  </sample_data>
+</theme>

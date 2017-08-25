@@ -1,0 +1,127 @@
+.em-line-01 .em-block-title, .em-line-01 .em-widget-title, .em-line-01 .block-title, .em-line-01 .widget-title {
+  margin-bottom: 20px;
+}
+
+.em-wrapper-products.em-line-01 {
+  padding-top: 50px;
+}
+.em-wrapper-products.em-line-01 .widget-title {
+  margin-bottom: 60px;
+}
+.em-wrapper-products.em-line-01 .banner_first {
+  margin-top: 97px;
+}
+.em-wrapper-products.em-line-01 .emfilter-ajaxblock-loaded {
+  text-align: left;
+}
+.em-wrapper-products.em-line-01 .emfilter-ajaxblock-loaded .widget-title {
+  padding: 0 25px;
+}
+
+.em-wrapper-ads {
+  margin-bottom: 35px;
+}
+
+.em-wrapper-ads-17 {
+  background-image: url(../images/media/home/bkg-parallax.jpg);
+  background-attachment: local;
+  padding: 8rem 0;
+}
+
+.em-wrapper-banners {
+  margin-bottom: 0;
+}
+
+.em-wrapper-footer .em-footer-style01 .em-footer-top {
+  padding-top: 85px;
+}
+.em-wrapper-footer .em-footer-style01 .first .em-block-title {
+  padding-bottom: 40px;
+  padding-top: 0;
+}
+.em-wrapper-footer .em-footer-style01 .first .em-block-content i {
+  padding-right: 18px;
+}
+.em-wrapper-footer .em-footer-style01 .em-block-title {
+  padding: 32px 0;
+}
+.em-wrapper-footer .em-footer-style01 .em-block-title .h3 span {
+  font-size: 95%;
+}
+.em-wrapper-footer .em-footer-style01 .em-wrapper-social .em-block-title {
+  padding: 15px 0;
+}
+
+.em-wrapper-ads-08 .em-box .link-more:before {
+  content: "\f0da";
+}
+
+.em-blog-item .em-blog-des {
+  padding-top: 15px;
+}
+.em-blog-item h4.em-blog-title {
+  margin-bottom: 0;
+}
+
+.productlabels_icons .label {
+  text-transform: capitalize;
+  min-width: 36px;
+  min-height: 36px;
+  padding: 0;
+}
+.productlabels_icons .label:before {
+  border: 0 none;
+}
+.productlabels_icons .label p {
+  padding-top: 10px;
+  display: block;
+}
+
+div.desc {
+  margin-bottom: 30px;
+}
+
+.em-wrapper-features .owl-carousel .owl-nav div {
+  top: -moz-calc((100%)/2);
+}
+.em-wrapper-features .title-feature {
+  text-transform: uppercase;
+}
+
+/*Main Color Variation*/
+.em-color span.emColorStyle01 {
+  background: #cfdc94;
+}
+.em-color span.emColorStyle02 {
+  background: #dcd3ac;
+}
+.em-color span.emColorStyle03 {
+  background: #abba9d;
+}
+.em-color span.emColorStyle04 {
+  background: #a0a2cb;
+}
+
+.em-rtl .container .owl-nav div.owl-prev {
+  left: 10px;
+  right: auto;
+}
+.em-rtl button.button, .em-rtl .button-link, .em-rtl .tp-caption a.ss-btn-link, .em-rtl #em_quickshop_handler, .em-rtl .button-link.link-cart, .em-rtl button.button.btn-cart {
+  margin-left: 0;
+}
+.em-rtl .quickshop-link-container .quickshop-link {
+  margin-right: 5px;
+}
+.em-rtl .em-wrapper-footer .em-footer-style01 .first .em-block-content i {
+  padding-left: 18px;
+}
+.em-rtl .em-wrapper-header .em-fixed-top.navbar-fixed-top .em-search {
+  left: 72px;
+}
+.em-rtl .em-wrapper-ads-08 .em-box .link-more:before {
+  content: "\f0d9";
+}
+.em-rtl .form-search input.input-text {
+  padding-left: 10px;
+  padding-right: 50px;
+}

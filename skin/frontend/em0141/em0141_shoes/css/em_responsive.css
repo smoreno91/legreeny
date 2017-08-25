@@ -1,0 +1,8 @@
+@media (min-width:768px) and (max-width:1199px){
+	.cms-index-index .em-wrapper-banners div > a.em-text-upercase{padding-top:10%!important;}
+	.cms-index-index .em-wrapper-banners div a.btn{ margin-bottom:0!important;}
+}
+
+@media(max-width:767px){
+	.em-wrapper-footer .em-footer-style01 .em-block-title{ padding:0!important;}
+}

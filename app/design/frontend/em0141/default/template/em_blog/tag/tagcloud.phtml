@@ -1,0 +1,21 @@
+<?php $helper = Mage::helper('blog');?>
+<div class="block em_block-tag-cloud em-line-01">
+    <div class="block-title">
+        <strong><span><?php echo $this->__('Tag Cloud'); ?></span></strong>
+    </div>
+
+    <?php $tagCloudList = $this->getTagCloud();?>
+    <?php $numberShowTag = Mage::getStoreConfig('blog/menu/tag_display');?>
+    <?php if( count($tagCloudList) > 0 ): ?>
+          <div class="block-content">
+              <ul>
+                  <?php for ($i = 0;$i < min(count($tagCloudList),$numberShowTag);$i++): ?>
+                      <li class="item"><a href="<?php echo $helper->getBlogUrl('tag/'.$tagCloudList[$i]['url'].'.html'); ?>" style="font-size:<?php echo $tagCloudList[$i]['size'].'px'; ?>;"><?php echo $this->escapeHtml($tagCloudList[$i]['name']); ?></a></li>
+                  <?php endfor; ?>
+              </ul>
+              <div class="actions">
+                  <a class="button-link" href="<?php echo $helper->getBlogUrl('tag/taglist');?>"><span><span><?php echo $this->__('View All Tags')?></span></span></a>
+              </div>
+          </div>
+     <?php endif;?>
+</div>

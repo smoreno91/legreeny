@@ -1,0 +1,382 @@
+/*=========Breadcrumbs==========*/
+.breadcrumbs{
+	padding:9rem 0;
+	overflow:hidden;
+	ul{
+		margin-bottom:0;
+		li{
+			display:inline; 
+			strong{
+				font-weight:600;
+			}
+			.separator{
+				position:relative;
+				font-size:0;
+				margin:0 12px;
+				&:before{
+					@include font-awesome(\f178,11px);
+				}
+			}
+		}
+	}
+}
+.wrapper-breadcrums{
+	background-image: url("../images/bkg-breadcrums.jpg");
+	background-position: center top;
+	background-repeat: repeat-y;
+	margin-top:-1px;
+	.em-breadcrumbs-title{
+		text-transform:uppercase;
+	}
+}
+
+/*=========Category==========*/
+.category-title,
+.category-image,.category-description{
+	margin-bottom:20px;
+}
+.category-products{
+	.products-list{
+		margin:0;
+		li.item{
+			padding:10px;
+			border-style: solid;
+			border-width: 1px;
+			@include border-radius(3px);
+			margin-bottom:20px;
+			a.product-image{
+				margin-bottom:0;
+			}
+			.product-shop{
+				margin-bottom:0;
+				
+			}
+		}
+	}
+	.products-grid .item{
+		a.product-image{margin-bottom:0;}
+		.product-shop{padding-top:15px;}
+		.product-name{
+			overflow: hidden;
+			text-overflow: ellipsis;
+			white-space: nowrap;
+		}
+		&:hover .product-name{
+			white-space:normal;	
+		}
+	}
+}
+/* Toolbar */
+.category-products{
+	.pager,
+	.to-top{display:none}
+	.pager .amount{display:none}
+	.pager .pages{display:none; }
+}
+.toolbar{
+	position:relative; 
+	margin-bottom:0px; 
+	width:100%;
+	/*z-index:1;*/
+	
+	.toolbar-switch{
+		display:inline-block;
+		float:right;
+		
+	}
+	.toolbar-dropdown{
+		width:150px;
+		span.current{
+			padding:6px 10px;
+			@include border-radius(3px);
+			font-size:90%;
+			&:after{
+				margin-top:5px;
+				@include font-awesome(\f078,10px);
+			}
+		}
+		ul{
+			width:150px;
+			top:33px;
+		}
+	}
+	.limiter{
+		margin-bottom:2rem;
+	}
+	.sort-by{
+		margin-left:2rem;	
+		margin-bottom:2rem;	
+		> a{
+			position:relative;
+			float:right;
+			margin-left:2rem;
+			padding: 1rem 1.4rem;
+			@include border-radius(3px);
+			@include transition1;
+			border-style: solid;
+			border-width: 1px;
+			.v-middle{
+				float:right;
+			}
+		}
+	}
+}
+
+.toolbar-bottom {
+	margin-bottom:0 !important;
+	.pager{
+		display:block;
+		margin:0;
+	}
+	.pager .amount{
+		display:inline; 
+		margin:0;
+		padding:13px 0;
+	}
+	.pager .pages {
+		display:inline; 
+		margin:0;}
+	.toolbar .sorter,.toolbar .pager .limiter{display:none}
+}
+
+/*View mode*/
+.view-mode{
+	border-style: solid;
+	border-width: 1px;
+	padding:0.9rem 1rem;
+	margin-bottom:2rem;
+	@include border-radius(3px);
+	label{
+		display:none;
+	}
+	.list{
+		@include hideText();
+		@include transition1;
+		text-indent:0;
+		float:left;
+		&:before{
+			@include font-awesome(\f00b,14px);
+		}
+	}
+	.grid {
+		@include hideText();
+		@include transition1;
+		text-indent:0;
+		float:left;
+		margin-right:1rem;
+		padding-right:1rem;
+		border-right-style: solid;
+		border-right-width: 1px;
+		&:before{
+			@include font-awesome(\f00a,14px);
+		}
+	}	
+}
+
+
+
+/*filter category*/
+.em-filter-content{
+	width: 100%;
+    display:inline-block;
+	overflow:hidden;
+	margin-top:-45px;
+	.em-filter-title-wrapper{
+		position:relative;
+		z-index:1;
+	}
+	.em-block-title{
+		float:left;
+		margin:0;
+		strong{
+			border-width: 2px;
+			border-style: solid;
+			padding:1rem 4rem;
+		}
+	}
+	.em-filter-title{
+		overflow:hidden;
+		border-top-style: solid;
+		border-top-width: 2px;
+		border-bottom-style: solid;
+		border-bottom-width: 1px;
+		margin:0;
+		li{
+			float:left;
+			border-left-style: solid;
+			border-left-width: 1px;
+			padding:0.9rem 2rem 1rem 3rem;
+			font-size:110%;
+			&:hover{
+				cursor:pointer;
+			}
+			&:first-child{
+				border-left-width: 0px;
+			}
+			span:after{
+				@include font-awesome(\f107,14px);
+				padding:0 1rem;	
+			}
+		}
+	}
+	.em-filter-content-wrapper{
+		display:inline-block!important;
+		width:100%;
+		height:auto;
+		border-width: 1px;
+		border-style: solid;
+		border-top-width:0;
+		padding:2rem;
+		margin-bottom:2px;
+		float:left;
+		@include transition1;
+		-moz-transform: translateY(0);
+		-ms-transform: translateY(0);
+		-o-transform: translateY(0);
+		transform: translateY(0);
+		&.hide{
+			height:0;
+			padding:0 2rem;
+			-moz-transform: translateY(-65%);
+			-ms-transform: translateY(-65%);
+			-o-transform: translateY(-65%);
+			transform: translateY(-65%);
+			visibility: hidden;
+		}
+		#narrow-by-list .filter-act{
+			float:right;
+			margin-top:-30px;
+		}
+		.em-filter-item {
+			dt{
+				text-transform:none;
+				margin-bottom:1rem;
+				font-size:100%;
+			}
+			dd li{
+				padding:4px 0;
+				&:before{				
+					@include font-awesome(\f105,14px);
+					padding-right:10px;
+				}	
+			}
+			.tree-filter{
+				margin: 0 -20px;
+				.icon{
+					margin:9px 20px 0 0;
+					display:inline-block;
+					background:none;
+					width:auto;
+					height:auto;
+					text-indent:0;
+					float:right;
+					clear:both;
+					&:before{
+						@include font-awesome(\f196,14px);
+					}
+				}			
+				.expanded .icon:before{
+					content:"\f147";
+				}
+				.collapsed .icon:before{
+					content:"\f196";
+				}
+				li{
+					padding:0;
+					&:before{
+						content:"";
+						padding-right:0px;
+						padding-left:0px;
+						display:inline;
+					}
+				}
+				.label-icon{
+					padding:5px 20px;
+				}
+				li.expanded ol .label-icon{
+					padding-left:20px;
+				}
+				ol{
+					ol{
+						.icon{
+							margin-top:10px;
+						}
+						.label-icon{
+							padding: 7px 20px;
+							text-transform: none;
+							.label:before{				
+								@include font-awesome(\f105,14px);
+								padding:0 10px 0 0;
+							}
+						}
+						ol{
+							padding-left:20px;
+						}
+					}
+				}
+				> li.selected > ol > li > ol{
+					padding-top: 1px;
+					padding-bottom: 1px;
+				}
+			}
+			.rslider{
+				margin-top: 0;
+				padding-top:14px;
+				#range,#track{
+					background-image:none;
+					height:3px;
+				}
+				.handle{
+					background:#ffffff;
+					width:14px;
+					height:14px;
+					border-width: 2px;
+					border-style: solid;
+					@include border-radius(50%);
+					top:-6px;
+					&:before{
+						content:'';
+						top:2px;
+						left:2px;
+						width:6px;
+						height:6px;
+						position:absolute;
+						@include border-radius(50%);
+					}
+				}
+				.values{
+					margin-bottom:20px;
+					margin-top:15px;
+				}
+			}		
+			.img-filter{
+				li{
+					border:none;
+					padding:2px 1px;
+					&:before{
+						content:"";
+						padding-right:0px;
+						padding-left:0px;
+					}
+					a{
+						display:inline-block;
+						@include transition1;
+						width:30px;
+						height:30px;
+						img{
+							max-width:100%;
+						}
+						&:hover{
+							@include box-shadow(0 0 5px #797979);
+							padding:2px;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+
+
+

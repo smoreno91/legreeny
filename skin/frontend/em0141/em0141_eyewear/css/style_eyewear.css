@@ -1,0 +1,264 @@
+.em-header-style07 .em-header-bottom .em_nav .menu-item-depth-0 > .menu-container {
+  top: 50px;
+}
+
+.em-wrapper-ads .h2 {
+  font-size: 180%;
+}
+
+.em-wrapper-banners {
+  margin-bottom: 0;
+}
+.em-wrapper-banners .effect {
+  background-color: transparent;
+}
+.em-wrapper-banners a.banner-text {
+  padding-top: 7px;
+  display: block;
+}
+
+.productlabels_icons .label {
+  text-transform: capitalize;
+  min-width: 36px;
+  min-height: 36px;
+  padding: 0;
+}
+.productlabels_icons .label:before {
+  border: 0 none;
+}
+.productlabels_icons .label p {
+  padding-top: 10px;
+  display: block;
+}
+
+.em-wrapper-product-27 .widget-title, .em-wrapper-product-27 .em-block-title, .em-wrapper-blog .widget-title, .em-wrapper-blog .em-block-title {
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+.em-wrapper-product-27 .widget-title h3, .em-wrapper-product-27 .em-block-title h3, .em-wrapper-blog .widget-title h3, .em-wrapper-blog .em-block-title h3 {
+  display: inline-block;
+  position: relative;
+  padding-bottom: 15px;
+}
+.em-wrapper-product-27 .widget-title h3:before, .em-wrapper-product-27 .em-block-title h3:before, .em-wrapper-blog .widget-title h3:before, .em-wrapper-blog .em-block-title h3:before {
+  content: '';
+  width: 40px;
+  height: 2px;
+  position: absolute;
+  bottom: 2px;
+  left: calc((100% - 40px) / 2);
+}
+.em-wrapper-product-27 .widget-title h3 span, .em-wrapper-product-27 .em-block-title h3 span, .em-wrapper-blog .widget-title h3 span, .em-wrapper-blog .em-block-title h3 span {
+  font-size: 120%;
+}
+
+.cms-index-index .products-grid .item .product-item {
+  text-align: left;
+  /*.em-element-display-hover*/
+  /*...product-item:hover*/
+}
+.cms-index-index .products-grid .item .product-item .product-name {
+  display: inline-block;
+}
+.cms-index-index .products-grid .item .product-item .product-shop {
+  padding: 0 0 30px;
+}
+.cms-index-index .products-grid .item .product-item .ratings, .cms-index-index .products-grid .item .product-item .price-box {
+  float: right;
+  clear: both;
+  padding-bottom: 0;
+}
+.cms-index-index .products-grid .item .product-item .em-element-display-hover {
+  opacity: 0;
+  left: 1px !important;
+  bottom: -30px !important;
+  z-index: 2;
+}
+.cms-index-index .products-grid .item .product-item .em-element-display-hover .em-btn-addto {
+  width: 83%;
+  float: left;
+}
+.cms-index-index .products-grid .item .product-item .em-element-display-hover .em-btn-addto .button.btn-cart {
+  width: 60%;
+  float: left;
+  font-size: 99%;
+}
+.cms-index-index .products-grid .item .product-item .em-element-display-hover .em-btn-addto .button.btn-cart:before {
+  padding-right: 10px;
+}
+.cms-index-index .products-grid .item .product-item .em-element-display-hover .em-btn-addto .add-to-links {
+  width: 40%;
+}
+.cms-index-index .products-grid .item .product-item .em-element-display-hover .em-btn-addto .add-to-links li {
+  width: 50%;
+  float: left;
+  margin: 0;
+}
+.cms-index-index .products-grid .item .product-item .em-element-display-hover .quickshop-link-container {
+  width: 17% !important;
+  float: left;
+}
+.cms-index-index .products-grid .item .product-item .em-element-display-hover .quickshop-link-container .quickshop-link {
+  width: 100%;
+  text-align: center;
+}
+.cms-index-index .products-grid .item .product-item .em-element-display-hover .button.btn-cart, .cms-index-index .products-grid .item .product-item .em-element-display-hover .add-to-links li a, .cms-index-index .products-grid .item .product-item .em-element-display-hover .quickshop-link-container {
+  margin: 0 -1px;
+  width: auto;
+  text-align: center;
+}
+.cms-index-index .products-grid .item .product-item .em-element-display-hover .button.btn-cart, .cms-index-index .products-grid .item .product-item .em-element-display-hover .add-to-links li a, .cms-index-index .products-grid .item .product-item .em-element-display-hover .quickshop-link-container .quickshop-link {
+  padding: 0;
+}
+.cms-index-index .products-grid .item .product-item:hover .em-element-display-hover {
+  bottom: -5px !important;
+  opacity: 1;
+}
+.cms-index-index .products-grid .item .product-item:hover .em-element-display-hover button.btn-cart, .cms-index-index .products-grid .item .product-item:hover .em-element-display-hover .add-to-links li a, .cms-index-index .products-grid .item .product-item:hover .em-element-display-hover .quickshop-link-container .quickshop-link {
+  padding: 10px;
+  min-height: 36px;
+}
+.cms-index-index .products-grid .item .product-item:hover .product-shop-top .product-image {
+  position: relative;
+}
+.cms-index-index .products-grid .item .product-item:hover .product-shop-top .product-image:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  background: rgba(2, 8, 8, 0.51);
+}
+
+.em-wrapper-footer .em-footer-style01 .em-footer-top {
+  padding-top: 85px;
+}
+.em-wrapper-footer .em-footer-style01 .first .em-block-title {
+  padding-bottom: 40px;
+  padding-top: 0;
+}
+.em-wrapper-footer .em-footer-style01 .first .em-block-content i {
+  padding-right: 18px;
+}
+.em-wrapper-footer .em-footer-style01 .em-block-title {
+  padding: 32px 0;
+}
+.em-wrapper-footer .em-footer-style01 .em-block-title .h3 span {
+  font-size: 95%;
+}
+.em-wrapper-footer .em-footer-style01 .em-wrapper-social .em-wrapper-social .em-block-title {
+  padding: 15px 0;
+}
+
+.em-slideshow .owl-carousel .owl-nav div {
+  height: 69px;
+  width: 34px;
+  top: 42%;
+}
+.em-slideshow .owl-carousel .owl-nav div.owl-prev {
+  border-radius: 0 90px 90px 0;
+  -moz-border-radius: 0 90px 90px 0;
+  -webkit-border-radius: 0 90px 90px 0;
+  padding: 21px 7px 0 0 !important;
+}
+.em-slideshow .owl-carousel .owl-nav div.owl-prev:before {
+  content: "\f104";
+  font-size: 2.5rem;
+}
+.em-slideshow .owl-carousel .owl-nav div.owl-next {
+  border-radius: 90px 0 0 90px;
+  -moz-border-radius: 90px 0 0 90px;
+  -webkit-border-radius: 90px 0 0 90px;
+  padding: 21px 0 0 7px !important;
+}
+.em-slideshow .owl-carousel .owl-nav div.owl-next:before {
+  content: "\f105";
+  font-size: 2.5rem;
+}
+
+.em-wrapper-blog {
+  margin-bottom: 50px;
+}
+.em-wrapper-blog .em-blog-item {
+  text-align: center;
+}
+.em-wrapper-blog .em-blog-item .em-blog-info {
+  padding: 30px 15px 20px;
+}
+.em-wrapper-blog .em-blog-item .em-blog-info .em-blog-title {
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.em-wrapper-blog .em-blog-item .em-blog-info .em-blog-time p {
+  display: inline-block;
+}
+.em-wrapper-blog .em-blog-item .em-blog-info .link-more:before {
+  content: "\f0da";
+  display: inline-block;
+  font-family: FontAwesome;
+  font-size: 100%;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  padding-right: 5px;
+}
+
+.em-rtl.cms-index-index .products-grid .item .product-item .em-element-display-hover .button.btn-cart span {
+  float: none;
+}
+.em-rtl.cms-index-index .products-grid .item .product-item .em-element-display-hover .button.btn-cart:before {
+  padding-left: 10px;
+  padding-right: 0;
+}
+.em-rtl .em-wrapper-blog .link-more:before {
+  content: "\f0d9";
+  padding-left: 10px;
+}
+.em-rtl .form-search input.input-text {
+  padding-left: 10px;
+  padding-right: 50px;
+}
+
+@media (max-width: 767px) {
+  .cms-index-index .products-grid .item .product-item {
+    /*.em-element-display-hover*/
+  }
+  .cms-index-index .products-grid .item .product-item .em-element-display-hover .em-btn-addto {
+    width: 100%;
+  }
+  .cms-index-index .products-grid .item .product-item .em-element-display-hover .em-btn-addto .button.btn-cart {
+    width: 40%;
+    font-size: 0;
+    padding: 11px;
+  }
+  .cms-index-index .products-grid .item .product-item .em-element-display-hover .em-btn-addto .add-to-links {
+    width: 60%;
+  }
+  .cms-index-index .products-grid .item .product-item .em-element-display-hover .em-btn-addto .add-to-links li {
+    width: 50%;
+  }
+  .cms-index-index .products-grid .item .product-item .em-element-display-hover .button.btn-cart, .cms-index-index .products-grid .item .product-item .em-element-display-hover .add-to-links li a, .cms-index-index .products-grid .item .product-item .em-element-display-hover .quickshop-link-container {
+    margin: 0 -1px;
+    width: auto;
+    text-align: center;
+  }
+}
+/*Main Color Variation*/
+.em-color span.emColorStyle01 {
+  background: #4f6039;
+}
+.em-color span.emColorStyle02 {
+  background: #f1b737;
+}
+.em-color span.emColorStyle03 {
+  background: #29506b;
+}
+.em-color span.emColorStyle04 {
+  background: #0A7F43;
+}

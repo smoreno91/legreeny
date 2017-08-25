@@ -1,0 +1,22 @@
+/******Class Padding********/
+.padding-top20{
+	padding-top:20px;
+}
+$padding1x: 10px;
+$padding2x: 20px;
+$padding3x: 30px;
+
+$space_block : 50px;
+$space_small_block : 30px;
+.space_block{
+	margin-bottom:$space_block;
+}
+.space_small_block{
+	margin-bottom:$space_small_block;
+}
+
+/******Visible - Hidden********/
+.hidden-3col,
+.hidden-2col{
+	display:none
+}

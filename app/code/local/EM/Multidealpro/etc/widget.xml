@@ -1,0 +1,315 @@
+<?xml version="1.0"?>
+<widgets>
+    <multidealpro_widget type="multidealpro/widgets">
+        <name>EM Multideal Products</name>
+        <parameters>
+			<category translate="label">
+                <label>Choose Categories</label>
+                <visible>1</visible>
+                <description><![CDATA[You can choose many categories. Leave empty for selecting all categories]]></description>
+                <type>multiselect</type>
+                <source_model>multidealpro/category</source_model>
+				<sort_order>0</sort_order>
+            </category>
+
+			<quickdeal>
+                <label>Quick deal time</label>
+                <description><![CDATA[<b>unit: hours</b>.<br> If you use this field, Deal type will show only "Deal running" and Sort order by shortest time.]]></description>
+                <visible>1</visible>
+                <type>text</type>
+				<sort_order>5</sort_order>
+            </quickdeal>
+
+            <deal_type translate="label">
+                <label>Deal type show</label>
+                <visible>1</visible>
+				<required>1</required>
+                <type>multiselect</type>
+                <source_model>multidealpro/deal</source_model>
+				<sort_order>10</sort_order>
+            </deal_type>
+
+            <limit_count>
+                <label>Limit Count</label>
+                <description><![CDATA[The numbers of product will be show]]></description>
+                <visible>1</visible>
+                <required>1</required>
+                <type>text</type>
+                <value>10</value>
+				<sort_order>15</sort_order>
+            </limit_count>
+
+			<column_count>
+                <label>Column Count</label>
+                <description><![CDATA[The numbers of products per row. if not specified or 0, ul will hold all li.item]]></description>
+                <visible>1</visible>
+                <required>0</required>
+                <type>text</type>
+				<sort_order>20</sort_order>
+            </column_count>
+
+            <order_by>
+                <label>Order by</label>
+                <visible>1</visible>
+                <required>1</required>
+                <type>select</type>
+                <values>
+                    <order_1 translate="label">
+                        <value>name asc</value>
+                        <label>Name ASC</label>
+                    </order_1>
+					<order_2 translate="label">
+                        <value>name desc</value>
+                        <label>Name DESC</label>
+                    </order_2>
+                    <order_3 translate="label">
+                        <value>price asc</value>
+                        <label>Price ASC</label>
+                    </order_3>
+                    <order_4 translate="label">
+                        <value>price desc</value>
+                        <label>Price DESC</label>
+                    </order_4>
+                </values>
+				<sort_order>25</sort_order>
+            </order_by>
+
+            <custom_class>
+                <label>Custom Wrapper Class</label>	
+    			<visible>1</visible>
+                <required>0</required>
+    			<type>text</type>
+				<sort_order>30</sort_order>
+            </custom_class>
+
+			<frontend_title>
+				<label>Frontend Title</label>
+				<visible>1</visible>
+                <required>0</required>
+				<type>text</type>
+				<sort_order>35</sort_order>
+			</frontend_title>
+
+			<item_class>
+                <label>Item Class Custom</label>
+                <description><![CDATA[Custom class for li item]]></description>
+				<visible>1</visible>
+				<type>text</type>
+				<sort_order>40</sort_order>
+            </item_class>
+
+            <frontend_description>
+				<label>Frontend Description</label>
+				<visible>1</visible>
+                <required>0</required>
+				<type>text</type>
+				<sort_order>45</sort_order>
+			</frontend_description>
+
+			<item_width>
+                <label>Item Width</label>
+				<description><![CDATA[unit: px]]></description>
+				<visible>1</visible>
+                <required>0</required>
+				<type>text</type>
+				<value></value>
+				<sort_order>50</sort_order>
+            </item_width>
+
+            <item_height>
+                <label>Item Height</label>
+				<description><![CDATA[unit: px]]></description>
+				<visible>1</visible>
+                <required>0</required>
+				<type>text</type>
+				<value></value>
+				<sort_order>55</sort_order>
+            </item_height>
+
+			<item_spacing>
+                <label>Item Spacing</label>
+				<description><![CDATA[Spacing between 2 items. unit: px]]></description>
+				<visible>1</visible>
+                <required>0</required>
+				<type>text</type>
+				<value></value>
+				<sort_order>60</sort_order>
+            </item_spacing>
+
+            <thumbnail_width>
+                <label>Thumbnail Width</label>
+				<visible>1</visible>
+                <required>1</required>
+				<type>text</type>
+				<value>150</value>
+				<sort_order>65</sort_order>
+            </thumbnail_width>
+
+            <thumbnail_height>
+                <label>Thumbnail Height</label>
+				<visible>1</visible>
+                <required>1</required>
+				<type>text</type>
+				<value>150</value>
+				<sort_order>70</sort_order>
+            </thumbnail_height>
+
+            <show_product_name>
+                <label>Show Product's Name</label>
+				<visible>1</visible>
+                <required>0</required>
+				<type>select</type>
+				<values>
+                    <yes translate="label">
+                        <value>true</value>
+                        <label>Yes</label>
+                    </yes>
+                    <no translate="label">
+                        <value>false</value>
+                        <label>No</label>
+                    </no>
+                </values>
+				<sort_order>75</sort_order>
+            </show_product_name>
+
+			<show_price>
+                <label>Show Product's Price</label>
+				<visible>1</visible>
+                <required>0</required>
+				<type>select</type>
+				<values>
+                    <yes translate="label">
+                        <value>true</value>
+                        <label>Yes</label>
+                    </yes>
+                    <no translate="label">
+                        <value>false</value>
+                        <label>No</label>
+                    </no>
+                </values>
+				<sort_order>80</sort_order>
+            </show_price>
+
+            <show_clock>
+                <label>Show Clock</label>
+				<visible>1</visible>
+                <required>0</required>
+				<type>select</type>
+				<values>
+                    <yes translate="label">
+                        <value>true</value>
+                        <label>Yes</label>
+                    </yes>
+                    <no translate="label">
+                        <value>false</value>
+                        <label>No</label>
+                    </no>
+                </values>
+				<sort_order>85</sort_order>
+            </show_clock>
+
+            <show_qty>
+                <label>Show Remaining QTY</label>
+				<visible>1</visible>
+                <required>0</required>
+				<type>select</type>
+				<values>
+                    <yes translate="label">
+                        <value>true</value>
+                        <label>Yes</label>
+                    </yes>
+                    <no translate="label">
+                        <value>false</value>
+                        <label>No</label>
+                    </no>
+                </values>
+				<sort_order>90</sort_order>
+            </show_qty>
+
+			<show_addtocart>
+                <label>Show Add to cart button</label>
+				<visible>1</visible>
+                <required>0</required>
+				<type>select</type>
+				<values>
+                    <yes translate="label">
+                        <value>true</value>
+                        <label>Yes</label>
+                    </yes>
+                    <no translate="label">
+                        <value>false</value>
+                        <label>No</label>
+                    </no>
+                </values>
+				<sort_order>95</sort_order>
+            </show_addtocart>
+
+            <show_addto>
+                <label>Show Add to wishlist-compare button</label>
+				<visible>1</visible>
+                <required>0</required>
+				<type>select</type>
+				<values>
+                    <yes translate="label">
+                        <value>true</value>
+                        <label>Yes</label>
+                    </yes>
+                    <no translate="label">
+                        <value>false</value>
+                        <label>No</label>
+                    </no>
+                </values>
+				<sort_order>100</sort_order>
+            </show_addto>
+
+			<show_label>
+                <label>Show EM Label</label>
+				<visible>1</visible>
+                <required>0</required>
+				<type>select</type>
+				<values>
+                    <yes translate="label">
+                        <value>true</value>
+                        <label>Yes</label>
+                    </yes>
+                    <no translate="label">
+                        <value>false</value>
+                        <label>No</label>
+                    </no>
+                </values>
+            </show_label>
+
+            <choose_template translate="label">
+                <label>Frontend Template</label>
+                <visible>1</visible>
+                <required>1</required>
+                <type>select</type>
+                <values>
+                    <list translate="label">
+                        <value>em_multidealpro/list.phtml</value>
+                        <label>List Multidealpro products</label>
+                    </list>
+					<grid translate="label">
+                        <value>em_multidealpro/grid.phtml</value>
+                        <label>Grid Multidealpro products</label>
+                    </grid>
+					<cust translate="label">
+                        <value>custom_template</value>
+                        <label>Display as custom template ...</label>
+                    </cust>
+                </values>
+				<sort_order>110</sort_order>
+            </choose_template>
+
+			<custom_theme>
+				<label>Custom template :</label>
+				<description><![CDATA[Effect only when selecting "Display as custom template. By default, using 'em_multidealpro/custom_template.phtml'"]]></description>
+				<visible>1</visible>
+				<type>text</type>
+				<value></value>
+				<sort_order>115</sort_order>
+			</custom_theme>
+
+        </parameters>
+    </multidealpro_widget>
+</widgets>

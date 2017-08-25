@@ -1,0 +1,66 @@
+.em-footer-style01{
+	.em-footer-top{
+		padding-top:40px;
+		.em-block-content{
+			padding-bottom:30px;
+		}
+	}
+	.block-info{
+		.em-address,
+		.em-email,
+		.em-phone{ margin:0 -#{($padding1x / 2)} 1.55rem}
+		.fa{
+			margin:0 ($padding1x / 2);
+		}
+	}
+	.em-footer-bottom .em-inner-bottom{
+		padding-top:50px;
+		border-top-style: solid;
+		border-top-width: 1px;
+	}
+	address{
+		margin-top:5px;
+	}
+	.em-links{
+		li{
+			padding:0 0 $padding1x; 
+		}
+	}
+	.four-block-middle .col-sm-8{
+		margin-bottom:2rem;
+	}
+	.em-wrapper-newsletter{
+		margin:0;
+		.em-block-title{
+			float:none;
+			margin:0px;
+		}
+		.em-block-content{
+			padding-bottom:0px;
+		}
+	}
+	.em-wrapper-social{
+		overflow: hidden;
+		.em-block-title{
+			margin-top: 10px;
+		}
+		.em-block-content{
+			overflow:hidden;
+			float:left;
+		}
+		.em-social{
+			.em-social-icon{
+				@include border-radius(0);
+				padding: 7px 8px;
+				border-style: solid;
+				border-width: 1px;
+				width:32px;
+			}
+		}
+	}		
+}
+/*===============RTL=================*/
+.em-rtl{
+	.em-newsletter-style05 .block-subscribe .actions button.button{ right:auto; left:0; margin-left:0;}
+	.em-newsletter-style05 .block-subscribe .input-box input.input-text{ padding-right:10px; padding-left:100px;}
+}

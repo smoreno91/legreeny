@@ -1,0 +1,34 @@
+.em-wrapper-product-26{	
+	margin-bottom:$space_small_block + 10;
+	.em-item-left{
+		.item{ margin-right:0;
+		}
+	}
+	.em-item-right{
+		padding:0;
+		@include button-show03;
+		.item{
+			padding:0 1.5rem; margin-bottom:0;
+			width:50%; margin-right:0;
+			float:left;
+			a.product-image{margin-bottom:7px;}
+			img{
+				width:100%;
+				height:auto;
+			}
+			.price-box{    
+				position: absolute;
+				bottom: 10px;
+				right: 4px;    
+				padding: 5px 15px;
+				background: #fff;
+				display: inline-block;
+				margin: 0;
+			}
+		}
+	}
+	.product-item{
+		position:relative;
+		overflow:hidden; margin-bottom:10px;
+	}
+}

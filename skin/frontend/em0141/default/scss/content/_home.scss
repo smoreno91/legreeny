@@ -1,0 +1,66 @@
+/*Module*/
+@import "module/multidealpro";
+@import "module/subscribe";
+
+/*import module block home*/
+@import "em-wrapper-ads-01"; // Main - Banner home Accessories Fashion
+@import "em-wrapper-ads-08"; // Main - Blog
+@import "em-wrapper-ads-13"; // Main - Block Ads on Slideshow
+@import "em-wrapper-ads-18";
+@import "em-wrapper-ads-20";// Main - Block Category on home baby
+@import "em-wrapper-ads-21";// Block desc category home jean
+@import "em-wrapper-ads-12";
+/*
+@import "em-wrapper-ads-15";
+@import "em-wrapper-ads-09";
+@import "em-wrapper-ads-11";
+
+@import "em-wrapper-ads-16";*/
+@import "em-wrapper-ads-17";//background parallax
+
+
+
+
+/*import module block product home*/
+@import "em-wrapper-product-20"; 
+@import "em-wrapper-product-26";//style default
+@import "em-wrapper-product-28"; //style vintage
+@import "em-wrapper-ads-video"; //style vintage
+
+/*
+@import "em-wrapper-product-04"; //style smartphone
+@import "em-wrapper-product-12"; //style jewelry
+@import "em-wrapper-product-15";
+@import "em-wrapper-product-16"; //style smartphone
+@import "em-wrapper-product-18";
+@import "em-wrapper-product-19";
+
+@import "em-wrapper-product-23"; //style supermarket 
+@import "em-wrapper-product-24"; //style supermarket deal - slider deal
+@import "em-wrapper-product-25"; //style supermarket deal - tab product
+*/
+
+
+/*content*/
+
+.em-wrapper-main{
+	.container-main{
+		padding-top:$space_small_block;
+		&.container-fluild{
+			padding-top:0;
+		}
+	}
+}
+
+
+/*Box Category - Home page*/
+.em-box{
+	border-style: solid;
+	border-width: 1px;
+	@include border-radius(5px);
+}
+.em-line-top-bottom{
+	border-top:1px solid #e8e8e8;
+	border-bottom:1px solid #e8e8e8;
+}
+

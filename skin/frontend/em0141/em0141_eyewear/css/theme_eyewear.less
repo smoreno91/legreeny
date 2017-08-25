@@ -1,0 +1,71 @@
+.em-wrapper-header{ 
+	.em-header-top a,.toolbar-switch .toolbar-dropdown:hover span.current{ 
+			.link(@header_text_color; lighten(@header_text_color,20%));
+		}
+	
+	.navbar-fixed-top{.changeBkg(@header_bg2_color);
+		.em-search-icon span:before,.em-amount-topcart:after{ color:#fff!important;}
+		.em_nav .menu-item-depth-0 > .em-catalog-navigation > li.level0 > a.em-menu-link span, .em_nav .menu-item-depth-0 > a.em-menu-link span{ background-color:transparent!important;
+			color:@header_text_color;
+			&:hover{color: lighten(@header_text_color,20%)}
+		}
+	}
+}
+.em-slideshow .owl-carousel{
+	.owl-dots{
+		.owl-dot{ span{ background-color:darken(@body_text6_color,30%)!important;border-color:darken(@body_text6_color,30%)!important;}
+			span:hover,&.active span{ background-color:@body_text6_color!important;border-color:@body_text6_color!important;}
+		}
+	}/*.owl-dots*/
+	.owl-nav div{
+		 background-color:darken(@body_text6_color,20%)
+	}
+}
+.em-wrapper-ads{
+	.h2{.changeColor(@body_text2_color)}
+}
+.productlabels_icons .label{	.border-radius(100%);}
+.special-price .price{ color:@body_text5_color;}
+/*New Products*/
+.em-wrapper-product-27,.em-wrapper-blog{
+	.widget-title,.em-block-title{
+		h3{ font-size:500;
+			&:before{.changeBkg(@body_bg3_color)}
+			span{ .changeColor(@body_text2_color); font-weight:500;}
+		}
+	}
+}
+.cms-index-index  .products-grid .item .product-item{
+	a.product-image{ border:1px solid @body_line_color}
+	.em-element-display-hover{
+		.em-btn-addto{
+			.button.btn-cart{}
+			.add-to-links{ }
+		}
+		.quickshop-link-container{}
+		.button.btn-cart,.add-to-links li a,.quickshop-link-container{ border-width:0 1px;border-style:solid; border-color: @btn7_text_color}
+	}/*.em-element-display-hover*/
+}
+.em-wrapper-footer a{.changeColor(@footer_text2_color);}
+.em-wrapper-footer .em-footer-style01{
+	.changeColor(@footer_text2_color);
+	.first .em-block-content{
+			i{.changeColor(@footer_text2_color);}
+	}
+	.em-wrapper-social .em-social .em-social-icon{
+		.changeBkg(lighten(@footer_bg_color,60%));
+		.changeLine(lighten(@footer_bg_color,60%));
+		.changeColor(@footer_text2_color);
+		&:hover{
+			.changeBkg(@footer_bg3_color);
+			.changeLine(@footer_bg3_color); 
+			.fa:before{ .changeColor(@footer_text4_color);}
+		}
+	}
+}
+.em-wrapper-blog{
+	.em-blog-content{
+		.changeBkg(darken(@body_bg2_color,10%));
+		.em-blog-des{.changeColor(darken(@body_text_color,10%))}
+	}
+}

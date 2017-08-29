@@ -103,8 +103,7 @@ class EM_Quickshop_IndexController extends Mage_Core_Controller_Front_Action
 			$path[0] == "\/" ? $path = substr($path, 1, strlen($path)) : $path;		
 			$tableName = Mage::getSingleton('core/resource')->getTableName('core_url_rewrite'); 
 			$write = Mage::getSingleton('core/resource')->getConnection('core_write');
-
-			//$query = "select MAIN_TABLE.`product_id` from `{$tableName}` as MAIN_TABLE where MAIN_TABLE.`request_path` in('{$path}')";
+				
 			$query = $write->select()->from(array("main" => $tableName)) 
 			->columns(array('product_id' => 'main.product_id')) 
 			->where('main.request_path = (?)', $path);

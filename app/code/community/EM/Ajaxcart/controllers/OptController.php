@@ -91,8 +91,10 @@ class EM_Ajaxcart_OptController extends Mage_Core_Controller_Front_Action
 		if (strpos($path ,"?") > 0) $path  = strstr($path,'?',true);
 		$tableName = Mage::getSingleton('core/resource')->getTableName('core_url_rewrite'); 
 		$write = Mage::getSingleton('core/resource')->getConnection('core_write');
-
-		$query = "select MAIN_TABLE.`product_id` from `{$tableName}` as MAIN_TABLE where MAIN_TABLE.`request_path` in('{$path}')";
+				
+		$query = $write->select()->from(array("main" => $tableName)) 
+			->columns(array('product_id' => 'main.product_id')) 
+			->where('main.request_path = (?)', $path);
 		$readresult=$write->query($query);
 		if ($row = $readresult->fetch() ) {
 			$productId=$row['product_id'];

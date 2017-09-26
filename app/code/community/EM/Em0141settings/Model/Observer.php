@@ -25,8 +25,10 @@ class EM_Em0141settings_Model_Observer
             # Disable Admin Toolbar
             if (Mage::helper('themeframework/settings')->getGeneral_AdminToolbar()!=1) {
                 $blocks = $observer->getLayout()->getXpath('//block[@name="em_admin_toolbar"]');
-                foreach ($blocks as $block)
-                    $block->addAttribute('ignore', true);
+                if($blocks){
+                    foreach ($blocks as $block)
+                        $block->addAttribute('ignore', true);
+                }
             }
         }
     }

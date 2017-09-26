@@ -6796,6 +6796,7 @@ table colgroup, .data-table colgroup {
 /*Title Box*/
 .em-block-title {
   text-transform: capitalize;
+  margin-bottom: 5px;
 }
 .em-block-title .h2 {
   margin-bottom: 15px;
@@ -12379,7 +12380,7 @@ div.desc {
   margin-top: 5px;
 }
 .em-footer-style01 .em-links li {
-  padding: 0 0 10px;
+  padding: 0 0 3px;
 }
 .em-footer-style01 .four-block-middle .col-sm-8 {
   margin-bottom: 2rem;
@@ -14489,4 +14490,174 @@ div.desc {
   .emcatalog-mobile-6 .item {
     width: 16.66667%;
   }
+}
+/*New code*/
+.wrapper-breadcrums,
+.em-header-top,
+.em-top-cart,
+.em-footer-bottom {
+  display: none !important;
+}
+.em-wrapper-header .em-fixed-top.navbar-fixed-top .em-search-sticky:before{
+  display: none;
+}
+/*footer*/
+.em-wrapper-footer .em-block-title .h3 {
+  border-bottom: 1px solid #fff;
+  display: inline-block;
+}
+.em-wrapper-footer .em-footer-style01 .em-wrapper-social .em-social .em-social-icon {
+  border: none;
+}
+.em-wrapper-footer .em-footer-style01 .em-wrapper-social .em-social .em-social-icon:hover {
+  color: #ffffff;
+  border: none !important;
+  background-color: transparent !important;
+}
+.em-wrapper-footer .em-footer-style01 .em-wrapper-social .em-social .em-social-icon .fa-facebook {
+  background-color: white;
+  color: black;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  padding-top: 6px;
+}
+.em-wrapper-footer .em-footer-style01 .em-wrapper-social .em-social .em-social-icon .fa-instagram {
+  margin-left: 7px; 
+}
+.em-wrapper-footer .em-footer-style01 .em-wrapper-social .em-social .em-social-icon .fa:before {
+  font-size: 26px;
+}
+/*tiendas*/
+.em-page-title h1{
+  text-align: center;
+  font: 500 4.8rem/1 Lato,Helvetica Neue, Helvetica, Arial, sans-serif;
+  color: #302E2E;
+  text-transform: uppercase;
+  position: relative;
+  z-index: 1;
+}
+.em-page-title h1:before {
+  border-top: 2px solid #302E2E;
+  content: "";
+  margin: 0 auto;
+  position: absolute;
+  top: 80%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: -1;
+}
+.em-page-title h1 span {
+  background: #fff;
+  padding: 0 10px;
+}
+.em-store-image img {
+  width: 100%;
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.em-store-image:hover img {
+  -moz-transform: scale(1.04);
+  -webkit-transform: scale(1.04);
+  transform: scale(1.04);
+}
+.store-container .container {
+  padding: 30px 0;
+  border-bottom: 2px solid #F2F2F2;
+}
+.store-container .container:last-child {
+  border-bottom: none;
+}
+.store-container .container .col-sm-12 {
+  margin-bottom: 20px;
+}
+/*contacto*/
+.contacts-index-index .wrapper-breadcrums {
+  display: block !important;
+  background-image: url("/media/wysiwyg/contacto/banner-header.png");
+  background-size: cover;
+}
+.contacts-index-index .wrapper-breadcrums .breadcrumbs {
+  padding: 12rem 0;
+}
+.contacts-index-index .wrapper-breadcrums .breadcrumbs > div{
+  display: none;
+}
+
+#contactForm button {
+  float: right;
+}
+
+.em-maps-wrapper img {
+  max-width: 100%;
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.em-maps-wrapper:hover img {
+  -moz-transform: scale(1.04);
+  -webkit-transform: scale(1.04);
+  transform: scale(1.04);
+}
+.em-contact-info {
+  margin-top: 50px;
+}
+.em-contact-info .fa {
+  width: 20px;
+}
+.em-contact-info span {
+  color: black;
+}
+.em-follow-section {
+  margin-top: 30px;
+}
+.em-follow-section h5{
+  color: black;
+  text-transform: uppercase;
+}
+.em-follow-section .em-follow-section-links{
+  margin-top: 15px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+  border-top: 1px solid #ccc;
+}
+.em-follow-section .em-follow-section-links p{
+  margin: 0;
+  display: inline-block;
+  color: #ccc;
+  font-size: 16px;
+  font-weight: lighter;
+
+}
+.em-follow-section .em-follow-section-links .em-facebook {
+  color: white;
+  background-color: #FA485B;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  padding-top: 6px;
+}
+.em-follow-section .em-follow-section-links .em-facebook span{
+  margin-right: 0;
+}
+.em-follow-section .em-follow-section-links .em-facebook .fa:before {
+  font-size: 22px;
+}
+.em-follow-section .em-follow-section-links .em-instagram {
+  color: #FA485B;
+  width: 35px;
+  height: 35px
+}
+.em-follow-section .em-follow-section-links .em-instagram .fa:before {
+  font-size: 26px;
+}
+
+.contacts-index-index #map-canvas {
+  margin-top: 50px;
 }

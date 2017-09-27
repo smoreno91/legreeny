@@ -37,38 +37,40 @@
                 <ul class="form-list">
                     <li>
                         <div class="input-box">
-                            <input name="name" id="name" title="<?php echo Mage::helper('core')->quoteEscape(Mage::helper('contacts')->__('Name')) ?>" value="<?php echo $this->escapeHtml($this->helper('contacts')->getUserName()) ?>" class="input-text required-entry" type="text" placeholder="<?php echo Mage::helper('contacts')->__('Name') ?>"/>
+                            <input name="name" id="name" title="TU NOMBRE" value="<?php echo $this->escapeHtml($this->helper('contacts')->getUserName()) ?>" class="input-text required-entry" type="text" placeholder="TU NOMBRE"/>
                         </div>
                     </li>
                     <li>
                         <div class="input-box">
-                            <input name="email" id="email" title="<?php echo Mage::helper('core')->quoteEscape(Mage::helper('contacts')->__('Email')) ?>" value="<?php echo $this->escapeHtml($this->helper('contacts')->getUserEmail()) ?>" class="input-text required-entry validate-email" type="text" placeholder="<?php echo Mage::helper('contacts')->__('Email') ?>" />
+                            <input name="email" id="email" title="TU EMAIL" value="<?php echo $this->escapeHtml($this->helper('contacts')->getUserEmail()) ?>" class="input-text required-entry validate-email" type="text" placeholder="TU EMAIL" />
                         </div>
                     </li>
                     <li>
                         <div class="input-box">
-                            <input name="telephone" id="telephone" title="<?php echo Mage::helper('contacts')->__('Telephone') ?>" value="" class="input-text" type="text" placeholder="<?php echo Mage::helper('contacts')->__('Telephone') ?>"/>
+                            <input name="telephone" id="telephone" title="TU CELULAR" value="" class="input-text" type="text" placeholder="TU CELULAR"/>
                         </div>
                     </li>
                     <li>
                         <div class="input-box">
                             <select name="interest" id="interest">
-                                <option value="value1" selected>Te interesa</option> 
-                                <option value="value2" selected>Te interesa 2</option>
-                                <option value="value3">Te interesa 3</option>
+                                <option value="value1" selected>Quiero ser distribuidor</option> 
+                                <option value="value2">Quiero comprar al por mayor</option>
+                                <option value="value3">Tengo una queja o un reclamo</option>
+                                <option value="value3">Quiero trabajar con ustedes</option>
+                                <option value="value3">Otros</option>
                             </select>
                         </div>
                     </li>
                     <li class="wide">
                         <div class="input-box">
-                            <textarea name="comment" id="comment" title="<?php echo Mage::helper('contacts')->__('Comment') ?>" class="required-entry input-text" cols="5" rows="3" placeholder="<?php echo Mage::helper('contacts')->__('Comment') ?>"></textarea>
+                            <textarea name="comment" id="comment" title="¡CUÉNTANOS! :)" class="required-entry input-text" cols="5" rows="3" placeholder="¡CUÉNTANOS! :)"></textarea>
                         </div>
                     </li>
                 </ul>
             </div>
             <div class="buttons-set">
                 <input type="text" name="hideit" id="hideit" value="" style="display:none !important;" />
-                <button type="submit" title="<?php echo Mage::helper('core')->quoteEscape(Mage::helper('contacts')->__('Submit')) ?>" class="button"><span><span><?php echo Mage::helper('contacts')->__('Submit') ?></span></span></button>
+                <button type="submit" title="ENVIAR" class="button"><span><span>ENVIAR</span></span></button>
             </div>
         </form>
         <script type="text/javascript">

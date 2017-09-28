@@ -9494,7 +9494,7 @@ div.desc {
 .logo_loader {
   position: absolute;
   top: 35%;
-  left: 40%;
+  left: calc(50% - 165px);
   z-index: 1001;
 }
 
@@ -9505,7 +9505,7 @@ div.desc {
   top: 50%;
   left: 50%;
   border: 1px solid #bfbfbf;
-  border-left-color: #f02222;
+  border-left-color: #fa485b;
   border-radius: 974px;
   -o-border-radius: 974px;
   -ms-border-radius: 974px;
@@ -14516,16 +14516,16 @@ div.desc {
   color: black;
   border-radius: 50%;
   text-align: center;
-  padding: 6px 10px;
+  padding: 5px 9px;
 }
 .em-wrapper-footer .em-footer-style01 .em-wrapper-social .em-social .em-social-icon .fa-facebook:before {
-  font-size: 21px;
+  font-size: 24px;
 }
 .em-wrapper-footer .em-footer-style01 .em-wrapper-social .em-social .em-social-icon .fa-instagram {
   margin-left: 7px; 
 }
 .em-wrapper-footer .em-footer-style01 .em-wrapper-social .em-social .em-social-icon .fa-instagram:before {
-  font-size: 26px;
+  font-size: 24px;
 }
 /*tiendas*/
 .em-page-title h1{
@@ -14672,18 +14672,18 @@ div.desc {
   background-color: #FA485B;
   border-radius: 50%;
   text-align: center;
-  padding: 6px 10px;
+  padding: 5px 9px;
 }
 .em-follow-section .em-follow-section-links .em-facebook span{
   margin-right: 0;
 }
 .em-follow-section .em-follow-section-links .em-facebook .fa:before {
-  font-size: 21px;
+  font-size: 20px;
 }
 .em-follow-section .em-follow-section-links .em-instagram {
   color: #FA485B;
   margin-right: 10px;
 }
 .em-follow-section .em-follow-section-links .em-instagram .fa:before {
-  font-size: 26px;
+  font-size: 24px;
 }

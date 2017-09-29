@@ -10639,15 +10639,15 @@ div.desc {
 }
 .em-header-style03 .em_nav .hnav .menu-item-depth-0,
 .em-header-style03 .em_nav .hnav .menu-item-depth-0 > .em-catalog-navigation > li.level0 {
-  margin-right: 15px;
-  margin-left: 15px;
+  margin-right: 10px;
+  margin-left: 10px;
   display: inline-block;
   float: none;
 }
 .em-header-style03 .em_nav .hnav .menu-item-depth-0 > a span,
 .em-header-style03 .em_nav .hnav .menu-item-depth-0 > .em-catalog-navigation > li.level0 > a span {
-  padding-left: 0;
-  padding-right: 15px;
+  padding-left: 8px;
+  padding-right: 8px;
 }
 .em-header-style03 .em_nav .hnav .menu-item-depth-0 > .menu-container, .em-header-style03 .em_nav .hnav .menu-item-depth-0 .level0 ul,
 .em-header-style03 .em_nav .hnav .menu-item-depth-0 > .em-catalog-navigation > li.level0 > .menu-container,

@@ -127,3 +127,6 @@ skin/frontend/default/iphone/
 skin/frontend/default/modern/
 skin/frontend/enterprise
 var/
+
+media/em0141/css/less
+media/em_minislideshow

@@ -1,0 +1,102 @@
+{{template config_path="design/email/header"}}
+
+		<body style="margin:0">
+		<table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#4dc6ff">
+			
+			<tr>
+				<td align="center">
+					<table class="responsive-table" width="600" border="0" cellspacing="0" cellpadding="0">
+						<tr align="center">
+							<td bgcolor="#4dc6ff" height="10px"></td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			
+			<tr>
+				<td align="center">
+					<table class="responsive-table" width="600" border="0" cellspacing="0" cellpadding="0">
+						<tr align="center">
+							<td>
+								<img class="responsive-img" src="{{skin url='images/email'}}/01.jpg" width="100%" style="display: block">
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			
+			<tr>
+				<td align="center">
+					<table class="responsive-table" width="600" border="0" cellspacing="0" cellpadding="0">
+						<tr align="center">
+							<td bgcolor="#ffffff" height="82px"></td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			
+			<tr>
+				<td align="center">
+					<table class="responsive-table" width="600" border="0" cellspacing="0" cellpadding="0" bgcolor="#ffffff">
+						<tr align="center">
+							<td>
+								<table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#ffffff">
+									<tr>
+										<td width="70px" bgcolor="#ffffff" style="padding: 0"></td>
+										<td width="460px" bgcolor="#ffffff" align="center" style="padding: 0">
+										<font class="text" face="Asap, Arial, sans-serif" color="#5c5c5c" style="display:block;font-size:14px;text-align:left;line-height:24px; font-weight:400"><strong>¡Bienvenido/a a Font Vella en Casa!</strong> ¡Estamos muy felices de conocerte!
+Este email es para darte la bienvenida y para contarte algunas pequeñas cosas que te serán útiles. Ahí van:
+<br><br>
+
+Para iniciar sesión  solo tienes que hacer click en <a href="{{store url="customer/account/"}}" target="_blank" style="color:#40afe4; text-decoration: underline; font-weight: 700">Mi Cuenta</a> e introducir tu dirección de email y contraseña.<br><br>
+
+Tus datos para iniciar sesión son los siguientes:<br>
+Email: <strong>{{var customer.email}}</strong><br>
+Contraseña: <strong>{{htmlescape var=$customer.password}}</strong>
+<br><br>
+Cuando inicies sesión en tu cuenta podrás hacer todo esto:
+<font style="line-height: 20px"><ul style="padding-left: 60px; padding-right:40px">
+<li>Pasar por caja más rápido al realizar una compra</li>
+<li>Comprobar el estado de los pedidos</li>
+<li>Ver pedidos anteriores</li>
+<li>Realizar cambios en la información de tu cuenta</li>
+<li>Cambiar tu contraseña</li>
+<li>Guardar direcciones alternativas (¡para envíos a diferentes familiares y amigos!)</li>
+<li>Configurar tu compra periódica</li>
+</ul></font><br> 
+
+Contacta con nosotros en <a href="mailto:{{var store_email}}" target="_top" style="color:#40afe4; text-decoration: underline; font-weight: 700">{{var store_email}}</a> o en el teléfono <strong>{{var store_phone}}</strong> para cualquier duda o sugerencia sobre el servicio. ¡Estaremos encantados de atenderte!<br><br><br>
+
+¡Saludos! ; D</font></td>
+										<td width="70px" bgcolor="#ffffff" style="padding: 0"></td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			
+			<tr>
+				<td align="center">
+					<table class="responsive-table" width="600" border="0" cellspacing="0" cellpadding="0">
+						<tr align="center">
+							<td bgcolor="#ffffff" height="112px"></td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			
+			<tr>
+				<td align="center">
+					<table class="responsive-table" width="600" border="0" cellspacing="0" cellpadding="0">
+						<tr align="center">
+							<td>
+								<img class="responsive-img" src="{{skin url='images/email'}}/B.jpg" width="100%" style="display: block">
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+						
+{{template config_path="design/email/footer"}}

@@ -1,0 +1,88 @@
+{{template config_path="design/email/header"}}
+
+		<body style="margin:0">
+		<table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#4dc6ff">
+			
+			<tr>
+				<td align="center">
+					<table class="responsive-table" width="600" border="0" cellspacing="0" cellpadding="0">
+						<tr align="center">
+							<td bgcolor="#4dc6ff" height="10px"></td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			
+			<tr>
+				<td align="center">
+					<table class="responsive-table" width="600" border="0" cellspacing="0" cellpadding="0">
+						<tr align="center">
+							<td>
+								<img class="responsive-img" src="{{skin url='images/email'}}/02.jpg" width="100%" style="display: block">
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			
+			<tr>
+				<td align="center">
+					<table class="responsive-table" width="600" border="0" cellspacing="0" cellpadding="0">
+						<tr align="center">
+							<td bgcolor="#ffffff" height="82px"></td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			
+			<tr>
+				<td align="center">
+					<table class="responsive-table" width="600" border="0" cellspacing="0" cellpadding="0" bgcolor="#ffffff">
+						<tr align="center">
+							<td>
+								<table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#ffffff">
+									<tr>
+										<td width="70px" bgcolor="#ffffff" style="padding: 0"></td>
+										<td width="460px" bgcolor="#ffffff" align="center" style="padding: 0">
+										<font class="text" face="Asap, Arial, sans-serif" color="#5c5c5c" style="display:block;font-size:14px;text-align:left;line-height:24px; font-weight:400"><strong>¡Gracias {{htmlescape var=$order.getCustomerName()}}!</strong> ¡Has completado tu pedido!<br>
+Estamos cargando por ti <strong>*| X_quilos |*</strong> de agua.<br><br>
+
+Recibirás tu pedido <strong>#{{var order.increment_id}}</strong> en <strong>{{var order.getShippingAddress().format('html')}}</strong> el día <strong>*| Fecha_entrega |*</strong> entre las <strong>*| Franja_horaria |*</strong>. El método de pago que has elegido es <strong>{{var payment_html}}</strong>. Recuerda tener <strong>preparada tu tarjeta</strong> para cuando llegue el repartidor.<br><br>
+
+Puedes comprobar el estado de tu pedido iniciando sesión en <a href="{{store url="customer/account/"}}" target="_blank" style="color:#40afe4; text-decoration: underline; font-weight: 700">Mi Cuenta</a>. Donde además podrás modificar tu pedido <strong>hasta 36h antes de recibirlo</strong>.<br><br>
+
+Contacta con nosotros en <a href="mailto:{{var store_email}}" target="_top" style="color:#40afe4; text-decoration: underline; font-weight: 700">{{var store_email}}</a> o en el teléfono <strong>{{var store_phone}}</strong> para cualquier duda o sugerencia sobre el servicio. ¡Estaremos encantados de atenderte!<br><br><br>
+
+¡Saludos! ; D</font></td>
+										<td width="70px" bgcolor="#ffffff" style="padding: 0"></td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			
+			<tr>
+				<td align="center">
+					<table class="responsive-table" width="600" border="0" cellspacing="0" cellpadding="0">
+						<tr align="center">
+							<td bgcolor="#ffffff" height="112px"></td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			
+			<tr>
+				<td align="center">
+					<table class="responsive-table" width="600" border="0" cellspacing="0" cellpadding="0">
+						<tr align="center">
+							<td>
+								<img class="responsive-img" src="{{skin url='images/email'}}/B.jpg" width="100%" style="display: block">
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+						
+{{template config_path="design/email/footer"}}

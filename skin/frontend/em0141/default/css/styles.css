@@ -12431,7 +12431,8 @@ div.desc {
   padding-bottom: 30px;
 }
 .em-wrapper-footer .logo-footer img {
-  max-width: 100%;
+  max-width: 200px;
+  margin: 0 auto;
 }
 
 .em-payment {
@@ -14514,23 +14515,25 @@ div.desc {
 .em-wrapper-footer .em-footer-style01 .em-wrapper-social .em-social .em-social-icon .fa-facebook {
   background-color: white;
   color: black;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
   border-radius: 50%;
   text-align: center;
-  padding: 5px 9px;
+  padding: 5px 10px;
 }
 .em-wrapper-footer .em-footer-style01 .em-wrapper-social .em-social .em-social-icon .fa-facebook:before {
-  font-size: 24px;
+  font-size: 30px;
 }
 .em-wrapper-footer .em-footer-style01 .em-wrapper-social .em-social .em-social-icon .fa-instagram {
-  margin-left: 7px; 
+  margin-left: 4px; 
 }
 .em-wrapper-footer .em-footer-style01 .em-wrapper-social .em-social .em-social-icon .fa-instagram:before {
-  font-size: 24px;
+  font-size: 36px;
 }
 /*tiendas*/
 .em-page-title h1{
   text-align: center;
-  font: 500 4.8rem/1 Lato,Helvetica Neue, Helvetica, Arial, sans-serif;
+  font: 500 4rem/1 Lato,Helvetica Neue, Helvetica, Arial, sans-serif;
   color: #302E2E;
   text-transform: uppercase;
   position: relative;
@@ -14671,6 +14674,8 @@ div.desc {
   color: white;
   background-color: #FA485B;
   border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
   text-align: center;
   padding: 5px 9px;
 }
@@ -14686,4 +14691,69 @@ div.desc {
 }
 .em-follow-section .em-follow-section-links .em-instagram .fa:before {
   font-size: 24px;
+}
+/*Social links Menu header*/
+.em-header-bottom .social-links-menu .follow-us {
+  display: inline-block;
+  color: #fff;
+  font: normal 13px/1.35 Lato,Helvetica Neue, Helvetica, Arial, sans-serif;
+  margin-right: 5px;
+}
+.em-header-bottom.navbar-fixed-top .social-links-menu .follow-us {
+  color: #7f7f7f;
+  margin-right: 0;
+}
+.em-header-bottom .social-links-menu .em-social-icon {
+  display: inline-block;
+  margin-left: 5px;
+}
+.em-header-bottom .social-links-menu .em-social-icon .fa-facebook {
+  padding: 5px 9px;
+  background-color: #fff;
+  color: #000;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+}
+.em-header-bottom.navbar-fixed-top .social-links-menu .em-social-icon .fa-facebook {
+  color: #7f7f7f;
+}
+.em-header-bottom .social-links-menu .em-social-icon .fa-instagram {
+  color: #fff;
+  position: absolute;
+  top: 1px;
+}
+.em-header-bottom.navbar-fixed-top .social-links-menu .em-social-icon .fa-instagram {
+  color: #7f7f7f;
+}
+.em-header-bottom .social-links-menu .em-social-icon .fa-instagram:before {
+  font-size: 25px;
+}
+.em-header-bottom.navbar-fixed-top .social-links-menu .em-social-icon .fa-instagram:before {
+  font-size: 22px;
+  position: relative;
+}
+/*Menu mobile*/
+#em-mheader .em-wrapper-top {
+  display: none;
+}
+.mobile-main-menu .social-links-menu {
+  margin-top: 20px;
+  text-align: center;
+}
+.mobile-main-menu .social-links-menu .follow-us {
+  display: inline-block;
+  color: #000;
+  font: bold 15px/1.35 Lato,Helvetica Neue, Helvetica, Arial, sans-serif;
+  vertical-align: middle;
+}
+.mobile-main-menu  .social-links-menu .em-social-icon {
+  display: inline-block;
+  margin-left: 10px;
+}
+.mobile-main-menu .social-links-menu .em-social-icon .fa {
+  color: #000;
+}
+.mobile-main-menu .social-links-menu .em-social-icon .fa:before {
+  font-size: 25px;
 }

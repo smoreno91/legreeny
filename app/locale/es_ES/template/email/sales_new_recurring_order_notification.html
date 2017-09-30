@@ -1,0 +1,73 @@
+<!--@subject Tu compra periódica #{{var order.increment_id}} @-->
+{{template config_path="design/email/header"}}
+			
+	<!-- Email Body -->
+	<tr>
+		<td align="center">
+			<table class="responsive-table" width="600" border="0" cellspacing="0" cellpadding="0">
+				<tr align="center">
+					<td>
+						<img class="responsive-img" src="{{skin url='images/email'}}/05.jpg" width="100%" style="display: block">
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td align="center">
+				<table class="responsive-table" width="600" border="0" cellspacing="0" cellpadding="0">
+					<tr align="center">
+						<td bgcolor="#ffffff" height="82px"></td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	<tr>
+		<td align="center">
+			<table class="responsive-table" width="600" border="0" cellspacing="0" cellpadding="0" bgcolor="#ffffff">
+				<tr align="center">
+					<td>
+						<table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#ffffff">
+							<tr>
+								<td width="70px" bgcolor="#ffffff" style="padding: 0"></td>
+								<td width="460px" bgcolor="#ffffff" align="center" style="padding: 0">
+								<font class="text" face="Asap, Arial, sans-serif" color="#5c5c5c" style="display:block;font-size:14px;text-align:left;line-height:24px; font-weight:400"><strong>¡Gracias {{htmlescape var=$order.getCustomerName()}}!</strong><br><br>
+
+								¡El día <strong>{{var order.getOrderDeliveryDate()}}</strong> recibirás tu <strong>Compra periódica</strong> en <strong>{{var order.getStreetAddress()}}</strong> entre las <strong>{{var order.getOrderDeliveryTimeSlot()}}</strong>.<br><br>
+
+								<td width="70px" bgcolor="#ffffff" style="padding: 0"></td>
+							</tr>
+						</table>
+						
+						<table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#ffffff">
+							<tr>
+								<td width="70px" bgcolor="#ffffff" style="padding: 0"></td>
+								<td width="460px" bgcolor="#ffffff" align="center" style="padding: 0">
+								<font class="text" face="Asap, Arial, sans-serif" color="#5c5c5c" style="display:block;font-size:14px;text-align:left;line-height:24px; font-weight:400"> El método de pago que has elegido es <strong>{{var order.getPaymentMethodTitle()}}</strong>.<br><br>
+								
+								Puedes modificar, pausar o eliminar tu <strong>Compra periódica</strong> iniciando sesión en <a href="{{store url='customer/account/edit'}}" target="_blank" style="color:#40afe4; text-decoration: underline; font-weight: 700">Mi Cuenta</a>.<br><br>
+
+								Contacta con nosotros en <a href="mailto:fontvellaencasa@danone.com" target="_top" style="color:#40afe4; text-decoration: underline; font-weight: 700">fontvellaencasa@danone.com</a> o en el teléfono <strong>618 17 20 33</strong> para cualquier duda o sugerencia sobre el servicio. ¡Estaremos encantados de atenderte!<br><br><br>
+
+								¡Saludos! ; D</font></td>
+								<td width="70px" bgcolor="#ffffff" style="padding: 0"></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+
+	<tr>
+		<td align="center">
+			<table class="responsive-table" width="600" border="0" cellspacing="0" cellpadding="0">
+				<tr align="center">
+					<td bgcolor="#ffffff" height="112px"></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<!-- Email Body End -->
+
+{{template config_path="design/email/footer"}}

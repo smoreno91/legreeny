@@ -25,25 +25,27 @@
  */
 ?>
 <?php if(Mage::helper('themeframework/settings')->getContacts_MapEnable() == 1): ?>
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3.17&signed_in=true"></script>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.1014276434103!2d-75.57810148472049!3d6.250364328011084!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e44290046ddb01b%3A0x4b90071bb2a755f8!2sCl.+48+%2357-87%2C+Medell%C3%ADn%2C+Antioquia!5e0!3m2!1sen!2sco!4v1506897579899" width="<?php echo Mage::helper('themeframework/settings')->getContacts_MapWidth() ?>" height="<?php echo Mage::helper('themeframework/settings')->getContacts_MapHeight(500) ?>" frameborder="0" style="border:0" allowfullscreen></iframe>
+    
+    <!-- <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAFHjggjkW2yAMUhI7boHFVO7ONPn8Xb94&v=3.17&signed_in=true"></script> -->
     <?php
-        $_generalAddress = nl2br(Mage::getStoreConfig('general/store_information/address'));
-        $_generalStoreName = nl2br(Mage::getStoreConfig('general/store_information/name'));        
-        $_configAddress =  Mage::helper('themeframework/settings')->getContacts_MapAddress('249 Ung Van Khiem, Phuong 25, Binh Thanh, Ho Chi Minh');        
-        if(!$_configAddress){
-            $_address = $_generalAddress;
-        }else{
-            $_address = $_configAddress;
-        }
-        $_address = str_replace(' ','+',$_address); 
-        $_jsonCode = file_get_contents('http://maps.google.com/maps/api/geocode/json?address='.$_address.'&sensor=false');        
-        $_jsonDecode = json_decode($_jsonCode);        
-        $_lat = $_jsonDecode->results[0]->geometry->location->lat;        
-        $_lng = $_jsonDecode->results[0]->geometry->location->lng;        
-        $_imageUrl =  Mage::getbaseUrl("media").Mage::helper('themeframework/settings')->getContacts_MapImage('em0141/variations/gmap_icon.png');        
+        // $_generalAddress = nl2br(Mage::getStoreConfig('general/store_information/address'));
+        // $_generalStoreName = nl2br(Mage::getStoreConfig('general/store_information/name'));        
+        // $_configAddress =  Mage::helper('themeframework/settings')->getContacts_MapAddress('249 Ung Van Khiem, Phuong 25, Binh Thanh, Ho Chi Minh');        
+        // if(!$_configAddress){
+        //     $_address = $_generalAddress;
+        // }else{
+        //     $_address = $_configAddress;
+        // }
+        // $_address = str_replace(' ','+',$_address); 
+        // $_jsonCode = file_get_contents('http://maps.google.com/maps/api/geocode/json?address='.$_address.'&sensor=false');        
+        // $_jsonDecode = json_decode($_jsonCode);        
+        // $_lat = $_jsonDecode->results[0]->geometry->location->lat;        
+        // $_lng = $_jsonDecode->results[0]->geometry->location->lng;        
+        // $_imageUrl =  Mage::getbaseUrl("media").Mage::helper('themeframework/settings')->getContacts_MapImage('em0141/variations/gmap_icon.png');        
     ?>
     
-    <script type="text/javascript">
+    <!-- <script type="text/javascript">
         function initialize() {
     	var myLatlng = new google.maps.LatLng(<?php echo $_lat?>, <?php echo $_lng ?>);
     	var mapOptions = {
@@ -68,5 +70,5 @@
     }
     google.maps.event.addDomListener(window, 'load', initialize);
     </script>
-    <div id="map-canvas" style="width: <?php echo Mage::helper('themeframework/settings')->getContacts_MapWidth() ?>px; height: <?php echo Mage::helper('themeframework/settings')->getContacts_MapHeight(500) ?>px"></div>
+    <div id="map-canvas" style="width: <?php echo Mage::helper('themeframework/settings')->getContacts_MapWidth() ?>px; height: <?php echo Mage::helper('themeframework/settings')->getContacts_MapHeight(500) ?>px"></div> -->
 <?php endif;?>

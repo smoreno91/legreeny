@@ -725,7 +725,7 @@ p.control input.radio {
 
 .form-list textarea {
   width: 254px;
-  height: 5.3em;
+  height: 8.3em;
 }
 
 .form-list select {
@@ -14555,6 +14555,7 @@ div.desc {
   background: #fff;
   padding: 0 10px;
   font-family: Playfair Display, Lato, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: bold;
 }
 .em-store-image img {
   width: 100%;

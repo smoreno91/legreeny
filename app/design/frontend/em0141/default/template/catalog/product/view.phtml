@@ -67,7 +67,7 @@
 			</div>
 			<div class="product-view-detail">
 				<div class="em-product-view row">
-                    <div class="col-sm-24 product-view-top">
+<!--                     <div class="col-sm-24 product-view-top">
                         <div class="product-name">
 							<h1 <?php if(Mage::helper('themeframework/settings')->getSnippets_Enable()): ?>itemprop="name"<?php endif;?>><?php echo $_helper->productAttribute($_product, $_product->getName(), 'name') ?></h1>
 						</div>
@@ -77,7 +77,7 @@
                                 <p class="email-friend"><a href="<?php echo $this->helper('catalog/product')->getEmailToFriendUrl($_product) ?>"><?php echo $this->__('Email to a Friend') ?></a></p>
                 			<?php endif; ?>
                         </div>
-                    </div>
+                    </div> -->
                     <div class="em-product-view-primary em-product-img-box col-sm-<?php echo $_PrimaryColumnWidth ?> first">                        
 						<div class="product-img-box">
 							<?php echo $this->getChildHtml('media') ?>
@@ -86,11 +86,18 @@
 					<div class="em-product-view-secondary em-product-shop col-sm-<?php echo $_SecondaryColumnWidth ?>">                                            
 						<div class="product-shop">
                             <?php echo $this->getChildHtml('staticblock') ?>
-							<div class="em-sku-availability">
+
+							<div class="product-name">
+								<h1 style="font-family: Playfair Display, Lato, Helvetica Neue, Helvetica, Arial, sans-serif;" <?php if(Mage::helper('themeframework/settings')->getSnippets_Enable()): ?>itemprop="name"<?php endif;?>><?php echo $_helper->productAttribute($_product, $_product->getName(), 'name') ?></h1>
+							</div>
+
+							<div class="em-sku">
                         		<?php if(Mage::helper('themeframework/settings')->getProductDetail_ShowSku()): ?>
                                     <p class="sku"><?php echo $this->__('SKU:') ?> <?php echo $_product->getSKU()?></p>
                         		<?php endif; ?>
+                        	</div>
                                 
+                            <div class="em-availability">
                                 <?php if ($this->displayProductStockStatus()): ?>
                                     <?php if ($_product->isAvailable()): ?>
                                         <p class="availability in-stock">
@@ -110,8 +117,8 @@
                             
 							<?php if ($_product->getShortDescription()):?>
 							<div class="short-description">
-								<h2><?php echo $this->__('Quick Overview') ?></h2>
-								<div class="std" <?php if(Mage::helper('themeframework/settings')->getSnippets_Enable() && Mage::helper('themeframework/settings')->getSnippets_Description()): ?>itemprop="description"<?php endif;?>><?php echo $_helper->productAttribute($_product, nl2br($_product->getShortDescription()), 'short_description') ?></div>
+								<!-- <h2><?php echo $this->__('Quick Overview') ?></h2> -->
+								<div class="std" style="color: #000;" <?php if(Mage::helper('themeframework/settings')->getSnippets_Enable() && Mage::helper('themeframework/settings')->getSnippets_Description()): ?>itemprop="description"<?php endif;?>><?php echo $_helper->productAttribute($_product, nl2br($_product->getShortDescription()), 'short_description') ?></div>
 							</div>
 							<?php endif;?>
                             
@@ -175,15 +182,20 @@
 								<a href="https://api.addthis.com/oexchange/0.8/forward/google_plusone_share/offer?url=<?php echo $_helper->productAttribute($_product, $_product->getProductUrl(), 'product_url'); ?>&amp;title=<?php echo $_helper->productAttribute($_product, $_product->getName(), 'name') ?>" target="_blank">
 									<span class="icon-google fa fa-google-plus"></span>
 								</a> 
-                            </div>  
+                            </div>
                             
-							<?php echo $this->getChildHtml('other');?>
-							<?php echo $this->getChildHtml('extrahint') ?>               
+							<?php //echo $this->getChildHtml('other');?>
+							<?php //echo $this->getChildHtml('extrahint') ?>               
 							<?php if ($_product->isSaleable() && $this->hasOptions()):?>
-							<?php echo $this->getChildChildHtml('container1', '', true, true) ?>
+							<?php //echo $this->getChildChildHtml('container1', '', true, true) ?>
 							<?php endif;?>               
 						</div>
-					</div>                    
+						
+						<div class="product-video">
+							<!-- <p>video</p> -->
+						</div>
+					</div>     
+
 				</div>					
 				<div class="clearer"></div>
 				<?php if ($_product->isSaleable() && $this->hasOptions()):?>
@@ -244,7 +256,7 @@
 		</script>
 	</div>
             
-	<div class="em-product-info <?php if($_positionRelated=='beside_tabs' && $_displayRelated!='disable' && $_pageLayout!=3):?>row<?php endif;?>">
+	<!-- <div class="em-product-info <?php if($_positionRelated=='beside_tabs' && $_displayRelated!='disable' && $_pageLayout!=3):?>row<?php endif;?>">
 		<div class="em-product-details <?php if($_positionRelated=='beside_tabs' && $_displayRelated!='disable' && $_pageLayout!=3):?>col-sm-18 first<?php endif;?>">
             
 			<div class="emtabs-below-image em-line-01 em-details-tabs product-collateral">
@@ -292,5 +304,5 @@
     			<?php endif;?>
     		</div>
 		<?php endif;?>
-	</div>
+	</div> -->
 </div>

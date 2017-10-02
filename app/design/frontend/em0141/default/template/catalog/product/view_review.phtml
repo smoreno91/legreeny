@@ -82,12 +82,12 @@
 						<h1><?php echo $_helper->productAttribute($_product, $_product->getName(), 'name') ?></h1>
                         		</div>
                                 
-                                <div class="em-review-email">
+<!--                                 <div class="em-review-email">
                                     <?php echo $this->getReviewsSummaryHtml($_product, 'aggregate', true)?>
                                     <?php if ($this->canEmailToFriend()): ?>
                                         <p class="email-friend"><a href="<?php echo $this->helper('catalog/product')->getEmailToFriendUrl($_product) ?>"><?php echo $this->__('Email to a Friend') ?></a></p>
                         			<?php endif; ?>
-                                </div> 
+                                </div>  -->
                                 
                                 <div class="em-sku-availability">
                             		<?php if($setting->getProductDetail_ShowSku()): ?>

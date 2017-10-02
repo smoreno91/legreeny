@@ -725,7 +725,7 @@ p.control input.radio {
 
 .form-list textarea {
   width: 254px;
-  height: 8.3em;
+  height: 8.4em;
 }
 
 .form-list select {
@@ -14595,11 +14595,14 @@ div.desc {
 }
 /*contacto*/
 .contacts-index-index .wrapper-breadcrums {
-  display: block !important;
   background-image: url("/media/wysiwyg/contacto/banner-header.png");
   background-size: cover;
   background-position: center right
-
+}
+@media screen and (min-width: 767px) {
+  .contacts-index-index .wrapper-breadcrums {
+    display: block !important;
+  }
 }
 .contacts-index-index .wrapper-breadcrums .breadcrumbs {
   padding: 12rem 0;
@@ -14620,6 +14623,11 @@ div.desc {
   -moz-border-radius: 0;
   -webkit-border-radius: 0;
   border-radius: 0;
+}
+@media screen and (min-width: 991px) and (max-width: 1200px) {
+  .contacts-index-index #contactForm  textarea {
+    height: 4em;
+  }
 }
 .em-maps-wrapper {
   text-align: center;

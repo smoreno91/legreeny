@@ -8088,6 +8088,7 @@ div.desc {
   border-width: 1px;
   margin-bottom: 20px;
   background-color: #efefef;
+  border-bottom-width: 2px;
 }
 .product-view-detail .product-shop .short-description h2 {
   margin-bottom: 0.2rem;

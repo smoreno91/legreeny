@@ -24,7 +24,7 @@
     height: 100%;
   }
   .cms-index-index .em-wrapper-slideshow .owl-carousel .owl-item img, .cms-index-index .em-wrapper-slideshow .owl-carousel .owl-item .item {
-    height: 100%;
+    /*height: 100%;*/
   }
   .cms-index-index .em-wrapper-slideshow .em-slideshow,
   .cms-index-index .em-wrapper-slideshow .em-owlcarousel-slideshow,

@@ -38,7 +38,7 @@
     }
     /* End Check Homepage */
 ?>
-<?php if($homePage==false ||  ($homePage == true && Mage::helper('themeframework/settings')->getHomePosition_Compare()) ):?>
+<?php if(($homePage==false ||  ($homePage == true && Mage::helper('themeframework/settings')->getHomePosition_Compare())) && FALSE):?>
     <?php
         $_helper = $this->helper('catalog/product_compare');
         $_items = $_helper->getItemCount() > 0 ? $_helper->getItemCollection() : null;

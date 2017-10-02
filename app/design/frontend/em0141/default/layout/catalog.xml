@@ -71,10 +71,10 @@ Category default layout
 		<reference name="left">
 			<block type="catalog/navigation" name="catalog.leftnav" before="-" template="catalog/navigation/left.phtml" />
 		</reference> 
-        <reference name="em_layer"> 
+        <!-- <reference name="em_layer"> 
             <remove name="catalog.leftnav"/>
 			<block type="catalog/navigation" name="em_layer.catalog.leftnav" before="-" template="catalog/navigation/left.phtml" />
-		</reference>        
+		</reference>   -->      
 		<reference name="content">
 			<block type="catalog/category_view" name="category.products" template="catalog/category/view.phtml">                
 				<block type="catalog/product_list" name="product_list" template="catalog/product/list.phtml">

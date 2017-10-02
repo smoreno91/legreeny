@@ -14827,3 +14827,6 @@ div.desc {
   left: 12px;
   color: #fff;
 }
+.em-element-display-hover {
+  display: none !important;
+}

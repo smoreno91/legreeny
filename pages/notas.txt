@@ -1,0 +1,9 @@
+OK - Las prendas no tendrán precio: No se han definido y no lo harán ya; los pondrán cuando habiliten la e-commerce
+- Política de tratamiento de datos: Tendrá un mix de texto + PDF. El texto será una especie de índice y el pdf será versión completa (ellos envían el índice).
+- El Nosotros sí va, orientado al SEO: No será la historia, el que les gestiona SEO nos lo pasa ya redactado para que lo pongamos.
+OK - “Seleccionar asunto”: En contacto cuando vamos a seleccionar el Asunto del mensaje, quieren que el que aparezca por defecto antes de elegir sea "Seleccionar asunto"
+- En móvil, resolución de los logos: Nos dicen que los logos en celu cuando se amplía la imagen se pixelan.
+- En móvil, WhatsApp: Santi, no aparecen los banners de home en movil... o sea, el de sé parte de nuestra familia, quieres comprar al por mayor... etc. ¿En móvil se puede poner el botón de WhatsApp o que los banner que falten puedan llevar a WhatsApp?
+OK - LoLcal en cisneros: En tiendas, dice LOLcal, ya la ajustamos y te la pasamos.
+- Fotos pixeladas del home
+- Bug del carousel

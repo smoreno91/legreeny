@@ -129,12 +129,12 @@
 						
                         <!--product price-->
                         <?php if (Mage::helper('themeframework/settings')->getProductsList_ShowPrice()): ?>
-                            <?php echo $this->getPriceHtml($_product, true) ?>
+                            <?php //echo $this->getPriceHtml($_product, true) ?>
                         <?php endif ?>
     
-    					<div class="actions">
+    					<!-- <div class="actions">
                         <?php if($_product->isSaleable()): ?>
-    						<!--show button add to cart-->
+    						show button add to cart
                             <?php if (Mage::helper('themeframework/settings')->getProductsList_ShowAddtocart()): ?>
                                 <button type="button" title="<?php echo Mage::helper('core')->quoteEscape($this->__('Add to Cart')) ?>" class="button btn-cart" onclick="setLocation('<?php echo $this->getAddToCartUrl($_product) ?>')"><span><span><?php echo $this->__('Add to Cart') ?></span></span></button>
                             <?php endif ?>
@@ -142,7 +142,7 @@
                             <p class="availability out-of-stock"><span><?php echo $this->__('Out of stock') ?></span></p>
                         <?php endif; ?>
     
-                        <!--show button add to compare-wishlist-->
+                        show button add to compare-wishlist
                         <?php if (Mage::helper('themeframework/settings')->getProductsList_ShowAddto()): ?> 
                             <ul class="add-to-links">
                                 <?php if ($this->helper('wishlist')->isAllow()) : ?>
@@ -153,7 +153,7 @@
                                 <?php endif; ?>
                             </ul>
                         <?php endif ?>
-    					</div>
+    					</div> -->
                     </div>
                 </div>
             </li>
@@ -365,9 +365,9 @@
                                     <?php endif; ?>
                                     
                                     <!--product price-->
-                                    <?php if (Mage::helper('themeframework/settings')->getProductsGrid_ShowPrice()): ?>
+                                    <!-- <?php if (Mage::helper('themeframework/settings')->getProductsGrid_ShowPrice()): ?>
                                         <div class="<?php echo $_classAlignCenter ?> <?php if(Mage::helper('themeframework/settings')->getProductsGrid_ShowPrice() == 2): ?>em-element-display-hover<?php endif;?>"><?php echo $this->getPriceHtml($_product, true) ?></div>
-                                    <?php endif; ?>
+                                    <?php endif; ?> -->
                                     
                                     <!--product description-->
                                     <?php if (Mage::helper('themeframework/settings')->getProductsGrid_ShowDesc()): ?>

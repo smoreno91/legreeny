@@ -115,13 +115,13 @@
     							<?php echo $this->getReviewsSummaryHtml($_product, 'short') ?>
     							<?php endif ; ?>
     							<!--product price-->
-    							<?php if ($this->getShowFrontend('price')):?>
+    							<!-- <?php if ($this->getShowFrontend('price')):?>
     								<?php if (Mage::helper('catalog')->canApplyMsrp($_product)):?>
     									<a href="<?php echo $_product->getProductUrl() ?>" title="<?php echo $this->stripTags($_product->getName(), null, true) ?>"><?php echo $this->__('Detail') ?></a>
     								<?php else : ?>
     									<?php echo $this->getPriceHtml($_product, true, "-emprice-".md5(uniqid(rand())) ) ?>
     								<?php endif;?>
-    							<?php endif;?>
+    							<?php endif;?> -->
     						</div>
     					</div>
                     </div>

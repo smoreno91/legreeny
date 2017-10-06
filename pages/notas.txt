@@ -1,9 +1,16 @@
 OK - Las prendas no tendrán precio: No se han definido y no lo harán ya; los pondrán cuando habiliten la e-commerce
-- Política de tratamiento de datos: Tendrá un mix de texto + PDF. El texto será una especie de índice y el pdf será versión completa (ellos envían el índice).
+OK - Política de tratamiento de datos: Tendrá un mix de texto + PDF. El texto será una especie de índice y el pdf será versión completa (ellos envían el índice).
 - El Nosotros sí va, orientado al SEO: No será la historia, el que les gestiona SEO nos lo pasa ya redactado para que lo pongamos.
 OK - “Seleccionar asunto”: En contacto cuando vamos a seleccionar el Asunto del mensaje, quieren que el que aparezca por defecto antes de elegir sea "Seleccionar asunto"
-- En móvil, resolución de los logos: Nos dicen que los logos en celu cuando se amplía la imagen se pixelan.
-- En móvil, WhatsApp: Santi, no aparecen los banners de home en movil... o sea, el de sé parte de nuestra familia, quieres comprar al por mayor... etc. ¿En móvil se puede poner el botón de WhatsApp o que los banner que falten puedan llevar a WhatsApp?
+-- - En móvil, resolución de los logos: Nos dicen que los logos en celu cuando se amplía la imagen se pixelan.
+OK - En móvil, WhatsApp: Santi, no aparecen los banners de home en movil... o sea, el de sé parte de nuestra familia, quieres comprar al por mayor... etc. ¿En móvil se puede poner el botón de WhatsApp o que los banner que falten puedan llevar a WhatsApp?
 OK - LoLcal en cisneros: En tiendas, dice LOLcal, ya la ajustamos y te la pasamos.
-- Fotos pixeladas del home
+OK - Fotos pixeladas del home
 - Bug del carousel
+OK - Quitar precios home
+OK - Añadir logo liebre
+OK - El botón de WhatsApp, el flotante, lo añoran también en movil.
+- Necesitamos que cuando se envíe un mensaje salga un popup de "mensaje enviado"
+OK - En la descripción de la foto, porfa que si cambiamos el SKU: por REF:
+- El efecto de giro parecido en lemon para legreney en tiendas
+- Arreglar lookbook

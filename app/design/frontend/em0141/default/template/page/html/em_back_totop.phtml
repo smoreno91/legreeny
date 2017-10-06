@@ -39,4 +39,6 @@
         })(jQuery);
     //]]>
     </script>
+<?php else: ?>
+    <p id="whatsapp-button-mobile"><a target="_blank" href="https://api.whatsapp.com/send?phone=57<?php echo Mage::getStoreConfig('general/store_information/phone');?> "></a></p>
 <?php endif;?>

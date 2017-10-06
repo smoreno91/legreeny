@@ -12377,9 +12377,10 @@ div.desc {
   margin: 0 5px;
 }
 .em-footer-style01 .em-footer-bottom .em-inner-bottom {
-  padding-top: 50px;
+  padding-top: 10px;
   border-top-style: solid;
   border-top-width: 1px;
+  text-align: center;
 }
 .em-footer-style01 address {
   margin-top: 5px;
@@ -12435,7 +12436,7 @@ div.desc {
   font-size: 75%;
 }
 .em-wrapper-footer .em-footer-bottom {
-  padding-bottom: 30px;
+  padding-bottom: 10px;
 }
 .em-wrapper-footer .logo-footer img {
   max-width: 200px;
@@ -14495,12 +14496,19 @@ div.desc {
 }
 /*New code*/
 .em-wrapper-header .form-search button.button {
-  color: #000 !important;
+  color: #fff !important;
+}
+@media screen and (min-width: 767px) {
+  .em-wrapper-header .form-search button.button {
+    color: #000 !important;
+  }
+}
+.em-element-display-hover {
+  display: none !important;
 }
 .wrapper-breadcrums,
 .em-header-top,
-.em-top-cart,
-.em-footer-bottom {
+.em-top-cart {
   display: none !important;
 }
 .em-wrapper-header .em-fixed-top.navbar-fixed-top .em-search-sticky:before{
@@ -14828,6 +14836,50 @@ div.desc {
   left: 12px;
   color: #fff;
 }
-.em-element-display-hover {
-  display: none !important;
+
+#whatsapp-button-mobile {
+  z-index: 15;
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  -moz-backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  display: inline-block;
+  background-color: #25D366;
+  margin: 0;
+}
+#whatsapp-button-mobile a {
+  display: inline-block;
+  text-align: center;
+  height: 40px;
+  width: 45px;
+}
+#whatsapp-button-mobile a:before {
+  display: inline-block;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "\f232";
+  font-size: 25px;
+  position: absolute;
+  top: 10px;
+  left: 12px;
+  color: #fff;
+}
+
+/*========== liebre logo ==========*/
+.link-liebre-creativa span {
+  font-size: 14px;
+  vertical-align: middle;
+  line-height: 36px;
+  font-family: Lato, proxima-nova, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #fff;
+  padding: 8px;
+}
+.link-liebre-creativa img {
+  max-height: 30px;
 }

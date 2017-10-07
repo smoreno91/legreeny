@@ -36,9 +36,13 @@
     $_helper = $this->helper('catalog/output');
     $_collectionSize = $_productCollection->count();
 ?>
-<?php if(in_array(strtolower($this->getLayer()->getCurrentCategory()->getName()), ["ropa", "tallas grandes"])): ?>
+<?php if(in_array(strtolower($this->getLayer()->getCurrentCategory()->getName()), ["ropa", "tallas grandes", "lookbook"])): ?>
 <div class="em-page-title" style="margin-bottom: 25px;">
-    <h1><span><?php echo $this->getLayer()->getCurrentCategory()->getName() ?></span></h1>
+    <?php if(strtolower($this->getLayer()->getCurrentCategory()->getName()) == "lookbook"): ?>
+        <h1><span>Look<span style="color: #b1b1b1; padding: 0;">book</span></span></h1>
+    <?php else: ?>
+        <h1><span><?php echo $this->getLayer()->getCurrentCategory()->getName() ?></span></h1>
+    <?php endif; ?>
 </div>
 <?php endif; ?>
 
@@ -46,7 +50,10 @@
     <div class="category-products"><p class="note-msg"><?php echo $this->__('There are no products matching the selection.') ?></p></div>
 <?php else: ?>
     <div class="category-products">
+        <?php if(strtolower($this->getLayer()->getCurrentCategory()->getName()) != "lookbook"): ?>
         <div class="toolbar-top"><?php echo $this->getToolbarHtml() ?></div>
+        <?php endif; ?>
+
         <?php // List mode ?>
         <?php if($this->getMode()!='grid'): ?>
         <?php 
@@ -479,11 +486,20 @@
                 })(jQuery);
             </script>
         <?php endif; ?>
-    
+        
+        <?php if(strtolower($this->getLayer()->getCurrentCategory()->getName()) != "lookbook"): ?>
         <div class="toolbar-bottom em-box-03">
             <?php echo $this->getToolbarHtml() ?>
         </div>
+        <?php endif; ?>
     </div>
+<?php endif; ?>
+<?php if(strtolower($this->getLayer()->getCurrentCategory()->getName()) == "lookbook"): ?>
+    <section class="row" style="margin-top: 20px;">
+        <div class="col-sm-24">
+            <div class="img-banner"><img alt="" class="img-responsive" src="<?php echo Mage::getBaseUrl(Mage_Core_Model_Store::URL_TYPE_MEDIA); ?>wysiwyg/home/area2/banner-lookbook.png"></div>
+        </div>
+    </section>
 <?php endif; ?>
 <!--  colorswatch -->
 <?php

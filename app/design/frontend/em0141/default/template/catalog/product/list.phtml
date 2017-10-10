@@ -33,6 +33,10 @@
 ?>
 <?php
     $_productCollection=$this->getLoadedProductCollection();
+    if (strtolower($this->getLayer()->getCurrentCategory()->getName()) == "lookbook"){
+        $_productCollection->clear();
+        $_productCollection->setPage(1,99999);
+    }
     $_helper = $this->helper('catalog/output');
     $_collectionSize = $_productCollection->count();
 ?>

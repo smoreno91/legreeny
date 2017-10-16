@@ -47,15 +47,9 @@
 	$(document).ready(function() {
 		var sync1 = $('#<?php echo $sliderHtmlID ?>_sync1');		
 		sync1.owlCarousel({
-            <?php if($slider['appearance']['auto_play']==1):?>
-            autoplay:true,
-            autoplayHoverPause: <?php echo $slider['appearance']['hover_pause'] ? $slider['appearance']['hover_pause'] : false ?>,
-            autoplayTimeout:5000,
-            <?php else:?>
-            autoplay:false,
+            autoplay: <?php echo $slider['appearance']['auto_play'] ? $slider['appearance']['auto_play'] : false ?>,
             autoplayHoverPause: <?php echo $slider['appearance']['hover_pause'] ? $slider['appearance']['hover_pause'] : false ?>,
             autoplayTimeout:5000,                   
-            <?php endif;?>
             
             mouseDrag: true,
             touchDrag: true,
@@ -141,9 +135,9 @@
             URLhashListener: false,
             
             <?php if($slider['appearance']['progress_bar']!='false'): ?>
-            onInitialized: progressBar,
-            onTranslated: moved,
-            onDrag: pauseOnDragging,
+            // onInitialized: progressBar,
+            // onTranslated: moved,
+            // onDrag: pauseOnDragging,
             <?php endif;?>
             
 		});

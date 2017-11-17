@@ -130,4 +130,5 @@ skin/frontend/enterprise
 var/
 
 media/em0141/css/less
+media/em_layerednavigation
 media/em_minislideshow

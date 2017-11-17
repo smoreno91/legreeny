@@ -14549,6 +14549,9 @@ div.desc {
   font-size: 36px;
 }
 /*tiendas*/
+.em-page-title + .em-page-title {
+  display: none;  
+}
 .em-page-title h1{
   text-align: center;
   font: 500 4rem/1 Lato,Helvetica Neue, Helvetica, Arial, sans-serif;

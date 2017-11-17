@@ -72,7 +72,7 @@ window.afterLayerUpdate = function() {
     } 
     if(EM.SETTING.COLOR_SWATCHES!='0'){ConfigurableSwatchesList.init(); }
     if ((typeof EM_QUICKSHOP_DISABLED == 'undefined' || !EM_QUICKSHOP_DISABLED)){
-        em_qs();  
+        //em_qs();  
     }
     
     var $_img= $('.category-products').find('img[data-original]');

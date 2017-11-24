@@ -11,16 +11,13 @@
                 if(sBackTop.length){
                     //var sClickBackTop = $('#back-top a');
                     sBackTop.hide();
-                    whatsappButton.hide();
                     // fade in #back-top
                     if (!isMobile) {
                         $(window).scroll(function() {
                             if ($(this).scrollTop() > 100) {
                                 sBackTop.fadeIn();
-                                whatsappButton.fadeIn();
                             } else {
                                 sBackTop.fadeOut();
-                                whatsappButton.fadeOut();
                             }
                         });
                         // scroll body to 0px on click

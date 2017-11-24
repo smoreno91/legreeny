@@ -2375,7 +2375,7 @@ dl.item-options dd .price {
   z-index: 15;
   position: fixed;
   right: 15px;
-  bottom: 20px;
+  bottom: 70px;
   -moz-backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
@@ -14811,7 +14811,7 @@ div.desc {
   z-index: 15;
   position: fixed;
   right: 15px;
-  bottom: 80px;
+  bottom: 10px;
   -moz-backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;

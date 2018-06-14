@@ -43,6 +43,10 @@
         <div class="wrapper <?php if(Mage::helper('themeframework/settings')->getGeneral_BoxWide()=='box' && Mage::helper('themeframework/settings')->checkPhone()==false):?><?php echo ' em-box-custom';?><?php endif;?>">
             <?php echo $this->getChildHtml('global_notices') ?>
             <div class="page one-column">
+                <div class="em-wrapper-header">
+                    <?php echo $this->getChildHtml('header') ?>
+                </div>
+                
                 <div class="em-wrapper-slideshow">
         			<div class="<?php if(Mage::helper('themeframework/settings')->getGeneral_WideslideFull()): ?>container-fluid<?php else: ?>container<?php endif;?>">
         				<div class="row">
@@ -50,10 +54,6 @@
         				</div>                
         			</div>
         		</div>
-                
-        		<div class="em-wrapper-header">
-                    <?php echo $this->getChildHtml('header') ?>
-                </div>
                 
                 <?php if($this->getChildHtml('breadcrumbs')):?>
                 <div class="wrapper-breadcrums">

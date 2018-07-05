@@ -197,10 +197,9 @@
 						
 						<!-- URL VIDEO -->
 						<?php $url_video = $_product->getUrlVideo(); ?>
-						<!-- <p><?php echo $url_video ?></p> -->
-						<div class="product-video">
+						<div class="product-video" atl="<?php echo $url_video ?>">
 						<?php if(!empty($url_video)){ ?>
-							<iframe width="420" height="315" src="<?php echo $url_video ?>"></iframe>
+							<iframe width="560" height="315" src="<?php echo $url_video ?>" frameborder="0" allow="encrypted-media" allowfullscreen></iframe>
 						<?php } ?>
 						</div>
 					</div>     

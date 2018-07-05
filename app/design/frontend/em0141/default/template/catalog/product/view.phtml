@@ -197,9 +197,29 @@
 						
 						<!-- URL VIDEO -->
 						<?php $url_video = $_product->getUrlVideo(); ?>
-						<div class="product-video" atl="<?php echo $url_video ?>">
+						<div class="product-video" style="text-align:center;" alt="<?php echo $url_video ?>">
 						<?php if(!empty($url_video)){ ?>
-							<iframe width="560" height="315" src="<?php echo $url_video ?>" frameborder="0" allow="encrypted-media" allowfullscreen></iframe>
+							<style type="text/css">
+								.video-iframe {
+									width: 100%;
+								}
+								@media only screen and (max-width: 520px) {
+									.video-iframe {
+										width:520px;
+									}	
+								}
+								@media only screen and (max-width: 768px) {
+									.video-iframe {
+										width:100%;
+									}	
+								}
+								@media only screen and (max-width: 1200px) {
+									.video-iframe {
+										width:520px;
+									}	
+								}
+							</style>
+							<iframe class="video-iframe" width="520" height="315" src="<?php echo $url_video ?>" frameborder="0" allow="encrypted-media" allowfullscreen></iframe>
 						<?php } ?>
 						</div>
 					</div>     

@@ -302,7 +302,7 @@
                             <div class="product-shop-top">
                                 <!-- Show Thumbnail -->
                                 <?php if (Mage::helper('themeframework/settings')->getProductsGrid_ShowThumbnail()): ?>
-                                    <a href="<?php echo $_product->getProductUrl() ?>" title="<?php echo $this->stripTags($this->getImageLabel($_product, 'small_image'), null, true) ?>" class="product-image">
+                                    <a href="<?php echo $_product->getProductUrl() ?>" title="<?php echo $this->stripTags($_product->getName(), null, true) ?>" class="product-image">
                                         <?php if (Mage::helper('themeframework/settings')->getProductsGrid_ShowLabel()):?>
                                             <!--show label product - label extension is required-->
                                             <?php Mage::helper('productlabels')->display($_product);?>

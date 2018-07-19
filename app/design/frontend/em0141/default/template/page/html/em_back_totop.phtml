@@ -1,6 +1,7 @@
-<?php if(Mage::helper('themeframework/settings')->checkPhone()==false):?>
+<?php $message = urlencode('¡Hola! Estoy interesado en algunos productos que ví en la página web ¿Me puedes enviar más información por favor? ¡Gracias!'); ?>
+<?php if(Mage::helper('themeframework/settings')->checkPhone()==false): ?>
     <p id="back-top" style="display: none;"><a title="<?php echo $this->__('Top')?>" href="#top"><?php echo $this->__('Top')?></a></p>
-    <p id="whatsapp-button"><a target="_blank" href="https://wa.me/57<?php echo Mage::getStoreConfig('general/store_information/phone');?> "></a></p>
+    <p id="whatsapp-button"><a target="_blank" href="https://wa.me/57<?php echo Mage::getStoreConfig('general/store_information/phone');?>?text=<?php echo $message ?>"></a></p>
     <script type="text/javascript">
     //<![CDATA[
         (function($) {
@@ -37,5 +38,5 @@
     //]]>
     </script>
 <?php else: ?>
-    <p id="whatsapp-button-mobile"><a target="_blank" href="https://wa.me/57<?php echo Mage::getStoreConfig('general/store_information/phone');?> "></a></p>
+    <p id="whatsapp-button-mobile"><a target="_blank" href="https://wa.me/57<?php echo Mage::getStoreConfig('general/store_information/phone');?>?text=<?php echo $message ?>"></a></p>
 <?php endif;?>

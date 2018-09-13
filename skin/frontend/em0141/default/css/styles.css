@@ -8025,10 +8025,12 @@ div.desc {
 .product-view-detail .product-img-box .more-views .owl-carousel .owl-nav div.owl-next {
   top: 37%;
   right: 10px;
+  color: #000;
 }
 .product-view-detail .product-img-box .more-views .owl-carousel .owl-nav div.owl-prev {
   top: 37%;
   left: 10px;
+  color: #000;
 }
 .product-view-detail .product-img-box .more-views li.item:hover {
   -moz-transition: all 500ms ease;
@@ -8191,6 +8193,9 @@ div.desc {
   border-top: 1px solid #ccc;
   padding: 5px 0;
   margin-top: 12px;
+}
+.product-view-detail .product-shop .em-availability .availability {
+  color: green;
 }
 .product-view-detail .product-shop .availability {
   margin-bottom: 2rem;

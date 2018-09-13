@@ -8194,7 +8194,7 @@ div.desc {
   padding: 5px 0;
   margin-top: 12px;
 }
-.product-view-detail .product-shop .em-availability .availability {
+.product-view-detail .product-shop .em-availability .availability.in-stock span {
   color: green;
 }
 .product-view-detail .product-shop .availability {

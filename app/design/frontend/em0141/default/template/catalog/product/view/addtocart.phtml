@@ -41,10 +41,10 @@
     		</div>
         <?php endif; ?>
         <?php echo $this->getLayout()->getBlock('product.info.addto')->toHtml()?>
-        <div class="button_addto">
-            <button type="button" title="<?php echo $this->__('Buy Now') ?>" id="em-buy-now" class="button btn-em-buy-now" onclick="productAddToCartForm.submit(this)"><span><span><?php echo $this->__('Buy Now') ?></span></span></button>
+        <!--<div class="button_addto">
+            <button type="button" title="<?php echo $this->__('Buy Now') ?>" id="em-buy-now" class="button btn-em-buy-now" onclick="productAddToCartForm.submit(this)"><span><span><?php echo 'Comprar ahora' ?></span></span></button>
 			<button type="button" title="<?php echo $buttonTitle ?>" id="product-addtocart-button" class="button btn-cart btn-cart-detail"><span><span><?php echo $buttonTitle ?></span></span></button>			
-		</div>
+		</div>-->
         <?php echo $this->getChildHtml('', true, true) ?>
     </div>
     <script type="text/javascript">

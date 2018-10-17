@@ -67,7 +67,7 @@ class EM_Ajaxcart_WishlistController extends Mage_Wishlist_IndexController
             Mage::helper('wishlist')->calculate();
 			$product = $item->getProduct();			
 			
-			$message = $this->__('%s was successfully added to your shopping cart.', $product->getName());
+			$message =  $product->getName() . ' fue adicionado exitosamente el carrito de compras';//$this->__('%s was successfully added to your shopping cart.', $product->getName());
 			$img = "<img src='".Mage::helper('catalog/image')->init($product, 'image')->resize(60,null)."' />";
 			$tmp_product = '<div id="message_ajax"><div class="ajaxcart_image">'.$img.'</div><div class="ajaxcart_message">'.$message.'</div></div>';
 			$check = 'success';

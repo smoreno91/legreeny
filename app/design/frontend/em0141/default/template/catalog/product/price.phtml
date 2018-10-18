@@ -171,7 +171,7 @@
         <?php else: ?>
             <?php if ($_weeeTaxAmount && $_weeeHelper->typeOfDisplay($_product, array(0, 1))): // including ?>
                 <?php $weeeAmountToDisplay = $_taxHelper->displayPriceIncludingTax() ? $_weeeTaxAmountInclTaxes : $_weeeTaxAmount ?>
-                <span class="regular-price" id="product-price-<?php echo $_id ?><?php echo $this->getIdSuffix() ?>">
+                <span class="regular-price" id="to-delete-product-price-<?php echo $_id ?><?php echo $this->getIdSuffix() ?>">
                     <?php if(!in_array($idSuffix, $idSuffixArray) && $_isPP): ?>
                         <?php echo str_replace('class="price"', 'class="price" itemprop="price"  content="' . ($_price + $weeeAmountToDisplay) . '"', $_coreHelper->currency($_price + $weeeAmountToDisplay, true, true)); ?>
                     <?php else: ?>
@@ -190,7 +190,7 @@
                         )</span>
                 <?php endif; ?>
             <?php elseif ($_weeeTaxAmount && $_weeeHelper->typeOfDisplay($_product, 4)): // incl. + weee ?>
-                <span class="regular-price" id="product-price-<?php echo $_id ?><?php echo $this->getIdSuffix() ?>">
+                <span class="regular-price" id="to-delete-product-price-<?php echo $_id ?><?php echo $this->getIdSuffix() ?>">
                     <?php if(!in_array($idSuffix, $idSuffixArray) && $_isPP): ?>
                         <?php echo str_replace('class="price"', 'class="price" itemprop="price"  content="' . ($_price + $_weeeTaxAmount) . '"', $_coreHelper->formatPrice($_price + $_weeeTaxAmount, true)); ?>
                     <?php else: ?>
@@ -218,7 +218,7 @@
                     <?php echo $_coreHelper->currency($_price + $weeeAmountToDisplay, true, true) ?>
                 </span>
             <?php else: ?>
-                <span class="regular-price" id="product-price-<?php echo $_id ?><?php echo $this->getIdSuffix() ?>">
+                <span class="regular-price" id="to-delete-product-price-<?php echo $_id ?><?php echo $this->getIdSuffix() ?>">
                     <?php if ($_finalPrice == $_price): ?>
                         <?php if(!in_array($idSuffix, $idSuffixArray) && $_isPP): ?>
                             <?php echo str_replace('class="price"', 'class="price" itemprop="price"  content="' . $_price . '"', $_coreHelper->formatPrice($_price, true)); ?>
@@ -267,7 +267,7 @@
             <?php else: ?>
                 <p class="special-price">
                     <span class="price-label"><?php echo $_specialPriceStoreLabel ?></span>
-                <span class="price"<?php if(!in_array($idSuffix, $idSuffixArray) && $_isPP): ?> itemprop="price" <?php endif; ?> content="<?php echo ($_finalPrice + $_weeeTaxAmountInclTaxes); ?>" id="product-price-<?php echo $_id ?><?php echo $this->getIdSuffix() ?>">
+                <span class="price"<?php if(!in_array($idSuffix, $idSuffixArray) && $_isPP): ?> itemprop="price" <?php endif; ?> content="<?php echo ($_finalPrice + $_weeeTaxAmountInclTaxes); ?>" id="to-delete-product-price-<?php echo $_id ?><?php echo $this->getIdSuffix() ?>">
                     <?php echo $_coreHelper->formatPrice($_finalPrice + $_weeeTaxAmountInclTaxes, false) ?>
                 </span>
                 </p>
@@ -307,7 +307,7 @@
             <?php else: ?>
                 <p class="special-price">
                     <span class="price-label"><?php echo $this->__('Special Price:') ?></span>
-                <span class="price"<?php if(!in_array($idSuffix, $idSuffixArray) && $_isPP): ?> itemprop="price" <?php endif; ?> content="<?php echo ($_finalPrice + $_weeeTaxAmountInclTaxes); ?>" id="product-price-<?php echo $_id ?><?php echo $this->getIdSuffix() ?>">
+                <span class="price"<?php if(!in_array($idSuffix, $idSuffixArray) && $_isPP): ?> itemprop="price" <?php endif; ?> content="<?php echo ($_finalPrice + $_weeeTaxAmountInclTaxes); ?>" id="to-delete-product-price-<?php echo $_id ?><?php echo $this->getIdSuffix() ?>">
                     <?php echo $_coreHelper->formatPrice($_finalPrice + $_weeeTaxAmountInclTaxes, false) ?>
                 </span>
                 </p>
@@ -408,7 +408,7 @@
             <?php else: ?>
                 <p class="special-price">
                     <span class="price-label"><?php echo $_specialPriceStoreLabel ?></span>
-                <span class="price"<?php if(!in_array($idSuffix, $idSuffixArray) && $_isPP): ?> itemprop="price" <?php endif; ?> content="<?php echo $_finalPrice; ?>" id="product-price-<?php echo $_id ?><?php echo $this->getIdSuffix() ?>">
+                <span class="price"<?php if(!in_array($idSuffix, $idSuffixArray) && $_isPP): ?> itemprop="price" <?php endif; ?> content="<?php echo $_finalPrice; ?>" id="to-delete-product-price-<?php echo $_id ?><?php echo $this->getIdSuffix() ?>">
                     <?php echo $_coreHelper->formatPrice($_finalPrice, false) ?>
                 </span>
                 </p>

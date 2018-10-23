@@ -84,7 +84,7 @@
             <?php if ($this->isPageCurrent($_page)): ?>
                 <li class="current"><?php echo $_page ?></li>
             <?php else: ?>
-                <li><a class="" href="<?php echo $this->getPageUrl($_page) ?>"><?php echo $_page ?></a></li>
+                <li><a class="infinitescroll-<?php echo $_page ?>  page_ajax" href="<?php echo $this->getPageUrl($_page) ?>"><?php echo $_page ?></a></li>
             <?php endif;?>
         <?php endforeach;?>
 

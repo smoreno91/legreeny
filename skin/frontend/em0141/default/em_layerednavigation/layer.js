@@ -110,7 +110,7 @@ EM_LayeredNavigation.prototype = {
 				self.prevQuery = query;
 				self.setupEvent();
                 setTimeout(function(){window.afterLayerUpdate();},1000);
-                setTimeout(function(){$('loading-mask').hide();},1500);
+                setTimeout(function(){$('loading-mask').hide();$$("html, body").animate({ scrollTop: 0 }, "fast");},1500);
                 $(window).trigger('emAjaxLayer');
                 
 			}

@@ -29,6 +29,7 @@
     <h2><?php echo $this->__('Estimate Shipping and Tax') ?></h2>
     <div class="shipping-form em-box">
        <form action="<?php echo $this->getUrl('checkout/cart/estimatePost') ?>" method="post" id="shipping-zip-form">
+            <?php echo $this->getBlockHtml('formkey') ?>
             <p><?php echo $this->__('Enter your destination to get a shipping estimate.') ?></p>
             <ul class="form-list">
                 <li>
@@ -80,6 +81,7 @@
 
         <?php if (($_shippingRateGroups = $this->getEstimateRates())): ?>
         <form id="co-shipping-method-form" action="<?php echo $this->getUpdateFormActionUrl() ?>">
+            <?php echo $this->getBlockHtml('formkey') ?>
             <dl class="sp-methods">
                 <?php foreach ($_shippingRateGroups as $code => $_rates): ?>
                     <dt><?php echo $this->escapeHtml($this->getCarrierName($code)) ?></dt>

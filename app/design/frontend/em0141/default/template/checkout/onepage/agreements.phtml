@@ -33,6 +33,7 @@
 <?php if (!$this->getAgreements()) return; ?>
 <div id="agreement_popup">
 <form action="" id="checkout-agreements" onsubmit="return false;">
+<?php echo $this->getBlockHtml('formkey') ?>
 <ol class="checkout-agreements">
 <?php foreach ($this->getAgreements() as $_a): ?>
 

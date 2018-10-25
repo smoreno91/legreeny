@@ -25,6 +25,7 @@
  */
 ?>
 <form id="discount-coupon-form" action="<?php echo $this->getFormActionUrl() ?>" method="post">
+    <?php echo $this->getBlockHtml('formkey') ?>
     <div class="discount em-box-cart">
         <h2><?php echo $this->__('Discount Codes') ?></h2>
         <div class="discount-form em-box">

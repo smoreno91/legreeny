@@ -131,7 +131,7 @@
           <div class="truncated_full_value">
             <dl class="item-options">
                 <?php foreach ($_options as $_option) : ?>
-                <dt><?php echo $this->escapeHtml($_option['label']) ?></dt>
+                <dt><?php echo $this->__($this->escapeHtml($_option['label'])) ?></dt>
                 <dd>
                     <?php if (is_array($_option['value'])): ?>
                     <?php echo nl2br(implode("\n", $_option['value'])) ?>

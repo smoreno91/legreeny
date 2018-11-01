@@ -50,11 +50,11 @@
 				<div class="topcart-content">
 					<p class="amount-content ">
 						<?php if ($_cartQty==0): ?>
-							<?php echo $this->__('You have no items in your shopping cart.') ?>
+						    No tienes productos en tu carrito de compras
 						<?php elseif ($_cartQty==1): ?>
-							<?php echo $this->__('There is <a href="%s">1 item</a> in your shopping cart.', $this->getUrl('checkout/cart')) ?>
+						    Hay <a href="<?php echo $this->getUrl('checkout/cart') ?>">1 producto</a> en tu carrito de compras
 						<?php else: ?>
-							<?php echo $this->__('There are <a href="%s">%s items</a> in your shopping cart.', $this->getUrl('checkout/cart'), $_cartQty) ?>
+						    Hay <a href="<?php echo $this->getUrl('checkout/cart') ?>"><?php echo $_cartQty ?> productos</a> en tu carrito de compras
 						<?php endif ?>
 					</p>
 					<?php if ($_cartQty > 0): ?>

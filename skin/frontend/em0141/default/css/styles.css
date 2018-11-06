@@ -679,7 +679,6 @@ p.control input.radio {
   z-index: 0;
   padding: 6px 0 5px;
   margin-bottom: 0;
-  text-transform: capitalize;
 }
 
 .form-list label.required em {

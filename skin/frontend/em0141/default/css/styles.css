@@ -14510,8 +14510,7 @@ div.desc {
 .em-element-display-hover {
   display: none !important;
 }
-.wrapper-breadcrums,
-.em-header-top {
+.wrapper-breadcrums {
   display: none !important;
 }
 .em-wrapper-header .em-fixed-top.navbar-fixed-top .em-search-sticky:before{

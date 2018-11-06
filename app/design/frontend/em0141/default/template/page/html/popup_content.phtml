@@ -25,24 +25,24 @@
  */
 ?>
 
-<?php	
+<?php
 	$setting = Mage::helper('themeframework/settings');
     $isMobile = $setting->checkPhone();
  ?>
 
-<?php if($setting->getGeneral_ShowPopup()!=0 && $isMobile==false) :?>	
+<?php if($setting->getGeneral_ShowPopup()!=0 && $isMobile==false) :?>
 <div class="modal fade em-popup-modal" role="dialog" aria-labelledby="em-popup">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
-            	<a href="javascript:void(0);" title="<?php echo $this->__('Close') ?>" class="close close-empopup" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></a>        
+            	<a href="javascript:void(0);" title="<?php echo $this->__('Close') ?>" class="close close-empopup" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></a>
             </div>
             <div class="modal-body">
-            	<div class="popup-content" id="em-popup">	
+            	<div class="popup-content" id="em-popup">
             		<?php if($setting->getGeneral_ShowPopup()==1): ?>
             			<?php $login = new Mage_Customer_Block_Form_Login(); ?>
             				<?php if (Mage::getSingleton('customer/session')->isLoggedIn()==0): ?>
-            				<div class="em-account-popup">        
+            				<div class="em-account-popup">
             					<form action="<?php echo $login->getPostActionUrl() ?>" method="post" id="em-popup-loginform">
             						<?php echo $this->getBlockHtml('formkey'); ?>
             						<div class="block-content em-line-01">
@@ -57,19 +57,18 @@
             									<label for="mini-password"><?php echo $this->__('Password') ?><em><?php echo $this->__('*') ?></em></label><input type="password" name="login[password]" class="input-text required-entry validate-password" id="mini-pass" title="<?php echo $this->__('Password') ?>" />
             								</li>
             							</ul>
-                                        
+
             							<div class="action-forgot">
             								<div class="login_forgotpassword">
-            									<p><a href="<?php echo $login->getForgotPasswordUrl() ?>"><?php echo $this->__('Forgot Your Password?') ?></a></p>                                                
-            									<p><a class="create-account-link-wishlist" href="<?php echo Mage::getBaseUrl(Mage_Core_Model_Store::URL_TYPE_LINK).'customer/account/create/'; ?>"><?php echo $this->__("Don't have an account") ?></a></p>
-            								</div>	
+            									<p><a href="<?php echo $login->getForgotPasswordUrl() ?>"><?php echo $this->__('Forgot Your Password?') ?></a></p>
+            								</div>
             								<div class="actions">
             									<button type="submit" class="button"><span><span><?php echo $this->__('Login') ?></span></span></button>
             									<p class="required"><?php echo $this->__('* Required Fields') ?></p>
-            								</div>  					
+            								</div>
             							</div>
             						</div>
-            					</form> 
+            					</form>
             				</div>
             				<script type="text/javascript">
             				//<![CDATA[
@@ -83,27 +82,27 @@
                     <div class="popup-content-block">
                         <?php echo $this->getChildHtml('em_popup_content'); ?>
                     </div>
-            	</div>		
-            </div>	
-        </div>      
+            	</div>
+            </div>
+        </div>
     </div>
 </div>
 <script type="text/javascript">
     //<![CDATA[
-    
-        (function($) {        	
+
+        (function($) {
             function showPopUpLogin(){
                 var $_checkpopup = $('#em-popup');
                 if ($_checkpopup.length > 0) {
                     var $_popup = $('body').find('.em-popup-modal');
-					$_popup.modal("show");                   
+					$_popup.modal("show");
 					$_popup.on('shown.bs.modal', function () {
-						var modal = $(this);						
+						var modal = $(this);
 				        dialog = modal.find('.modal-dialog');
-				        modal.css('display', 'block');				        
+				        modal.css('display', 'block');
 				        dialog.css("margin-top", Math.max(0, ($(window).height() - dialog.height()) / 2));
 					    $('.modal-body',this).css({width:'auto',height:'auto', 'max-height':'100%'});
-					});	
+					});
                 }
             }
             $(document).ready(function(){
@@ -111,7 +110,7 @@
             	var time = now.getTime();
   				var expireTime = time + <?php echo Mage::getStoreConfig('web/cookie/cookie_lifetime')*1000; ?>;
   				 now.setTime(expireTime);
-            	
+
             	if(!Mage.Cookies.get("empopup")){
             		document.cookie = 'empopup=true;expires='+now.toGMTString();
                 	showPopUpLogin();

@@ -29,19 +29,13 @@
     <div class="box-head em-box-02">
         <div class="title-box">
             <h2><?php echo $this->__('Recent Orders') ?></h2>
-            
+
         </div>
     </div>
 
 <?php if( sizeof($_orders->getItems()) > 0 ): ?>
 <div class="box-account-content">
     <table class="data-table" id="my-orders-table">
-    <col width="1" />
-    <col width="1" />
-    <col />
-    <col width="1" />
-    <col width="1" />
-    <col width="1" />
         <thead>
             <tr>
                 <th><?php echo $this->__('Order #') ?></th>

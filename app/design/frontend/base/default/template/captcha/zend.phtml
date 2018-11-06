@@ -31,7 +31,7 @@
 <li id="captcha-input-box-<?php echo $this->getFormId()?>">
     <label for="captcha_<?php echo $this->getFormId() ?>" class="required"><em>*</em>Por favor ingrese el texto que aparece abajo</label>
     <div class="input-box captcha">
-        <input name="<?php echo Mage_Captcha_Helper_Data::INPUT_NAME_FIELD_VALUE ?>[<?php echo $this->getFormId()?>]" type="text" class="input-text required-entry" id="captcha_<?php echo $this->getFormId() ?>" />
+        <input autocomplete="off" name="<?php echo Mage_Captcha_Helper_Data::INPUT_NAME_FIELD_VALUE ?>[<?php echo $this->getFormId()?>]" type="text" class="input-text required-entry" id="captcha_<?php echo $this->getFormId() ?>" />
     </div>
 </li>
 <li>
@@ -48,4 +48,3 @@
         $('<?php echo $this->getFormId() ?>').captcha = new Captcha('<?php echo $this->getRefreshUrl() ?>', '<?php echo $this->getFormId() ?>');
     //]]></script>
 </li>
-

@@ -34,27 +34,27 @@
     <!--[if IE 7 ]>    <html lang="<?php echo $this->getLang(); ?>" id="top" class="ie7"> <![endif]-->
     <!--[if IE 8 ]>    <html lang="<?php echo $this->getLang(); ?>" id="top" class="ie8"> <![endif]-->
     <!--[if IE 9 ]>    <html lang="<?php echo $this->getLang(); ?>" id="top" class="ie9"> <![endif]-->
-    <!--[if (gt IE 9)|!(IE)]><!--> <html lang="<?php echo $this->getLang(); ?>" id="top"> <!--<![endif]-->    
+    <!--[if (gt IE 9)|!(IE)]><!--> <html lang="<?php echo $this->getLang(); ?>" id="top"> <!--<![endif]-->
     <head><?php echo $this->getChildHtml('head') ?></head>
-    
+
     <body class="<?php echo $this->getBodyClass() ?> <?php if(Mage::helper('themeframework/settings')->getGeneral_RightToLeft()):?>em-rtl<?php endif;?>">
         <?php echo $this->getChildHtml('after_body_start') ?>
-        
+
         <div class="wrapper <?php if(Mage::helper('themeframework/settings')->getGeneral_BoxWide()=='box' && Mage::helper('themeframework/settings')->checkPhone()==false):?><?php echo ' em-box-custom';?><?php endif;?>">
             <?php echo $this->getChildHtml('global_notices') ?>
             <div class="page one-column">
                 <div class="em-wrapper-header">
                     <?php echo $this->getChildHtml('header') ?>
                 </div>
-                
+
                 <div class="em-wrapper-slideshow">
         			<div class="<?php if(Mage::helper('themeframework/settings')->getGeneral_WideslideFull()): ?>container-fluid<?php else: ?>container<?php endif;?>">
         				<div class="row">
         					<div class="col-sm-24"><?php echo $this->getChildHtml('em_area1') ?></div>
-        				</div>                
+        				</div>
         			</div>
         		</div>
-                
+
                 <?php if($this->getChildHtml('breadcrumbs')):?>
                 <div class="wrapper-breadcrums">
         			<div class="container">
@@ -62,11 +62,11 @@
         					<div class="col-sm-24">
         						<?php echo $this->getChildHtml('breadcrumbs') ?>
         					</div>
-        				</div> 
-            		</div> 
+        				</div>
+            		</div>
                 </div>
         		<?php endif;?>
-                
+
                 <?php if($this->getChildHtml('em_layer')):?>
                 <div class="em-wrapper-layer">
                     <div class="container">
@@ -76,28 +76,48 @@
                     </div>
                 </div>
                 <?php endif;?>
-                
-                <div class="em-wrapper-main">            
+
+                <div class="em-wrapper-main">
         			<div class="container container-main">
-        				<div class="em-wrapper-area02"><?php echo $this->getChildHtml('em_area2') ;?></div>
-        				<div class="em-inner-main">				
-                            <div class="em-main-container em-col1-layout">						
+        				<div class="em-wrapper-area02">
+                  <?php // echo $this->getChildHtml('em_area2') ;?>
+                  <section class="col-sm-16 first">
+                  	<section class="row">
+                  		<section class="col-xs-12 first">
+                  			<?php echo $this->getChildHtml('legreeny-home-banner-cuadrado-izquierda') ;?>
+                  		</section>
+                  		<section class="col-xs-12">
+                  			<?php // echo $this->getChildHtml('em_area2') ;?>banner2
+                  		</section>
+                  	</section>
+                  	<section class="row">
+                  		<div class="col-sm-24">
+                  			<?php // echo $this->getChildHtml('em_area2') ;?>banner horizontal
+                  		</div>
+                  	</section>
+                  </section>
+                  <section class="col-sm-8">
+                  	<?php // echo $this->getChildHtml('em_area2') ;?>banner vertical
+                  </section>
+                </div>
+        				<div class="em-inner-main">
+                  <div class="em-main-container em-col1-layout">
         						<div class="row">
         							<div class="col-sm-24 em-col-main">
         								<?php echo $this->getChildHtml('global_messages') ?>
         								<?php echo $this->getChildHtml('content') ?>
         							</div>
         						</div>
-        					</div>	                
+        					</div>
         				</div>
         			</div>
                 </div>
-                
+
                 <div class="em-wrapper-area03"><?php echo $this->getChildHtml('em_area3') ;?></div>
                 <div class="em-wrapper-area04"><?php echo $this->getChildHtml('em_area4') ;?></div>
                 <div class="em-wrapper-area05"><?php echo $this->getChildHtml('em_area5') ;?></div>
                 <div class="em-wrapper-area06"><?php echo $this->getChildHtml('em_area6') ;?></div>
-                
+
                 <div class="em-wrapper-footer"><?php echo $this->getChildHtml('footer') ?></div>
                 <?php echo $this->getChildHtml('global_cookie_notice') ?>
                 <div class="em-before-body-end"><?php echo $this->getChildHtml('before_body_end') ?></div>

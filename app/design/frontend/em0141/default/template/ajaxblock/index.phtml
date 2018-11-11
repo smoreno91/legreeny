@@ -1,7 +1,7 @@
 <div id="em_ajax_tabs_<?php echo md5($this->getData('data')) ?>" class="emtabs-ajaxblock-loading"></div>
 <script type="text/javascript">    
     var $_request_<?php echo md5($this->getData('data')) ?> = jQuery.ajax({
-        url: '<?php echo $this->getUrl('ajaxblock') ?>',
+        url: '<?php echo $this->getUrl('ajaxblock', array('_secure'=>true)) ?>',
         method : 'POST',
         data: {data: '<?php echo $this->getData('data') ?>'},
     });    

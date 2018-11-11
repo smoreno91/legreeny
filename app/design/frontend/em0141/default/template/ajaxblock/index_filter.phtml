@@ -40,7 +40,7 @@
     			jQuery(elTitle.attr("href")).addClass("active");
                 
                 var $_request_<?php echo $id ?> = jQuery.ajax({
-                    url: '<?php echo $this->getUrl('ajaxblock') ?>',
+                    url: '<?php echo $this->getUrl('ajaxblock', array('_secure'=>true)) ?>',
                     method: 'POST',
                     data: {data: '<?php echo $this->getData('data') ?>'},
                 });
@@ -109,7 +109,7 @@
     				if(!$_this.hasClass("loaded")){	
     				    var that = this;                        
                         var $_request_<?php echo $id ?> = jQuery.ajax({
-                            url: '<?php echo $this->getUrl('ajaxblock') ?>',
+                            url: '<?php echo $this->getUrl('ajaxblock', array('_secure'=>true)) ?>',
                             method: 'POST',
                             data: {data: '<?php echo $this->getData('data') ?>'},
                         });
@@ -165,7 +165,7 @@
     	}
     }else{        
         var $_request_<?php echo $id ?> = jQuery.ajax({
-            url: '<?php echo $this->getUrl('ajaxblock') ?>',
+            url: '<?php echo $this->getUrl('ajaxblock', array('_secure'=>true)) ?>',
             method: 'POST',
             data: {data: '<?php echo $this->getData('data') ?>'},
         });
